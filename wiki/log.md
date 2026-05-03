@@ -1,5 +1,17 @@
 # Log
 
+## [2026-05-03 17:00] ingest | Anthropic AI可解释性研究
+- 源文件：[[anthropic-interpretability]]
+- 创建概念页：[[mechanistic-interpretability]]
+- 更新现有概念页：
+  - [[ai-agent-frameworks]]：添加可解释性需求增长趋势，链接到[[mechanistic-interpretability]]
+  - [[action-based-ai]]：添加透明度与可审计性需求部分，链接到[[mechanistic-interpretability]]
+  - [[product-taste]]：添加安全与可解释性投资部分，链接到[[mechanistic-interpretability]]
+- 交叉链接：新概念页与所有相关概念页双向链接
+- 反向链接：更新3个现有概念页的相关概念部分，添加指向新页面的[[wikilinks]]
+- 索引更新：[[index]]添加1源摘要+1概念页
+- 门户更新：[[home]]添加新兴主题部分，更新实时状态和探索路径
+
 ## [2026-05-03 16:45] ingest | AI Agent框架对比与分化分析
 - 源文件：[[ai-agent-comparisons-2026]]
 - 创建概念页：[[ai-agent-frameworks]]

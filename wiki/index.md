@@ -8,6 +8,7 @@
 - [[karpathy-obsidian-rebuild]] - 个人实践：用Karpathy方法一小时重建Obsidian知识库的体验与认知转变
 - [[karpathy-knowledge-workflow-guide]] - 基于Karpathy理念的完整知识编译工作流指南：三层目录结构、健康检查、增量编译
 - [[ai-agent-comparisons-2026]] - 2026年AI Agent框架深度对比：OpenClaw、Hermes、Claude Cowork等7种方案
+- [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -23,6 +24,7 @@
 - [[incremental-compilation]] - 增量编译机制与优化：只处理新增/变更内容，提高效率
 - [[knowledge-engineering]] - 将软件工程原则应用于知识管理的新范式
 - [[ai-agent-frameworks]] - 2026年AI Agent框架三足鼎立：OpenClaw（连接广度）、Hermes（认知深度）、Claude Cowork（易用性）
+- [[mechanistic-interpretability]] - 机制可解释性研究：从神经元叠加到AI审计，理解AI决策过程的关键工具
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

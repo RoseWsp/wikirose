@@ -61,6 +61,17 @@ graph TD
 
 关键洞察：记忆系统差距最大，自我进化能力成为新分水岭，安全模型从应用级检查演进到操作系统级隔离。
 
+### 新兴主题：AI安全与可解释性
+
+最新摄取的源文件[[anthropic-interpretability]]揭示了Anthropic在AI可解释性方面的系统性工作：
+
+- **四年研究路径**：从2022年"神经元叠加现象"到2026年"AI审计"的完整演进
+- **核心突破**：特征分解、电路追踪、人格向量、AI自省、助手轴
+- **根本局限**：特征不可靠、替代模型精度不足、规模瓶颈、可解释≠可控
+- **战略价值**：学术价值9分，实用价值4分，战略意义9分
+
+关键洞察：可解释性研究是AI领域的核物理基础研究——不直接生产武器，但没有它，当需要控制时我们将两眼一抹黑。在一个所有人都在踩油门的赛道上，得有一家公司研究刹车怎么造。
+
 ## 探索路径
 
 ### 从概念开始
@@ -70,6 +81,7 @@ graph TD
 - [[product-taste]] - 代码廉价化时代的新核心竞争力
 - [[action-based-ai]] - 从聊天到行动的范式转移
 - [[ai-agent-frameworks]] - 2026年AI Agent框架三足鼎立：OpenClaw（连接广度）、Hermes（认知深度）、Claude Cowork（易用性）
+- [[mechanistic-interpretability]] - 机制可解释性研究：从神经元叠加到AI审计，理解AI决策过程的关键工具
 - [[obsidian-rebuild-experience]] - 个人实践：Karpathy方法改造Obsidian的体验与认知转变
 - [[knowledge-compilation-workflow]] - 三层目录结构的完整知识编译工作流
 
@@ -84,6 +96,7 @@ graph TD
 - [[karpathy-obsidian-rebuild]] - 个人实践：一小时重建Obsidian知识库的体验与认知转变
 - [[karpathy-knowledge-workflow-guide]] - 完整知识编译工作流指南：三层目录结构、健康检查、增量编译
 - [[ai-agent-comparisons-2026]] - 2026年AI Agent框架深度对比：OpenClaw、Hermes、Claude Cowork等7种方案
+- [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -97,9 +110,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：5篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比）
-- **概念页**：11个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、AI Agent框架、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程）
-- **总页面**：19个（含home、index、log、5源摘要、11概念页）
-- **最后更新**：2026-05-03（第五次ingest - AI Agent框架对比与分化分析）
+- **源文件**：6篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究）
+- **概念页**：12个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、AI Agent框架、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性）
+- **总页面**：21个（含home、index、log、6源摘要、12概念页）
+- **最后更新**：2026-05-03（第六次ingest - Anthropic AI可解释性研究）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

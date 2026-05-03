@@ -61,7 +61,7 @@ graph TD
 - **产品品味崛起**：代码成本下降，[[product-taste]]成为新核心竞争力
 - **行动派AI**：从聊天到[[action-based-ai]]的范式转移
 - **极致敏捷**：发布周期从6个月压缩到1天
-- **工具策略**：[[claude-code]] for代码，Co-work for非代码的清晰分界
+- **工具策略**：Claude Code for代码，Co-work for非代码的清晰分界
 
 ### 新兴主题：AI-native工程范式
 

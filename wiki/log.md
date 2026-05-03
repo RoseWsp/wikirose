@@ -1,5 +1,20 @@
 # Log
 
+## [2026-05-03 22:30] lint | Wiki健康检查
+- 修复3个死端页面（无出站wikilink的源文件）：
+  - [[openclaw-hermes-architecture]]：添加6条出站链接
+  - [[anthropic-interpretability]]：添加5条出站链接
+  - [[ai-agent-comparisons-2026]]：添加6条出站链接
+- 修复1个破损链接：home.md中`[[claude-code]]`→移除（无对应页面）
+- 添加缺失交叉链接：
+  - [[software-3.0]] → [[action-based-ai]]
+  - [[agentic-engineering]] → [[knowledge-engineering]]
+  - [[jagged-intelligence]] → [[mechanistic-interpretability]]
+  - [[mechanistic-interpretability]] → [[jagged-intelligence]]
+  - [[anthropic-cat-wu-product-taste]] → [[agentic-engineering]], [[dogfooding-as-method]], [[ai-agent-frameworks]]
+- 去重：mechanistic-interpretability.md中重复的交叉链接段合并
+- 无孤儿页面、无矛盾、home.md内容最新
+
 ## [2026-05-03 20:00] ingest | Codex团队如何用自己的产品构建产品
 - 源文件：[[codex-team-dogfooding]]
 - 创建概念页：

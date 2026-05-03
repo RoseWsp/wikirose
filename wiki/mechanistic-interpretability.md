@@ -58,9 +58,4 @@
 - [[action-based-ai]]：基于行动的AI需要更高透明度
 - [[product-taste]]：可解释性研究是产品品味在安全领域的体现
 - [[anthropic-interpretability]]：详细源摘要
-
-## 交叉链接
-
-- [[ai-agent-frameworks]]：可解释性应作为Agent框架选型的关键考量
-- [[action-based-ai]]：行动派AI的每个决策都应有可追溯的内部逻辑
-- [[product-taste]]：Anthropic在可解释性上的持续投入体现了其产品品味
+- [[jagged-intelligence]]：特征分解揭示了锯齿状智能的成因——RL覆盖塑造能力高峰，分布外任务形成断崖

@@ -87,6 +87,9 @@ Anthropic的Claude Code与Co-work产品负责人Cat Wu在Lenny's Podcast访谈�
 本文核心观点已扩展为以下概念页：
 - [[product-taste]] - 产品品味作为代码廉价化时代的新核心竞争力
 - [[action-based-ai]] - 从聊天到行动的范式转移
+- [[agentic-engineering]] - AI时代保持专业标准的工程纪律
+- [[dogfooding-as-method]] - 用产品建产品：从质量保证到认知工具
+- [[ai-agent-frameworks]] - 2026年AI Agent框架格局
 
 ## 在wiki中的位置
 

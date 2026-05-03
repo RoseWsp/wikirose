@@ -138,6 +138,7 @@ Karpathy的公式：
 - [[agentic-engineering]] - 在能力不均匀条件下保持工程标准
 - [[neural-computer]] - 未来可能缓解能力不均匀的硬件架构
 - [[karpathy-interview-agentic-engineering]] - Karpathy关于Jagged Intelligence的原始论述
+- [[mechanistic-interpretability]] - 理解锯齿状智能成因的底层工具：特征分解与电路追踪
 - [[ai-agent-frameworks]] - 不同框架在能力分布上的差异
 
 ## 参考资料

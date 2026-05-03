@@ -16,7 +16,7 @@ OpenClaw是"身体+大脑"，Gateway是承重墙；Hermes是"大脑即全部"，
 
 **Hermes Agent**：AI大脑本身就是主要决策者。没有压在上面的Gateway。Agent直接掌握对话循环，消息平台、工具、记忆都是挂在Agent身上的。
 
-一句话：OpenClaw是身体+大脑，Hermes是大脑即全部。([[openclaw-hermes-architecture]])
+一句话：OpenClaw是身体+大脑，Hermes是大脑即全部。详见[[agent-architecture-patterns]]。
 
 ## OpenClaw四层架构
 

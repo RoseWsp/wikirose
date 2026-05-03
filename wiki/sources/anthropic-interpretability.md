@@ -54,4 +54,12 @@ Anthropic是目前全球在AI可解释性方面投入最大、最系统的公司
 
 虽然当前工具不完美，但比起"完全不知道模型在想什么"的状态，这已是天壤之别。模型现在想隐藏什么，必须同时骗过SAE特征分解、CLT电路追踪、QK归因、人格向量监控和Activation Oracle检测——隐身成本被显著提高。
 
-在一个所有人都在踩油门的赛道上，得有一家公司研究刹车怎么造。光凭这一点，就值得被认真对待。([[anthropic-interpretability]])
+在一个所有人都在踩油门的赛道上，得有一家公司研究刹车怎么造。光凭这一点，就值得被认真对待。详见[[mechanistic-interpretability]]。
+
+## 关联
+
+- [[mechanistic-interpretability]] - 机制可解释性：从神经元叠加到AI审计的概念页
+- [[ai-agent-frameworks]] - Agent安全模型是可解释性研究的直接应用场景
+- [[action-based-ai]] - 行动派AI的安全保障需要可解释性支撑
+- [[product-taste]] - 产品品味与AI安全的平衡
+- [[index]] | [[home]]

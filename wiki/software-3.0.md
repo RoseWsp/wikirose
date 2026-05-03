@@ -147,6 +147,7 @@ Software 3.0让编程能力扩展到更广泛人群：
 - [[jagged-intelligence]] - Software 3.0的能力不均匀性
 - [[neural-computer]] - Software 3.0的硬件进化方向
 - [[karpathy-interview-agentic-engineering]] - Karpathy关于Software 3.0的完整论述
+- [[action-based-ai]] - Software 3.0范式的直接应用：从聊天到行动
 - [[dogfooding-as-method]] - Codex团队用产品建产品的实践：PM用AI在代码库里建立心智模型而非写代码
 - [[dual-horizon-planning]] - Software 3.0时代的产品规划：只做近期和远期，因为模型能力变化让中期路线图变成猜测
 

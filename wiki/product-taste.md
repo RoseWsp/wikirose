@@ -114,6 +114,9 @@ Anthropic在机制可解释性上的持续投资体现了产品品味在安全�
 ### [[harness-engineering]]
 脚手架工程是产品品味在工程架构上的体现：架构师的核心能力不是写代码而是批判AI——遗漏了哪些失效模式？越过了哪些安全边界？**批评AI的能力将比写代码的能力更有价值** ([[ai-first-strategy-wrong]])。
 
+### [[builder-reviewer-model]]
+Builder型的核心是产品直觉——30秒内指出核心体验问题，能说出"为什么这是最大问题"。Reviewer型需要产品品味来判断AI方案的方向是否正确。AI-Native招聘中，"只关注技术实现，从不问为什么"是一票否决项 ([[ai-native-veto]])。
+
 ### [[research-preview]]
 Research preview机制是产品品味在发布策略上的体现：判断哪些功能值得快速试错、哪些需要打磨，用最小承诺获取最真反馈。
 

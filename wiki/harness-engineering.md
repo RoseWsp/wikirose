@@ -35,3 +35,5 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 - [[product-taste]]——架构师的核心能力是批判AI的品味
 - [[action-based-ai]]——脚手架工程是行动派AI在工程层面的落地
 - [[ai-first-strategy-wrong]]——源文件
+- [[builder-reviewer-model]]——Builder搭脚手架，Reviewer验证脚手架有效性
+- [[ai-piloting]]——驾驭AI Agent是搭脚手架的前提：不会驾驶，搭再好的脚手架也没用

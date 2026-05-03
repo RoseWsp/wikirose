@@ -63,6 +63,14 @@ graph TD
     AA --> P
     AB --> Y
 
+    AC[ai-native-hiring-guide] --> AD[builder-reviewer-model]
+    AC --> AE[ai-piloting]
+    AC --> AF[ai-native-veto]
+    AD --> AA
+    AD --> V
+    AE --> J
+    AF --> AD
+
     B --> J
     I --> B
 ```
@@ -152,6 +160,16 @@ graph TD
 
 关键洞察：与其说AI First，不如说软件工程First。AI First的终点未必是让AI干所有活，而是借着这股力量把工程改进真正推动起来。
 
+### 新兴主题：AI-Native招聘范式
+
+最新摄取的源文件[[ai-native-hiring-guide]]揭示了AI驱动开发团队的招聘革命：
+
+- **中间地带消失**：[[builder-reviewer-model]]只剩两种角色——Builder（产品直觉+驱动AI+基本设计感）和Reviewer（极强系统思维+极快评审速度），传统"只写代码"的执行型程序员没有位置
+- **AI驾驶能力**：[[ai-piloting]]是"机甲战士的基本功"，占25%最高权重，考的是"驾驶姿势"而非"目的地"
+- **一票否决项**：[[ai-native-veto]]的6项行为信号直接淘汰，核心逻辑是判断力>执行力、沟通>技术、协作心态>个人能力
+
+关键洞察：Builder-Reviewer模型是[[architect-operator-model]]在招聘层面的映射，是[[role-convergence]]走向极端后的必然结果——角色融合的终点不是全栈通才，而是两种极化角色。
+
 ## 探索路径
 
 ### 从概念开始
@@ -184,6 +202,9 @@ graph TD
 - [[ai-first-prerequisites]] - AI优先的五大前提：自动化测试、CI/CD、监控、任务管理、系统架构
 - [[architect-operator-model]] - 架构师-操作员模型：AI First的极端组织形态，批评AI比写代码更有价值
 - [[self-healing-pipeline]] - 自愈流水线：检测-分诊-修复-验证的最小人工干预闭环
+- [[builder-reviewer-model]] - Builder-Reviewer模型：AI-Native团队只有两种角色，中间地带消失
+- [[ai-piloting]] - AI驾驶能力：机甲战士的基本功，驾驭AI Agent作为协作搭档
+- [[ai-native-veto]] - AI-Native一票否决项：6项行为信号触发即淘汰
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -197,6 +218,7 @@ graph TD
 - [[codex-team-dogfooding]] - OpenAI Codex团队如何用自己的产品构建产品
 - [[cat-wu-ai-pm-role]] - Cat Wu深度访谈：AI PM角色重塑、Research Preview、AGI信仰校准
 - [[ai-first-strategy-wrong]] - CREAO实践：AI First的真正前提是软件工程基础，脚手架工程取代写代码
+- [[ai-native-hiring-guide]] - AI-Native工程师招聘面试官手册：Builder/Reviewer双岗、7模块面试、6项一票否决
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -210,9 +232,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：11篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色 + AI First战略批判）
-- **概念页**：34个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来、Research Preview、AGI Pilled、角色融合、Agent矩阵、脚手架工程、AI优先五大前提、架构师-操作员模型、自愈流水线）
-- **总页面**：48个（含home、index、log、11源摘要、34概念页）
-- **最后更新**：2026-05-03（新增AI First战略批判源文件及4个概念页：脚手架工程、AI优先五大前提、架构师-操作员模型、自愈流水线）
+- **源文件**：12篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色 + AI First战略批判 + AI-Native招聘手册）
+- **概念页**：37个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来、Research Preview、AGI Pilled、角色融合、Agent矩阵、脚手架工程、AI优先五大前提、架构师-操作员模型、自愈流水线、Builder-Reviewer模型、AI驾驶能力、AI-Native一票否决项）
+- **总页面**：52个（含home、index、log、12源摘要、37概念页）
+- **最后更新**：2026-05-03（新增AI-Native招聘手册源文件及3个概念页：Builder-Reviewer模型、AI驾驶能力、AI-Native一票否决项）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

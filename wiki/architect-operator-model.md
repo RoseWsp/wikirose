@@ -42,3 +42,6 @@ CTO从60%时间管理人员变成不到10%，从"管理者"变回"建造者"。�
 - [[product-taste]]——架构师的核心能力是产品品味和批判性思维
 - [[agi-pilled]]——适应AI First需要"恰好正确程度的AGI信仰"
 - [[ai-first-strategy-wrong]]——源文件
+- [[builder-reviewer-model]]——架构师-操作员在招聘层面的映射：架构师≈Reviewer，操作员≈Builder
+- [[ai-piloting]]——操作员的核心基本功：驾驭AI Agent
+- [[ai-native-veto]]——架构师和操作员都不兼容的行为信号

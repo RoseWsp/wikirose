@@ -139,6 +139,9 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[architect-operator-model]] - 架构师-操作员模型：AI First工程组织的极端形态，架构师设计脚手架，操作员在流水线中工作
 - [[self-healing-pipeline]] - 自愈流水线：Agentic Engineering在运维层面的实践，最小人工干预的检测-分诊-修复-验证闭环
 - [[ai-first-prerequisites]] - AI优先的五大前提：Agentic Engineering落地的技术基础
+- [[builder-reviewer-model]] - Agentic Engineering在人才维度的具体化：Builder驱动AI，Reviewer守住防线
+- [[ai-piloting]] - AI驾驶能力：Agentic Engineering的个人技能维度，不会驾驶一切纪律都是空谈
+- [[ai-native-veto]] - Agentic Engineering纪律的最低门槛：6项行为信号触发即淘汰
 
 ## 参考资料
 

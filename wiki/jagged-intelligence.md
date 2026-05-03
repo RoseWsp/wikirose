@@ -140,6 +140,7 @@ Karpathy的公式：
 - [[karpathy-interview-agentic-engineering]] - Karpathy关于Jagged Intelligence的原始论述
 - [[mechanistic-interpretability]] - 理解锯齿状智能成因的底层工具：特征分解与电路追踪
 - [[ai-agent-frameworks]] - 不同框架在能力分布上的差异
+- [[ai-piloting]] - 理解AI能力不均匀性是有效驾驶AI Agent的前提：知道哪里该信任、哪里该验证
 
 ## 参考资料
 

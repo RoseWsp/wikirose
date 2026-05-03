@@ -85,6 +85,7 @@ Vibe Coding标志着编程范式的根本转变：
 - [[dogfooding-as-method]] - Codex团队明确区分：他们不是"凭感觉编程"，而是在系统思考和质量把控上大量投入
 - [[pm-as-gap-filler]] - Vibe Coding降低门槛让更多人能"做"，PM从"规划者"变为"填空人"
 - [[harness-engineering]] - 脚手架工程：Vibe Coding的对立面——一个靠系统，一个靠感觉；Vibe Coding只能做原型，脚手架工程才能做生产
+- [[ai-piloting]] - AI驾驶能力：Vibe Coding的反面——凭感觉调prompt vs 系统性协作，前者靠运气后者靠纪律
 
 ## 参考资料
 

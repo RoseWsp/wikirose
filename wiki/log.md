@@ -1,5 +1,34 @@
 # Log
 
+## [2026-05-04 00:20] ingest | AI-Native 工程师招聘面试官手册
+- 源文件：[[ai-native-hiring-guide]]
+- 创建概念页：
+  - [[builder-reviewer-model]]（Builder-Reviewer模型：AI-Native团队只有两种角色，中间地带消失）
+  - [[ai-piloting]]（AI驾驶能力：机甲战士的基本功，驾驭AI Agent作为协作搭档）
+  - [[ai-native-veto]]（AI-Native一票否决项：6项行为信号触发即淘汰）
+- 更新现有概念页：
+  - [[architect-operator-model]]：添加Builder-Reviewer模型、AI驾驶、一票否决关联
+  - [[role-convergence]]：添加Builder-Reviewer模型和一票否决关联
+  - [[agentic-engineering]]：添加Builder-Reviewer、AI驾驶、一票否决关联
+  - [[harness-engineering]]：添加Builder-Reviewer、AI驾驶关联
+  - [[product-taste]]：添加Builder-Reviewer模型关联
+  - [[pm-as-gap-filler]]：添加Builder-Reviewer模型关联
+  - [[vibe-coding]]：添加AI驾驶能力关联
+  - [[jagged-intelligence]]：添加AI驾驶能力关联
+  - [[action-based-ai]]：添加Builder-Reviewer模型关联
+- 交叉链接：
+  - [[architect-operator-model]] → [[builder-reviewer-model]]、[[ai-piloting]]、[[ai-native-veto]]
+  - [[role-convergence]] → [[builder-reviewer-model]]、[[ai-native-veto]]
+  - [[agentic-engineering]] → [[builder-reviewer-model]]、[[ai-piloting]]、[[ai-native-veto]]
+  - [[harness-engineering]] → [[builder-reviewer-model]]、[[ai-piloting]]
+  - [[product-taste]] → [[builder-reviewer-model]]、[[ai-native-veto]]
+  - [[pm-as-gap-filler]] → [[builder-reviewer-model]]
+  - [[vibe-coding]] → [[ai-piloting]]
+  - [[jagged-intelligence]] → [[ai-piloting]]
+  - [[action-based-ai]] → [[builder-reviewer-model]]
+- 索引更新：[[index]]添加1源摘要+3概念页
+- 门户更新：[[home]]添加AI-Native招聘范式主题、概念图扩展、探索路径更新、状态更新
+
 ## [2026-05-03 23:50] ingest | 为什么你的"AI优先"战略可能大错特错
 - 源文件：[[ai-first-strategy-wrong]]
 - 创建概念页：

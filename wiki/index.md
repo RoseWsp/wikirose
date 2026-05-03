@@ -14,6 +14,7 @@
 - [[codex-team-dogfooding]] - OpenAI Codex团队如何用自己的产品构建产品：极简spec、海盗船运作、PM是填空岗位
 - [[cat-wu-ai-pm-role]] - Cat Wu深度访谈：AI PM角色重塑、Research Preview机制、AGI信仰校准、源码泄露与OpenClaw封堵
 - [[ai-first-strategy-wrong]] - CREAO实践：AI First的真正前提是软件工程基础，脚手架工程取代写代码成为核心
+- [[ai-native-hiring-guide]] - AI-Native工程师招聘面试官手册：Builder/Reviewer双岗模型、7模块60分钟面试、6项一票否决
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -50,6 +51,9 @@
 - [[ai-first-prerequisites]] - AI优先的五大前提：自动化测试、CI/CD、监控、任务管理、系统架构
 - [[architect-operator-model]] - 架构师-操作员模型：AI First工程组织的两极分化形态
 - [[self-healing-pipeline]] - 自愈流水线：最小人工干预的检测-分诊-修复-验证闭环
+- [[builder-reviewer-model]] - Builder-Reviewer模型：AI-Native团队只有两种角色，中间地带消失
+- [[ai-piloting]] - AI驾驶能力：机甲战士的基本功，驾驭AI Agent作为协作搭档
+- [[ai-native-veto]] - AI-Native一票否决项：6项行为信号触发即淘汰，判断力>执行力
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

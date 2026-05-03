@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "home"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "home 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "home 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "home 的大纲"
             }
           }
         ]
@@ -185,17 +185,20 @@
   },
   "active": "041a3a7d02be2b3c",
   "lastOpenFiles": [
-    "wiki/log.md.tmp.4936.1777788679500",
-    "wiki/home.md.tmp.4936.1777788625849",
-    "wiki/home.md.tmp.4936.1777788591494",
-    "wiki/home.md.tmp.4936.1777788564125",
-    "wiki/home.md.tmp.4936.1777788526842",
-    "wiki/index.md.tmp.4936.1777788439094",
-    "wiki/index.md.tmp.4936.1777788407567",
-    "wiki/product-taste.md.tmp.4936.1777788369123",
-    "wiki/llm-knowledge-management.md.tmp.4936.1777788340529",
-    "wiki/action-based-ai.md.tmp.4936.1777788306795",
-    "wiki/action-based-ai.md.tmp.4936.1777788270778",
+    "wiki/home.md.tmp.14656.1777791567612",
+    "wiki/log.md.tmp.14656.1777790749313",
+    "wiki/index.md",
+    "wiki/log.md.tmp.18584.1777790029602",
+    "wiki/home.md.tmp.18584.1777789985223",
+    "wiki/home.md.tmp.18584.1777789938456",
+    "wiki/home.md.tmp.18584.1777789894931",
+    "wiki/home.md.tmp.18584.1777789832078",
+    "wiki/product-taste.md.tmp.18584.1777789720477",
+    "wiki/product-taste.md.tmp.18584.1777789702614",
+    "wiki/action-based-ai.md.tmp.18584.1777789667013",
+    "wiki/action-based-ai.md.tmp.18584.1777789649775",
+    "wiki/mechanistic-interpretability.md",
+    "wiki/sources/anthropic-interpretability.md",
     "wiki/ai-agent-frameworks.md",
     "wiki/sources/ai-agent-comparisons-2026.md",
     "wiki/knowledge-engineering.md",
@@ -214,7 +217,6 @@
     "wiki/rag-alternatives.md",
     "wiki/product-taste.md",
     "wiki/obsidian-optimization.md",
-    "raw/clips/热门agent对比.md",
-    "wiki/index.md"
+    "raw/clips/热门agent对比.md"
   ]
 }

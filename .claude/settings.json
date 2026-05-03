@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "Bash(./*)",
+      "Write(./*)",
+      "Edit(./*)",
+      "Read(./*)",
+      "Glob(./*)",
+      "Grep(./*)",
+      "Agent(*)",
+      "TodoWrite(*)",
+      "Skill(*)",
+      "AskUserQuestion(*)",
+      "CronCreate(*)",
+      "CronDelete(*)",
+      "CronList(*)",
+      "EnterPlanMode(*)",
+      "ExitPlanMode(*)",
+      "EnterWorktree(*)",
+      "ExitWorktree(*)",
+      "NotebookEdit(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "Bash(npm test)"
+    ]
+  }
+}

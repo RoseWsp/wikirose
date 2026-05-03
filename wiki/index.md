@@ -1,0 +1,22 @@
+> For a narrative overview, see [[home]].
+
+# Index
+
+## Sources (源文件摘要)
+- [[karpathy-llm-knowledge-management]] - Andrej Karpathy的LLM知识管理方法实践，将Obsidian从"收藏夹"升级为编译型知识库
+- [[anthropic-cat-wu-product-taste]] - Anthropic产品负责人Cat Wu访谈：代码廉价化时代的产品品味崛起与行动派AI范式
+
+## Concepts (概念)
+- [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
+- [[compiled-knowledge-base]] - 将原始素材编译为结构化知识网络的架构
+- [[knowledge-compounding]] - 知识复利效应：查询结果写回wiki使知识指数增长
+- [[product-taste]] - 代码廉价化时代的新核心竞争力：判断"应该构建什么"的能力
+- [[action-based-ai]] - 从聊天框到行动派的范式转移，AI直接接管工具执行任务
+
+## Core Pages (核心页面)
+- [[home]] - 门户页面，wiki概览与导航
+- [[index]] - 分类索引，所有页面目录
+- [[log]] - 操作日志，时间线记录
+
+## To be categorized (待分类)
+*更多页面将在后续ingest中添加*

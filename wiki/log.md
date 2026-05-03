@@ -1,5 +1,22 @@
 # Log
 
+## [2026-05-03 18:30] digest | 深度整合Karpathy访谈：10x到100x工程师的Agentic Engineering演进
+- 源文件：[[karpathy-interview-agentic-engineering]]
+- 深度更新现有概念页：
+  - [[software-3.0]]：补充MenuGen案例详细分析、商业判断洞察
+  - [[jagged-intelligence]]：添加"幽灵vs动物"理解框架、国际象棋案例引用
+  - [[agentic-engineering]]：扩展10x到100x工程师分析、效率提升潜力、能力要求转变
+  - [[product-taste]]：添加"智能廉价化后的理解溢价"部分，引用Karpathy关键洞察
+  - [[action-based-ai]]：添加Agent-first基础设施需求分析
+  - [[knowledge-engineering]]：已包含源文件引用，确认交叉链接
+- 关键洞察整合：
+  - MenuGen案例揭示模型原生能力吞没中间应用层的商业影响
+  - "智能变便宜后，最贵的是理解" - 思考可外包，理解必须内化
+  - "幽灵vs动物"框架重新定义LLM本质理解
+  - Agentic Engineering实现从10x到100x工程师的效率飞跃
+  - Agent-first基础设施需求：从人类操作界面到Agent调用接口
+- 交叉链接验证：所有概念页均有充分入站链接（5-11个/页面），满足wiki集成要求
+
 ## [2026-05-03 18:00] ingest | Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
 - 源文件：[[karpathy-interview-agentic-engineering]]
 - 创建概念页：[[vibe-coding]]、[[agentic-engineering]]、[[software-3.0]]、[[jagged-intelligence]]、[[neural-computer]]

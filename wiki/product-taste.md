@@ -22,6 +22,12 @@
 - **案例**：Anthropic团队中几乎所有PM和设计师都有工程背景或仍在写代码
 - **趋势**：未来属于能够"戴上不同帽子"填补团队缺口的通才
 
+### AI-native工程的新要求
+- **Vibe Coding普及**：[[vibe-coding]]让更多人能创建软件，产品品味需要扩展到监督AI生成的代码质量
+- **Agentic Engineering挑战**：[[agentic-engineering]]要求在产品设计中考虑AI Agent的协调、验证和安全边界
+- **规格写作能力**：需要将模糊需求转化为AI能执行的清晰规格，这是产品品味的新体现
+- **质量判断标准**：区分“能跑”的代码和“好”的代码，在AI生成代码时代尤为重要
+
 ## 核心表现
 
 ### 1. 功能取舍能力
@@ -76,6 +82,9 @@
 
 ### [[ai-agent-frameworks]]
 AI Agent框架的选择体现了产品品味：在代码廉价化时代，判断"应该构建什么"的能力延伸到基础设施选型，需要在连接广度、认知深度和易用性之间做出有品味的权衡。
+
+### [[vibe-coding]]与[[agentic-engineering]]
+[[vibe-coding]]降低了软件创作门槛，而[[agentic-engineering]]则要求在产品设计中考虑AI Agent的协调与安全。产品品味在这两个层面都有体现：在Vibe Coding层面，需要判断哪些需求值得用AI实现；在Agentic Engineering层面，需要设计能保证质量、安全和可维护性的AI监督流程。
 
 ### [[mechanistic-interpretability]]
 Anthropic在机制可解释性上的持续投资体现了产品品味在安全领域的延伸——在所有人踩油门的赛道上研究刹车，为AI安全立法、审计、合规奠定地基。

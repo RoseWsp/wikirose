@@ -120,6 +120,9 @@
 ### [[ai-agent-frameworks]]
 AI Agent框架是行动派AI的技术实现基础，不同的框架设计哲学（连接广度 vs 认知深度 vs 易用性）决定了自动化能力的边界和进化潜力。
 
+### [[agentic-engineering]]
+行动派AI的大规模应用需要[[agentic-engineering]]的工程纪律，确保在利用AI Agent加速的同时，不牺牲系统的质量、安全和可维护性标准。
+
 ### [[mechanistic-interpretability]]
 行动派AI的决策过程需要可解释性支持，机制可解释性研究为理解AI内部决策逻辑、建立信任和进行安全审计提供了关键工具。
 

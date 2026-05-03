@@ -51,6 +51,17 @@ graph TD
 - **极致敏捷**：发布周期从6个月压缩到1天
 - **工具策略**：[[claude-code]] for代码，Co-work for非代码的清晰分界
 
+### 新兴主题：AI-native工程范式
+
+最新摄取的源文件[[karpathy-interview-agentic-engineering]]揭示了AI时代工程实践的深刻转变：
+
+- **Vibe Coding普及**：[[vibe-coding]]让更多人能创建软件，产品品味需要扩展到监督AI生成的代码质量
+- **Agentic Engineering崛起**：[[agentic-engineering]]成为新工程纪律，在利用AI Agent加速的同时保持专业标准
+- **Software 3.0范式**：[[software-3.0]]以LLM为可编程计算机，上下文窗口成为新编程接口
+- **锯齿状智能挑战**：[[jagged-intelligence]]要求工程师理解AI能力分布，设计能容纳能力不均匀性的系统
+
+关键洞察：10x工程师已是常态，真正的Agentic工程师能获得100x加速，但需要全新的工程方法和质量保证体系。
+
 ### 新兴主题：AI Agent框架分化
 
 最新摄取的源文件[[ai-agent-comparisons-2026]]揭示了2026年AI Agent框架的三足鼎立格局：
@@ -97,6 +108,7 @@ graph TD
 - [[karpathy-knowledge-workflow-guide]] - 完整知识编译工作流指南：三层目录结构、健康检查、增量编译
 - [[ai-agent-comparisons-2026]] - 2026年AI Agent框架深度对比：OpenClaw、Hermes、Claude Cowork等7种方案
 - [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
+- [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -110,9 +122,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：6篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究）
-- **概念页**：14个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性）
-- **总页面**：23个（含home、index、log、6源摘要、14概念页）
-- **最后更新**：2026-05-03（深度消化4个关键源摘要页面）
+- **源文件**：7篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式）
+- **概念页**：19个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机）
+- **总页面**：29个（含home、index、log、7源摘要、19概念页）
+- **最后更新**：2026-05-03（新增Karpathy访谈关于Agentic Engineering的深度分析）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

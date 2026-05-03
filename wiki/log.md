@@ -1,5 +1,18 @@
 # Log
 
+## [2026-05-03 18:00] ingest | Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
+- 源文件：[[karpathy-interview-agentic-engineering]]
+- 创建概念页：[[vibe-coding]]、[[agentic-engineering]]、[[software-3.0]]、[[jagged-intelligence]]、[[neural-computer]]
+- 更新现有概念页：
+  - [[product-taste]]：添加AI-native工程的新要求，链接到[[vibe-coding]]和[[agentic-engineering]]
+  - [[action-based-ai]]：添加[[agentic-engineering]]作为相关概念
+  - [[ai-agent-frameworks]]：添加[[agentic-engineering]]作为相关概念
+  - [[knowledge-engineering]]：添加源文件引用
+- 交叉链接：新概念页与所有相关概念页双向链接
+- 反向链接：更新4个现有概念页的相关概念部分，添加指向新页面的[[wikilinks]]
+- 索引更新：[[index]]添加1源摘要+5概念页
+- 门户更新：[[home]]添加新兴主题"AI-native工程范式"，更新实时状态和查看源文件列表
+
 ## [2026-05-03 17:30] digest | 深度整合4个关键源摘要页面
 - 源文件：[[karpathy-obsidian-rebuild]]、[[karpathy-knowledge-workflow-guide]]、[[ai-agent-comparisons-2026]]、[[anthropic-interpretability]]
 - 深度整合检查：

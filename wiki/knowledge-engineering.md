@@ -182,6 +182,7 @@ Lint / CI        →  健康检查
 - [[karpathy-knowledge-workflow-guide]] - 知识工程化的详细实践指南
 - [[karpathy-llm-knowledge-management]] - 方法论源头
 - [[karpathy-obsidian-rebuild]] - 个人实践验证
+- [[karpathy-interview-agentic-engineering]] - AI时代工程范式演进的最新洞察
 
 ## 在wiki中的位置
 

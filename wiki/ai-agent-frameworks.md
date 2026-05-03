@@ -166,6 +166,9 @@ Agent框架进入长期结构分化阶段，不同定位满足不同用户需求
 ### [[action-based-ai]]
 AI Agent框架是行动派AI的技术实现基础，将自动化智能体从概念变为可部署的系统。
 
+### [[agentic-engineering]]
+大规模部署AI Agent需要[[agentic-engineering]]的工程纪律，确保在利用Agent加速的同时，不牺牲系统的质量、安全和可维护性标准。
+
 ### [[llm-knowledge-management]]
 Agent框架可以集成到知识管理流程中，实现从知识整理到知识应用的自动化闭环。
 

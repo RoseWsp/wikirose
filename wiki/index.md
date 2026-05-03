@@ -9,6 +9,7 @@
 - [[karpathy-knowledge-workflow-guide]] - 基于Karpathy理念的完整知识编译工作流指南：三层目录结构、健康检查、增量编译
 - [[ai-agent-comparisons-2026]] - 2026年AI Agent框架深度对比：OpenClaw、Hermes、Claude Cowork等7种方案
 - [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
+- [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -24,6 +25,11 @@
 - [[incremental-compilation]] - 增量编译机制与优化：只处理新增/变更内容，提高效率
 - [[knowledge-engineering]] - 将软件工程原则应用于知识管理的新范式
 - [[ai-agent-frameworks]] - 2026年AI Agent框架三足鼎立：OpenClaw（连接广度）、Hermes（认知深度）、Claude Cowork（易用性）
+- [[vibe-coding]] - 凭感觉让AI写代码的开发方式，降低软件创作门槛
+- [[agentic-engineering]] - 在使用Agent加速的同时保持专业软件质量、安全和责任门槛的工程纪律
+- [[software-3.0]] - 以LLM为可编程计算机，通过上下文窗口操作的新编程范式
+- [[jagged-intelligence]] - LLM能力高度不均匀的现象，取决于训练数据分布和RL覆盖
+- [[neural-computer]] - 未来可能出现的以神经网络为主进程、传统CPU为协处理器的计算架构
 - [[mechanistic-interpretability]] - 机制可解释性研究：从神经元叠加到AI审计，理解AI决策过程的关键工具
 
 ## Core Pages (核心页面)

@@ -1,10 +1,10 @@
 {
   "tasks": [
     {
-      "id": "7d5ec284",
+      "id": "3181609d",
       "cron": "3 9 * * *",
-      "prompt": "运行wiki每日摘要推送脚本：cd d:/github.com/wikirose && python scripts/daily-digest.py。该脚本会调用Claude分析wiki内容并生成知识洞察摘要，然后通过PushPlus推送到微信。如果没有设置PUSHPLUS_TOKEN环境变量，提醒用户需要配置。完成后简要报告推送结果。",
-      "createdAt": 1777803568002,
+      "prompt": "运行wiki每日摘要推送：cd d:/github.com/wikirose && python scripts/daily-digest.py。脚本会自动从 .env 读取 SCT_TOKEN，调用Claude分析昨天wiki变更并生成摘要，然后通过Server酱推送到微信。完成后报告推送结果。",
+      "createdAt": 1777807261527,
       "recurring": true,
       "createdBySessionId": "81331ea3-da5b-477b-96d0-f045f50ab452",
       "createdByPid": 4412,

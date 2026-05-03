@@ -29,3 +29,4 @@
 - [[agi-pilled]] — 远期"vibes"需要恰好正确程度的AGI信仰：太乐观会规划不存在的能力，太保守会错失升级后的机会窗口
 - [[research-preview]] — 近期规划用research preview快速试错，远期vibes校准方向，中间不用填
 - [[ai-first-prerequisites]] — AI First的极快迭代是双极规划的加速版，但前提是五大工程基础到位
+- [[harness-engineering]] — CREAO每天3-8次部署的极端速度，靠的不是双极规划本身，而是脚手架工程让AI在护栏内快速奔跑 ([[ai-first-strategy-wrong]])

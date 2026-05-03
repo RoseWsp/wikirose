@@ -150,6 +150,7 @@ Software 3.0让编程能力扩展到更广泛人群：
 - [[action-based-ai]] - Software 3.0范式的直接应用：从聊天到行动
 - [[dogfooding-as-method]] - Codex团队用产品建产品的实践：PM用AI在代码库里建立心智模型而非写代码
 - [[dual-horizon-planning]] - Software 3.0时代的产品规划：只做近期和远期，因为模型能力变化让中期路线图变成猜测
+- [[ai-agent-frameworks]] - Software 3.0的工具生态：Codex App/IDE/CLI共享Rust核心（Codex harness），三种入口同一套能力 ([[codex-team-dogfooding]])
 
 ## 参考资料
 

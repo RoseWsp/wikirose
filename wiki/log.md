@@ -1,5 +1,37 @@
 # Log
 
+## [2026-05-04 00:30] digest | 5源深度整合
+- 源文件：[[openclaw-hermes-architecture]]、[[codex-team-dogfooding]]、[[cat-wu-ai-pm-role]]、[[ai-first-strategy-wrong]]、[[ai-native-hiring-guide]]
+- 深度更新现有概念页（添加源文件的实质性论据、证据、细节）：
+  - [[agent-architecture-patterns]]：添加预算计数器机制（90次LLM调用+1次宽限调用）、Dreaming三阶段细节、prompt缓存三策略（四断点+JSON排序+对象复用）、skill进化闭环的技术后果、prompt策略的结构性分化解释
+  - [[ai-agent-frameworks]]：更新Hermes记忆系统为具体三本笔记本（MEMORY.md/USER.md/Skills）、OpenClaw Dreaming三阶段细节、skill公共教材vs私人笔记的技术细节
+  - [[action-based-ai]]：添加预算管理和上下文压缩机制（[[openclaw-hermes-architecture]]）、Codex统一Rust核心架构（[[codex-team-dogfooding]]）、开放生态vs围墙花园张力（[[cat-wu-ai-pm-role]]）
+  - [[dogfooding-as-method]]：添加设计师代码量数据、PM思维探索具体描述
+  - [[pirate-ship-team]]：添加招聘哲学（看作品不看简历）、统一使命作为海盗船燃料（[[cat-wu-ai-pm-role]]）
+  - [[power-user-pull]]：添加tmux 18终端窗口故事和Codex桌面应用催生
+  - [[product-taste]]：添加PRD替代方案（metrics readout + team principles）、Claude性格护城河（低ego+积极正面）
+  - [[role-convergence]]：添加Cat/Boris 80% mind-meld具体案例、中间地带消失的招聘证据
+  - [[research-preview]]：添加Claude Code源码泄露事件（两层人工审查漏过，定性为流程失败）
+  - [[pm-as-gap-filler]]：添加PM价值悖论（最高效模式不需要PM，但PM价值答案是product taste——停留在抽象层面）
+  - [[harness-engineering]]：添加CREAO三致命瓶颈和99%生产代码数据、AI First适用/不适用场景、宝玉xp洞察、Issue写作质量作为认知脚手架
+  - [[architect-operator-model]]：添加创始人物理学博士背景与架构师能力来源
+  - [[ai-first-prerequisites]]：添加CREAO 25人vs数百人规模证据
+  - [[self-healing-pipeline]]：添加99%生产代码数据
+  - [[vibe-coding]]：添加CREAO对Vibe Coding的明确批评——只能做原型，不能做生产
+  - [[dual-horizon-planning]]：添加脚手架工程关联
+  - [[agentic-engineering]]：添加AI驱动开发流程（Issues→Claude Code→PR→人工审查）和沟通瓶颈论据
+  - [[ai-piloting]]：添加5分钟快速判断法三问题表
+  - [[ai-native-veto]]：扩展价值排序（判断力>执行力、沟通>技术、协作心态>个人能力）
+  - [[software-3.0]]：添加Codex Rust核心架构关联
+  - [[ai-native-veto]]：添加[[pm-as-gap-filler]]反向链接
+  - [[harness-engineering]]：添加[[dual-horizon-planning]]反向链接
+  - [[codex-team-dogfooding]]（源摘要）：添加[[software-3.0]]、[[action-based-ai]]出站链接
+- 无新页面创建
+- 孤儿页面检查：所有源摘要和概念页均有≥2个入站链接，无孤儿
+- 矛盾标记：PM价值悖论（[[pm-as-gap-filler]]中标注）——最高效模式不需要PM，但PM价值答案无法操作化定义
+
+## [2026-05-04 00:20] ingest | AI-Native 工程师招聘面试官手册
+
 ## [2026-05-04 00:20] ingest | AI-Native 工程师招聘面试官手册
 - 源文件：[[ai-native-hiring-guide]]
 - 创建概念页：

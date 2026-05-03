@@ -30,6 +30,8 @@ AI驾驶能力是[[agentic-engineering]]的个人技能维度。Agentic Engineer
 
 与[[vibe-coding]]的关键区别：Vibe Coding是凭感觉调prompt直到跑通，AI驾驶能力是系统性地与AI协作——提供上下文、验收产出、调整策略、维护质量。前者靠运气，后者靠纪律。
 
+5分钟快速判断法能区分驾驶水平：问"你最近用AI做了什么？"——Builder信号是给出具体案例有产出物，Reviewer信号是描述如何发现AI的错误并修正，淘汰信号是"有用ChatGPT查过东西"。问"如果接手新项目第一步？"——Builder先出原型/了解用户痛点，Reviewer先看现有架构和代码质量，淘汰信号是"等PM给需求" ([[ai-native-hiring-guide]])。
+
 ## 面试官关注点
 
 1. 候选人是一上来就让AI"写一个工具"，还是先分步拆解？

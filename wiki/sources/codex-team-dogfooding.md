@@ -24,6 +24,8 @@ OpenAI Codex 团队50人只有1个PM，整个产品spec只有10个要点，设�
 
 **Power user拉你进未来。** 先为power user做可配置性，再为普通用户做简化。核心交互极简，让产品"隐形"，通过分层让power user自己解锁深层功能。([[power-user-pull]])
 
+**Codex统一技术架构。** App/IDE/CLI共用Rust核心（Codex harness），三种入口同一套能力。Codex定位为"OpenAI整个开发者平台的入口"——不管接Imagen、Sora还是Speech-to-Speech，Codex都是起点。([[software-3.0]]、[[action-based-ai]])
+
 ## 关键转折点
 
 GPT-5.2 Codex在2025年12月发布，模型能力跨过"可以可靠长时间独立工作"的门槛，直接催生了Codex桌面应用。用户开始用tmux同时开18个终端窗口运行Codex，但只有1%的工程师会这样工作——如何让多Agent协作变得直觉化成了产品问题。

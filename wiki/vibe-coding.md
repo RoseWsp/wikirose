@@ -58,6 +58,7 @@ Vibe Coding标志着编程范式的根本转变：
 ### 系统理解的外包风险
 - 开发者可能过度依赖AI，失去对底层机制的理解
 - 当AI在系统边界、资金归属、安全模型上犯错时，缺乏发现和纠正的能力
+- CREAO的实践明确证明：Vibe Coding只能做原型验证，生产级系统需要[[harness-engineering]]——不是凭感觉调prompt，而是构建让AI稳定产出的系统。没有自动化测试、CI/CD、监控等[[ai-first-prerequisites]]的"AI First"本质上就是Vibe Coding ([[ai-first-strategy-wrong]])
 
 ### 验证的困难
 - 如何确保AI生成的复杂系统符合所有业务规则和安全要求

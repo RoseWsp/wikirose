@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/dogfooding-as-method.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dogfooding-as-method"
+              "title": "AGENTS"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/dogfooding-as-method.md",
+                "file": "AGENTS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "dogfooding-as-method 的反向链接列表"
+              "title": "AGENTS 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/dogfooding-as-method.md",
+                "file": "AGENTS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "dogfooding-as-method 的出链列表"
+              "title": "AGENTS 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/dogfooding-as-method.md",
+                "file": "AGENTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "dogfooding-as-method 的大纲"
+              "title": "AGENTS 的大纲"
             }
           }
         ]
@@ -185,17 +185,24 @@
   },
   "active": "041a3a7d02be2b3c",
   "lastOpenFiles": [
-    "wiki/log.md.tmp.23436.1777818625625",
-    "wiki/home.md.tmp.23436.1777818599868",
-    "wiki/home.md.tmp.23436.1777818579802",
-    "wiki/home.md.tmp.23436.1777818568391",
-    "wiki/home.md.tmp.23436.1777818548468",
-    "wiki/home.md.tmp.23436.1777818534975",
-    "wiki/index.md.tmp.23436.1777818517837",
-    "wiki/index.md.tmp.23436.1777818516809",
-    "wiki/action-based-ai.md.tmp.23436.1777818487726",
-    "wiki/vibe-coding.md.tmp.23436.1777818445529",
-    "wiki/product-taste.md.tmp.23436.1777818443463",
+    "wiki/pm-as-gap-filler.md.tmp.1232.1777822970351",
+    "wiki/log.md.tmp.1232.1777821011408",
+    "wiki/sources/codex-team-dogfooding.md.tmp.1232.1777820954595",
+    "wiki/harness-engineering.md.tmp.1232.1777820920841",
+    "wiki/ai-native-veto.md.tmp.1232.1777820901624",
+    "wiki/pm-as-gap-filler.md.tmp.1232.1777820803432",
+    "wiki/ai-piloting.md.tmp.1232.1777820781929",
+    "wiki/ai-native-veto.md.tmp.1232.1777820762152",
+    "wiki/role-convergence.md.tmp.1232.1777820749523",
+    "wiki/harness-engineering.md.tmp.1232.1777820732385",
+    "wiki/agentic-engineering.md.tmp.1232.1777820713549",
+    "wiki/vibe-coding.md",
+    "wiki/sources/karpathy-interview-agentic-engineering.md",
+    "wiki/agentic-engineering.md",
+    "wiki/agent-matrix.md",
+    "wiki/agent-architecture-patterns.md",
+    "wiki/action-based-ai.md",
+    "wiki/dogfooding-as-method.md",
     "wiki/ai-native-veto.md",
     "wiki/ai-piloting.md",
     "wiki/builder-reviewer-model.md",
@@ -207,19 +214,12 @@
     "wiki/sources/ai-first-strategy-wrong.md",
     "raw/clips/AI-Native 工程师 招聘面试官手册.md",
     "raw/clips/为什么你的″AI 优先″战略可能大错特错.md",
-    "wiki/agent-matrix.md",
     "wiki/role-convergence.md",
     "wiki/agi-pilled.md",
     "wiki/research-preview.md",
     "wiki/sources/cat-wu-ai-pm-role.md",
     "raw/clips/几乎没人答对一个问题：AI 产品经理到底应该干什么.md",
     "wiki/index.md",
-    "wiki/compiled-knowledge-base.md",
-    "wiki/power-user-pull.md",
-    "wiki/pm-as-gap-filler.md",
-    "wiki/pirate-ship-team.md",
-    "wiki/dual-horizon-planning.md",
-    "wiki/minimal-product-specs.md",
-    "wiki/dogfooding-as-method.md"
+    "wiki/compiled-knowledge-base.md"
   ]
 }

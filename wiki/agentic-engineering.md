@@ -8,9 +8,11 @@ Agentic Engineering是Vibe Coding的补充和升级。如果说Vibe Coding降低
 
 ### 核心问题
 - **如何组织多个AI Agent**协同完成复杂任务
-- **如何设置验证和测试**确保AI生成的代码符合业务规则和安全要求  
+- **如何设置验证和测试**确保AI生成的代码符合业务规则和安全要求
 - **如何保持系统可维护性**当代码主要由AI生成时
 - **如何明确责任归属**当决策链涉及人类和多个AI Agent时
+
+AI驱动的开发流程正在成型：提交Issues → Claude Code审核确认 → 自动建分支/askuser补充 → 人类确认方案 → Claude Code写代码 → PR由Claude Code Review → 人工最终审查合并。这意味着PRD的顺序变了：先出原型，再配文档说明意图。前后端分工淡化，通才比三人团队还快。**沟通成为最大瓶颈**——Issues写得好不好直接决定AI能走多远 ([[ai-native-hiring-guide]])。
 
 ## 为什么重要
 

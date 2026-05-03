@@ -20,6 +20,8 @@ PM需求的大小和你离用户的距离有关。如果你就是自己产品的
 
 但**当团队不再是自己的用户**——比如Codex面向ChatGPT的9亿非技术用户——PM的价值需要重新评估。Alex用"PM只是一个标签"化解了这个问题，但结构性的复杂度变化不会因为换个标签就消失。([[dogfooding-as-method]])
 
+**不同出发点，同一个目标**：Cat Wu说最高效模式是"工程师端到端不需要PM"，但被问PM价值时答案是product taste。这看似矛盾，其实是立场差异——工程师从执行效率出发，PM从用户和市场出发，但殊途同归：更好的交付、更好的维护、更快的迭代。两种视角互补而非对立，product taste恰好是两个视角的交汇点：工程师需要它来判断"做什么"，PM需要它来判断"为什么做" ([[cat-wu-ai-pm-role]])。
+
 ## 关联
 
 - [[dogfooding-as-method]] — dogfooding消解了PM作为"用户翻译"的需求
@@ -29,4 +31,5 @@ PM需求的大小和你离用户的距离有关。如果你就是自己产品的
 - [[role-convergence]] — Cat Wu的观察：所有角色都在融合，Anthropic选择大量招有产品品味的工程师而非多招PM
 - [[agi-pilled]] — PM最难的新技能是定义产品一个月后应该长什么样，在AGI信仰和现实约束之间校准
 - [[architect-operator-model]] — 填空岗位的极端形态：PM可能完全消失，只剩架构师定义标准、操作员执行验证
-- [[builder-reviewer-model]] — Builder可以覆盖PM职能：跨角色作战，不需要授权就能推动事情发生
+- [[builder-reviewer-model]] — Builder可以覆盖PM职能：跨角色作战，不需要授权就能推动事情发生。具体来说：Builder写高质量Issues、快速出原型、从用户视角关注业务价值——这些正是PM传统上做的事
+- [[ai-native-veto]] — "Issues写得像工单没有上下文"是一票否决项——PM和工程师的沟通能力在新流程中都是生存线

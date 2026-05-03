@@ -135,6 +135,10 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[pirate-ship-team]] - 海盗船式团队：低协调成本+高个人能力覆盖是agentic engineering的组织前提
 - [[agent-matrix]] - Agent矩阵：从单Agent到多Agent并行的规模化演进，是agentic engineering的终极挑战
 - [[role-convergence]] - 角色融合：工程师端到端完成从反馈到发布的全流程，需要agentic engineering的纪律来保证质量
+- [[harness-engineering]] - 脚手架工程：Agentic Engineering的具体实践形态——搭脚手架让AI在护栏内奔跑
+- [[architect-operator-model]] - 架构师-操作员模型：AI First工程组织的极端形态，架构师设计脚手架，操作员在流水线中工作
+- [[self-healing-pipeline]] - 自愈流水线：Agentic Engineering在运维层面的实践，最小人工干预的检测-分诊-修复-验证闭环
+- [[ai-first-prerequisites]] - AI优先的五大前提：Agentic Engineering落地的技术基础
 
 ## 参考资料
 

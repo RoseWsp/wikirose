@@ -20,3 +20,5 @@ AI团队不只是"吃自己的狗粮"（用自己开发的产品），而是把d
 - [[agentic-engineering]] — 用产品建产品需要新的工程纪律来保证质量
 - [[vibe-coding]] — Codex团队明确区分自己不是"凭感觉编程"，而是在系统思考和质量把控上大量投入
 - [[action-based-ai]] — Codex的plan mode让人和AI一起在代码层面探索可能性
+- [[self-healing-pipeline]] — CREAO用智能体平台重建智能体平台的极致dogfooding，同时构建了自愈流水线
+- [[harness-engineering]] — 用产品建产品的高级形态：不只是用产品，而是围绕AI重新设计整个工程脚手架

@@ -26,3 +26,4 @@ Codex正在从开发者工具向通用方向扩展——OpenAI内部非技术团
 - [[agentic-engineering]] — AI辅助不意味着放弃工程纪律
 - [[action-based-ai]] — Agent扩展了每个人的能力边界
 - [[role-convergence]] — 角色融合是海盗船运作的前提：每个人能跨职能覆盖，才不需要大量协调角色
+- [[architect-operator-model]] — CREAO的25人团队是海盗船模式的AI版：1-2个架构师+操作员，AI给人类分配任务

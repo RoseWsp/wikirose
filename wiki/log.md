@@ -1,5 +1,35 @@
 # Log
 
+## [2026-05-03 23:50] ingest | 为什么你的"AI优先"战略可能大错特错
+- 源文件：[[ai-first-strategy-wrong]]
+- 创建概念页：
+  - [[harness-engineering]]（脚手架工程：工程核心从写代码转为为AI构建工作环境和约束条件）
+  - [[ai-first-prerequisites]]（AI优先的五大前提：自动化测试、CI/CD、监控、任务管理、系统架构）
+  - [[architect-operator-model]]（架构师-操作员模型：AI First工程组织的两极分化形态）
+  - [[self-healing-pipeline]]（自愈流水线：检测-分诊-修复-验证的最小人工干预闭环）
+- 更新现有概念页：
+  - [[agentic-engineering]]：添加脚手架工程、架构师-操作员、自愈流水线、AI优先前提关联
+  - [[vibe-coding]]：添加脚手架工程作为对立面关联
+  - [[role-convergence]]：添加架构师-操作员模型作为极端形态
+  - [[dogfooding-as-method]]：添加自愈流水线、脚手架工程关联
+  - [[product-taste]]：添加脚手架工程作为产品品味在工程架构上的体现
+  - [[action-based-ai]]：添加脚手架工程、自愈流水线关联
+  - [[pirate-ship-team]]：添加架构师-操作员模型关联
+  - [[pm-as-gap-filler]]：添加架构师-操作员模型关联
+  - [[dual-horizon-planning]]：添加AI优先前提关联
+- 交叉链接：
+  - [[agentic-engineering]] → [[harness-engineering]]、[[architect-operator-model]]、[[self-healing-pipeline]]、[[ai-first-prerequisites]]
+  - [[vibe-coding]] → [[harness-engineering]]
+  - [[role-convergence]] → [[architect-operator-model]]、[[ai-first-strategy-wrong]]
+  - [[dogfooding-as-method]] → [[self-healing-pipeline]]、[[harness-engineering]]
+  - [[product-taste]] → [[harness-engineering]]、[[ai-first-strategy-wrong]]
+  - [[action-based-ai]] → [[harness-engineering]]、[[self-healing-pipeline]]、[[ai-first-strategy-wrong]]
+  - [[pirate-ship-team]] → [[architect-operator-model]]
+  - [[pm-as-gap-filler]] → [[architect-operator-model]]
+  - [[dual-horizon-planning]] → [[ai-first-prerequisites]]
+- 索引更新：[[index]]添加1源摘要+4概念页
+- 门户更新：[[home]]添加AI First工程基础主题、概念图扩展、探索路径更新、状态更新
+
 ## [2026-05-03 23:30] ingest | 几乎没人答对一个问题：AI 产品经理到底应该干什么
 - 源文件：[[cat-wu-ai-pm-role]]
 - 创建概念页：

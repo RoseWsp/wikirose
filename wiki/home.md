@@ -52,6 +52,17 @@ graph TD
     V --> P
     W --> J
 
+    X[ai-first-strategy-wrong] --> Y[harness-engineering]
+    X --> Z[ai-first-prerequisites]
+    X --> AA[architect-operator-model]
+    X --> AB[self-healing-pipeline]
+    Y --> J
+    Y --> B
+    Z --> Y
+    AA --> V
+    AA --> P
+    AB --> Y
+
     B --> J
     I --> B
 ```
@@ -130,6 +141,17 @@ graph TD
 
 关键洞察：Cat Wu给出了三个值得关注的矛盾——速度文化vs安全承诺、开放生态vs围墙花园、PM价值悖论（最高效模式是工程师端到端不需要PM，但PM价值答案是product taste）。
 
+### 新兴主题：AI First的工程基础
+
+最新摄取的源文件[[ai-first-strategy-wrong]]揭示了AI First战略的真正前提——不是AI工具，而是软件工程基础：
+
+- **脚手架工程**：[[harness-engineering]]工程核心从写代码转为为AI构建工作环境和约束条件
+- **五大前提**：[[ai-first-prerequisites]]自动化测试、CI/CD、监控、任务管理、系统架构——做不到就得靠人补
+- **架构师-操作员**：[[architect-operator-model]]未来只有两种工程师，批评AI的能力比写代码更有价值
+- **自愈流水线**：[[self-healing-pipeline]]检测-分诊-修复-验证闭环，新功能和Bug修复共用同一套流水线
+
+关键洞察：与其说AI First，不如说软件工程First。AI First的终点未必是让AI干所有活，而是借着这股力量把工程改进真正推动起来。
+
 ## 探索路径
 
 ### 从概念开始
@@ -158,6 +180,10 @@ graph TD
 - [[agi-pilled]] - 恰好正确程度的AGI信仰：太乐观忽略痛点，太保守错失窗口
 - [[role-convergence]] - 角色融合：工程师、PM、设计师界限消失
 - [[agent-matrix]] - Agent矩阵：从单任务到多Agent并行
+- [[harness-engineering]] - 脚手架工程：为AI构建工作环境和约束条件，让AI在护栏内奔跑
+- [[ai-first-prerequisites]] - AI优先的五大前提：自动化测试、CI/CD、监控、任务管理、系统架构
+- [[architect-operator-model]] - 架构师-操作员模型：AI First的极端组织形态，批评AI比写代码更有价值
+- [[self-healing-pipeline]] - 自愈流水线：检测-分诊-修复-验证的最小人工干预闭环
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -170,6 +196,7 @@ graph TD
 - [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
 - [[codex-team-dogfooding]] - OpenAI Codex团队如何用自己的产品构建产品
 - [[cat-wu-ai-pm-role]] - Cat Wu深度访谈：AI PM角色重塑、Research Preview、AGI信仰校准
+- [[ai-first-strategy-wrong]] - CREAO实践：AI First的真正前提是软件工程基础，脚手架工程取代写代码
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -183,9 +210,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：10篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色）
-- **概念页**：30个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来、Research Preview、AGI Pilled、角色融合、Agent矩阵）
-- **总页面**：43个（含home、index、log、10源摘要、30概念页）
-- **最后更新**：2026-05-03（新增Cat Wu AI PM角色源文件及4个概念页：Research Preview、AGI Pilled、角色融合、Agent矩阵）
+- **源文件**：11篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色 + AI First战略批判）
+- **概念页**：34个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来、Research Preview、AGI Pilled、角色融合、Agent矩阵、脚手架工程、AI优先五大前提、架构师-操作员模型、自愈流水线）
+- **总页面**：48个（含home、index、log、11源摘要、34概念页）
+- **最后更新**：2026-05-03（新增AI First战略批判源文件及4个概念页：脚手架工程、AI优先五大前提、架构师-操作员模型、自愈流水线）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

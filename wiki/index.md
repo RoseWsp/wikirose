@@ -13,6 +13,7 @@
 - [[openclaw-hermes-architecture]] - OpenClaw与Hermes Agent的逐层架构对比：Gateway-first vs Agent-first
 - [[codex-team-dogfooding]] - OpenAI Codex团队如何用自己的产品构建产品：极简spec、海盗船运作、PM是填空岗位
 - [[cat-wu-ai-pm-role]] - Cat Wu深度访谈：AI PM角色重塑、Research Preview机制、AGI信仰校准、源码泄露与OpenClaw封堵
+- [[ai-first-strategy-wrong]] - CREAO实践：AI First的真正前提是软件工程基础，脚手架工程取代写代码成为核心
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -45,6 +46,10 @@
 - [[agi-pilled]] - 恰好正确程度的AGI信仰：太乐观忽略痛点，太保守错失窗口
 - [[role-convergence]] - 角色融合：工程师、PM、设计师界限消失，产品品味成唯一不可替代技能
 - [[agent-matrix]] - Agent矩阵：从单任务成功到多任务并行到同时运行数十上百个Agent
+- [[harness-engineering]] - 脚手架工程：工程核心从写代码转为为AI构建工作环境和约束条件
+- [[ai-first-prerequisites]] - AI优先的五大前提：自动化测试、CI/CD、监控、任务管理、系统架构
+- [[architect-operator-model]] - 架构师-操作员模型：AI First工程组织的两极分化形态
+- [[self-healing-pipeline]] - 自愈流水线：最小人工干预的检测-分诊-修复-验证闭环
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

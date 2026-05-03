@@ -88,29 +88,59 @@
 ## 设计哲学分歧
 
 ### 架构差异的本质
-两种根本不同的设计路径（[[ai-agent-comparisons-2026]]）：
+两种根本不同的设计路径——详见[[agent-architecture-patterns]]：
 
-#### OpenClaw路径：外部编排层堆叠
-- **核心**：消息网关统一管理会话、路由和渠道
-- **优势**：快速扩展生态，适合技能市场发展
-- **代价**：复杂度外溢，长期运行成本线性上升
+#### OpenClaw路径：Gateway-first（身体+大脑）
+- **核心**：Gateway是承重墙，AI运行时（Pi）是嵌入式子进程，只是编排系统的一个组件
+- **四层架构**：Channels → Gateway → Agent Runtime → 记忆层
+- **优势**：快速扩展生态，按接口规范接入即自动获得session路由和事件排队
+- **代价**：prompt每轮重建（放弃缓存命中）、记忆依赖夜间Dreaming进程（额外API调用）、复杂度外溢
 
-#### Hermes路径：内部学习循环内化
-- **核心**：Agent自身执行循环作为系统核心
-- **优势**：复杂度收敛进模型和学习循环
+#### Hermes路径：Agent-first（大脑即全部）
+- **核心**：AIAgent是主进程，消息/工具/记忆全挂在Agent身上，Gateway只是薄适配层
+- **五层架构**：对话循环 → Prompt系统 → 工具系统 → 记忆系统 → 学习循环
+- **优势**：prompt全生命周期缓存（API开销递减）、记忆维护"免费"、skill自进化让成本收敛
 - **代价**：对模型规模要求更高，学习曲线陡峭
 
 ### 技能系统的不同理念
 
 #### 公共教材模型（OpenClaw）：
 - 技能由他人编写、为通用场景服务
+- YAML frontmatter的Markdown，发布到ClawHub
 - 庞大的技能市场（13,000+）
-- 本身不会随用户使用自动进化
+- 安装后基本不变，不会随用户使用自动进化
 
 #### 私人工作笔记模型（Hermes）：
-- 技能在任务完成后由Agent自行生成
-- 操作文档随使用持续修订
-- 同类任务工具调用次数从20+压缩到8-10次
+- 技能在任务完成后由Agent自行创建，询问用户是否保存
+- 写入`~/.hermes/skills/`，下次找到并执行，继续精炼
+- 闭环：做事→反思→生成skill→持久化→回忆→精炼
+- 同类任务工具调用次数从20+压缩到8-10次，API成本可测量下降
+
+### Session持久化与检索
+
+| | OpenClaw | Hermes |
+|---|---|---|
+| 存储 | JSON/JSONL，原子写入 | SQLite WAL模式，FTS5全文检索 |
+| 检索 | LanceDB向量检索（语义强，关键词弱） | FTS5关键词检索+总结（无需向量数据库） |
+| Schema | 无迁移机制 | 第6版，带迁移 |
+| 分叉 | 不支持 | `/branch`命令，树状结构（parent_session_id） |
+
+### 执行环境
+
+| | OpenClaw | Hermes |
+|---|---|---|
+| 选项 | 本机 / Docker（二选一） | 本机 / Docker / SSH / Singularity(HPC) / Modal(serverless) / Daytona（六选一） |
+| 并行 | 基本并行 | 读取始终并行，写入并行（除非碰同一文件） |
+
+### 多Agent策略
+
+| | OpenClaw | Hermes |
+|---|---|---|
+| 方式 | Gateway supervisor tree | 每个子任务新建AIAgent |
+| 工具 | 全部可用 | 只能用父agent已有工具，禁用delegation/clarify/memory/code_execution |
+| 深度 | 可配置 | 默认最大2 |
+| 预算 | 无上限 | 独立IterationBudget上限50 |
+| 理念 | 灵活性 | 护栏 |
 
 ## 2026年市场格局
 
@@ -181,5 +211,8 @@ Agent框架可以集成到知识管理流程中，实现从知识整理到知识
 ### [[mechanistic-interpretability]]
 随着AI Agent承担更多关键决策，对模型决策过程的透明度和可审计性需求增长，机制可解释性研究成为Agent安全的重要保障。
 
+### [[agent-architecture-patterns]]
+Gateway-first与Agent-first是两种根本不同的架构模式，决定了系统后续一切如何运作。本文的分类和选型建议都建立在理解这一结构性分歧的基础之上。
+
 ---
-*基于[[ai-agent-comparisons-2026]]的综合分析，涵盖OpenClaw、Hermes、Claude Cowork等7种主流框架的深度对比。*
+*基于[[ai-agent-comparisons-2026]]和[[openclaw-hermes-architecture]]的综合分析。*

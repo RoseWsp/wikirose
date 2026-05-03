@@ -128,6 +128,7 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[jagged-intelligence]] - AI Agent能力不均匀性对工程实践的影响
 - [[karpathy-interview-agentic-engineering]] - Karpathy关于Agentic Engineering的完整论述
 - [[ai-agent-frameworks]] - 支持Agentic Engineering的工具生态
+- [[agent-architecture-patterns]] - Gateway-first vs Agent-first架构模式决定了Agent系统的结构行为
 
 ## 参考资料
 

@@ -10,6 +10,7 @@
 - [[ai-agent-comparisons-2026]] - 2026年AI Agent框架深度对比：OpenClaw、Hermes、Claude Cowork等7种方案
 - [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
 - [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
+- [[openclaw-hermes-architecture]] - OpenClaw与Hermes Agent的逐层架构对比：Gateway-first vs Agent-first
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -31,6 +32,7 @@
 - [[jagged-intelligence]] - LLM能力高度不均匀的现象，取决于训练数据分布和RL覆盖
 - [[neural-computer]] - 未来可能出现的以神经网络为主进程、传统CPU为协处理器的计算架构
 - [[mechanistic-interpretability]] - 机制可解释性研究：从神经元叠加到AI审计，理解AI决策过程的关键工具
+- [[agent-architecture-patterns]] - Gateway-first vs Agent-first：两种Agent架构模式的结构性分歧与后果
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

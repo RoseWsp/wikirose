@@ -70,6 +70,8 @@ graph TD
 - **认知深度优先**：[[ai-agent-frameworks|Hermes Agent]] - 自我进化，四层记忆系统
 - **易用性优先**：[[ai-agent-frameworks|Claude Cowork]] - 零代码门槛，桌面集成
 
+深架构对比[[openclaw-hermes-architecture]]揭示了更根本的分歧：**[[agent-architecture-patterns|Gateway-first vs Agent-first]]**——OpenClaw是"身体+大脑"（Gateway承重，Pi是组件），Hermes是"大脑即全部"（Agent自己就是最上层）。这个结构性选择决定了API成本曲线、记忆系统复杂度、进化路径等一切后续差异。
+
 关键洞察：记忆系统差距最大，自我进化能力成为新分水岭，安全模型从应用级检查演进到操作系统级隔离。
 
 ### 新兴主题：AI安全与可解释性
@@ -92,6 +94,7 @@ graph TD
 - [[product-taste]] - 代码廉价化时代的新核心竞争力
 - [[action-based-ai]] - 从聊天到行动的范式转移
 - [[ai-agent-frameworks]] - 2026年AI Agent框架三足鼎立：OpenClaw（连接广度）、Hermes（认知深度）、Claude Cowork（易用性）
+- [[agent-architecture-patterns]] - Gateway-first vs Agent-first：Agent系统两种根本架构模式
 - [[mechanistic-interpretability]] - 机制可解释性研究：从神经元叠加到AI审计，理解AI决策过程的关键工具
 - [[obsidian-rebuild-experience]] - 个人实践：Karpathy方法改造Obsidian的体验与认知转变
 - [[knowledge-compilation-workflow]] - 三层目录结构的完整知识编译工作流
@@ -107,6 +110,7 @@ graph TD
 - [[karpathy-obsidian-rebuild]] - 个人实践：一小时重建Obsidian知识库的体验与认知转变
 - [[karpathy-knowledge-workflow-guide]] - 完整知识编译工作流指南：三层目录结构、健康检查、增量编译
 - [[ai-agent-comparisons-2026]] - 2026年AI Agent框架深度对比：OpenClaw、Hermes、Claude Cowork等7种方案
+- [[openclaw-hermes-architecture]] - OpenClaw与Hermes Agent逐层架构对比：Gateway-first vs Agent-first
 - [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
 - [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
 
@@ -122,9 +126,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：7篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式）
-- **概念页**：19个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机）
-- **总页面**：29个（含home、index、log、7源摘要、19概念页）
-- **最后更新**：2026-05-03（新增Karpathy访谈关于Agentic Engineering的深度分析）
+- **源文件**：8篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比）
+- **概念页**：20个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机）
+- **总页面**：31个（含home、index、log、8源摘要、20概念页）
+- **最后更新**：2026-05-03（新增OpenClaw与Hermes Agent架构深度对比）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

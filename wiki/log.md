@@ -1,5 +1,20 @@
 # Log
 
+## [2026-05-03 19:00] ingest | OpenClaw与Hermes Agent架构深度对比
+- 源文件：[[openclaw-hermes-architecture]]
+- 创建概念页：[[agent-architecture-patterns]]（Gateway-first vs Agent-first两种架构模式）
+- 深度更新现有概念页：
+  - [[ai-agent-frameworks]]：用六层对比表（API成本、记忆、执行环境、Session持久化、安全、进化）替换原有简略描述，新增Session持久化/执行环境/多Agent策略对比表
+  - [[agentic-engineering]]：添加[[agent-architecture-patterns]]相关概念链接
+  - [[action-based-ai]]：添加[[agent-architecture-patterns]]相关概念链接
+- 交叉链接：
+  - [[ai-agent-frameworks]] → [[agent-architecture-patterns]]、[[openclaw-hermes-architecture]]
+  - [[agentic-engineering]] → [[agent-architecture-patterns]]
+  - [[action-based-ai]] → [[agent-architecture-patterns]]
+  - [[agent-architecture-patterns]] → [[ai-agent-frameworks]]、[[agentic-engineering]]、[[action-based-ai]]、[[product-taste]]、[[openclaw-hermes-architecture]]
+- 索引更新：[[index]]添加1源摘要+1概念页
+- 门户更新：[[home]]添加架构深度对比链接和概念页，更新实时状态
+
 ## [2026-05-03 18:30] digest | 深度整合Karpathy访谈：10x到100x工程师的Agentic Engineering演进
 - 源文件：[[karpathy-interview-agentic-engineering]]
 - 深度更新现有概念页：

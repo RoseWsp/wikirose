@@ -128,6 +128,9 @@ Karpathy指出当前工具、文档、服务和设置流程仍然主要是为人
 ### [[ai-agent-frameworks]]
 AI Agent框架是行动派AI的技术实现基础，不同的框架设计哲学（连接广度 vs 认知深度 vs 易用性）决定了自动化能力的边界和进化潜力。
 
+### [[agent-architecture-patterns]]
+Gateway-first与Agent-first是Agent系统的两种根本架构模式，直接影响行动派AI的执行可靠性、成本曲线和进化路径。
+
 ### [[agentic-engineering]]
 行动派AI的大规模应用需要[[agentic-engineering]]的工程纪律，确保在利用AI Agent加速的同时，不牺牲系统的质量、安全和可维护性标准。
 

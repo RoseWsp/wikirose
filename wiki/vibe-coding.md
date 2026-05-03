@@ -82,6 +82,8 @@ Vibe Coding标志着编程范式的根本转变：
 - [[software-3.0]] - 以LLM为可编程计算机的新编程范式
 - [[karpathy-interview-agentic-engineering]] - Karpathy关于Vibe Coding和Agentic Engineering的完整访谈
 - [[ai-agent-frameworks]] - 支持Vibe Coding的AI Agent工具生态
+- [[dogfooding-as-method]] - Codex团队明确区分：他们不是"凭感觉编程"，而是在系统思考和质量把控上大量投入
+- [[pm-as-gap-filler]] - Vibe Coding降低门槛让更多人能"做"，PM从"规划者"变为"填空人"
 
 ## 参考资料
 

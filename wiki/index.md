@@ -11,6 +11,7 @@
 - [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
 - [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
 - [[openclaw-hermes-architecture]] - OpenClaw与Hermes Agent的逐层架构对比：Gateway-first vs Agent-first
+- [[codex-team-dogfooding]] - OpenAI Codex团队如何用自己的产品构建产品：极简spec、海盗船运作、PM是填空岗位
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -33,6 +34,12 @@
 - [[neural-computer]] - 未来可能出现的以神经网络为主进程、传统CPU为协处理器的计算架构
 - [[mechanistic-interpretability]] - 机制可解释性研究：从神经元叠加到AI审计，理解AI决策过程的关键工具
 - [[agent-architecture-patterns]] - Gateway-first vs Agent-first：两种Agent架构模式的结构性分歧与后果
+- [[dogfooding-as-method]] - 用产品建产品：AI团队把dogfooding从质量保证变为认知工具
+- [[minimal-product-specs]] - 极简产品规格：整个产品spec只有10个要点，让离金属最近的人做决策
+- [[dual-horizon-planning]] - 双极规划：只做8周以内近期和远期方向感，永远不做中期路线图
+- [[pirate-ship-team]] - 海盗船式团队：50-100人只有1个PM，跨职能协调极少
+- [[pm-as-gap-filler]] - PM是填空岗位：人才栈压缩下PM从领导者变为填补空缺者
+- [[power-user-pull]] - Power User拉你进未来：先做可配置性再做简化，最前沿用户的使用方式是方向信号
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

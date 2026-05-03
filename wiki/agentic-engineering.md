@@ -129,6 +129,9 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[karpathy-interview-agentic-engineering]] - Karpathy关于Agentic Engineering的完整论述
 - [[ai-agent-frameworks]] - 支持Agentic Engineering的工具生态
 - [[agent-architecture-patterns]] - Gateway-first vs Agent-first架构模式决定了Agent系统的结构行为
+- [[dogfooding-as-method]] - 用产品建产品：Codex团队的实践证明了agentic engineering在真实产品开发中的运作方式
+- [[minimal-product-specs]] - 极简spec：当AI Agent扩展了个人能力边界，spec的形态也需要进化
+- [[pirate-ship-team]] - 海盗船式团队：低协调成本+高个人能力覆盖是agentic engineering的组织前提
 
 ## 参考资料
 

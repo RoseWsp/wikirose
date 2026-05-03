@@ -134,6 +134,12 @@ Gateway-first与Agent-first是Agent系统的两种根本架构模式，直接影
 ### [[agentic-engineering]]
 行动派AI的大规模应用需要[[agentic-engineering]]的工程纪律，确保在利用AI Agent加速的同时，不牺牲系统的质量、安全和可维护性标准。
 
+### [[dogfooding-as-method]]
+Codex团队的plan mode展示了行动派AI的新工作方式：产品规划不再是人类先想清楚再写文档，而是人和AI Agent一起在代码层面探索可能性。
+
+### [[power-user-pull]]
+行动派AI最前沿用户的使用方式就是产品方向的信号——他们用tmux开18个终端窗口跑Agent，直接fork源码启用未发布功能，把产品团队拉进未来。
+
 ### [[mechanistic-interpretability]]
 行动派AI的决策过程需要可解释性支持，机制可解释性研究为理解AI内部决策逻辑、建立信任和进行安全审计提供了关键工具。
 

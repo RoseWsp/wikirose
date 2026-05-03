@@ -1,5 +1,23 @@
 # Log
 
+## [2026-05-03 20:00] ingest | Codex团队如何用自己的产品构建产品
+- 源文件：[[codex-team-dogfooding]]
+- 创建概念页：
+  - [[dogfooding-as-method]]（用产品建产品：AI团队把dogfooding从质量保证变为认知工具）
+  - [[minimal-product-specs]]（极简产品规格：整个产品spec只有10个要点）
+  - [[dual-horizon-planning]]（双极规划：只做8周近期和远期方向感，永远不做中期路线图）
+  - [[pirate-ship-team]]（海盗船式团队：50-100人长期只有1个PM）
+  - [[pm-as-gap-filler]]（PM是填空岗位：人才栈压缩下PM从领导者变为填补空缺者）
+  - [[power-user-pull]]（Power User拉你进未来：先做可配置性再做简化）
+- 交叉链接：
+  - [[agentic-engineering]] → [[dogfooding-as-method]]、[[minimal-product-specs]]、[[pirate-ship-team]]
+  - [[vibe-coding]] → [[dogfooding-as-method]]、[[pm-as-gap-filler]]
+  - [[product-taste]] → [[dogfooding-as-method]]、[[minimal-product-specs]]、[[power-user-pull]]
+  - [[action-based-ai]] → [[dogfooding-as-method]]、[[power-user-pull]]
+  - [[software-3.0]] → [[dogfooding-as-method]]、[[dual-horizon-planning]]
+- 索引更新：[[index]]添加1源摘要+6概念页
+- 门户更新：[[home]]添加AI团队极简运作主题、概念图扩展、探索路径更新、状态更新
+
 ## [2026-05-03 19:00] ingest | OpenClaw与Hermes Agent架构深度对比
 - 源文件：[[openclaw-hermes-architecture]]
 - 创建概念页：[[agent-architecture-patterns]]（Gateway-first vs Agent-first两种架构模式）

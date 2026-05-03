@@ -30,7 +30,19 @@ graph TD
     H --> J[action-based-ai]
     I --> K[AI产品开发]
     J --> K
-    
+
+    L[codex-team-dogfooding] --> M[dogfooding-as-method]
+    L --> N[minimal-product-specs]
+    L --> O[pirate-ship-team]
+    L --> P[pm-as-gap-filler]
+    L --> Q[power-user-pull]
+    L --> R[dual-horizon-planning]
+    M --> I
+    N --> I
+    P --> I
+    Q --> I
+    M --> J
+
     B --> J
     I --> B
 ```
@@ -85,6 +97,19 @@ graph TD
 
 关键洞察：可解释性研究是AI领域的核物理基础研究——不直接生产武器，但没有它，当需要控制时我们将两眼一抹黑。在一个所有人都在踩油门的赛道上，得有一家公司研究刹车怎么造。
 
+### 新兴主题：AI团队的极简运作
+
+最新摄取的源文件[[codex-team-dogfooding]]揭示了OpenAI Codex团队的反直觉运作方式：
+
+- **极简spec**：整个产品spec只有10个要点，[[minimal-product-specs]]让离金属最近的人做决策
+- **双极规划**：[[dual-horizon-planning]]只做8周近期和远期方向感，永远不做中期路线图
+- **用产品建产品**：[[dogfooding-as-method]]从质量保证变为认知工具，PM用AI建立心智模型
+- **海盗船式团队**：[[pirate-ship-team]]50-100人长期只有1个PM，跨职能协调极少
+- **PM是填空岗位**：[[pm-as-gap-filler]]人才栈压缩下，每个问题需要负责的人但不必是PM
+- **Power User拉你进未来**：[[power-user-pull]]先做可配置性再做简化，核心交互极简、复杂性分层隐藏
+
+关键洞察：Codex的极简管理建立在"团队是自己的用户"这一特殊条件上。当产品从开发者工具扩展到9亿ChatGPT用户时，"让离金属最近的人做决策"还适用吗？
+
 ## 探索路径
 
 ### 从概念开始
@@ -103,6 +128,12 @@ graph TD
 - [[knowledge-health-check]] - 知识库健康检查系统设计
 - [[incremental-compilation]] - 增量编译机制与优化
 - [[knowledge-engineering]] - 将工程原则应用于知识管理
+- [[dogfooding-as-method]] - 用产品建产品：AI团队把dogfooding从质量保证变为认知工具
+- [[minimal-product-specs]] - 极简产品规格：让离金属最近的人做决策
+- [[dual-horizon-planning]] - 双极规划：只做近期和远期，不做中期
+- [[pirate-ship-team]] - 海盗船式团队：低协调成本+高个人能力覆盖
+- [[pm-as-gap-filler]] - PM是填空岗位：人才栈压缩的角色重构
+- [[power-user-pull]] - Power User拉你进未来：先可配置再简化
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -113,6 +144,7 @@ graph TD
 - [[openclaw-hermes-architecture]] - OpenClaw与Hermes Agent逐层架构对比：Gateway-first vs Agent-first
 - [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
 - [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
+- [[codex-team-dogfooding]] - OpenAI Codex团队如何用自己的产品构建产品
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -126,9 +158,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：8篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比）
-- **概念页**：20个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机）
-- **总页面**：31个（含home、index、log、8源摘要、20概念页）
-- **最后更新**：2026-05-03（新增OpenClaw与Hermes Agent架构深度对比）
+- **源文件**：9篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding）
+- **概念页**：26个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来）
+- **总页面**：38个（含home、index、log、9源摘要、26概念页）
+- **最后更新**：2026-05-03（新增Codex团队dogfooding源文件及6个概念页）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

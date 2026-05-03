@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "12b37d32aca380f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b553f604c1ae7412",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "041a3a7d02be2b3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35cad7b75bcb6f46",
+    "type": "split",
+    "children": [
+      {
+        "id": "39bf83b2396d79f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f8201c04a9b2aad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b23d9a30dbb6d06e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4fd16095ecc0676e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c95fa0e243fec9f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "775ab89fbcc62c0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0503d4a506468a8f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "index 的反向链接列表"
+            }
+          },
+          {
+            "id": "46bee5ae01e56406",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "index 的出链列表"
+            }
+          },
+          {
+            "id": "9a5cdd562e311e06",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "304af56b02dbbf34",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a3bf02aba041aef9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "index 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "041a3a7d02be2b3c",
+  "lastOpenFiles": [
+    "wiki/log.md.tmp.8924.1777785306324",
+    "wiki/home.md.tmp.8924.1777785263774",
+    "wiki/home.md.tmp.8924.1777785245112",
+    "wiki/home.md.tmp.8924.1777785225329",
+    "wiki/index.md.tmp.8924.1777785166161",
+    "wiki/index.md.tmp.8924.1777785148940",
+    "wiki/rag-alternatives.md.tmp.8924.1777785093351",
+    "wiki/obsidian-optimization.md.tmp.8924.1777785065511",
+    "wiki/knowledge-compounding.md.tmp.8924.1777785039995",
+    "wiki/compiled-knowledge-base.md.tmp.8924.1777785027764",
+    "wiki/llm-knowledge-management.md.tmp.8924.1777785011719",
+    "wiki/knowledge-compilation-workflow.md",
+    "wiki/obsidian-rebuild-experience.md",
+    "wiki/sources/karpathy-obsidian-rebuild.md",
+    "wiki/home.md",
+    "wiki/compiled-knowledge-base.md",
+    "wiki/action-based-ai.md",
+    "wiki/sources/karpathy-llm-knowledge-management.md",
+    "wiki/sources/anthropic-cat-wu-product-taste.md",
+    "wiki/rag-alternatives.md",
+    "wiki/product-taste.md",
+    "wiki/obsidian-optimization.md",
+    "raw/clips/热门agent对比.md",
+    "wiki/index.md"
+  ]
+}

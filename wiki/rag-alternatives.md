@@ -100,6 +100,6 @@ MOC.md（主题地图）
 
 ## 相关概念
 
-[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[obsidian-optimization]]、[[knowledge-compounding]]、[[product-taste]]
+[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[obsidian-optimization]]、[[knowledge-compounding]]、[[product-taste]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]
 
-> 来源：[[karpathy-llm-knowledge-management]]揭示了在小规模下简单索引方案的高效性。
+> 来源：[[karpathy-llm-knowledge-management]]揭示了在小规模下简单索引方案的高效性。个人实践经验见[[karpathy-obsidian-rebuild]]。

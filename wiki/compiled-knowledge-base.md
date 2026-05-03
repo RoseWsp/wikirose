@@ -33,6 +33,12 @@ raw/          wiki/
 - **关联**：自动链接到[[推理成本]]、[[AI漫剧经济学]]等相关概念
 - **认知转变**：原始信息与所需知识之间存在gap，LLM填补这个gap，实现从"存储"到"编译"的转变
 
+### 个人实践验证（([[karpathy-obsidian-rebuild]])）
+- **结构改造**：从按类型分文件夹（新闻/报告/洞察/笔记）到`raw/`与`wiki/`分离的编译架构
+- **编译效果**：40页SemiAnalysis PDF被编译为800字洞察文章，提炼4个核心判断
+- **交叉节点发现**：自动生成《推理成本》概念页，串联不同报告中的相关数据
+- **实践体会**："编译"与"摘要"的本质区别：不是单篇文章缩短，而是多篇文章知识重新组织成概念网络
+
 ## 与传统知识库对比
 
 | 传统知识库 | 编译型知识库 |
@@ -55,4 +61,4 @@ raw/          wiki/
 
 ## 相关概念
 
-[[llm-knowledge-management]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]
+[[llm-knowledge-management]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]

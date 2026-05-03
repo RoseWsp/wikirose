@@ -41,6 +41,12 @@
 - **跨文档分析能力**：结合GPU价格数据与漫剧成本得出反直觉结论（GPU涨40%但漫剧成本从2000-5000→400元/分钟）
 - **编译vs摘要**：摘要是缩短单篇文章，编译是从多篇文章重新组织知识网络（如自动生成《推理成本》概念页串联3份报告数据）
 
+### 个人实践验证（([[karpathy-obsidian-rebuild]])）
+- **一小时改造效果**：30个散乱文件→35篇互链文章，6份沉睡PDF全部激活，新增2篇概念文章
+- **认知转变验证**：知识管理主体从人转移到LLM，瓶颈从"整理时间"变为"素材输入质量"和"提问质量"
+- **小规模可行性**：几十篇文章规模下，简单索引足够，无需RAG，符合"先跑起来再优化"原则
+- **开放系统设计**：Wiki作为积累上下文，结合外部搜索实时验证，实现动态知识迭代
+
 ## 工具实现
 
 ### Claude Code作为实践平台（([[anthropic-cat-wu-product-taste]])）
@@ -63,4 +69,4 @@
 
 ## 相关概念
 
-[[compiled-knowledge-base]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[rag-alternatives]]、[[product-taste]]、[[action-based-ai]]
+[[compiled-knowledge-base]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[rag-alternatives]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]

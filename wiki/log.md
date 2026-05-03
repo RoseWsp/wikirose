@@ -1,5 +1,15 @@
 # Log
 
+## [2026-05-03 15:30] ingest | 个人实践：用Karpathy方法重建Obsidian知识库
+- 源文件：[[karpathy-obsidian-rebuild]]
+- 创建概念页：[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]
+- 更新现有概念页：
+  - [[llm-knowledge-management]]：添加个人实践验证、认知转变关键点
+  - [[compiled-knowledge-base]]：补充编译效果、交叉节点发现
+  - [[knowledge-compounding]]：扩展复利循环体验、实践意义
+- 交叉链接：新页面与所有相关概念页双向链接
+- 反向链接：现有概念页添加指向新页面的[[wikilinks]]
+
 ## [2026-05-03 15:00] digest | Anthropic产品负责人Cat Wu访谈深度整合
 - 源文件：[[anthropic-cat-wu-product-taste]]
 - 更新现有页面：

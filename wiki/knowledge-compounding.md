@@ -26,6 +26,12 @@
 - **成果**：新页面《[[漫剧工具推理经济学]]》被创建并链接回相关概念
 - **开放验证机制**：wiki提供积累的上下文，外部搜索提供实时事实，两者组合比单独使用更强，类似人类认知迭代
 
+### 个人实践验证（([[karpathy-obsidian-rebuild]])）
+- **复利循环体验**：提问→综合回答→写回wiki→知识库增值→更好回答基础
+- **一小时成果**：30个散乱文件改造中，通过跨报告提问产生的新概念文章《漫剧工具推理经济学》成为永久知识资产
+- **认知验证**：知识复利将LLM从"一次性答案生成器"转变为"知识共同建设者"
+- **实践意义**：每次与AI的对话都增加知识库深度，实现正和游戏而非零和消耗
+
 ## 与传统问答对比
 
 | 传统问答 | 知识复利模式 |
@@ -58,7 +64,7 @@
 
 ## 相关概念
 
-[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]
+[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]
 
 ## 与AI产品开发的关联（([[anthropic-cat-wu-product-taste]])）
 

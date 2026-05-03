@@ -59,10 +59,13 @@ graph TD
 - [[knowledge-compounding]] - 知识复利效应机制
 - [[product-taste]] - 代码廉价化时代的新核心竞争力
 - [[action-based-ai]] - 从聊天到行动的范式转移
+- [[obsidian-rebuild-experience]] - 个人实践：Karpathy方法改造Obsidian的体验与认知转变
+- [[knowledge-compilation-workflow]] - 三层目录结构的完整知识编译工作流
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
 - [[anthropic-cat-wu-product-taste]] - AI产品开发前沿洞察
+- [[karpathy-obsidian-rebuild]] - 个人实践：一小时重建Obsidian知识库的体验与认知转变
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -76,9 +79,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：2篇（LLM知识管理 + AI产品开发）
-- **概念页**：5个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI）
-- **总页面**：9个（含home、index、log、2源摘要、5概念页）
-- **最后更新**：2026-05-03（第二次ingest - AI产品开发）
+- **源文件**：3篇（LLM知识管理 + AI产品开发 + 个人实践验证）
+- **概念页**：7个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian重建体验、知识编译工作流）
+- **总页面**：13个（含home、index、log、3源摘要、7概念页）
+- **最后更新**：2026-05-03（第三次ingest - 个人实践验证）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

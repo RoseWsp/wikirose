@@ -5,6 +5,7 @@
 ## Sources (源文件摘要)
 - [[karpathy-llm-knowledge-management]] - Andrej Karpathy的LLM知识管理方法实践，将Obsidian从"收藏夹"升级为编译型知识库
 - [[anthropic-cat-wu-product-taste]] - Anthropic产品负责人Cat Wu访谈：代码廉价化时代的产品品味崛起与行动派AI范式
+- [[karpathy-obsidian-rebuild]] - 个人实践：用Karpathy方法一小时重建Obsidian知识库的体验与认知转变
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -14,6 +15,8 @@
 - [[action-based-ai]] - 从聊天框到行动派的范式转移，AI直接接管工具执行任务
 - [[obsidian-optimization]] - 将Obsidian从"收藏夹"优化为LLM驱动的编译型知识库
 - [[rag-alternatives]] - 小规模知识库下简单索引方案比复杂RAG更高效
+- [[obsidian-rebuild-experience]] - 个人实践：用Karpathy方法改造Obsidian知识库的体验与认知转变验证
+- [[knowledge-compilation-workflow]] - 三层目录结构的完整知识编译工作流，实现增量编译与健康检查
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

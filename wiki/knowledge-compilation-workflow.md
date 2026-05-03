@@ -202,7 +202,13 @@ sources:
 - [[llm-knowledge-management]] - LLM作为知识管理主体的新范式
 - [[knowledge-compounding]] - 知识复利效应机制
 - [[obsidian-rebuild-experience]] - 个人实践经验分享
-- [[karpathy-obsidian-rebuild]] - 本文工作流的实践来源
+- [[knowledge-health-check]] - 知识库健康检查系统设计
+- [[incremental-compilation]] - 增量编译机制与优化
+- [[knowledge-engineering]] - 将工程原则应用于知识管理的范式
+
+### 来源参考
+- [[karpathy-knowledge-workflow-guide]] - 本文工作流的详细指南（三层目录结构、健康检查、增量编译）
+- [[karpathy-obsidian-rebuild]] - 个人实践验证
 - [[karpathy-llm-knowledge-management]] - 方法论源头
 
 ## 在wiki中的位置

@@ -57,8 +57,10 @@ raw/          wiki/
 
 ## 实践参考
 
-[[karpathy-llm-knowledge-management]]详细介绍了如何将Obsidian改造成编译型知识库。
+- [[karpathy-llm-knowledge-management]]：如何将Obsidian改造成编译型知识库
+- [[karpathy-knowledge-workflow-guide]]：详细的三层目录结构工作流指南，包含健康检查、增量编译等高级功能
+- [[karpathy-obsidian-rebuild]]：个人实践验证与认知转变体验
 
 ## 相关概念
 
-[[llm-knowledge-management]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]
+[[llm-knowledge-management]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]

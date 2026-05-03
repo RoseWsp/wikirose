@@ -24,6 +24,12 @@
 2. **查询**：基于`[[index]]`定位→综合回答→可选写回wiki
 3. **维护**：定期`[[lint]]`检查矛盾、孤儿页、过时声明
 
+### 详细工作流指南（([[karpathy-knowledge-workflow-guide]])）
+- **三层目录结构**：`raw/`（原始资料）、`wiki/`（编译产物）、`outputs/`（运行时输出）
+- **健康检查系统**：每周自动检查一致性、完整性、孤岛问题
+- **增量编译优化**：只处理新增/变更的raw文件，提高效率
+- **知识复利实现**：Q&A沉淀、自动技能生成、持续优化
+
 ## 优势
 
 - **零维护负担**：LLM处理繁琐的交叉引用更新
@@ -69,4 +75,4 @@
 
 ## 相关概念
 
-[[compiled-knowledge-base]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[rag-alternatives]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]
+[[compiled-knowledge-base]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[rag-alternatives]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]

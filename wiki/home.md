@@ -62,10 +62,16 @@ graph TD
 - [[obsidian-rebuild-experience]] - 个人实践：Karpathy方法改造Obsidian的体验与认知转变
 - [[knowledge-compilation-workflow]] - 三层目录结构的完整知识编译工作流
 
+### 进阶概念
+- [[knowledge-health-check]] - 知识库健康检查系统设计
+- [[incremental-compilation]] - 增量编译机制与优化
+- [[knowledge-engineering]] - 将工程原则应用于知识管理
+
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
 - [[anthropic-cat-wu-product-taste]] - AI产品开发前沿洞察
 - [[karpathy-obsidian-rebuild]] - 个人实践：一小时重建Obsidian知识库的体验与认知转变
+- [[karpathy-knowledge-workflow-guide]] - 完整知识编译工作流指南：三层目录结构、健康检查、增量编译
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -79,9 +85,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：3篇（LLM知识管理 + AI产品开发 + 个人实践验证）
-- **概念页**：7个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian重建体验、知识编译工作流）
-- **总页面**：13个（含home、index、log、3源摘要、7概念页）
-- **最后更新**：2026-05-03（第三次ingest - 个人实践验证）
+- **源文件**：4篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南）
+- **概念页**：10个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程）
+- **总页面**：17个（含home、index、log、4源摘要、10概念页）
+- **最后更新**：2026-05-03（第四次ingest - 工作流指南与工程化扩展）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

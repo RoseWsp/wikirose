@@ -1,5 +1,17 @@
 # Log
 
+## [2026-05-03 16:00] ingest | 完整知识编译工作流指南
+- 源文件：[[karpathy-knowledge-workflow-guide]]
+- 创建概念页：[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]
+- 更新现有概念页：
+  - [[knowledge-compilation-workflow]]：添加详细工作流指南引用、健康检查、增量编译
+  - [[llm-knowledge-management]]：补充详细工作流指南、工程化原则
+  - [[compiled-knowledge-base]]：添加工作流指南引用
+- 交叉链接：新概念页与所有相关概念页双向链接
+- 反向链接：更新7个现有概念页的相关概念部分，添加指向新页面的[[wikilinks]]
+- 索引更新：[[index]]添加1源摘要+3概念页
+- 门户更新：[[home]]更新实时状态，添加新源文件和进阶概念
+
 ## [2026-05-03 15:30] ingest | 个人实践：用Karpathy方法重建Obsidian知识库
 - 源文件：[[karpathy-obsidian-rebuild]]
 - 创建概念页：[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]

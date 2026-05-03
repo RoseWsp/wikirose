@@ -104,6 +104,9 @@
 - [[compiled-knowledge-base]] - 编译型知识库架构设计  
 - [[knowledge-compounding]] - 知识复利效应机制
 - [[knowledge-compilation-workflow]] - 从原始素材到编译产物的具体工作流
+- [[knowledge-health-check]] - 知识库健康检查系统设计
+- [[incremental-compilation]] - 增量编译机制与优化
+- [[knowledge-engineering]] - 将工程原则应用于知识管理的范式
 - [[karpathy-obsidian-rebuild]] - 本文的经验来源
 - [[karpathy-llm-knowledge-management]] - 方法论源头
 

@@ -93,6 +93,6 @@ raw/PDF报告网页剪藏录音转写 → LLM编译器（Claude Code） → wiki
 
 ## 相关概念
 
-[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[knowledge-compounding]]、[[rag-alternatives]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]
+[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[knowledge-compounding]]、[[rag-alternatives]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]
 
 > 来源：[[karpathy-llm-knowledge-management]]详细介绍了如何将Obsidian从"收藏夹"转变为编译型知识库。个人实践经验见[[karpathy-obsidian-rebuild]]。

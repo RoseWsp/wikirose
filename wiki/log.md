@@ -1,5 +1,17 @@
 # Log
 
+## [2026-05-03 16:45] ingest | AI Agent框架对比与分化分析
+- 源文件：[[ai-agent-comparisons-2026]]
+- 创建概念页：[[ai-agent-frameworks]]
+- 更新现有概念页：
+  - [[action-based-ai]]：添加AI Agent框架选择部分，链接到[[ai-agent-frameworks]]
+  - [[llm-knowledge-management]]：在相关概念部分添加[[ai-agent-frameworks]]链接
+  - [[product-taste]]：添加AI Agent框架选型作为产品品味案例
+- 交叉链接：新概念页与所有相关概念页双向链接
+- 反向链接：更新3个现有概念页的相关概念部分，添加指向新页面的[[wikilinks]]
+- 索引更新：[[index]]添加1源摘要+1概念页
+- 门户更新：[[home]]添加新兴主题部分，更新实时状态和探索路径
+
 ## [2026-05-03 16:00] ingest | 完整知识编译工作流指南
 - 源文件：[[karpathy-knowledge-workflow-guide]]
 - 创建概念页：[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]

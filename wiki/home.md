@@ -51,6 +51,16 @@ graph TD
 - **极致敏捷**：发布周期从6个月压缩到1天
 - **工具策略**：[[claude-code]] for代码，Co-work for非代码的清晰分界
 
+### 新兴主题：AI Agent框架分化
+
+最新摄取的源文件[[ai-agent-comparisons-2026]]揭示了2026年AI Agent框架的三足鼎立格局：
+
+- **连接广度优先**：[[ai-agent-frameworks|OpenClaw]] - 最大社区，50+消息渠道全覆盖
+- **认知深度优先**：[[ai-agent-frameworks|Hermes Agent]] - 自我进化，四层记忆系统
+- **易用性优先**：[[ai-agent-frameworks|Claude Cowork]] - 零代码门槛，桌面集成
+
+关键洞察：记忆系统差距最大，自我进化能力成为新分水岭，安全模型从应用级检查演进到操作系统级隔离。
+
 ## 探索路径
 
 ### 从概念开始
@@ -59,6 +69,7 @@ graph TD
 - [[knowledge-compounding]] - 知识复利效应机制
 - [[product-taste]] - 代码廉价化时代的新核心竞争力
 - [[action-based-ai]] - 从聊天到行动的范式转移
+- [[ai-agent-frameworks]] - 2026年AI Agent框架三足鼎立：OpenClaw（连接广度）、Hermes（认知深度）、Claude Cowork（易用性）
 - [[obsidian-rebuild-experience]] - 个人实践：Karpathy方法改造Obsidian的体验与认知转变
 - [[knowledge-compilation-workflow]] - 三层目录结构的完整知识编译工作流
 
@@ -72,6 +83,7 @@ graph TD
 - [[anthropic-cat-wu-product-taste]] - AI产品开发前沿洞察
 - [[karpathy-obsidian-rebuild]] - 个人实践：一小时重建Obsidian知识库的体验与认知转变
 - [[karpathy-knowledge-workflow-guide]] - 完整知识编译工作流指南：三层目录结构、健康检查、增量编译
+- [[ai-agent-comparisons-2026]] - 2026年AI Agent框架深度对比：OpenClaw、Hermes、Claude Cowork等7种方案
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -85,9 +97,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：4篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南）
-- **概念页**：10个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程）
-- **总页面**：17个（含home、index、log、4源摘要、10概念页）
-- **最后更新**：2026-05-03（第四次ingest - 工作流指南与工程化扩展）
+- **源文件**：5篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比）
+- **概念页**：11个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、AI Agent框架、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程）
+- **总页面**：19个（含home、index、log、5源摘要、11概念页）
+- **最后更新**：2026-05-03（第五次ingest - AI Agent框架对比与分化分析）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

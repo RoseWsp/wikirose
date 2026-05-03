@@ -75,4 +75,4 @@
 
 ## 相关概念
 
-[[compiled-knowledge-base]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[rag-alternatives]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]
+[[compiled-knowledge-base]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[rag-alternatives]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]、[[ai-agent-frameworks]]

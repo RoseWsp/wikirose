@@ -7,6 +7,7 @@
 - [[anthropic-cat-wu-product-taste]] - Anthropic产品负责人Cat Wu访谈：代码廉价化时代的产品品味崛起与行动派AI范式
 - [[karpathy-obsidian-rebuild]] - 个人实践：用Karpathy方法一小时重建Obsidian知识库的体验与认知转变
 - [[karpathy-knowledge-workflow-guide]] - 基于Karpathy理念的完整知识编译工作流指南：三层目录结构、健康检查、增量编译
+- [[ai-agent-comparisons-2026]] - 2026年AI Agent框架深度对比：OpenClaw、Hermes、Claude Cowork等7种方案
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -21,6 +22,7 @@
 - [[knowledge-health-check]] - 知识库健康检查系统设计：一致性、完整性、孤岛检查
 - [[incremental-compilation]] - 增量编译机制与优化：只处理新增/变更内容，提高效率
 - [[knowledge-engineering]] - 将软件工程原则应用于知识管理的新范式
+- [[ai-agent-frameworks]] - 2026年AI Agent框架三足鼎立：OpenClaw（连接广度）、Hermes（认知深度）、Claude Cowork（易用性）
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

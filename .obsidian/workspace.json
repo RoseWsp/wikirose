@@ -178,17 +178,18 @@
   },
   "active": "041a3a7d02be2b3c",
   "lastOpenFiles": [
-    "wiki/log.md.tmp.20604.1777800008527",
-    "wiki/home.md.tmp.20604.1777799982055",
-    "wiki/home.md.tmp.20604.1777799962863",
-    "wiki/home.md.tmp.20604.1777799953314",
-    "wiki/home.md.tmp.20604.1777799942750",
-    "wiki/index.md.tmp.20604.1777799925564",
-    "wiki/index.md.tmp.20604.1777799915247",
-    "wiki/action-based-ai.md.tmp.20604.1777799875881",
-    "wiki/agentic-engineering.md.tmp.20604.1777799864130",
-    "wiki/ai-agent-frameworks.md.tmp.20604.1777799829552",
-    "wiki/ai-agent-frameworks.md.tmp.20604.1777799812661",
+    "scripts/daily-digest.py.tmp.4412.1777804823337",
+    "scripts/daily-digest.py.tmp.4412.1777804157186",
+    "scripts/daily-digest.py.tmp.4412.1777804131962",
+    "scripts/daily-digest.py.tmp.4412.1777804121602",
+    "scripts/daily-digest.py.tmp.4412.1777804102941",
+    "scripts/daily-digest.py.tmp.4412.1777804066044",
+    "scripts/daily-digest.py.tmp.4412.1777804057646",
+    "scripts/daily-digest.py.tmp.4412.1777803444078",
+    "scripts/daily-digest.py.tmp.4412.1777803327123",
+    "scripts/daily-digest.py.tmp.4412.1777801158969",
+    "scripts/daily-digest.py.tmp.4412.1777801136383",
+    "wiki/digest.md",
     "wiki/agent-architecture-patterns.md",
     "wiki/sources/openclaw-hermes-architecture.md",
     "raw/clips/OpenClaw 和 Hermes Agent 到底是怎么分别构建.md",
@@ -212,7 +213,6 @@
     "wiki/sources/karpathy-knowledge-workflow-guide.md",
     "wiki/knowledge-compilation-workflow.md",
     "wiki/obsidian-rebuild-experience.md",
-    "wiki/sources/karpathy-obsidian-rebuild.md",
-    "wiki/compiled-knowledge-base.md"
+    "wiki/sources/karpathy-obsidian-rebuild.md"
   ]
 }

@@ -12,6 +12,8 @@
 - [[knowledge-compounding]] - 知识复利效应：查询结果写回wiki使知识指数增长
 - [[product-taste]] - 代码廉价化时代的新核心竞争力：判断"应该构建什么"的能力
 - [[action-based-ai]] - 从聊天框到行动派的范式转移，AI直接接管工具执行任务
+- [[obsidian-optimization]] - 将Obsidian从"收藏夹"优化为LLM驱动的编译型知识库
+- [[rag-alternatives]] - 小规模知识库下简单索引方案比复杂RAG更高效
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

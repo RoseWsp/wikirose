@@ -24,13 +24,14 @@ raw/          wiki/
 3. **网络化输出**：输出是互链页面网络，不是孤立文档
 4. **持续维护**：新素材触发重新编译相关部分
 
-## 编译过程示例
+## 编译过程示例（([[karpathy-llm-knowledge-management]])）
 
 以SemiAnalysis GPU报告为例：
 - **输入**：40页PDF（`raw/reports/semianalysis-gpu-lease.pdf`）
 - **编译**：LLM提取4个核心判断+论据+评注
 - **输出**：800字洞察页（`wiki/insights/gpu-lease-trends.md`）
 - **关联**：自动链接到[[推理成本]]、[[AI漫剧经济学]]等相关概念
+- **认知转变**：原始信息与所需知识之间存在gap，LLM填补这个gap，实现从"存储"到"编译"的转变
 
 ## 与传统知识库对比
 

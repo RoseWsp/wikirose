@@ -1,5 +1,27 @@
 # Log
 
+## [2026-05-03 15:00] digest | Anthropic产品负责人Cat Wu访谈深度整合
+- 源文件：[[anthropic-cat-wu-product-taste]]
+- 更新现有页面：
+  - [[llm-knowledge-management]]：添加Claude Code工具细节、发布速度、产品策略
+  - [[knowledge-compounding]]：添加100%自动化标准、避坑指南
+  - [[product-taste]]：细化品味构建机制、Evals取代PRD
+  - [[action-based-ai]]：补充历史划分、具体案例
+- 新增交叉引用：所有概念页相互引用，形成知识网络
+- 反向链接：确保每个新页面有至少2个入站链接
+
+## [2026-05-03 14:55] digest | Andrej Karpathy的LLM知识管理方法深度整合
+- 源文件：[[karpathy-llm-knowledge-management]]
+- 更新现有页面：
+  - [[llm-knowledge-management]]：添加具体实践效果、小规模高效交互
+  - [[compiled-knowledge-base]]：补充认知转变、gap填补机制
+  - [[knowledge-compounding]]：扩展开放验证机制
+- 创建新概念页：
+  - [[obsidian-optimization]]：Obsidian从收藏夹到编译型知识库的优化
+  - [[rag-alternatives]]：小规模知识库的简单索引方案
+- 更新索引：[[index]]添加2个新概念页
+- 交叉链接：新页面与现有概念页全面互链
+
 ## [2026-05-03 14:30] ingest | Andrej Karpathy的LLM知识管理方法
 - 源文件：`raw/clips/Andrej Karpathy 的 LLM 知识管理方法显著提升 Obsidian 知识库效率.md`
 - 创建源摘要页：[[karpathy-llm-knowledge-management]]

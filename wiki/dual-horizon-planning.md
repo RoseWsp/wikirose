@@ -26,3 +26,5 @@
 - [[power-user-pull]] — 最前沿用户的使用方式就是近期方向的信号
 - [[product-taste]] — 远期"vibes"的质量取决于产品品味
 - [[agentic-engineering]] — 规划简化不意味着工程标准降低
+- [[agi-pilled]] — 远期"vibes"需要恰好正确程度的AGI信仰：太乐观会规划不存在的能力，太保守会错失升级后的机会窗口
+- [[research-preview]] — 近期规划用research preview快速试错，远期vibes校准方向，中间不用填

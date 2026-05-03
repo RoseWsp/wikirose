@@ -140,6 +140,12 @@ Codex团队的plan mode展示了行动派AI的新工作方式：产品规划不�
 ### [[power-user-pull]]
 行动派AI最前沿用户的使用方式就是产品方向的信号——他们用tmux开18个终端窗口跑Agent，直接fork源码启用未发布功能，把产品团队拉进未来。
 
+### [[agent-matrix]]
+行动派AI的进化终点：从单任务成功→多任务并行→同时运行数十上百个Agent。Agent矩阵是行动派AI的规模化形态，核心挑战从"能不能做"转向"怎么编排"。([[cat-wu-ai-pm-role]])
+
+### [[research-preview]]
+行动派AI的产品化节奏依赖research preview机制——用"这是早期实验"降低发布门槛，让用户在真实场景中验证Agent能力，而不是等打磨完美才上线。([[cat-wu-ai-pm-role]])
+
 ### [[mechanistic-interpretability]]
 行动派AI的决策过程需要可解释性支持，机制可解释性研究为理解AI内部决策逻辑、建立信任和进行安全审计提供了关键工具。
 

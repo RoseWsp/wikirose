@@ -26,3 +26,4 @@ Codex团队的产品设计核心原则：**核心交互极简，让产品"隐形
 - [[dogfooding-as-method]] — 团队自己就是最硬核的power user
 - [[product-taste]] — 判断哪些power user行为值得产品化需要品味
 - [[agentic-engineering]] — 产品简化不意味着工程简化
+- [[agi-pilled]] — power user突破产品极限的地方，正是模型边界和产品机会的交汇点——AGI信仰校准的信号源

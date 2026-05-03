@@ -26,3 +26,5 @@ PM需求的大小和你离用户的距离有关。如果你就是自己产品的
 - [[product-taste]] — 品味判断力比项目管理能力更重要
 - [[pirate-ship-team]] — 小团队低协调成本让PM的协调价值下降
 - [[vibe-coding]] — 门槛降低让更多人能"做"而不只是"规划"
+- [[role-convergence]] — Cat Wu的观察：所有角色都在融合，Anthropic选择大量招有产品品味的工程师而非多招PM
+- [[agi-pilled]] — PM最难的新技能是定义产品一个月后应该长什么样，在AGI信仰和现实约束之间校准

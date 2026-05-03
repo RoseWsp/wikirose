@@ -1,5 +1,35 @@
 # Log
 
+## [2026-05-03 23:30] ingest | 几乎没人答对一个问题：AI 产品经理到底应该干什么
+- 源文件：[[cat-wu-ai-pm-role]]
+- 创建概念页：
+  - [[research-preview]]（Research Preview机制：用"早期实验"标签降低发布门槛）
+  - [[agi-pilled]]（恰好正确程度的AGI信仰：太乐观忽略痛点，太保守错失窗口）
+  - [[role-convergence]]（角色融合：工程师、PM、设计师界限消失）
+  - [[agent-matrix]]（Agent矩阵：从单任务到多Agent并行的进化路线）
+- 更新现有概念页：
+  - [[product-taste]]：添加AGI信仰校准、角色融合、research preview关联
+  - [[action-based-ai]]：添加Agent矩阵、research preview关联
+  - [[pm-as-gap-filler]]：添加角色融合、AGI信仰关联
+  - [[minimal-product-specs]]：添加research preview关联
+  - [[pirate-ship-team]]：添加角色融合关联
+  - [[power-user-pull]]：添加AGI信仰关联
+  - [[agentic-engineering]]：添加Agent矩阵、角色融合关联
+  - [[dual-horizon-planning]]：添加AGI信仰、research preview关联
+  - [[anthropic-cat-wu-product-taste]]：添加4个新概念页链接和更详细源文件引用
+- 交叉链接：
+  - [[product-taste]] → [[agi-pilled]]、[[role-convergence]]、[[research-preview]]
+  - [[action-based-ai]] → [[agent-matrix]]、[[research-preview]]
+  - [[pm-as-gap-filler]] → [[role-convergence]]、[[agi-pilled]]
+  - [[minimal-product-specs]] → [[research-preview]]
+  - [[pirate-ship-team]] → [[role-convergence]]
+  - [[power-user-pull]] → [[agi-pilled]]
+  - [[agentic-engineering]] → [[agent-matrix]]、[[role-convergence]]
+  - [[dual-horizon-planning]] → [[agi-pilled]]、[[research-preview]]
+  - [[anthropic-cat-wu-product-taste]] → [[research-preview]]、[[agi-pilled]]、[[role-convergence]]、[[agent-matrix]]
+- 索引更新：[[index]]添加1源摘要+4概念页
+- 门户更新：[[home]]添加AI PM角色重塑主题、概念图扩展、探索路径更新、状态更新
+
 ## [2026-05-03 22:30] lint | Wiki健康检查
 - 修复3个死端页面（无出站wikilink的源文件）：
   - [[openclaw-hermes-architecture]]：添加6条出站链接

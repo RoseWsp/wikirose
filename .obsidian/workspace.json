@@ -11,10 +11,14 @@
             "id": "041a3a7d02be2b3c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/dogfooding-as-method.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dogfooding-as-method"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "wiki/dogfooding-as-method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "dogfooding-as-method 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "wiki/dogfooding-as-method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "dogfooding-as-method 的出链列表"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "wiki/dogfooding-as-method.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "dogfooding-as-method 的大纲"
             }
           }
         ]
@@ -178,18 +185,26 @@
   },
   "active": "041a3a7d02be2b3c",
   "lastOpenFiles": [
-    "wiki/log.md.tmp.18996.1777816012102",
-    "wiki/sources/anthropic-cat-wu-product-taste.md.tmp.18996.1777815981413",
-    "wiki/mechanistic-interpretability.md.tmp.18996.1777815946452",
-    "wiki/agentic-engineering.md.tmp.18996.1777815924718",
-    "wiki/jagged-intelligence.md.tmp.18996.1777815904229",
-    "wiki/software-3.0.md.tmp.18996.1777815903170",
-    "wiki/home.md.tmp.18996.1777815803070",
-    "wiki/sources/openclaw-hermes-architecture.md.tmp.18996.1777813009313",
+    "wiki/log.md.tmp.18376.1777817123081",
+    "wiki/home.md.tmp.18376.1777817093572",
+    "wiki/home.md.tmp.18376.1777817065706",
+    "wiki/home.md.tmp.18376.1777817008839",
+    "wiki/home.md.tmp.18376.1777816978699",
+    "wiki/index.md.tmp.18376.1777816965485",
+    "wiki/index.md.tmp.18376.1777816964439",
+    "raw/clips/为什么你的″AI 优先″战略可能大错特错.md",
+    "wiki/sources/anthropic-cat-wu-product-taste.md.tmp.18376.1777816903130",
+    "wiki/dual-horizon-planning.md.tmp.18376.1777816875545",
+    "wiki/agentic-engineering.md.tmp.18376.1777816874510",
+    "wiki/power-user-pull.md.tmp.18376.1777816835502",
+    "wiki/agent-matrix.md",
+    "wiki/role-convergence.md",
+    "wiki/agi-pilled.md",
+    "wiki/research-preview.md",
+    "wiki/sources/cat-wu-ai-pm-role.md",
+    "raw/clips/几乎没人答对一个问题：AI 产品经理到底应该干什么.md",
+    "wiki/index.md",
     "wiki/compiled-knowledge-base.md",
-    "wiki/log.md.tmp.4044.1777811808224",
-    "wiki/index.md.tmp.4044.1777811720895",
-    "wiki/mechanistic-interpretability.md.tmp.4044.1777811675778",
     "wiki/power-user-pull.md",
     "wiki/pm-as-gap-filler.md",
     "wiki/pirate-ship-team.md",
@@ -205,14 +220,6 @@
     "wiki/home.md",
     "wiki/neural-computer.md",
     "wiki/jagged-intelligence.md",
-    "wiki/software-3.0.md",
-    "wiki/agentic-engineering.md",
-    "wiki/vibe-coding.md",
-    "wiki/sources/karpathy-interview-agentic-engineering.md",
-    "raw/clips/Karpathy 访谈：10x 工程师已是常态，真正的 Agentic 工程师是 100x.md",
-    "wiki/index.md",
-    "wiki/mechanistic-interpretability.md",
-    "wiki/sources/anthropic-interpretability.md",
-    "wiki/ai-agent-frameworks.md"
+    "wiki/software-3.0.md"
   ]
 }

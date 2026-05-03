@@ -90,6 +90,12 @@ Anthropic的Claude Code与Co-work产品负责人Cat Wu在Lenny's Podcast访谈�
 - [[agentic-engineering]] - AI时代保持专业标准的工程纪律
 - [[dogfooding-as-method]] - 用产品建产品：从质量保证到认知工具
 - [[ai-agent-frameworks]] - 2026年AI Agent框架格局
+- [[research-preview]] - 用"早期实验"标签降低发布门槛
+- [[agi-pilled]] - 恰好正确程度的AGI信仰
+- [[role-convergence]] - 角色融合：工程师做PM，PM写代码
+- [[agent-matrix]] - 从单任务到Agent矩阵的进化路线
+
+> **更详细的源文件**：[[cat-wu-ai-pm-role]]是同一访谈的更完整版本，包含源代码泄露、OpenClaw封堵、编辑手记等内容。
 
 ## 在wiki中的位置
 

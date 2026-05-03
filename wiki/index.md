@@ -12,6 +12,7 @@
 - [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
 - [[openclaw-hermes-architecture]] - OpenClaw与Hermes Agent的逐层架构对比：Gateway-first vs Agent-first
 - [[codex-team-dogfooding]] - OpenAI Codex团队如何用自己的产品构建产品：极简spec、海盗船运作、PM是填空岗位
+- [[cat-wu-ai-pm-role]] - Cat Wu深度访谈：AI PM角色重塑、Research Preview机制、AGI信仰校准、源码泄露与OpenClaw封堵
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -40,6 +41,10 @@
 - [[pirate-ship-team]] - 海盗船式团队：50-100人只有1个PM，跨职能协调极少
 - [[pm-as-gap-filler]] - PM是填空岗位：人才栈压缩下PM从领导者变为填补空缺者
 - [[power-user-pull]] - Power User拉你进未来：先做可配置性再做简化，最前沿用户的使用方式是方向信号
+- [[research-preview]] - Research Preview机制：用"早期实验"标签降低发布门槛，一周一天推功能
+- [[agi-pilled]] - 恰好正确程度的AGI信仰：太乐观忽略痛点，太保守错失窗口
+- [[role-convergence]] - 角色融合：工程师、PM、设计师界限消失，产品品味成唯一不可替代技能
+- [[agent-matrix]] - Agent矩阵：从单任务成功到多任务并行到同时运行数十上百个Agent
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

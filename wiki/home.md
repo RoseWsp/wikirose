@@ -43,6 +43,15 @@ graph TD
     Q --> I
     M --> J
 
+    S[cat-wu-ai-pm-role] --> T[research-preview]
+    S --> U[agi-pilled]
+    S --> V[role-convergence]
+    S --> W[agent-matrix]
+    T --> I
+    U --> I
+    V --> P
+    W --> J
+
     B --> J
     I --> B
 ```
@@ -110,6 +119,17 @@ graph TD
 
 关键洞察：Codex的极简管理建立在"团队是自己的用户"这一特殊条件上。当产品从开发者工具扩展到9亿ChatGPT用户时，"让离金属最近的人做决策"还适用吗？
 
+### 新兴主题：AI PM角色重塑
+
+最新摄取的源文件[[cat-wu-ai-pm-role]]揭示了Cat Wu面试几百PM后的核心发现：
+
+- **Research Preview**：[[research-preview]]用"早期实验"标签降低发布门槛，让团队一周甚至一天推功能
+- **AGI信仰校准**：[[agi-pilled]]最难的是"恰好正确程度的AGI信仰"，太乐观忽略痛点，太保守错失窗口
+- **角色融合**：[[role-convergence]]工程师做PM、PM写代码，Anthropic选择大量招有产品品味的工程师
+- **Agent矩阵**：[[agent-matrix]]从单任务成功到多任务并行到同时运行数十上百个Agent
+
+关键洞察：Cat Wu给出了三个值得关注的矛盾——速度文化vs安全承诺、开放生态vs围墙花园、PM价值悖论（最高效模式是工程师端到端不需要PM，但PM价值答案是product taste）。
+
 ## 探索路径
 
 ### 从概念开始
@@ -134,6 +154,10 @@ graph TD
 - [[pirate-ship-team]] - 海盗船式团队：低协调成本+高个人能力覆盖
 - [[pm-as-gap-filler]] - PM是填空岗位：人才栈压缩的角色重构
 - [[power-user-pull]] - Power User拉你进未来：先可配置再简化
+- [[research-preview]] - Research Preview：用"早期实验"标签降低发布门槛，一周一天推功能
+- [[agi-pilled]] - 恰好正确程度的AGI信仰：太乐观忽略痛点，太保守错失窗口
+- [[role-convergence]] - 角色融合：工程师、PM、设计师界限消失
+- [[agent-matrix]] - Agent矩阵：从单任务到多Agent并行
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -145,6 +169,7 @@ graph TD
 - [[anthropic-interpretability]] - Anthropic在AI可解释性方面的系统性工作：从神经元叠加到AI审计的四年研究路径
 - [[karpathy-interview-agentic-engineering]] - Karpathy访谈：10x工程师已是常态，真正的Agentic工程师是100x
 - [[codex-team-dogfooding]] - OpenAI Codex团队如何用自己的产品构建产品
+- [[cat-wu-ai-pm-role]] - Cat Wu深度访谈：AI PM角色重塑、Research Preview、AGI信仰校准
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -158,9 +183,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：9篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding）
-- **概念页**：26个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来）
-- **总页面**：38个（含home、index、log、9源摘要、26概念页）
-- **最后更新**：2026-05-03（新增Codex团队dogfooding源文件及6个概念页）
+- **源文件**：10篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色）
+- **概念页**：30个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来、Research Preview、AGI Pilled、角色融合、Agent矩阵）
+- **总页面**：43个（含home、index、log、10源摘要、30概念页）
+- **最后更新**：2026-05-03（新增Cat Wu AI PM角色源文件及4个概念页：Research Preview、AGI Pilled、角色融合、Agent矩阵）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

@@ -20,8 +20,18 @@ from urllib.error import URLError
 # ── 配置 ──────────────────────────────────────────────
 WIKI_DIR = Path(__file__).resolve().parent.parent / "wiki"
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "")
-PUSHPLUS_API = "http://www.pushplus.plus/send"
+SCT_TOKEN = os.environ.get("SCT_TOKEN", "")
+
+# 从项目根目录 .env 文件加载环境变量
+_env_file = Path(__file__).resolve().parent.parent / ".env"
+if _env_file.exists() and not SCT_TOKEN:
+    for line in _env_file.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, v = line.split("=", 1)
+            if k.strip() == "SCT_TOKEN" and not SCT_TOKEN:
+                SCT_TOKEN = v.strip()
+SCT_API = "https://sctapi.ftqq.com"
 
 
 def find_claude_bin() -> str:
@@ -248,25 +258,25 @@ def generate_digest_with_claude(changes: dict) -> str:
         return title_line + f"生成失败: {e}"
 
 
-# ── PushPlus 推送 ─────────────────────────────────────
+# ── 推送 ─────────────────────────────────────────────
 
-def send_pushplus(title: str, content: str, token: str = "") -> bool:
-    t = token or PUSHPLUS_TOKEN
+def send_serverchan(title: str, content: str, token: str = "") -> bool:
+    """通过Server酱推送到微信"""
+    t = token or SCT_TOKEN
     if not t:
-        print("错误：未设置 PUSHPLUS_TOKEN 环境变量")
-        print("请到 https://www.pushplus.plus/ 注册获取token，然后设置环境变量：")
-        print("  export PUSHPLUS_TOKEN=your_token_here")
+        print("错误：未设置 SCT_TOKEN 环境变量")
+        print("请到 https://sct.ftqq.com/ 微信扫码登录，获取SendKey")
+        print("然后设置环境变量：export SCT_TOKEN=your_sendkey")
         return False
 
+    url = f"{SCT_API}/{t}.send"
     data = json.dumps({
-        "token": t,
         "title": title,
-        "content": content,
-        "template": "markdown",
+        "desp": content,
     }).encode("utf-8")
 
     req = Request(
-        PUSHPLUS_API,
+        url,
         data=data,
         headers={"Content-Type": "application/json"},
     )
@@ -274,11 +284,11 @@ def send_pushplus(title: str, content: str, token: str = "") -> bool:
     try:
         with urlopen(req, timeout=10) as resp:
             result = json.loads(resp.read().decode("utf-8"))
-            if result.get("code") == 200:
-                print(f"推送成功！msgId: {result.get('data', '')}")
+            if result.get("code") == 0:
+                print(f"推送成功！")
                 return True
             else:
-                print(f"推送失败：{result.get('msg', '未知错误')}")
+                print(f"推送失败：{result.get('message', '未知错误')}")
                 return False
     except URLError as e:
         print(f"网络错误：{e}")
@@ -308,13 +318,16 @@ def main():
     today = datetime.now().strftime("%m月%d日")
     title = f"Wiki摘要 · {today}"
 
-    if token or PUSHPLUS_TOKEN:
-        success = send_pushplus(title, digest, token)
+    sct_token = token or SCT_TOKEN
+    if sct_token:
+        success = send_serverchan(title, digest, sct_token)
         sys.exit(0 if success else 1)
     else:
-        print("\n未配置PushPlus token，仅生成摘要未推送。")
-        print("使用方式：python daily-digest.py YOUR_TOKEN")
-        print("或设置环境变量：export PUSHPLUS_TOKEN=your_token")
+        print("\n未配置Server酱token，仅生成摘要未推送。")
+        print("1. 到 https://sct.ftqq.com/ 微信扫码登录")
+        print("2. 复制你的SendKey")
+        print("3. 运行：python daily-digest.py YOUR_SENDKEY")
+        print("   或设置环境变量：export SCT_TOKEN=your_sendkey")
 
 
 if __name__ == "__main__":

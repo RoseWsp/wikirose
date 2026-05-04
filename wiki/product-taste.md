@@ -132,6 +132,6 @@ Research preview机制是产品品味在发布策略上的体现：判断哪些�
 5. **AGI校准**：花30%时间把产品推到极限，探测模型边界（[[cat-wu-ai-pm-role]]）
 
 ### [[clarity-before-automation]]
-产品品味是"先清晰再自动化"原则在产品层面的体现：知道应该构建什么，比能快速构建什么更重要。Daniel Miessler指出，大多数公司用不好AI，不是AI不行，而是自己都说不清楚想要什么 ([[companies-not-ready-for-ai]])。
+产品品味是"先清晰再自动化"原则在产品层面的体现：知道应该构建什么，比能快速构建什么更重要。Daniel Miessler指出，大多数公司用不好AI，不是AI不行，而是自己都说不清楚想要什么——能清晰回答"正在为客户解决什么问题、方案缺陷在哪、目标指标是什么"的公司，恰好也是产品品味最敏锐的公司 ([[companies-not-ready-for-ai]])。
 
 > 来源：[[anthropic-cat-wu-product-taste]]详细阐述了代码廉价化背景下产品品味的崛起。[[cat-wu-ai-pm-role]]补充了AGI信仰校准和角色融合的具体实践。

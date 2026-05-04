@@ -47,3 +47,9 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 - [[dual-horizon-planning]]——CREAO每天3-8次部署的极端速度，靠的是脚手架工程而不是规划本身
 - [[organizational-self-knowledge]]——脚手架工程的前提是组织具备自我认知，能清晰描述目标和工作流
 - [[clarity-before-automation]]——先清晰再自动化：脚手架工程是"先想清楚做什么"的工程方法论
+
+## 组织层面的脚手架
+
+Miessler的观察揭示了一个更深的前提：脚手架工程能发挥作用的前提不只是技术基础设施，而是组织本身已经理清了"要做什么"和"怎么运转"。混乱公司的问题不是缺CI/CD——而是连自己的工作流(work streams)都描述不出来。对这种公司，脚手架工程无从搭起，因为你不知道要为AI搭建什么约束 ([[companies-not-ready-for-ai]])。
+
+工程层面的"先搭脚手架再让AI跑"和组织层面的"先清晰目标再让AI执行"是同一枚硬币的两面——[[harness-engineering]]管的是工程面的脚手架，[[organizational-self-knowledge]]管的是组织面的脚手架。两者缺一不可。

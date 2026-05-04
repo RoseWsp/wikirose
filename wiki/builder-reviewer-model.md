@@ -41,3 +41,4 @@ Builder不需要授权就能推动事情发生——从发现问题、写Issue�
 - [[pm-as-gap-filler]]——PM在Builder-Reviewer模型中的位置：Builder可以覆盖PM职能
 - [[ai-native-hiring-guide]]——源文件
 - [[ai-readiness-gap]]——Builder-Reviewer模型是AI-ready团队的招聘形态，跨越准备度鸿沟的组织才能有效运作
+- [[clarity-before-automation]]——Builder驱动AI的前提是组织已经"配得上"让AI帮忙：能清晰描述目标、工作流和决策机制 ([[companies-not-ready-for-ai]])

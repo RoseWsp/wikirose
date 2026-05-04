@@ -147,6 +147,12 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[organizational-self-knowledge]] - Agentic Engineering的前提是组织具备自我认知，否则AI只会放大混乱
 - [[ai-readiness-gap]] - 清晰公司与混乱公司在Agentic Engineering上的鸿沟
 
+## 组织前提：Agentic Engineering的脚手架不仅是技术
+
+Miessler的观察为Agentic Engineering补充了一个常被忽视的前提：不是所有组织都"配得上"Agentic Engineering。混乱公司（那些连自己的工作流都描述不出来的"黑盒"）引入AI Agent，结果不是效率提升，而是混乱的放大——Agent更高效地生成无用的幻灯片、图表和花架子 ([[companies-not-ready-for-ai]])。
+
+这意味着Agentic Engineering的纪律在组织层面有一个前置条件：[[clarity-before-automation]]（先清晰再自动化）。你无法为AI Agent设计有效的脚手架，如果你自己都不知道护栏该围住什么。
+
 ## 参考资料
 
 1. Karpathy在Sequoia AI Ascent 2026的访谈（[[karpathy-interview-agentic-engineering]]）

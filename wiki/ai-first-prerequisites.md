@@ -43,3 +43,7 @@ Anthropic和OpenAI自己都不敢在Claude Code和Codex上全自动迭代——�
 - [[ai-first-strategy-wrong]]——源文件
 - [[organizational-self-knowledge]]——五大前提本质上是组织自我认知的最低门槛
 - [[clarity-before-automation]]——先清晰再自动化：做不到五大前提，说明组织还没"配得上"AI
+
+## 技术前提之上还有组织前提
+
+五大前提是技术层面的最低门槛，但Miessler指出还有一个更深层的组织前提：公司能否清晰描述自己的目标、工作流、决策机制和资源配置。技术基础设施可以补建，但如果组织本身就是一个"混乱黑盒"——连战略是什么、面临哪些挑战、工作流(work streams)怎样运转都回答不出来——那五大前提即便做到了，AI也只是在更高效的混乱上运行 ([[companies-not-ready-for-ai]])。[[organizational-self-knowledge]]和五大前提共同构成了AI First的双重前提：组织面和技术面缺一不可。

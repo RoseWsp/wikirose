@@ -1,5 +1,22 @@
 # Log
 
+## [2026-05-04 11:00] digest | 大多数公司根本没有为 AI 做好准备
+- 源文件：[[companies-not-ready-for-ai]]
+- 深度更新现有概念页（添加源文件的实质性论据、隐喻、细节）：
+  - [[organizational-self-knowledge]]：添加完整10问题清单（含metrics和成本）、季度一致性诊断标准、"混乱黑盒"节（含TV static隐喻和work streams观察）、"给故障发动机镀金"隐喻、小企业结构性优势论据、AI在新世界角色（"门票"而非"武器"）
+  - [[ai-readiness-gap]]：添加"镀金"隐喻原文、"竞争对手也一样烂"均衡论、AI在新世界的真实角色（武器vs门票）、均衡被打破论据
+  - [[clarity-before-automation]]：扩展核心问题的紧迫性（"必须不遗余力尽快达到那个状态"）、添加Miessler咨询经验证据、问题严重性诊断（"不是技术成熟度问题，根源要深刻得多"）
+  - [[harness-engineering]]：添加"组织层面的脚手架"节——脚手架工程的前提不只是技术基础设施，而是组织已理清"要做什么"；组织面vs技术面是同一枚硬币的两面
+  - [[architect-operator-model]]：添加架构师能力=组织自我认知在个人层面映射的具体论证，引用Miessler的10问题
+  - [[agentic-engineering]]：添加"组织前提"节——不是所有组织都配得上Agentic Engineering，混乱黑盒引入Agent只会放大混乱
+  - [[ai-first-prerequisites]]：添加"技术前提之上还有组织前提"节——五大前提是技术门槛，组织自我认知是更深层前提
+  - [[product-taste]]：扩展clarity-before-automation关联，添加Miessler的具体10问题与产品品味的呼应
+  - [[role-convergence]]：添加与organizational-self-knowledge的深层联系——角色融合的前提是组织目标清晰
+  - [[builder-reviewer-model]]：添加clarity-before-automation反向链接，Builder驱动AI的前提是组织已"配得上"AI
+  - [[organizational-self-knowledge]]：添加role-convergence反向链接
+- 无新页面创建
+- 无矛盾标记
+
 ## [2026-05-04 10:00] ingest | 大多数公司根本没有为 AI 做好准备
 - 源文件：[[companies-not-ready-for-ai]]
 - 创建概念页：

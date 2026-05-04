@@ -81,6 +81,23 @@ graph TD
     AJ --> Y
     AJ --> I
 
+    AK[hassabis-agi-agents-science] --> AL[agi-missing-pieces]
+    AK --> AM[einstein-test]
+    AK --> AN[alphafold-breakthrough-conditions]
+    AK --> AO[continual-learning]
+    AK --> AP[general-specialized-architecture]
+    AK --> AQ[jevons-paradox-inference]
+    AL --> AO
+    AL --> U
+    AL --> H_jag[jagged-intelligence]
+    AM --> AL
+    AM --> H_jag
+    AN --> AP
+    AP --> Y
+    AO --> W
+    AQ --> W
+    AO --> H_jag
+
     B --> J
     I --> B
 ```
@@ -190,9 +207,24 @@ graph TD
 
 关键洞察：这个主题与[[harness-engineering]]（脚手架工程）、[[ai-first-prerequisites]]（五大前提）形成深层呼应——工程层面的"先搭脚手架再让AI跑"和组织层面的"先清晰目标再让AI执行"是同一枚硬币的两面。小企业更容易清晰描述自身，加上AI的战斗力加成，可以爆发出堪比大企业的力量。
 
+### 新兴主题：AGI路径与AI for Science
+
+最新摄取的源文件[[hassabis-agi-agents-science]]揭示了DeepMind CEO对AGI、Agent和科学突破的判断：
+
+- **AGI 50/50**：[[agi-missing-pieces]]现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破。三个未解问题：[[continual-learning|持续学习]]、长程推理、记忆
+- **爱因斯坦测试**：[[einstein-test]]AI创造力的终极标准——不是解决已知难题，而是能否发明新概念框架
+- **AlphaFold式突破**：[[alphafold-breakthrough-conditions]]三条件框架（巨大搜索空间+清晰目标函数+足够数据）界定了AI for Science的适用边界
+- **通用+专用**：[[general-specialized-architecture]]做好垂直专用系统在AGI时代依然有价值，因为通用模型会调用它们作为工具
+- **推理永不免费**：[[jevons-paradox-inference]]杰文斯悖论意味着Agent矩阵的规模扩展不会因推理降价而消失上限
+
+关键洞察：Hassabis的50/50判断比大多数行业声音更克制。他对Agent投入产出比的质疑值得注意——"启动几十个智能体跑40小时，但不确定产出能匹配投入"。AGI中途到来对深科技创始人不是时间表判断，而是架构题：你今天建的系统，到那时是被替换，还是成为AGI会主动调用的工具？
+
 ## 探索路径
 
 ### 从概念开始
+- [[agi-missing-pieces]] - AGI的50/50判断：还缺什么
+- [[einstein-test]] - AI创造力的终极测试：能否发明围棋
+- [[continual-learning]] - 持续学习：AGI和Agent的共同瓶颈
 - [[llm-knowledge-management]] - LLM作为核心维护者的新范式
 - [[compiled-knowledge-base]] - 编译型知识库架构
 - [[knowledge-compounding]] - 知识复利效应机制
@@ -228,6 +260,9 @@ graph TD
 - [[organizational-self-knowledge]] - 组织自我认知：AI赋能的前提不是AI技术，而是组织能否清晰描述自己
 - [[ai-readiness-gap]] - AI准备度鸿沟：清晰公司与混乱公司之间的差距正在扩大
 - [[clarity-before-automation]] - 先清晰再自动化：你无法优化一个连自己都没搞懂的东西
+- [[general-specialized-architecture]] - 通用编排器+专用工具：做好垂直系统在AGI时代依然有价值
+- [[alphafold-breakthrough-conditions]] - AlphaFold式突破三条件：巨大搜索空间+清晰目标+足够数据
+- [[jevons-paradox-inference]] - 推理的杰文斯悖论：推理可能永远不免费
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -243,6 +278,7 @@ graph TD
 - [[ai-first-strategy-wrong]] - CREAO实践：AI First的真正前提是软件工程基础，脚手架工程取代写代码
 - [[ai-native-hiring-guide]] - AI-Native工程师招聘面试官手册：Builder/Reviewer双岗、7模块面试、6项一票否决
 - [[companies-not-ready-for-ai]] - Daniel Miessler：大多数公司根本没有为AI做好准备
+- [[hassabis-agi-agents-science]] - Demis Hassabis：AGI还缺什么、智能体投入产出比、AlphaFold式突破、爱因斯坦测试
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -256,9 +292,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：13篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色 + AI First战略批判 + AI-Native招聘手册 + 组织自我认知与AI准备度）
-- **概念页**：40个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来、Research Preview、AGI Pilled、角色融合、Agent矩阵、脚手架工程、AI优先五大前提、架构师-操作员模型、自愈流水线、Builder-Reviewer模型、AI驾驶能力、AI-Native一票否决项、组织自我认知、AI准备度鸿沟、先清晰再自动化）
-- **总页面**：56个（含home、index、log、13源摘要、40概念页）
-- **最后更新**：2026-05-04（新增Daniel Miessler"大多数公司根本没有为AI做好准备"源文件及3个概念页：组织自我认知、AI准备度鸿沟、先清晰再自动化）
+- **源文件**：14篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色 + AI First战略批判 + AI-Native招聘手册 + 组织自我认知与AI准备度 + Hassabis AGI/Agent/Science）
+- **概念页**：46个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来、Research Preview、AGI Pilled、角色融合、Agent矩阵、脚手架工程、AI优先五大前提、架构师-操作员模型、自愈流水线、Builder-Reviewer模型、AI驾驶能力、AI-Native一票否决项、组织自我认知、AI准备度鸿沟、先清晰再自动化、AGI缺什么、爱因斯坦测试、AlphaFold式突破三条件、持续学习、通用+专用架构、推理的杰文斯悖论）
+- **总页面**：63个（含home、index、log、14源摘要、46概念页）
+- **最后更新**：2026-05-04（新增Hassabis "AGI还缺什么，智能体到底行不行，下一个科学突破长什么样"源文件及6个概念页：AGI缺什么、爱因斯坦测试、AlphaFold式突破三条件、持续学习、通用+专用架构、推理的杰文斯悖论）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

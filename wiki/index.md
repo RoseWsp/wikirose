@@ -3,6 +3,7 @@
 # Index
 
 ## Sources (源文件摘要)
+- [[hassabis-agi-agents-science]] - Demis Hassabis：AGI还缺什么（50/50判断）、智能体投入产出比、AlphaFold式突破三条件、爱因斯坦测试
 - [[karpathy-llm-knowledge-management]] - Andrej Karpathy的LLM知识管理方法实践，将Obsidian从"收藏夹"升级为编译型知识库
 - [[anthropic-cat-wu-product-taste]] - Anthropic产品负责人Cat Wu访谈：代码廉价化时代的产品品味崛起与行动派AI范式
 - [[karpathy-obsidian-rebuild]] - 个人实践：用Karpathy方法一小时重建Obsidian知识库的体验与认知转变
@@ -18,6 +19,12 @@
 - [[companies-not-ready-for-ai]] - Daniel Miessler：大多数公司根本没有为AI做好准备，问题不在AI技术，在于组织自我认知
 
 ## Concepts (概念)
+- [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破
+- [[einstein-test]] - AI创造力的终极测试：用1901年物理学知识训练系统，看它能否产出狭义相对论
+- [[alphafold-breakthrough-conditions]] - AlphaFold式突破三条件：巨大搜索空间+清晰目标函数+足够数据或模拟器
+- [[continual-learning]] - 持续学习：模型部署后从新经验中学习的能力，AGI和Agent的共同瓶颈
+- [[general-specialized-architecture]] - 通用编排器+专用工具架构：做好垂直专用系统在AGI时代依然有巨大价值
+- [[jevons-paradox-inference]] - 推理的杰文斯悖论：效率提高→需求增加→消耗掉所有效率收益，推理可能永远不免费
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
 - [[compiled-knowledge-base]] - 将原始素材编译为结构化知识网络的架构
 - [[knowledge-compounding]] - 知识复利效应：查询结果写回wiki使知识指数增长

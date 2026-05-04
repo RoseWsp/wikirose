@@ -141,6 +141,9 @@ Karpathy的公式：
 - [[mechanistic-interpretability]] - 理解锯齿状智能成因的底层工具：特征分解与电路追踪
 - [[ai-agent-frameworks]] - 不同框架在能力分布上的差异
 - [[ai-piloting]] - 理解AI能力不均匀性是有效驾驶AI Agent的前提：知道哪里该信任、哪里该验证
+- [[agi-missing-pieces]] - 锯齿状智能是AGI三个未解问题（持续学习、长程推理、记忆）的具体表现
+- [[einstein-test]] - 锯齿状智能的极端：能解已知难题但无法发明新框架
+- [[continual-learning]] - 持续学习缺失使锯齿无法通过经验自修复
 
 ## 参考资料
 

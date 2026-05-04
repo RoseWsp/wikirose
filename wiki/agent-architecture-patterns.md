@@ -72,6 +72,8 @@ Agent-first：个人经验驱动。skill由agent自创自改进，越用越好�
 - [[agentic-engineering]] — 大规模部署Agent需要的工程纪律
 - [[action-based-ai]] — 两种架构模式都是行动派AI的技术实现
 - [[product-taste]] — 架构模式选择本身就是产品品味决策
+- [[general-specialized-architecture]] — 通用+专用架构是Gateway-first在更宏观层面的映射：通用编排器调用专用工具
+- [[continual-learning]] — 持续学习是Agent-first架构自我进化的前提，也是当前Agent无法"交付后不管"的根因
 
 ---
 *基于[[openclaw-hermes-architecture]]的深度架构对比分析。*

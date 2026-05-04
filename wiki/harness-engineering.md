@@ -47,6 +47,8 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 - [[dual-horizon-planning]]——CREAO每天3-8次部署的极端速度，靠的是脚手架工程而不是规划本身
 - [[organizational-self-knowledge]]——脚手架工程的前提是组织具备自我认知，能清晰描述目标和工作流
 - [[clarity-before-automation]]——先清晰再自动化：脚手架工程是"先想清楚做什么"的工程方法论
+- [[general-specialized-architecture]]——脚手架工程为AI构建的"工作环境"本质上就是通用+专用的分工：通用模型编排，专用系统执行
+- [[jevons-paradox-inference]]——推理配额是脚手架的长期约束，Agent预算管理不只是成本优化
 
 ## 组织层面的脚手架
 

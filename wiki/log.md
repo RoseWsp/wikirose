@@ -1,5 +1,33 @@
 # Log
 
+## [2026-05-04 12:00] ingest | Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样
+- 源文件：[[hassabis-agi-agents-science]]
+- 创建概念页：
+  - [[agi-missing-pieces]]（AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破）
+  - [[einstein-test]]（AI创造力的终极测试：用1901年物理学知识训练系统，看它能否产出狭义相对论）
+  - [[alphafold-breakthrough-conditions]]（AlphaFold式突破三条件：巨大搜索空间+清晰目标函数+足够数据或模拟器）
+  - [[continual-learning]]（持续学习：模型部署后从新经验中学习的能力，AGI和Agent的共同瓶颈）
+  - [[general-specialized-architecture]]（通用编排器+专用工具架构：做好垂直专用系统在AGI时代依然有巨大价值）
+  - [[jevons-paradox-inference]]（推理的杰文斯悖论：效率提高→需求增加→消耗掉所有效率收益）
+- 更新现有概念页：
+  - [[jagged-intelligence]]：添加AGI缺什么、爱因斯坦测试、持续学习关联
+  - [[agent-matrix]]：添加Hassabis对Agent投入产出比的质疑、持续学习缺失、推理杰文斯悖论关联
+  - [[agi-pilled]]：添加AGI 50/50判断作为校准锚点
+  - [[vibe-coding]]：添加爱因斯坦测试关联（半小时做Theme Park原型但没爆款）
+  - [[neural-computer]]：添加持续学习关联（神经计算机可能天然支持持续学习）
+  - [[harness-engineering]]：添加通用+专用架构、推理杰文斯悖论关联
+  - [[agent-architecture-patterns]]：添加通用+专用架构、持续学习关联
+- 交叉链接：
+  - [[jagged-intelligence]] → [[agi-missing-pieces]]、[[einstein-test]]、[[continual-learning]]
+  - [[agent-matrix]] → [[continual-learning]]、[[jevons-paradox-inference]]
+  - [[agi-pilled]] → [[agi-missing-pieces]]
+  - [[vibe-coding]] → [[einstein-test]]
+  - [[neural-computer]] → [[continual-learning]]
+  - [[harness-engineering]] → [[general-specialized-architecture]]、[[jevons-paradox-inference]]
+  - [[agent-architecture-patterns]] → [[general-specialized-architecture]]、[[continual-learning]]
+- 索引更新：[[index]]添加1源摘要+6概念页
+- 门户更新：[[home]]添加AGI路径与AI for Science主题、概念图扩展、探索路径更新、状态更新
+
 ## [2026-05-04 11:00] digest | 大多数公司根本没有为 AI 做好准备
 - 源文件：[[companies-not-ready-for-ai]]
 - 深度更新现有概念页（添加源文件的实质性论据、隐喻、细节）：

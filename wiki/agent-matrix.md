@@ -24,6 +24,8 @@ Cat Wu 用 "building blocks" 描述长期路线。核心构建单元是**单任�
 
 这与[[action-based-ai]]的范式转移一致：从"人操作工具"到"Agent 代替人操作工具"再到"Agent 矩阵自主运行"。
 
+Hassabis对Agent矩阵的投入产出比提出了质疑："很多人启动几十个智能体跑40个小时，但我不确定产出能匹配这种级别的投入。"缺乏[[continual-learning]]是Agent无法可靠运行的根本原因。([[hassabis-agi-agents-science]])
+
 ## 实现前提
 
 Agent 矩阵要成真，需要解决几个问题：
@@ -32,7 +34,7 @@ Agent 矩阵要成真，需要解决几个问题：
 - **上下文管理** — 50 个 Agent 同时运行时的 token 成本和上下文共享
 - **编排层** — 谁来决定哪个 Agent 做什么？这本身可能需要一个 meta-agent
 
-Cat Wu 确认 token 成本在涨：每次模型升级后人们把更多任务交给 AI，单个工程师的 token 成本持续上升，但仍远低于薪资。([[cat-wu-ai-pm-role]])
+Cat Wu 确认 token 成本在涨：每次模型升级后人们把更多任务交给 AI，单个工程师的 token 成本持续上升，但仍远低于薪资。([[cat-wu-ai-pm-role]]) [[jevons-paradox-inference|推理的杰文斯悖论]]也指出：Agent矩阵的规模扩展不会因为推理降价而消失上限。
 
 ## Cowork 的定位
 

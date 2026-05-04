@@ -87,6 +87,7 @@ Vibe Coding标志着编程范式的根本转变：
 - [[pm-as-gap-filler]] - Vibe Coding降低门槛让更多人能"做"，PM从"规划者"变为"填空人"
 - [[harness-engineering]] - 脚手架工程：Vibe Coding的对立面——一个靠系统，一个靠感觉；Vibe Coding只能做原型，脚手架工程才能做生产
 - [[ai-piloting]] - AI驾驶能力：Vibe Coding的反面——凭感觉调prompt vs 系统性协作，前者靠运气后者靠纪律
+- [[einstein-test]] - 创造力的终极测试：vibe coding半小时做出Theme Park原型，但还没出爆款——缺的可能不是执行速度，而是[[einstein-test|发明围棋]]级别的创造力
 
 ## 参考资料
 

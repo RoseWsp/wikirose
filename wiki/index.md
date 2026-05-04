@@ -17,6 +17,7 @@
 - [[ai-first-strategy-wrong]] - CREAO实践：AI First的真正前提是软件工程基础，脚手架工程取代写代码成为核心
 - [[ai-native-hiring-guide]] - AI-Native工程师招聘面试官手册：Builder/Reviewer双岗模型、7模块60分钟面试、6项一票否决
 - [[companies-not-ready-for-ai]] - Daniel Miessler：大多数公司根本没有为AI做好准备，问题不在AI技术，在于组织自我认知
+- [[spiegel-software-no-moat]] - Evan Spiegel对谈：软件护城河是假的，分发才是瓶颈，社会抵触AI被低估
 
 ## Concepts (概念)
 - [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破
@@ -65,6 +66,11 @@
 - [[organizational-self-knowledge]] - 组织自我认知：AI赋能的前提不是AI技术，而是组织能否清晰描述自己
 - [[ai-readiness-gap]] - AI准备度鸿沟：清晰公司用AI如虎添翼，混乱公司用AI只是镀金
 - [[clarity-before-automation]] - 先清晰再自动化：你无法去优化一个连你自己都没搞懂的东西
+- [[software-no-moat]] - 软件功能不构成护城河：功能被快速复制，生态系统、硬件、关系才是壁垒
+- [[distribution-bottleneck]] - 分发是消费级产品的真正瓶颈：产品好不好不重要，能不能送到用户手里才重要
+- [[loonshots-dual-organization]] - Loonshots双组织模型：创新团队和运营团队共存，领导者维护对话而非偏向一极
+- [[listen-dont-build]] - 倾听用户但不照做：从反馈中提取底层需求，做出全新品类
+- [[social-resistance-to-ai]] - 社会对AI变革的抵触：科技行业严重低估了人类接受度对技术部署速度的制约
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

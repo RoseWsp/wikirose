@@ -38,3 +38,4 @@ Daniel Miessler指出一个极其讽刺的事实：**那些能被AI真正赋能�
 - [[architect-operator-model]] — 跨越鸿沟后的组织形态
 - [[product-taste]] — 产品品味是清晰目标的另一种表达
 - [[builder-reviewer-model]] — Builder-Reviewer模型是AI-ready团队的招聘形态
+- [[social-resistance-to-ai]] — 准备度鸿沟不只存在于组织层面，也存在于社会层面——用户对AI的接受度决定了技术实际部署速度 ([[spiegel-software-no-moat]])

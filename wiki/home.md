@@ -98,6 +98,19 @@ graph TD
     AQ --> W
     AO --> H_jag
 
+    AR[spiegel-software-no-moat] --> AS[software-no-moat]
+    AR --> AT[distribution-bottleneck]
+    AR --> AU[loonshots-dual-organization]
+    AR --> AV[listen-dont-build]
+    AR --> AW[social-resistance-to-ai]
+    AS --> I
+    AT --> AS
+    AU --> O
+    AU --> AD
+    AV --> I
+    AW --> AI
+    AW --> AJ
+
     B --> J
     I --> B
 ```
@@ -219,6 +232,18 @@ graph TD
 
 关键洞察：Hassabis的50/50判断比大多数行业声音更克制。他对Agent投入产出比的质疑值得注意——"启动几十个智能体跑40小时，但不确定产出能匹配投入"。AGI中途到来对深科技创始人不是时间表判断，而是架构题：你今天建的系统，到那时是被替换，还是成为AGI会主动调用的工具？
 
+### 新兴主题：软件护城河与分发瓶颈
+
+最新摄取的源文件[[spiegel-software-no-moat]]揭示了Evan Spiegel（Snap CEO）对消费级产品的核心判断：
+
+- **软件功能不构成护城河**：[[software-no-moat]]——Stories被抄、AR镜头被抄、连Snapchat+都被Instagram+照抄。真正难复制的是生态系统、硬件和平台关系
+- **分发才是真正瓶颈**：[[distribution-bottleneck]]——2011年的移动红利窗口已关，TikTok用钱解决、Threads用导流解决，近15年几乎没有新社交产品靠产品创新活下来
+- **倾听用户但不照做**：[[listen-dont-build]]——用户要"发送所有人按钮"，Snap做了Stories。从表面需求中提取底层需求，做出全新品类
+- **双组织模型**：[[loonshots-dual-organization]]——大型运营团队和小型创新团队共存，领导者维护对话而非偏向一极
+- **社会抵触AI被低估**：[[social-resistance-to-ai]]——技术领袖以为用户自动接受新技术，Spiegel预计抵触比预期更大更持久
+
+关键洞察：这个主题与wiki中[[product-taste]]（品味是不可复制的护城河）、[[ai-readiness-gap]]（准备度鸿沟从组织延伸到社会）、[[clarity-before-automation]]（先清晰再自动化的社会维度）形成深层呼应。Spiegel的判断来自15年消费级产品实战，为AI产品战略提供了"反共识"视角——技术能力不是瓶颈，人类接受度才是。
+
 ## 探索路径
 
 ### 从概念开始
@@ -292,9 +317,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：14篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色 + AI First战略批判 + AI-Native招聘手册 + 组织自我认知与AI准备度 + Hassabis AGI/Agent/Science）
-- **概念页**：46个（LLM知识管理、编译型知识库、知识复利、产品品味、行动派AI、Obsidian优化、RAG替代方案、AI Agent框架、Agent架构模式、Obsidian重建体验、知识编译工作流、健康检查、增量编译、知识工程、机制可解释性、Vibe Coding、Agentic Engineering、Software 3.0、锯齿状智能、神经计算机、用产品建产品、极简产品规格、双极规划、海盗船式团队、PM是填空岗位、Power User拉你进未来、Research Preview、AGI Pilled、角色融合、Agent矩阵、脚手架工程、AI优先五大前提、架构师-操作员模型、自愈流水线、Builder-Reviewer模型、AI驾驶能力、AI-Native一票否决项、组织自我认知、AI准备度鸿沟、先清晰再自动化、AGI缺什么、爱因斯坦测试、AlphaFold式突破三条件、持续学习、通用+专用架构、推理的杰文斯悖论）
-- **总页面**：63个（含home、index、log、14源摘要、46概念页）
-- **最后更新**：2026-05-04（新增Hassabis "AGI还缺什么，智能体到底行不行，下一个科学突破长什么样"源文件及6个概念页：AGI缺什么、爱因斯坦测试、AlphaFold式突破三条件、持续学习、通用+专用架构、推理的杰文斯悖论）
+- **源文件**：15篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色 + AI First战略批判 + AI-Native招聘手册 + 组织自我认知与AI准备度 + Hassabis AGI/Agent/Science + Evan Spiegel软件护城河）
+- **概念页**：51个（…+软件功能不构成护城河、分发瓶颈、Loonshots双组织、倾听用户但不照做、社会对AI的抵触）
+- **总页面**：69个（含home、index、log、15源摘要、51概念页）
+- **最后更新**：2026-05-04（新增Evan Spiegel"软件护城河是假的"源文件及5个概念页：软件功能不构成护城河、分发瓶颈、Loonshots双组织、倾听用户但不照做、社会对AI的抵触）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

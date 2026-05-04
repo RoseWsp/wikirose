@@ -29,3 +29,4 @@ GPT-5.2 Codex发布后，用户开始用tmux同时开18个终端窗口运行Code
 - [[product-taste]] — 判断哪些power user行为值得产品化需要品味
 - [[agentic-engineering]] — 产品简化不意味着工程简化
 - [[agi-pilled]] — power user突破产品极限的地方，正是模型边界和产品机会的交汇点——AGI信仰校准的信号源
+- [[distribution-bottleneck]] — 当分发渠道被封锁，power user的口碑传播成了稀缺的分发替代路径 ([[spiegel-software-no-moat]])

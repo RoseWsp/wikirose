@@ -137,4 +137,7 @@ Research preview机制是产品品味在发布策略上的体现：判断哪些�
 ### [[einstein-test]]与[[vibe-coding]]
 Hassabis指出工具降低执行门槛后缺的不是速度，而是"craft和soul"——某种人类的品味和执着。半小时做出Theme Park原型（原来要6个月），但还没有vibe coding做出的爆款。产品品味在AI时代可能正是这种"craft和soul"的另一种说法。([[hassabis-agi-agents-science]])
 
+### [[software-no-moat]]
+Evan Spiegel的判断："被抄总比做出没人想抄的东西好"——当软件功能不再构成护城河，产品品味决定了你选择构建什么样的生态系统和关系型壁垒，而非功能型壁垒。品味是不可复制的护城河。([[spiegel-software-no-moat]])
+
 > 来源：[[anthropic-cat-wu-product-taste]]详细阐述了代码廉价化背景下产品品味的崛起。[[cat-wu-ai-pm-role]]补充了AGI信仰校准和角色融合的具体实践。

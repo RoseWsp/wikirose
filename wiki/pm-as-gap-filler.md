@@ -33,3 +33,4 @@ PM需求的大小和你离用户的距离有关。如果你就是自己产品的
 - [[architect-operator-model]] — 填空岗位的极端形态：PM可能完全消失，只剩架构师定义标准、操作员执行验证
 - [[builder-reviewer-model]] — Builder可以覆盖PM职能：跨角色作战，不需要授权就能推动事情发生。具体来说：Builder写高质量Issues、快速出原型、从用户视角关注业务价值——这些正是PM传统上做的事
 - [[ai-native-veto]] — "Issues写得像工单没有上下文"是一票否决项——PM和工程师的沟通能力在新流程中都是生存线
+- [[loonshots-dual-organization]] — Snap的实践：200人之后才招第一个PM，因为设计团队本身就是产品方向的驱动者，PM更多是填补跨职能协调的空缺 ([[spiegel-software-no-moat]])

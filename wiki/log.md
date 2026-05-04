@@ -1,5 +1,22 @@
 # Log
 
+## [2026-05-04 14:00] ingest | 软件护城河是假的，Snap在15年前就知道了
+- 源文件：[[spiegel-software-no-moat]]
+- 创建概念页：
+  - [[software-no-moat]]（软件功能不构成护城河：功能被快速复制，生态系统、硬件、关系才是壁垒）
+  - [[distribution-bottleneck]]（分发是消费级产品的真正瓶颈：产品好不好不重要，能不能送到用户手里才重要）
+  - [[loonshots-dual-organization]]（Loonshots双组织模型：创新团队和运营团队共存，领导者维护对话而非偏向一极）
+  - [[listen-dont-build]]（倾听用户但不照做：从反馈中提取底层需求，做出全新品类）
+  - [[social-resistance-to-ai]]（社会对AI变革的抵触：科技行业严重低估了人类接受度对技术部署速度的制约）
+- 交叉链接更新：
+  - [[product-taste]]：添加software-no-moat关联（品味是不可复制的护城河）
+  - [[pm-as-gap-filler]]：添加loonshots-dual-organization关联（Snap 200人后才招第一个PM）
+  - [[role-convergence]]：添加Spiegel观察（设计师开始直接提交代码，AI加速角色融合）
+  - [[ai-readiness-gap]]：添加social-resistance-to-ai关联（准备度鸿沟从组织延伸到社会）
+  - [[clarity-before-automation]]：添加listen-dont-build和social-resistance-to-ai关联
+  - [[power-user-pull]]：添加distribution-bottleneck关联（power user口碑是稀缺的分发替代路径）
+  - [[dogfooding-as-method]]：添加loonshots-dual-organization关联（Snap内部App摇一摇+AI自动修复）
+
 ## [2026-05-04 12:30] digest | Demis Hassabis：AGI还缺什么，智能体到底行不行，下一个科学突破长什么样
 - 源文件：[[hassabis-agi-agents-science]]
 - 深度更新现有概念页（添加源文件的实质性论据、证据、细节）：

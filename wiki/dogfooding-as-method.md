@@ -18,6 +18,8 @@ AI团队不只是"吃自己的狗粮"（用自己开发的产品），而是把d
 
 ## 关联
 
+- [[loonshots-dual-organization]] — Snap的双组织模型中，内部App"摇一摇报告bug+AI自动诊断修复"是dogfooding在AI时代的新形态：不只是团队自己用产品，而是用AI把dogfooding的反馈闭环自动化 ([[spiegel-software-no-moat]])
+
 - [[product-taste]] — dogfooding的前提是你有品味判断"应该构建什么"
 - [[agentic-engineering]] — 用产品建产品需要新的工程纪律来保证质量
 - [[vibe-coding]] — Codex团队明确区分自己不是"凭感觉编程"，而是在系统思考和质量把控上大量投入

@@ -20,10 +20,11 @@ AlphaGo第二局第37手（Move 37）让人类棋手震惊，Hassabis看到这�
 
 ## 当前系统缺什么
 
-Hassabis认为当前系统缺乏"类比推理"（analogical reasoning）能力。真正的发现超越了模式匹配（因为没有现成模式可以匹配），也超越了简单的外推。这和[[jagged-intelligence]]中"缺乏自省"的观察是一致的——系统不知道自己不知道什么。
+Hassabis认为当前系统缺乏"类比推理"（analogical reasoning）能力。真正的发现超越了模式匹配（因为没有现成模式可以匹配），也超越了简单的外推。他坦白说，还没有看到任何一个来自AI的"重大发现"。Google DeepMind有Co-Scientist这样的通用科学推理系统，也有AlphaEvolve这类在基础Gemini之上增加能力的算法，但真正的突破还没有到来。这和[[jagged-intelligence]]中"缺乏自省"的观察是一致的——系统不知道自己不知道什么。([[hassabis-agi-agents-science]])
 
 ## 与其他概念的关系
 
 - [[agi-missing-pieces]] — "类比推理"可能是Hassabis所说的缺失的"一两个大想法"之一
 - [[jagged-intelligence]] — 锯齿状智能的极端表现：能解已知难题但无法发明新框架
 - [[alphafold-breakthrough-conditions]] — AlphaFold在"搜索大空间+优化目标函数"框架内成功，但爱因斯坦测试要求的是发明新的搜索空间本身
+- [[vibe-coding]] — 工具降低执行门槛（半小时做出Theme Park原型），但创造力本身（craft和soul）还没有被替代

@@ -21,7 +21,11 @@ Hassabis在YC访谈中给出了一个清晰的架构判断：([[hassabis-agi-age
 
 Hassabis的建议：找到AI和另一个硬科学领域的交叉点。材料科学、医学、任何涉及物理世界的硬科学问题。这类跨学科团队在可预见的未来不会被基础模型的下一次更新取代。
 
-如果你的AGI时间线是2030年，深科技创业通常需要10年，那AGI会在你旅程的中途出现。你今天建的专用系统，到那时不是被替换，而是成为AGI会主动调用的工具。这回答了[[clarity-before-automation|先清晰再自动化]]在AGI时代的版本：你建的系统是在AGI的价值链中占据一环，还是被完全绕过？
+如果你的AGI时间线是2030年，深科技创业通常需要10年，那AGI会在你旅程的中途出现。你今天建的专用系统，到那时不是被替换，而是成为AGI会主动调用的工具。Hassabis还给出了一个反直觉的鼓励：
+
+> 追求困难的问题和追求简单的问题，难度其实差不多。只是难的地方不一样。
+
+这回答了[[clarity-before-automation|先清晰再自动化]]在AGI时代的版本：你建的系统是在AGI的价值链中占据一环，还是被完全绕过？
 
 ## 与其他概念的关系
 
@@ -30,3 +34,5 @@ Hassabis的建议：找到AI和另一个硬科学领域的交叉点。材料科�
 - [[agent-architecture-patterns]] — Gateway-first架构是通用+专用在Agent层面的映射
 - [[harness-engineering]] — 脚手架工程为AI构建的"工作环境"本质上就是通用+专用的分工
 - [[clarity-before-automation]] — 专用系统的前提是清晰定义问题域
+- [[alphafold-breakthrough-conditions]] — AlphaFold本身就是专用工具的典范，满足三条件框架
+- [[jevons-paradox-inference]] — 推理配额限制强化了通用+专用分层的必要性——专用系统更高效地使用算力

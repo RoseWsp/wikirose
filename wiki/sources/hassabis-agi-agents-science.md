@@ -92,3 +92,6 @@ Hassabis用Gemini下棋时观察到一个现象：模型识别出一步是臭棋
 - [[action-based-ai]] - 从聊天到行动派的范式转移
 - [[neural-computer]] - 神经计算机架构设想
 - [[agent-architecture-patterns]] - Agent架构模式
+- [[product-taste]] - "craft和soul"：工具降低执行门槛但品味未被替代
+- [[harness-engineering]] - 脚手架工程在持续学习突破前只能用"胶带方案"
+- [[jevons-paradox-inference]] - 推理配额是Agent矩阵的长期约束

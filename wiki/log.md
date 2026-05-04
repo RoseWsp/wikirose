@@ -1,5 +1,25 @@
 # Log
 
+## [2026-05-04 12:30] digest | Demis Hassabis：AGI还缺什么，智能体到底行不行，下一个科学突破长什么样
+- 源文件：[[hassabis-agi-agents-science]]
+- 深度更新现有概念页（添加源文件的实质性论据、证据、细节）：
+  - [[agi-missing-pieces]]：添加记忆问题"检索成本"论据、AlphaGo遗产复活节（MCTS在现代基础模型规模上重新应用）、alphafold-breakthrough-conditions关联
+  - [[continual-learning]]：添加Agent场景从"玩具展示"到"真正增加效率"的进展观察、"梦境循环"工程临时方案的完整上下文
+  - [[einstein-test]]：添加Hassabis"还没看到AI的任何重大发现"判断、Co-Scientist和AlphaEvolve系统提及、vibe-coding关联（craft和soul）
+  - [[alphafold-breakthrough-conditions]]：添加"根节点问题"概念、AlphaFold用户数据（300万+研究人员）、制药高管反馈
+  - [[general-specialized-architecture]]：添加"追求困难问题和简单问题难度差不多"原文引用、alphafold-breakthrough-conditions和jevons-paradox-inference双向链接
+  - [[jevons-paradox-inference]]：添加Jevons原始语境（1865年煤炭）、Hassabis双重角色判断（建模型+用AI做科学使判断更有参考价值）、general-specialized-architecture双向链接
+  - [[agent-matrix]]：深化Hassabis对Agent ROI的质疑——添加"实验阶段"判断、"完整任务不够好"、"最近两三个月开始找到真正有价值场景"
+  - [[agi-pilled]]：添加Hassabis个人AGI时间线（2030年）、深科技创业AGI中途出现的商业影响
+  - [[vibe-coding]]：深化einstein-test关联——添加Theme Park原型6分钟vs 6个月对比、"craft和soul"缺失论据、6-12个月内1000倍生产力作品预测
+  - [[jagged-intelligence]]：添加Hassabis下棋观察（Gemini识别臭棋后绕一圈又回去走）、"过度思考"overthinking现象、agi-missing-pieces关联
+  - [[harness-engineering]]：添加continual-learning关联（缺乏持续学习是Agent无法交付后不管的根本原因）
+  - [[product-taste]]：添加einstein-test+vibe-coding关联（Hassabis的"craft和soul"观察——产品品味在AI时代的另一种说法）
+- 源摘要页更新：[[hassabis-agi-agents-science]]添加product-taste、harness-engineering、jevons-paradox-inference出站链接
+- 无新页面创建
+- 孤儿页面检查：所有6个概念页均有4-8个入站链接，无孤儿
+- 无矛盾标记
+
 ## [2026-05-04 12:00] ingest | Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样
 - 源文件：[[hassabis-agi-agents-science]]
 - 创建概念页：

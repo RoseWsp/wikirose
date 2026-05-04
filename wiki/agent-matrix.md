@@ -24,7 +24,7 @@ Cat Wu 用 "building blocks" 描述长期路线。核心构建单元是**单任�
 
 这与[[action-based-ai]]的范式转移一致：从"人操作工具"到"Agent 代替人操作工具"再到"Agent 矩阵自主运行"。
 
-Hassabis对Agent矩阵的投入产出比提出了质疑："很多人启动几十个智能体跑40个小时，但我不确定产出能匹配这种级别的投入。"缺乏[[continual-learning]]是Agent无法可靠运行的根本原因。([[hassabis-agi-agents-science]])
+Hassabis对Agent矩阵的投入产出比提出了质疑："很多人启动几十个智能体跑40个小时，但我不确定产出能匹配这种级别的投入。"他的判断是Agent"刚刚开始，但还在实验阶段"，在"完整任务"上还不够好。缺乏[[continual-learning]]是Agent无法做到"交付后不管"（fire and forget）的根本原因。不过他也注意到，最近两三个月人们开始找到Agent真正有价值的使用场景，不再是"玩具展示"而是真正增加效率的工具。([[hassabis-agi-agents-science]])
 
 ## 实现前提
 

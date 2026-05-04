@@ -14,6 +14,8 @@ Hassabis从AlphaGo和AlphaFold的经验中总结出的框架。他在YC访谈中
 
 药物发现也是同样的框架：总有一个化合物能治这种病、没有副作用，只要物理定律允许它存在，剩下的问题就是如何高效地找到它。
 
+Hassabis把AlphaFold称为"根节点问题"（root node problems）——一旦解决就能打开全新研究分支的科学难题。全球超过300万研究人员在使用AlphaFold，从制药界高管那里听到的反馈是"从现在起几乎每一种新药的发现过程都会用到AlphaFold"。([[hassabis-agi-agents-science]])
+
 其他领域——材料科学、气候建模、数学——目前大约处于"AlphaFold 1的阶段"，结果很有前景但还没有真正解决该领域的大挑战。Hassabis预计未来几年会有很多进展。
 
 ## 边界

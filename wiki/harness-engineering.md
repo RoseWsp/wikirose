@@ -49,6 +49,7 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 - [[clarity-before-automation]]——先清晰再自动化：脚手架工程是"先想清楚做什么"的工程方法论
 - [[general-specialized-architecture]]——脚手架工程为AI构建的"工作环境"本质上就是通用+专用的分工：通用模型编排，专用系统执行
 - [[jevons-paradox-inference]]——推理配额是脚手架的长期约束，Agent预算管理不只是成本优化
+- [[continual-learning]]——Hassabis指出缺乏持续学习是Agent无法"交付后不管"的根本原因，脚手架工程在持续学习突破前只能用上下文窗口等"胶带方案"应急
 
 ## 组织层面的脚手架
 

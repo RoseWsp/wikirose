@@ -15,6 +15,7 @@
 - [[cat-wu-ai-pm-role]] - Cat Wu深度访谈：AI PM角色重塑、Research Preview机制、AGI信仰校准、源码泄露与OpenClaw封堵
 - [[ai-first-strategy-wrong]] - CREAO实践：AI First的真正前提是软件工程基础，脚手架工程取代写代码成为核心
 - [[ai-native-hiring-guide]] - AI-Native工程师招聘面试官手册：Builder/Reviewer双岗模型、7模块60分钟面试、6项一票否决
+- [[companies-not-ready-for-ai]] - Daniel Miessler：大多数公司根本没有为AI做好准备，问题不在AI技术，在于组织自我认知
 
 ## Concepts (概念)
 - [[llm-knowledge-management]] - LLM作为核心维护者的知识管理范式
@@ -54,6 +55,9 @@
 - [[builder-reviewer-model]] - Builder-Reviewer模型：AI-Native团队只有两种角色，中间地带消失
 - [[ai-piloting]] - AI驾驶能力：机甲战士的基本功，驾驭AI Agent作为协作搭档
 - [[ai-native-veto]] - AI-Native一票否决项：6项行为信号触发即淘汰，判断力>执行力
+- [[organizational-self-knowledge]] - 组织自我认知：AI赋能的前提不是AI技术，而是组织能否清晰描述自己
+- [[ai-readiness-gap]] - AI准备度鸿沟：清晰公司用AI如虎添翼，混乱公司用AI只是镀金
+- [[clarity-before-automation]] - 先清晰再自动化：你无法去优化一个连你自己都没搞懂的东西
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

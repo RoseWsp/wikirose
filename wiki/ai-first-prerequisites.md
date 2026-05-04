@@ -41,3 +41,5 @@ Anthropic和OpenAI自己都不敢在Claude Code和Codex上全自动迭代——�
 - [[product-taste]]——判断哪些场景适合AI First本身就是产品品味
 - [[dual-horizon-planning]]——AI First的极快迭代是双极规划的加速版
 - [[ai-first-strategy-wrong]]——源文件
+- [[organizational-self-knowledge]]——五大前提本质上是组织自我认知的最低门槛
+- [[clarity-before-automation]]——先清晰再自动化：做不到五大前提，说明组织还没"配得上"AI

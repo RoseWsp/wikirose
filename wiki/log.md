@@ -1,5 +1,30 @@
 # Log
 
+## [2026-05-04 10:00] ingest | 大多数公司根本没有为 AI 做好准备
+- 源文件：[[companies-not-ready-for-ai]]
+- 创建概念页：
+  - [[organizational-self-knowledge]]（组织自我认知：AI赋能的前提不是AI技术，而是组织能否清晰描述自己的目标、工作流和决策机制）
+  - [[ai-readiness-gap]]（AI准备度鸿沟：清晰公司用AI如虎添翼，混乱公司用AI只是镀金，差距急剧扩大）
+  - [[clarity-before-automation]]（先清晰再自动化：你无法去优化一个连你自己都没搞懂的东西）
+- 更新现有概念页：
+  - [[harness-engineering]]：添加组织自我认知、先清晰再自动化关联
+  - [[ai-first-prerequisites]]：添加组织自我认知、先清晰再自动化关联
+  - [[architect-operator-model]]：添加组织自我认知、AI准备度鸿沟关联
+  - [[product-taste]]：添加先清晰再自动化关联
+  - [[agentic-engineering]]：添加组织自我认知、AI准备度鸿沟关联
+  - [[builder-reviewer-model]]：添加AI准备度鸿沟关联
+  - [[minimal-product-specs]]：添加先清晰再自动化关联
+- 交叉链接：
+  - [[harness-engineering]] → [[organizational-self-knowledge]]、[[clarity-before-automation]]
+  - [[ai-first-prerequisites]] → [[organizational-self-knowledge]]、[[clarity-before-automation]]
+  - [[architect-operator-model]] → [[organizational-self-knowledge]]、[[ai-readiness-gap]]
+  - [[product-taste]] → [[clarity-before-automation]]
+  - [[agentic-engineering]] → [[organizational-self-knowledge]]、[[ai-readiness-gap]]
+  - [[builder-reviewer-model]] → [[ai-readiness-gap]]
+  - [[minimal-product-specs]] → [[clarity-before-automation]]
+- 索引更新：[[index]]添加1源摘要+3概念页
+- 门户更新：[[home]]添加组织自我认知与AI准备度主题、概念图扩展、探索路径更新、状态更新
+
 ## [2026-05-04 00:30] digest | 5源深度整合
 - 源文件：[[openclaw-hermes-architecture]]、[[codex-team-dogfooding]]、[[cat-wu-ai-pm-role]]、[[ai-first-strategy-wrong]]、[[ai-native-hiring-guide]]
 - 深度更新现有概念页（添加源文件的实质性论据、证据、细节）：

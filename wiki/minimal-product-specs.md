@@ -28,3 +28,4 @@
 - [[pirate-ship-team]] — 小团队低协调成本让极简spec成为可能
 - [[agentic-engineering]] — AI辅助决策不意味着降低质量标准
 - [[research-preview]] — 极简spec和research preview互补：spec决定"做什么"，preview决定"怎么发布"
+- [[clarity-before-automation]] — 极简spec是"先清晰再自动化"的实践方法：10个要点足够清晰，冗长的文档反而是模糊的信号

@@ -45,3 +45,5 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 - [[builder-reviewer-model]]——Builder搭脚手架，Reviewer验证脚手架有效性
 - [[ai-piloting]]——驾驭AI Agent是搭脚手架的前提：不会驾驶，搭再好的脚手架也没用
 - [[dual-horizon-planning]]——CREAO每天3-8次部署的极端速度，靠的是脚手架工程而不是规划本身
+- [[organizational-self-knowledge]]——脚手架工程的前提是组织具备自我认知，能清晰描述目标和工作流
+- [[clarity-before-automation]]——先清晰再自动化：脚手架工程是"先想清楚做什么"的工程方法论

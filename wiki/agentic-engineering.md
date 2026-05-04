@@ -144,6 +144,8 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[builder-reviewer-model]] - Agentic Engineering在人才维度的具体化：Builder驱动AI，Reviewer守住防线
 - [[ai-piloting]] - AI驾驶能力：Agentic Engineering的个人技能维度，不会驾驶一切纪律都是空谈
 - [[ai-native-veto]] - Agentic Engineering纪律的最低门槛：6项行为信号触发即淘汰
+- [[organizational-self-knowledge]] - Agentic Engineering的前提是组织具备自我认知，否则AI只会放大混乱
+- [[ai-readiness-gap]] - 清晰公司与混乱公司在Agentic Engineering上的鸿沟
 
 ## 参考资料
 

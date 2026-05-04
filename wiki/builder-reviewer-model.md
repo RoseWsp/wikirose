@@ -40,3 +40,4 @@ Builder不需要授权就能推动事情发生——从发现问题、写Issue�
 - [[product-taste]]——Builder的核心直觉来源
 - [[pm-as-gap-filler]]——PM在Builder-Reviewer模型中的位置：Builder可以覆盖PM职能
 - [[ai-native-hiring-guide]]——源文件
+- [[ai-readiness-gap]]——Builder-Reviewer模型是AI-ready团队的招聘形态，跨越准备度鸿沟的组织才能有效运作

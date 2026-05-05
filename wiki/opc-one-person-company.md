@@ -17,9 +17,9 @@ AI降低的不仅是执行成本，更是协调、监督、沟通成本。当管
 ## 与wiki的连接
 
 - [[architect-operator-model]] — 架构师-操作员模型的极端版：一个人就是架构师，所有操作员都是AI
-- [[agent-matrix]] — Agent矩阵是OPC的技术基础
+- [[agent-matrix]] — Agent矩阵是OPC的技术基础，OPC是Agent矩阵的组织归宿
 - [[harness-engineering]] — 脚手架工程是OPC的工程保障
-- [[role-convergence]] — 角色融合的终极形态：一个人同时是产品、工程、运营
+- [[role-convergence]] — 角色融合的终极形态：一个人同时是产品、工程、运营。OPC不是多角色融合到一个人，而是一个人+AI矩阵覆盖全部职能
 - [[loop-scheduling]] — Loop调度让OPC的Agent即使关上笔记本也在跑
 
 来源：[[lijigang-experience-incompressible]]

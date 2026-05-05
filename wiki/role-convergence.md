@@ -38,4 +38,6 @@ Boris Cherny把角色融合推到了极端：Claude Code团队里工程经理、
 
 角色融合的终点不是所有人变成全栈通才，而是[[architect-operator-model]]——极少数架构师做极高层决策，极多数操作员做极具体执行，中间层消失。这是角色融合的两极分化而非均匀融合。CREAO的实践显示，初级工程师反而比资深工程师适应更快——没有旧习惯要破除 ([[ai-first-strategy-wrong]])。
 
+角色融合的另一个极端是[[opc-one-person-company|一人公司]]——一个人同时是产品、工程、运营、设计，其余全是AI agent。科斯定理在AI时代的推论：管理100个agent的成本远低于管理100个人，OPC不再是概念而是经济必然。当角色融合走到OPC，"融合"的字面意义消失了——不是多个角色融合到一个人身上，而是一个人+AI矩阵覆盖全部职能。([[lijigang-experience-incompressible]])
+
 角色融合的另一个极端形态是[[org-process-gap|组织流程代差]]——Anthropic内部全员编程不是个人能力问题，而是组织流程彻底改造的结果。同样的模型对所有人开放，但只有把AI嵌入每个工作流程的组织才能实现全员编程。([[boris-chenyi-sequoia-ai-ascent]])

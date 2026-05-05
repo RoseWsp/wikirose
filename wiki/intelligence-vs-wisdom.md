@@ -39,5 +39,9 @@ Claude承认自己没看过《吞噬星空》，但训练语料里有，所以�
 - [[continual-learning]] — 持续学习解决"不能学"，但没有体验可学
 - [[product-taste]] — 品味是智慧在产品维度的投射——不是信息处理的结果，是经验积累的痕迹
 - [[system-zero]] — 系统0压缩了获取答案的摩擦，但也压缩了生成智慧的路径
+- [[agi-missing-pieces]] — 即使AGI在能力维度上全达标，仍然可能没有智慧——缺失的可能是一整条通向智慧的路径
+- [[neural-computer]] — 更锋利的感官和更快的推理强化的是智能谱系，Neural Computer是更强的计算器，不是体验的发生器
+- [[social-resistance-to-ai]] — 人抵触AI接管判断，部分因为自主意识是智慧的前提——系统0压缩了生成智慧的路径
+- [[action-based-ai]] — 更多行动≠更多智慧，AI执行再多任务产出的都是智能不是智慧
 
 来源：[[ai-has-no-wisdom]]、[[lijigang-experience-incompressible]]

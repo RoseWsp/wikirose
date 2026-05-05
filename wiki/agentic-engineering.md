@@ -155,6 +155,14 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[loop-scheduling]] - Loop调度是Agentic Engineering在持续运行层面的实践：Boris的几十个Loop让Agent从"按需调用"变为"7x24自主运行"，是agentic engineering从"人触发"到"自主循环"的跃迁
 - [[org-process-gap]] - Boris的工作流是Agentic Engineering的极端实践：Anthropic内部所有SQL由模型生成、Agent之间通过Slack协商解决问题，Agentic Engineering不是个人方法论，而是组织层面的流程改造
 
+## 磨刀石模式的工程纪律
+
+Agentic Engineering的核心张力可以用[[steel-film-vs-whetstone|钢化膜与磨刀石]]两种模式来表达：钢化膜模式让AI替你做一切判断，你只做确认——零摩擦但认知钝化，最终变成[[architect-operator-model|纯操作员]]。磨刀石模式是你有自己的判断，用AI来打磨它——推背感强但主体性在自己手中。
+
+Agentic Engineering的纪律本质上是磨刀石模式的工程化：规格优先、验证贯穿、监督分级、责任明确——这些不是让AI替你思考，而是让AI挑战你的思考。[[ai-piloting|AI驾驶]]的精髓也在同一方向：驾驶而非乘坐，磨刀而非贴膜。([[lijigang-experience-incompressible]])
+
+更深层的问题：Agentic Engineering让AI产出更可靠，但可靠的智能≠智慧。AI在脚手架内产出的是更高质量的智能，[[intelligence-vs-wisdom|智慧]]仍然需要"经过身体"的体验。脚手架为AI构建约束，但脚手架本身不产生智慧。([[ai-has-no-wisdom]])
+
 ## 组织前提：Agentic Engineering的脚手架不仅是技术
 
 Miessler的观察为Agentic Engineering补充了一个常被忽视的前提：不是所有组织都"配得上"Agentic Engineering。混乱公司（那些连自己的工作流都描述不出来的"黑盒"）引入AI Agent，结果不是效率提升，而是混乱的放大——Agent更高效地生成无用的幻灯片、图表和花架子 ([[companies-not-ready-for-ai]])。

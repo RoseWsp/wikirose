@@ -1,3 +1,18 @@
+## [2026-05-05 20:15] digest | 李继刚：体验不可压缩 & AI有智慧吗
+- 源文件：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]
+- 深度传播：10个现有页面更新 + 6个概念页反向链接补充
+  - 新增"智慧缺口"章节：[[agi-missing-pieces]]（即使AGI能力全达标仍可能没有智慧）
+  - 体验与Neural Computer：[[neural-computer]]（感官入口≠体验，更强计算器≠体验发生器）
+  - 更多行动≠更多智慧：[[action-based-ai]]（+系统0作为行动派AI极端形态）
+  - Vibe Coding的钢化膜陷阱：[[vibe-coding]]（AI替你写代码=没下水）
+  - 磨刀石模式的工程纪律：[[agentic-engineering]]（Agentic Engineering=磨刀石的工程化）
+  - OPC作为角色融合极端：[[role-convergence]]（一个人+AI矩阵覆盖全部职能）
+  - Agent矩阵与OPC：[[agent-matrix]]（OPC是Agent矩阵的组织归宿）
+  - 准备度鸿沟的个人维度：[[ai-readiness-gap]]（钢化膜=没准备好，磨刀石=准备好，+系统0维度）
+  - 分发+黑暗森林化双重约束：[[distribution-bottleneck]]（体验不可压缩的护城河是唯一活路）
+  - 人不愿被系统0替代：[[social-resistance-to-ai]]（抵触与智慧分裂同源）
+- 反向链接补充：[[system-zero]]、[[experience-incompressible]]、[[intelligence-vs-wisdom]]、[[opc-one-person-company]]、[[steel-film-vs-whetstone]]、[[dark-forest-internet]]均补充了对传播页面的反向引用
+
 ## [2026-05-05 20:00] ingest | 李继刚：人身上，不可压缩的是体验 & AI有智慧吗
 - 源文件：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]
 - 创建源摘要页：

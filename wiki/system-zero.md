@@ -21,5 +21,7 @@ AI可能成为卡尼曼系统1和系统2之外的"系统0"——在人类直觉�
 - [[sensory-gap]]是AI"没有感官"的问题，[[system-zero]]是AI"太快给答案"的问题——两者合力让人类既缺少体验，又跳过了思考
 - [[compulsive-capability-use]]是AI获得能力后的过度使用，系统0是人类放弃能力后的过度依赖——两个方向，同一条路
 - [[clarity-before-automation]]说"先搞懂再自动化"，系统0是"还没搞懂就已经自动化了"
+- [[social-resistance-to-ai]]是人类对系统0的本能抵抗——"我的判断可能不如AI，但判断权是我的"
+- [[action-based-ai]]的极端形态就是系统0——AI不只给答案，直接替你行动，让渡行动权如同让渡决策权一样不可抗拒
 
 来源：[[lijigang-experience-incompressible]]

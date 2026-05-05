@@ -20,4 +20,12 @@
 
 两种模式的核心区别不是"用不用AI"，而是"主体性在不在自己手里"。钢化膜模式让AI替代你的判断，磨刀石模式让AI挑战你的判断。
 
+## 在wiki中的映射
+
+- [[vibe-coding]] — Vibe Coding的钢化膜形态：AI替你写代码，你只做确认。Vibe Coding的磨刀石形态：用AI的输出挑战自己对代码的理解
+- [[agentic-engineering]] — Agentic Engineering的纪律本质上是磨刀石模式的工程化：规格优先、验证贯穿、监督分级——让AI挑战你的思考，不是替代你的思考
+- [[ai-readiness-gap]] — 钢化膜模式的个体是"没准备好"的，磨刀石模式的个体是"准备好"的
+- [[ai-piloting]] — AI驾驶 = 磨刀石模式，驾驶而非乘坐
+- [[architect-operator-model]] — 纯操作员 = 钢化膜模式，架构师 = 磨刀石模式
+
 来源：[[lijigang-experience-incompressible]]

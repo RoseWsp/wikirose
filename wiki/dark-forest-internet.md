@@ -19,6 +19,6 @@
 - [[software-no-moat]] — 软件功能不构成护城河，与本主题完全同频
 - [[product-taste]] — 品味是AI看不见的护城河
 - [[experience-incompressible]] — 体验不可压缩 = 护城河在AI看不见的地方
-- [[distribution-bottleneck]] — 当功能不再稀缺，分发成为更关键的瓶颈
+- [[distribution-bottleneck]] — 分发瓶颈讲的是"怎么把产品送到用户手里"，黑暗森林化讲的是"送到了也会被复制"——两个约束叠加，消费级产品活路更窄
 
 来源：[[lijigang-experience-incompressible]]

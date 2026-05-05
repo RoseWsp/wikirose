@@ -178,6 +178,8 @@ Neural Computer可能缓解但不能完全解决Jagged Intelligence：
 - [[jagged-intelligence]] - Neural Computer需要应对的能力挑战
 - [[continual-learning]] - 神经计算机架构可能天然支持持续学习，缓解当前"快照"模型的根本限制
 - [[sensory-gap]] - Neural Computer的感知子系统正是填补AI感知缺失的架构方向
+- [[experience-incompressible]] - Neural Computer的感知子系统填补了"感官入口"，但感官入口≠体验——模拟下雨地面不会湿，感知维度增加解决的是"描述多精确"，不是"有没有发生"
+- [[intelligence-vs-wisdom]] - Neural Computer会让AI更有智能还是更有智慧？更锋利的感官和更快的推理强化的是智能谱系，智慧需要的是"经过身体"的体验——Neural Computer是更强的计算器，不是体验的发生器
 - [[karpathy-interview-agentic-engineering]] - Karpathy关于Neural Computer的原始论述
 - [[ai-agent-frameworks]] - 当前Agent技术的演进方向
 

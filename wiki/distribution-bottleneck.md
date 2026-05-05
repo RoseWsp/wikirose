@@ -30,4 +30,6 @@ Spiegel把Snapchat的早期增长归功于一个特殊的时间窗口：2011年�
 
 与[[org-process-gap]]的前瞻性连接：Boris预言颠覆性初创公司数量将增加10倍——当更多小公司能打造大公司同等量级产品时，分发瓶颈不是缓解了，而是更尖锐了。产品供给激增但用户注意力有限，分发的稀缺性反而上升。这也意味着新的分发入口（如MCP连接器、Agent市场）可能成为下一个分发红利窗口。([[boris-chenyi-sequoia-ai-ascent]])
 
+与[[dark-forest-internet]]的互补：分发瓶颈讲的是"怎么把产品送到用户手里"，黑暗森林化讲的是"送到了也会被复制"——两个约束叠加，消费级产品的生存空间进一步收窄。功能可见即可复制，分发渠道被封锁，唯一活路是靠[[experience-incompressible|体验不可压缩]]的护城河（品味、审美、自由意志）在AI看不见的地方建立壁垒。([[lijigang-experience-incompressible]])
+
 > 来源：[[spiegel-software-no-moat]]、[[product-taste]]

@@ -27,5 +27,10 @@ AI替我们下水捞上来黄金，结果很好，但我们没下水。
 - [[sensory-gap]] — AI感知维度缺失，与"没有体验"是同一问题的两面
 - [[product-taste]] — 品味不可复制 = 体验留下的痕迹 = 护城河在AI看不见的地方
 - [[clarity-before-automation]] — AI替你跳过了搞懂的过程，你获得了结果但失去了体验
+- [[vibe-coding]] — Vibe Coding是钢化膜模式的典型：AI替你写代码（捞黄金），但你没下水
+- [[neural-computer]] — Neural Computer增加感知维度解决的是"描述多精确"，不是"有没有发生"
+- [[ai-readiness-gap]] — 钢化膜模式的个体是"没准备好"的，磨刀石模式的个体是"准备好"的
+- [[distribution-bottleneck]] — 分发瓶颈+黑暗森林化双重约束下，体验不可压缩的护城河是唯一活路
+- [[agi-missing-pieces]] — 即使AGI能力维度全达标，仍然可能没有智慧——缺失的可能是一整条通向智慧的路径
 
 来源：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]

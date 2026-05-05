@@ -59,6 +59,7 @@ Vibe Coding标志着编程范式的根本转变：
 - 开发者可能过度依赖AI，失去对底层机制的理解
 - 当AI在系统边界、资金归属、安全模型上犯错时，缺乏发现和纠正的能力
 - Vibe Coding隐含假设AI拥有类人感知能力，但AI实际上活在一个"永恒当下"——没有时间感、没有空间直觉 ([[sensory-gap]])。开发者凭"感觉"调prompt时，可能根本意识不到AI在某些感知维度上是全盲的。给AI一个新工具时，它不会"负责任地"使用，而是[[compulsive-capability-use|强迫性地过度使用]] ([[claude-discovers-clock]])
+- Vibe Coding是[[steel-film-vs-whetstone|钢化膜模式]]的典型表现：左手接需求ctrl+c，右手从AI拿答案ctrl+v，零摩擦但认知钝化。AI替你下水捞黄金，结果很好，但你没下水——失去了对代码的具身理解。[[steel-film-vs-whetstone|磨刀石模式]]的Vibe Coding应该反过来：用AI的输出挑战自己的判断，保留"经过身体"的认知摩擦。([[lijigang-experience-incompressible]])
 - CREAO的实践明确证明：Vibe Coding只能做原型验证，生产级系统需要[[harness-engineering]]——不是凭感觉调prompt，而是构建让AI稳定产出的系统。没有自动化测试、CI/CD、监控等[[ai-first-prerequisites]]的"AI First"本质上就是Vibe Coding ([[ai-first-strategy-wrong]])
 
 ### 验证的困难

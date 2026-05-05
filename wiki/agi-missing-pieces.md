@@ -24,3 +24,9 @@ Hassabis的判断比大多数行业声音更克制。Google DeepMind两边都押
 - 缺乏[[continual-learning]]也是Agent无法"交付后不管"的根本原因
 - 记忆问题的解决可能需要借鉴海马体机制（Hassabis的博士研究方向）
 - [[alphafold-breakthrough-conditions]]的三条件框架属于现有范式能解决的问题，AGI缺失的部分可能是无法被该框架覆盖的
+
+## 智慧缺口
+
+"AGI缺什么"通常讨论的是能力缺口（持续学习、长程推理、记忆），但李继刚和Rose的讨论指向一个更根本的问题：**即使AGI在所有能力维度上都达标，它仍然可能没有智慧。** [[intelligence-vs-wisdom|智能与智慧]]是两个不同的谱系——智能处理已有的，智慧从参与中生成。模拟下雨，地面不会湿。这不是能力不够，是"有没有发生"的问题。([[ai-has-no-wisdom]])
+
+Hassabis本人隐约触碰了这个边界——他说缺的东西可能跟"craft和soul"有关，某种人类的品味和执着。[[einstein-test|爱因斯坦测试]]考的不是解决已知难题（智能），而是发明新概念框架（智慧）。如果智慧确实需要体验而体验不可压缩，那AGI缺失的可能不只是"一两个大想法"，而是一整条通向智慧的路径。([[lijigang-experience-incompressible]])

@@ -6,13 +6,13 @@
 
 ## 它是什么
 
-Product Overhang是Anthropic内部常用的概念：模型的能力已经远超现有产品所能利用的范围。Claude Code正是从产品过剩中诞生——2024年底，当时的编程工具只做类型补全（按Tab逐行补全），但模型已经接近能直接写所有代码的临界点。([[boris-chenyi-sequoia-ai-ascent]])
+Product Overhang是Anthropic内部常用的概念：模型的能力已经远超现有产品所能利用的范围。Claude Code正是从产品过剩中诞生——2024年底，当时的编程工具只做类型补全（按Tab逐行补全），但模型已经接近能直接写所有代码的临界点。Boris从头六个月效果很差，几乎难以使用——他自己大概只用它来写10%的代码。Claude Code刚发布时也没有引爆市场。真正的转折点是Opus 4发布，此后每次模型更新都带来指数级增长。([[boris-chenyi-sequoia-ai-ascent]])
 
-Boris提前六个月构建产品，明知道六个月内不会有PMF——因为他在等模型追上产品构想。
+Boris提前六个月构建产品，明知道六个月内不会有PMF——因为他在等模型追上产品构想。这正是整个计划。
 
 ## 为什么重要
 
-产品过剩意味着**构建者应该为下一个模型版本设计产品**，而不是为当前模型。Anthropic的战略是：始终专注核心领域（商业、企业、安全、编程），为即将到来的模型能力提前布局。([[boris-chenyi-sequoia-ai-ascent]])
+产品过剩意味着**构建者应该为下一个模型版本设计产品**，而不是为当前模型。Anthropic的战略是：始终专注核心领域（商业、企业、安全、编程），为即将到来的模型能力提前布局。Boris选择TypeScript和React作为Claude Code技术栈，也是因为这两个技术在模型训练分布中占比高——在模型还不够强时，选择分布中权重较高的技术是产品过剩策略的工程实现。([[boris-chenyi-sequoia-ai-ascent]])
 
 这也解释了为什么很多AI产品用起来"差点意思"——它们是为当前模型设计的，而模型正在快速进化。产品设计应该瞄向6个月后模型能做什么。
 
@@ -22,4 +22,6 @@ Boris提前六个月构建产品，明知道六个月内不会有PMF——因为
 - [[harness-engineering]] — 脚手架的价值随模型增强而下降，正是产品过剩的后果
 - [[role-convergence]] — 全员编程是产品过剩在组织层面的响应
 - [[dual-horizon-planning]] — 双极规划与产品过剩策略天然匹配：为远期方向构建，近期只做8周
-- [[power-user-pull]] — Power user的极端用法常是产品过剩的早期信号
+- [[power-user-pull]] — Power user的极端用法常是产品过剩的早期信号。Boris一天150个PR的极限测试就是产品过剩时代的power user行为
+- [[dogfooding-as-method]] — 产品过剩策略依赖dogfooding验证：Boris用自己构建的产品写代码，在模型追上产品构想时第一时间感知到
+- [[dual-horizon-planning]] — 双极规划与产品过剩天然匹配：近期一周看一次，远期瞄准模型6个月后的能力，中间不规划

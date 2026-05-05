@@ -59,3 +59,4 @@ AI的核心优势是"执行"。如果它不知道要执行什么，它就毫无�
 - [[product-taste]] — 知道应该构建什么
 - [[agentic-engineering]] — 在清晰约束下使用AI的工程纪律
 - [[role-convergence]] — 角色融合能成立的前提是组织目标清晰；混乱公司需要更多协调角色来弥补目标模糊
+- [[org-process-gap]] — 组织流程代差是自我认知的竞争后果：Anthropic能把Claude渗透到每个流程（Agent通过Slack协商、所有SQL由模型生成、无手写代码），前提是组织对自身工作流有极度清晰的认知——每个环节都已经被AI替代，说明每个环节原本就已被清晰定义。([[boris-chenyi-sequoia-ai-ascent]])

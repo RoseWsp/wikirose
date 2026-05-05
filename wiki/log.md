@@ -1,3 +1,27 @@
+## [2026-05-05 18:15] digest | Boris Cherny × Sequoia：编程已解决，组织流程代差
+- 源文件：[[boris-chenyi-sequoia-ai-ascent]]
+- 深度传播：26个现有页面更新
+  - 深化全员编程细节：[[role-convergence]]（印刷机类比完整版——识字率10%→70%、书籍成本降100倍、领域专家取代纯工程师）、[[pm-as-gap-filler]]（全员编程下PM的位置——编程变基础技能，领域知识才是难点）
+  - 深化七种力量框架：[[software-no-moat]]（Acquired播客来源、4.7自主迭代能力、大公司内部阻力细节）
+  - 深化Agent矩阵数据：[[agent-matrix]]（5-10会话/几百Agent/夜间几千/每天几十PR最多150/Slack互通信）
+  - 深化脚手架消亡：[[harness-engineering]]（重心转移：Loop和并行Agent编排取代脚手架）、[[agent-output-verification]]（100行代码=验证取代外壳）
+  - 深化架构师实时版：[[architect-operator-model]]（手机是架构师指挥台）
+  - 深化Loop细节：[[loop-scheduling]]（Routines服务端功能、Boris产品设计哲学"如果还需要用户想这些是我的失职"）、[[self-healing-pipeline]]（事件驱动vs时间驱动叠加）
+  - 深化组织流程代差：[[org-process-gap]]（dogfooding用同样模型、平台逻辑、印刷机慢变量细节、MCP是流程AI化接口）
+  - 深化产品过剩：[[product-overhang]]（头6个月效果差/Opus 4转折/TypeScript+React训练分布选择）
+  - 深化品味的极致体现：[[product-taste]]（50/50到品味重心转移）
+  - 深化dogfooding战略：[[dogfooding-as-method]]（Opus 4.7+Mythos+Mythos后续开放）
+  - 深化竞争后果：[[clarity-before-automation]]、[[ai-readiness-gap]]、[[organizational-self-knowledge]]
+  - 深化初创优势：[[pirate-ship-team]]（10倍颠覆性初创公司）
+  - 深化Agentic Engineering极端实践：[[agentic-engineering]]（Loop+org-process-gap关联）
+  - 新增印刷机类比：[[vibe-coding]]（软件民主化像发短信一样自然）、[[social-resistance-to-ai]]（技术一夜到位、社会几十年跟上）
+  - 新增MCP/computer use：[[action-based-ai]]（MCP首选computer use兜底）、[[agent-native-tooling]]（MCP是Agent获取工具权限的首选路径）
+  - 新增分发入口：[[distribution-bottleneck]]（产品供给激增+MCP连接器可能成分发红利窗口）
+  - 新增power user极端形态：[[power-user-pull]]（产品过剩=power user方向信号的宏观版、150 PR极限测试）
+  - 新增双极规划搭档：[[dual-horizon-planning]]（产品过剩策略+一周看一次规划）
+  - 新增Builder极端形态：[[builder-reviewer-model]]（全员编程=编程变基础技能后Builder/Reviewer分界重新定义）
+- 无新页面创建、无矛盾标记
+
 ## [2026-05-05 17:30] ingest | Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟
 - 源文件：[[boris-chenyi-sequoia-ai-ascent]]
 - 创建源摘要页：[[boris-chenyi-sequoia-ai-ascent]]（Boris Cherny × Sequoia AI Ascent 2026深度对话）

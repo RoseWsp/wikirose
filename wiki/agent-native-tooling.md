@@ -48,5 +48,6 @@ SkipLabs的SKJS是信号：TypeScript兼容但sound，对人类更难，对Agent
 - [[self-healing-pipeline]]：当Agent-native工具大声失败，自愈流水线可以更快捕获和修复
 - [[compulsive-capability-use]]：Agent-native工具"吹毛求疵胜过宽容"的设计是对强迫性使用的天然制衡——当系统出错时大声失败，等于在工具层面阻止了Agent对新能力的失控性扩散
 - [[sensory-gap]]：感知缺失意味着Agent-native工具不能假设Agent拥有人类直觉（如"这个错误不重要"），必须显式编码所有判断
+- [[action-based-ai]]：MCP是Agent获取工具权限的首选路径——Boris明确说"对知识工作来说，答案永远是最简单的那个：MCP"。MCP连接器让Agent直接接入Salesforce、Google Docs等云端工具，computer use是兜底方案。对模型来说，MCP、CLI还是API本质上都只是token。([[boris-chenyi-sequoia-ai-ascent]])
 
 > 核心来源：[[venturini-code-never-for-machines]] | 姊妹概念：[[agent-output-verification]]

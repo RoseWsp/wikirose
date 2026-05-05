@@ -44,3 +44,4 @@ Builder不需要授权就能推动事情发生——从发现问题、写Issue�
 - [[clarity-before-automation]]——Builder驱动AI的前提是组织已经"配得上"让AI帮忙：能清晰描述目标、工作流和决策机制 ([[companies-not-ready-for-ai]])
 - [[agent-output-verification]]——Reviewer角色的核心能力从"读代码"转为"设计验证体系"——验证替代审查
 - [[agent-native-tooling]]——当工具为Agent优化，Reviewer验证的重点从代码可读性转向验证完备性
+- [[org-process-gap]]——全员编程是Builder模型的极端形态：当财务人员、用户研究员都在写代码，"编程"从技术技能变为基础技能，Builder和Reviewer的分界不再基于"能不能写代码"，而是基于"能不能驾驭AI做正确的事"。([[boris-chenyi-sequoia-ai-ascent]])

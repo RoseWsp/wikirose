@@ -90,6 +90,7 @@ Vibe Coding标志着编程范式的根本转变：
 - [[ai-piloting]] - AI驾驶能力：Vibe Coding的反面——凭感觉调prompt vs 系统性协作，前者靠运气后者靠纪律
 - [[sensory-gap]] - Vibe Coding的隐含假设：AI拥有类人感知能力，但实际上AI在时间感等维度全盲
 - [[einstein-test]] - 创造力的终极测试：vibe coding半小时做出Theme Park原型（Hassabis 17岁时花了6个月），但还没出爆款——缺的可能不是执行速度，而是[[einstein-test|发明围棋]]级别的创造力。Hassabis觉得缺的东西可能跟"craft和soul"有关，某种人类的品味和执着。他预计6到12个月内会出现用AI工具做出的有影响力的作品，最先出现的不会是完全自主的AI创作，而是某个人用AI工具实现了1000倍的生产力。([[hassabis-agi-agents-science]])
+- [[role-convergence]] - 印刷机类比：Boris预言软件开发将像发短信一样自然普及。印刷机前识字率10%，之后50年出版物超千年总和，书籍成本降100倍，几百年后识字率70%。Vibe Coding是软件民主化的入口——门槛降到"会描述需求就能做软件"的程度，领域专家（会计师写会计软件）将取代纯工程师成为最合适的软件创建者。([[boris-chenyi-sequoia-ai-ascent]])
 
 ## 参考资料
 

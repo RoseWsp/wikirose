@@ -30,3 +30,4 @@ GPT-5.2 Codex发布后，用户开始用tmux同时开18个终端窗口运行Code
 - [[agentic-engineering]] — 产品简化不意味着工程简化
 - [[agi-pilled]] — power user突破产品极限的地方，正是模型边界和产品机会的交汇点——AGI信仰校准的信号源
 - [[distribution-bottleneck]] — 当分发渠道被封锁，power user的口碑传播成了稀缺的分发替代路径 ([[spiegel-software-no-moat]])
+- [[product-overhang]] — 产品过剩是power user的极端用法成为方向信号的宏观版本：Boris提前6个月构建Claude Code，等模型追上产品构想——power user用产品做"模型还不太支持的事"，和产品团队为下一个模型版本提前构建产品，本质上是同一种前瞻性判断。Boris一天150个PR的极限测试，就是power user把产品推向边界的极端案例。([[boris-chenyi-sequoia-ai-ascent]])

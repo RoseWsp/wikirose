@@ -28,4 +28,6 @@ Spiegel把Snapchat的早期增长归功于一个特殊的时间窗口：2011年�
 
 分发瓶颈与[[social-resistance-to-ai]]形成双重约束：即使解决了分发（让用户下载了你的AI产品），社会抵触可能阻止用户真正使用它。Spiegel的判断是：AI产品面临的不是一层壁垒，而是两层——分发让你够不到用户，社会抵触让够到的用户不用。
 
+与[[org-process-gap]]的前瞻性连接：Boris预言颠覆性初创公司数量将增加10倍——当更多小公司能打造大公司同等量级产品时，分发瓶颈不是缓解了，而是更尖锐了。产品供给激增但用户注意力有限，分发的稀缺性反而上升。这也意味着新的分发入口（如MCP连接器、Agent市场）可能成为下一个分发红利窗口。([[boris-chenyi-sequoia-ai-ascent]])
+
 > 来源：[[spiegel-software-no-moat]]、[[product-taste]]

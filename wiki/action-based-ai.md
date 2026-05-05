@@ -118,7 +118,10 @@ Karpathy指出当前工具、文档、服务和设置流程仍然主要是为人
 - **服务API设计**：考虑Agent调用而非人类操作的界面
 - **权限与审计**：设计适合Agent协调的权限模型和审计日志
 
-### 6. 开放生态与围墙花园的张力
+### 6. 工具访问路径：MCP首选，computer use兜底
+Boris明确划分了行动派AI获取工具权限的两条路径：MCP是知识工作场景的首选答案——在Claude的MCP连接器里接上Salesforce、Google Docs、Google Calendar即可使用；computer use是兜底方案——Anthropic目前在computer use上领先业界，4.7之后效果已相当不错，但目前仍偏慢。对模型来说，MCP、CLI还是API本质上都只是token。([[boris-chenyi-sequoia-ai-ascent]])
+
+### 7. 开放生态与围墙花园的张力
 行动派AI的生态正在出现围墙化风险。Cat Wu从容量管理角度解释OpenClaw封堵第三方订阅通道：订阅计划不是为第三方产品的使用模式设计的。但时间线上的巧合（Cowork推出类似功能后封堵第三方通道）仍是社区争议核心——当平台既做基础设施又做竞争产品时，行动派AI的"连接一切"承诺面临考验 ([[cat-wu-ai-pm-role]])。
 
 ## 与相关概念的关系
@@ -169,10 +172,10 @@ Codex团队的plan mode展示了行动派AI的新工作方式：产品规划不�
 行动派AI改变了招聘标准：Builder驱动行动派AI完成工作，Reviewer守住行动派AI的产出质量。传统"只写代码"的人无法与行动派AI协作。
 
 ### [[loop-scheduling]]
-Loop调度是行动派AI的持续性形态——Agent不再是按需工具，而是像后台进程一样持续运转。Boris的Loop自动看护PR、维持CI健康、抓取反馈，即使人离线也在执行。([[boris-chenyi-sequoia-ai-ascent]])
+Loop调度是行动派AI的持续性形态——Agent不再是按需工具，而是像后台进程一样持续运转。Boris的Loop自动看护PR、维持CI健康、抓取反馈，即使人离线也在执行。4.7模型已经能自发启动Loop——Boris让它做数据查询，它自己发现数据在变化，主动启动一个30分钟循环报告，然后用Slack MCP把结果发出去。模型自主决定何时循环运行，是行动派AI从"人触发"到"自主行动"的关键跃迁。([[boris-chenyi-sequoia-ai-ascent]])
 
 ### [[org-process-gap]]
-组织流程代差是行动派AI在组织层面的落地条件：同样的行动派AI工具，谁先改造组织流程让它渗透每个环节，谁就获得真正的竞争优势。([[boris-chenyi-sequoia-ai-ascent]])
+组织流程代差是行动派AI在组织层面的落地条件：同样的行动派AI工具，谁先改造组织流程让它渗透每个环节，谁就获得真正的竞争优势。Boris明确说"我们领先的地方，实际上不是技术，而是组织结构和组织流程"——Anthropic内部Agent之间通过Slack自主协商解决问题，没有任何手写代码。([[boris-chenyi-sequoia-ai-ascent]])
 
 ## 实践建议
 

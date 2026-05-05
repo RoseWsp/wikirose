@@ -27,4 +27,4 @@ AI团队不只是"吃自己的狗粮"（用自己开发的产品），而是把d
 - [[self-healing-pipeline]] — CREAO用智能体平台重建智能体平台的极致dogfooding，同时构建了自愈流水线
 - [[harness-engineering]] — 用产品建产品的高级形态：不只是用产品，而是围绕AI重新设计整个工程脚手架
 
-Boris Cherny强调了dogfooding的战略意义：Anthropic之所以坚持用和外部完全一样的模型，是因为他们在构建一个平台——开发者用的东西必须和自己用的一样。这解释了为什么[[org-process-gap|组织流程代差]]比技术差距更关键——同样的技术，不同组织渗透程度天差地别。([[boris-chenyi-sequoia-ai-ascent]])
+Boris Cherny强调了dogfooding的战略意义：Anthropic之所以坚持用和外部完全一样的模型（用大量Opus 4.7写代码，用Mythos做测试），是因为他们在构建一个平台——开发者用的东西必须和自己用的一样。Mythos的后续版本也会向所有人开放，模型层面没有时间差。这解释了为什么[[org-process-gap|组织流程代差]]比技术差距更关键——同样的技术，不同组织渗透程度天差地别。([[boris-chenyi-sequoia-ai-ascent]])

@@ -30,3 +30,4 @@
 - [[research-preview]] — 近期规划用research preview快速试错，远期vibes校准方向，中间不用填
 - [[ai-first-prerequisites]] — AI First的极快迭代是双极规划的加速版，但前提是五大工程基础到位
 - [[harness-engineering]] — CREAO每天3-8次部署的极端速度，靠的不是双极规划本身，而是脚手架工程让AI在护栏内快速奔跑 ([[ai-first-strategy-wrong]])
+- [[product-overhang]] — 产品过剩策略是双极规划的天然搭档：Boris为6个月后的模型提前构建产品，近期只一周看一次规划，偶尔想到6个月后——极致的双极规划。([[boris-chenyi-sequoia-ai-ascent]])

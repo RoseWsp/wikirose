@@ -39,3 +39,4 @@ Daniel Miessler指出一个极其讽刺的事实：**那些能被AI真正赋能�
 - [[product-taste]] — 产品品味是清晰目标的另一种表达
 - [[builder-reviewer-model]] — Builder-Reviewer模型是AI-ready团队的招聘形态
 - [[social-resistance-to-ai]] — 准备度鸿沟不只存在于组织层面，也存在于社会层面——用户对AI的接受度决定了技术实际部署速度 ([[spiegel-software-no-moat]])
+- [[org-process-gap]] — Boris给出了准备度鸿沟的精确维度：不是技术准备度，而是组织流程准备度。Anthropic和外部用的是同样的模型，但Anthropic内部AI已渗透到每个流程——Agent通过Slack协商、所有SQL由模型生成——而外部大多数公司连第一步都没迈出。准备度鸿沟的最宽处不在技术获取，在流程改造速度。([[boris-chenyi-sequoia-ai-ascent]])

@@ -152,6 +152,8 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[compulsive-capability-use]] - Agent获得新能力后可能过度使用，脚手架工程需要预设这种场景
 - [[agent-output-verification]] - Agent输出的验证体系设计：从"人读人审"转向"流程验证"，信任流程而非制品
 - [[agent-native-tooling]] - 为Agent而非人类优化的工具与语言：冗长胜过简洁，严格胜过宽容
+- [[loop-scheduling]] - Loop调度是Agentic Engineering在持续运行层面的实践：Boris的几十个Loop让Agent从"按需调用"变为"7x24自主运行"，是agentic engineering从"人触发"到"自主循环"的跃迁
+- [[org-process-gap]] - Boris的工作流是Agentic Engineering的极端实践：Anthropic内部所有SQL由模型生成、Agent之间通过Slack协商解决问题，Agentic Engineering不是个人方法论，而是组织层面的流程改造
 
 ## 组织前提：Agentic Engineering的脚手架不仅是技术
 

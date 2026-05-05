@@ -33,3 +33,4 @@ Codex正在从开发者工具向通用方向扩展——OpenAI内部非技术团
 - [[action-based-ai]] — Agent扩展了每个人的能力边界
 - [[role-convergence]] — 角色融合是海盗船运作的前提：每个人能跨职能覆盖，才不需要大量协调角色
 - [[architect-operator-model]] — CREAO的25人团队是海盗船模式的AI版：1-2个架构师+操作员，AI给人类分配任务
+- [[org-process-gap]] — 初创公司的结构性优势：没有组织转型阻力，可以从头原生用AI构建一切。Boris预言颠覆性初创公司数量将增加10倍，因为小公司能打造大公司同等量级产品，且不必面对大公司改造流程、重新培训员工的内部阻力。([[boris-chenyi-sequoia-ai-ascent]])

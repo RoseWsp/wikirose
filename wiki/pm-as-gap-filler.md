@@ -34,3 +34,4 @@ PM需求的大小和你离用户的距离有关。如果你就是自己产品的
 - [[builder-reviewer-model]] — Builder可以覆盖PM职能：跨角色作战，不需要授权就能推动事情发生。具体来说：Builder写高质量Issues、快速出原型、从用户视角关注业务价值——这些正是PM传统上做的事
 - [[ai-native-veto]] — "Issues写得像工单没有上下文"是一票否决项——PM和工程师的沟通能力在新流程中都是生存线
 - [[loonshots-dual-organization]] — Snap的实践：200人之后才招第一个PM，因为设计团队本身就是产品方向的驱动者，PM更多是填补跨职能协调的空缺 ([[spiegel-software-no-moat]])
+- [[org-process-gap]] — 全员编程的极端形态下PM的位置？Boris的Claude Code团队里财务人员、用户研究员都在写代码——当"编程"变成像"发邮件"一样的基础技能，PM作为"代码和业务之间的翻译"的角色基础在消失。但PM作为"用户理解者"的价值在上升——正如Boris所说，写会计软件最合适的人是会计师而非工程师，领域知识才是难点 ([[boris-chenyi-sequoia-ai-ascent]])

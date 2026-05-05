@@ -23,5 +23,7 @@ AI可能成为卡尼曼系统1和系统2之外的"系统0"——在人类直觉�
 - [[clarity-before-automation]]说"先搞懂再自动化"，系统0是"还没搞懂就已经自动化了"
 - [[social-resistance-to-ai]]是人类对系统0的本能抵抗——"我的判断可能不如AI，但判断权是我的"
 - [[action-based-ai]]的极端形态就是系统0——AI不只给答案，直接替你行动，让渡行动权如同让渡决策权一样不可抗拒
+- [[recursive-self-improvement]] — 递归自改进是系统0的终极形态：AI在所有认知环节上比人类先给出答案，人类连审查的机会都没有
+- [[automated-ai-rd]] — 自动化AI研发意味着系统0从"帮你做决策"扩展到"帮你做研发"——不只替你判断，还替你创造判断工具
 
 来源：[[lijigang-experience-incompressible]]

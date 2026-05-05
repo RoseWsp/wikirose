@@ -61,6 +61,8 @@ Boris Cherny的判断指向了脚手架工程的消亡方向：他预言Claude C
 - [[intelligence-vs-wisdom]]——脚手架为AI构建约束，但脚手架本身不产生智慧——AI有智能无智慧，约束的是行为不是认知
 - [[experience-incompressible]]——脚手架压缩了AI出错的概率，但无法压缩人类体验——两者是不同维度的防线
 - [[agent-immune-system]]——脚手架为Agent建外部护栏，免疫系统为Agent建内部认知防御——同一思路的两个方向
+- [[recursive-self-improvement]]——递归自改进拷问脚手架的极限：对齐技术99.9%准确率，500代后只剩60.5%。当被约束的系统比约束它的系统更聪明时，脚手架还撑得住吗？（[[jack-clark-ai-self-construction]]）
+- [[automated-ai-rd]]——自动化AI研发意味着脚手架本身也变成AI的制品——不只代码是AI写的，验证代码的流程也是AI设计的
 
 ## 组织层面的脚手架
 

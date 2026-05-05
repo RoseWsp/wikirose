@@ -20,5 +20,6 @@
 - [[product-taste]] — 品味是AI看不见的护城河
 - [[experience-incompressible]] — 体验不可压缩 = 护城河在AI看不见的地方
 - [[distribution-bottleneck]] — 分发瓶颈讲的是"怎么把产品送到用户手里"，黑暗森林化讲的是"送到了也会被复制"——两个约束叠加，消费级产品活路更窄
+- [[automated-ai-rd]] — AI能自主复现任何论文（CORE-Bench 95.5%）、参加任何Kaggle竞赛（MLE-Bench 64.4%），学术出版的保护窗口从"发表到被复现"缩短到几乎为零——黑暗森林化从产品层扩展到研究层（[[jack-clark-ai-self-construction]]）
 
 来源：[[lijigang-experience-incompressible]]

@@ -29,3 +29,5 @@ Hassabis认为当前系统缺乏"类比推理"（analogical reasoning）能力�
 - [[alphafold-breakthrough-conditions]] — AlphaFold在"搜索大空间+优化目标函数"框架内成功，但爱因斯坦测试要求的是发明新的搜索空间本身
 - [[vibe-coding]] — 工具降低执行门槛（半小时做出Theme Park原型），但创造力本身（craft和soul）还没有被替代
 - [[intelligence-vs-wisdom]] — 爱因斯坦测试考的是"能否发明新概念框架"，不是"能否解决已知难题"——智慧而非智能。AI能解已知难题（智能），但发明新框架需要从体验中生成新认知（智慧）
+- [[automated-ai-rd]] — Jack Clark的核心判断：大部分AI进步是搭乐高不是发现相对论，不需要爱因斯坦测试级的范式突破也能自动化AI研发——但灵感缺席意味着速度比能产出新颖洞见时慢
+- [[recursive-self-improvement]] — AlphaGo第37手已过去十年，没有被更令人惊叹的灵感闪现取代，这是爱因斯坦测试的"温和看空信号"（[[jack-clark-ai-self-construction]]）

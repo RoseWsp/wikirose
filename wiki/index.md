@@ -3,6 +3,7 @@
 # Index
 
 ## Sources (源文件摘要)
+- [[jack-clark-ai-self-construction]] - Jack Clark：AI系统即将开始自我构建——2028年底递归自改进概率60%，编程奇点+AI研发核心技能+Agent管理三线汇合
 - [[hassabis-agi-agents-science]] - Demis Hassabis：AGI还缺什么（50/50判断）、智能体投入产出比、AlphaFold式突破三条件、爱因斯坦测试
 - [[karpathy-llm-knowledge-management]] - Andrej Karpathy的LLM知识管理方法实践，将Obsidian从"收藏夹"升级为编译型知识库
 - [[anthropic-cat-wu-product-taste]] - Anthropic产品负责人Cat Wu访谈：代码廉价化时代的产品品味崛起与行动派AI范式
@@ -27,6 +28,8 @@
 - [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：发现Hermes Agent RCE漏洞后意外观察到Agent自主防御，进而设计免疫系统
 
 ## Concepts (概念)
+- [[recursive-self-improvement]] - 递归自改进：AI自主构建自身继任者，2028年底概率60%，误差累积是对齐的致命挑战
+- [[automated-ai-rd]] - 自动化AI研发：AI端到端自动化AI开发过程，乐高vs相对论——大部分AI进步不需要范式突破
 - [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破
 - [[einstein-test]] - AI创造力的终极测试：用1901年物理学知识训练系统，看它能否产出狭义相对论
 - [[alphafold-breakthrough-conditions]] - AlphaFold式突破三条件：巨大搜索空间+清晰目标函数+足够数据或模拟器

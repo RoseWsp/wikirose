@@ -11,14 +11,10 @@
             "id": "c2e0aa92e0d2d5ae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "home"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "home 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "home 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "home 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -185,18 +178,22 @@
   },
   "active": "c2e0aa92e0d2d5ae",
   "lastOpenFiles": [
-    "wiki/experience-incompressible.md.tmp.14148.1777982148579",
-    "wiki/agent-immune-system.md.tmp.14148.1777982134478",
-    "wiki/agent-self-defense.md.tmp.14148.1777982104857",
+    "wiki/log.md.tmp.12028.1777983196836",
+    "wiki/home.md.tmp.12028.1777983145976",
+    "wiki/home.md.tmp.12028.1777983115397",
+    "wiki/home.md.tmp.12028.1777983114367",
+    "wiki/home.md.tmp.12028.1777983113330",
+    "wiki/home.md.tmp.12028.1777983112288",
+    "wiki/home.md.tmp.12028.1777983080924",
+    "wiki/index.md.tmp.12028.1777983040018",
+    "wiki/index.md.tmp.12028.1777983038989",
+    "wiki/agent-output-verification.md.tmp.12028.1777982984236",
+    "wiki/home.md",
+    "wiki/system-zero.md.tmp.12028.1777982927280",
+    "wiki/automated-ai-rd.md",
+    "wiki/recursive-self-improvement.md",
+    "wiki/sources/jack-clark-ai-self-construction.md",
     "raw/blog/AI系统即将开始自我构建。这意味着什么.md",
-    "wiki/log.md.tmp.14148.1777981681502",
-    "wiki/home.md.tmp.14148.1777981641626",
-    "wiki/home.md.tmp.14148.1777981632403",
-    "wiki/home.md.tmp.14148.1777981618348",
-    "wiki/home.md.tmp.14148.1777981604763",
-    "wiki/index.md.tmp.14148.1777981580295",
-    "wiki/experience-incompressible.md.tmp.14148.1777981550162",
-    "wiki/agent-output-verification.md.tmp.14148.1777981549105",
     "wiki/agent-self-defense.md",
     "wiki/multi-step-agent-attack.md",
     "wiki/agent-immune-system.md",
@@ -226,10 +223,6 @@
     "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/08_法则的痕迹.md",
     "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/07_吞噬星空.md",
     "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/06_系统0.md",
-    "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/05_本质.md",
-    "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/04_智能与智慧.md",
-    "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/03_两种生存模式.md",
-    "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/02_核心论点.md",
-    "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/01_封面.md"
+    "projects/体验不可压缩与AI无智慧_ppt169_20260505/notes/05_本质.md"
   ]
 }

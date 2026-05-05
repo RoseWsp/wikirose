@@ -44,4 +44,7 @@ Claude承认自己没看过《吞噬星空》，但训练语料里有，所以�
 - [[social-resistance-to-ai]] — 人抵触AI接管判断，部分因为自主意识是智慧的前提——系统0压缩了生成智慧的路径
 - [[action-based-ai]] — 更多行动≠更多智慧，AI执行再多任务产出的都是智能不是智慧
 
-来源：[[ai-has-no-wisdom]]、[[lijigang-experience-incompressible]]
+- [[automated-ai-rd]] — Jack Clark的激进论点：在AI研发这个特定赛道上，智慧可能不是必需品，智能够用——大部分AI进步是规模化+工程调试，不需要非正统洞见。爱迪生"1%灵感+99%汗水"，AI可以做所有汗水的部分
+- [[recursive-self-improvement]] — 递归自改进是智能的极致循环，但每一代产出的都是智能不是智慧。误差累积不只是对齐问题，也是智慧缺失的累积——没有体验的递归不产生新认知
+
+来源：[[ai-has-no-wisdom]]、[[lijigang-experience-incompressible]]、[[jack-clark-ai-self-construction]]

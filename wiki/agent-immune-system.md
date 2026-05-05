@@ -50,3 +50,4 @@
 - [[agent-architecture-patterns]] — Hermes作为Agent-first架构，其复盘机制是免疫系统得以工作的载体
 - [[multi-step-agent-attack]] — 免疫系统要识别的攻击形态：每步无辜但整体是攻击链
 - [[agent-self-defense]] — 免疫系统的发现来源：Hermes偶然的自主防御行为
+- [[recursive-self-improvement]] — 免疫系统在单代防御中有效，但递归自改进的误差累积（99.9%准确率→500代后60.5%）意味着任何小于100%的防御在递归循环中都会衰减——免疫系统没有解决这个问题，而是让问题更尖锐

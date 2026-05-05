@@ -1,3 +1,26 @@
+## [2026-05-05 22:12] ingest | Jack Clark：AI系统即将开始自我构建。这意味着什么？
+- 源文件：[[jack-clark-ai-self-construction]]
+- 创建源摘要页：[[jack-clark-ai-self-construction]]（Anthropic联合创始人：2028年底递归自改进概率60%，编程奇点+AI研发核心技能+Agent管理三线汇合）
+- 创建概念页：
+  - [[recursive-self-improvement]]（递归自改进：AI自主构建继任者，误差累积是对齐的致命挑战）
+  - [[automated-ai-rd]]（自动化AI研发：AI端到端自动化AI开发，乐高vs相对论——大部分AI进步不需要范式突破）
+- 交叉链接（已有页面→新页面）：
+  - [[einstein-test]] → [[automated-ai-rd]]、[[recursive-self-improvement]]（乐高vs相对论；AlphaGo第37手十年无后续是温和看空信号）
+  - [[intelligence-vs-wisdom]] → [[automated-ai-rd]]、[[recursive-self-improvement]]（灵感vs汗水=智慧vs智能；递归不产生智慧）
+  - [[harness-engineering]] → [[recursive-self-improvement]]、[[automated-ai-rd]]（递归拷问脚手架极限；脚手架本身也变AI制品）
+  - [[agent-matrix]] → [[automated-ai-rd]]、[[recursive-self-improvement]]（终极形态不再需要人类操作员）
+  - [[architect-operator-model]] → [[automated-ai-rd]]、[[recursive-self-improvement]]（操作员被AI取代，架构师也岌岌可危）
+  - [[product-overhang]] → [[automated-ai-rd]]、[[recursive-self-improvement]]（不是线性而是指数扩大）
+  - [[agent-immune-system]] → [[recursive-self-improvement]]（<100%防御在递归循环中衰减）
+  - [[agi-missing-pieces]] → [[automated-ai-rd]]、[[recursive-self-improvement]]（自动化AI工程是Hassabis 50/50的补充视角）
+  - [[system-zero]] → [[recursive-self-improvement]]、[[automated-ai-rd]]（系统0的终极形态：AI在所有认知环节比人类先给出答案）
+  - [[dark-forest-internet]] → [[automated-ai-rd]]（AI自主复现论文，学术出版保护窗口缩短到零）
+  - [[agent-output-verification]] → [[recursive-self-improvement]]（递归条件下信任流程的根基动摇）
+  - [[continual-learning]] → [[automated-ai-rd]]、[[recursive-self-improvement]]（微观版vs宏观版，共享"从循环中学习"逻辑）
+  - [[org-process-gap]] → [[automated-ai-rd]]（从线性差距变成指数差距）
+- 更新 [[home.md]]：新增"递归自改进与AI研发自动化"主题板块、mermaid图扩展
+- 更新 [[index.md]]：新增3个页面条目
+
 ## [2026-05-05 21:30] ingest | 玄武实验室：Hermes Agent RCE漏洞与Agent免疫系统
 - 源文件：[[xuanwu-hermes-rce-immune-system]]
 - 新建页面：

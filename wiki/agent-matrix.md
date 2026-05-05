@@ -46,3 +46,7 @@ Agent矩阵的组织形态是[[opc-one-person-company|一人公司]]——一个
 Cat Wu 对 Claude 产品矩阵的分类暗示了 Agent 矩阵的入口：Cowork 处理非代码输出（Slack、slide deck、文档），连接所有数据源（Calendar、Gmail、Drive）后才能给出高质量输出。数据源接入是 Agent 矩阵的基础设施。([[cat-wu-ai-pm-role]])
 
 Boris Cherny提供了Agent矩阵的最新实践数据：手机上同时运行5-10个会话，每会话下挂一批Agent，白天大概几百个在跑，每天晚上几千个做更深层工作。他每天通常写几十个PR，最多一天150个。用[[loop-scheduling|Loop]]管理这些Agent——用cron调度重复任务，如自动看护PR、维持CI健康、每30分钟抓Twitter反馈。Anthropic内部更进一步：Agent之间通过Slack互相通信协商解决问题，公司里没有任何手写代码，所有SQL由模型生成。([[boris-chenyi-sequoia-ai-ascent]])
+
+## 终极形态：Agent矩阵不再需要人类
+
+Jack Clark指出AI管理AI已在产品层面实现（Claude Code、子智能体架构），[[automated-ai-rd|自动化AI研发]]意味着矩阵中不再需要人类操作员——[[architect-operator-model]]中的"操作员"被AI自己取代，"架构师"也岌岌可危。递归自改进是Agent矩阵的极限形态：模型训练下一代模型，Agent构建下一批Agent。([[jack-clark-ai-self-construction]])

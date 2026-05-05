@@ -30,3 +30,7 @@ Hassabis的判断比大多数行业声音更克制。Google DeepMind两边都押
 "AGI缺什么"通常讨论的是能力缺口（持续学习、长程推理、记忆），但李继刚和Rose的讨论指向一个更根本的问题：**即使AGI在所有能力维度上都达标，它仍然可能没有智慧。** [[intelligence-vs-wisdom|智能与智慧]]是两个不同的谱系——智能处理已有的，智慧从参与中生成。模拟下雨，地面不会湿。这不是能力不够，是"有没有发生"的问题。([[ai-has-no-wisdom]])
 
 Hassabis本人隐约触碰了这个边界——他说缺的东西可能跟"craft和soul"有关，某种人类的品味和执着。[[einstein-test|爱因斯坦测试]]考的不是解决已知难题（智能），而是发明新概念框架（智慧）。如果智慧确实需要体验而体验不可压缩，那AGI缺失的可能不只是"一两个大想法"，而是一整条通向智慧的路径。([[lijigang-experience-incompressible]])
+
+## 自动化AI研发的补充视角
+
+Jack Clark的判断对Hassabis的50/50构成了补充：即使AGI确实还缺1-2个关键突破，[[automated-ai-rd|自动化AI研发]]已经足以让人震撼——不需要AGI，只需AI工程能力足够强，就能自动化大部分AI开发环节。Clark判断2028年底前出现[[recursive-self-improvement|递归自改进]]的概率60%。Hassabis缺的是范式突破，Clark说大部分AI进步是搭乐高不需要范式突破——两者并不矛盾，而是指向不同层面的自动化。([[jack-clark-ai-self-construction]])

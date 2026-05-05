@@ -25,3 +25,5 @@ Boris提前六个月构建产品，明知道六个月内不会有PMF——因为
 - [[power-user-pull]] — Power user的极端用法常是产品过剩的早期信号。Boris一天150个PR的极限测试就是产品过剩时代的power user行为
 - [[dogfooding-as-method]] — 产品过剩策略依赖dogfooding验证：Boris用自己构建的产品写代码，在模型追上产品构想时第一时间感知到
 - [[dual-horizon-planning]] — 双极规划与产品过剩天然匹配：近期一周看一次，远期瞄准模型6个月后的能力，中间不规划
+- [[automated-ai-rd]] — 自动化AI研发让产品过剩不是线性扩大而是指数扩大：模型自己训练下一代，产品团队永远追不上模型能力的迭代速度
+- [[recursive-self-improvement]] — 递归自改进是产品过剩的极端形态：gap不再以月衡量，而是以代（generation）衡量

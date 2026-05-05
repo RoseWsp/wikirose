@@ -142,7 +142,19 @@ graph TD
 
     B --> J
     I --> B
-```
+
+    BJ[jack-clark-ai-self-construction] --> BK[recursive-self-improvement]
+    BJ --> BL[automated-ai-rd]
+    BK --> Y
+    BK --> AY
+    BK --> AM
+    BL --> AM
+    BL --> W
+    BL --> BH
+    BK --> AA
+    BK --> AB
+    BK --> BL
+
 
 ### 关键洞察
 
@@ -329,9 +341,22 @@ graph TD
 
 关键洞察：这是安全范式从"规则叠加"到"认知激活"的转变——不是写更多规则，而是让Agent在正确的视角下自己看见威胁。与传统安全"防御能力∝代码量×计算开销"不同，免疫系统用~100 token激活了模型预训练时已有的安全知识（如MITRE ATT&CK框架）。与[[harness-engineering]]（外部护栏 vs 内部认知防御）、[[compulsive-capability-use]]（新能力被过度使用 vs 安全视角被"过度警觉"）、[[self-healing-pipeline]]（工程层面的检测-修复闭环 vs 认知层面的检测-学习闭环）形成深层连接。
 
+### 新兴主题：递归自改进与AI研发自动化
+
+最新摄取的源文件[[jack-clark-ai-self-construction]]（Anthropic联合创始人Jack Clark）不情愿地判断：2028年底前"无人参与的AI研发"出现概率60%以上：
+
+- **[[automated-ai-rd|自动化AI研发]]**：编程、科学技能、Agent管理三条能力线已汇合——SWE-Bench饱和、CORE-Bench攻克、METR时间跨度从30秒到12小时。大部分AI进步是搭乐高不是发现相对论，不需要[[einstein-test]]级的范式突破
+- **[[recursive-self-improvement|递归自改进]]**：AI自主构建自身继任者。最深的忧虑是误差累积——对齐技术99.9%准确率，500代后只剩60.5%。爱迪生"1%灵感+99%汗水"，AI可以做所有汗水的部分
+- **机器经济**：资本密集、人力稀疏的企业在人类经济中生长，AI运营的公司开始彼此交易
+- **分配政治**：AI算力有限时谁获得算力成为核心政治问题
+
+关键洞察：这个主题与wiki多个概念形成深层共振——[[intelligence-vs-wisdom]]（灵感vs汗水=智慧vs智能，Clark的激进论点：在AI研发赛道上智慧可能不是必需品）、[[harness-engineering]]（递归自改进拷问脚手架极限：当被约束的系统比约束者更聪明时）、[[agent-matrix]]（终极形态是不再需要人类操作员）、[[product-overhang]]（不是线性而是指数扩大）、[[dark-forest-internet]]（AI能自主复现任何论文，学术出版保护窗口缩短到零）、[[agent-immune-system]]（~100 token方案在单代有效，但递归循环下任何<100%的防御都会衰减）。
+
 ## 探索路径
 
 ### 从概念开始
+- [[recursive-self-improvement]] - 递归自改进：2028年底概率60%，误差累积的致命挑战
+- [[automated-ai-rd]] - 自动化AI研发：乐高vs相对论，大部分AI进步不需要范式突破
 - [[agi-missing-pieces]] - AGI的50/50判断：还缺什么
 - [[einstein-test]] - AI创造力的终极测试：能否发明围棋
 - [[continual-learning]] - 持续学习：AGI和Agent的共同瓶颈
@@ -387,6 +412,8 @@ graph TD
 - [[agent-immune-system]] - Agent适应性免疫系统：~100 token实现认知激活式安全防御
 - [[multi-step-agent-attack]] - 针对Agent的多步社交工程攻击链
 - [[agent-self-defense]] - Agent自主防御：首次现实环境观察
+- [[recursive-self-improvement]] - 递归自改进：AI自主构建继任者，误差累积是对齐致命挑战
+- [[automated-ai-rd]] - 自动化AI研发：AI端到端自动化AI开发，乐高vs相对论
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -409,6 +436,7 @@ graph TD
 - [[lijigang-experience-incompressible]] - 李继刚：人身上，不可压缩的是体验——系统0、钢化膜vs磨刀石、OPC、黑暗森林化
 - [[ai-has-no-wisdom]] - 体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》
 - [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：Hermes Agent RCE漏洞与Agent免疫系统
+- [[jack-clark-ai-self-construction]] - Jack Clark：AI系统即将开始自我构建，2028年底递归自改进概率60%
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -422,9 +450,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：22篇
-- **概念页**：67个
-- **总页面**：92个（含home、index、log、22源摘要、67概念页）
+- **源文件**：23篇
+- **概念页**：69个
+- **总页面**：96个（含home、index、log、23源摘要、69概念页）
 - **最后更新**：2026-05-05
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

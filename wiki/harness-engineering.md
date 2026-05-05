@@ -60,6 +60,7 @@ Boris Cherny的判断指向了脚手架工程的消亡方向：他预言Claude C
 - [[org-process-gap]]——组织流程代差是脚手架工程的组织层面对应：工程面搭脚手架+组织面改造流程=AI最大化嵌入
 - [[intelligence-vs-wisdom]]——脚手架为AI构建约束，但脚手架本身不产生智慧——AI有智能无智慧，约束的是行为不是认知
 - [[experience-incompressible]]——脚手架压缩了AI出错的概率，但无法压缩人类体验——两者是不同维度的防线
+- [[agent-immune-system]]——脚手架为Agent建外部护栏，免疫系统为Agent建内部认知防御——同一思路的两个方向
 
 ## 组织层面的脚手架
 

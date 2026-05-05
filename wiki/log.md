@@ -1,3 +1,18 @@
+## [2026-05-05 21:30] ingest | 玄武实验室：Hermes Agent RCE漏洞与Agent免疫系统
+- 源文件：[[xuanwu-hermes-rce-immune-system]]
+- 新建页面：
+  - [[agent-immune-system]] - Agent适应性免疫系统：~100 token实现认知激活式安全防御
+  - [[multi-step-agent-attack]] - 针对Agent的多步社交工程攻击链
+  - [[agent-self-defense]] - Agent自主防御：首次现实环境观察
+- 交叉链接（已有页面→新页面）：
+  - [[ai-agent-frameworks]] → [[agent-immune-system]]（Hermes安全模型新增免疫系统）
+  - [[agent-architecture-patterns]] → [[agent-immune-system]]（Agent-first复盘机制是免疫系统的天然载体）
+  - [[harness-engineering]] → [[agent-immune-system]]（外部护栏 vs 内部认知防御）
+  - [[compulsive-capability-use]] → [[agent-immune-system]]（过度使用 vs 过度警觉）
+  - [[self-healing-pipeline]] → [[agent-immune-system]]（工程闭环 vs 认知闭环）
+  - [[agent-output-verification]] → [[agent-immune-system]]（输出验证 vs 输入安全）
+  - [[experience-incompressible]] → [[agent-self-defense]]（模拟经验 vs 真正体验）
+
 ## [2026-05-05 20:15] digest | 李继刚：体验不可压缩 & AI有智慧吗
 - 源文件：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]
 - 深度传播：10个现有页面更新 + 6个概念页反向链接补充

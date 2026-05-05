@@ -24,6 +24,7 @@
 - [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟
 - [[lijigang-experience-incompressible]] - 李继刚：人身上，不可压缩的是体验——系统0、钢化膜vs磨刀石、OPC、黑暗森林化
 - [[ai-has-no-wisdom]] - 体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》的深度讨论，Loop是未来
+- [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：发现Hermes Agent RCE漏洞后意外观察到Agent自主防御，进而设计免疫系统
 
 ## Concepts (概念)
 - [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破
@@ -90,6 +91,9 @@
 - [[opc-one-person-company]] - 一人公司：科斯定理在AI时代的必然推论，管理100个agent远低于管理100人
 - [[dark-forest-internet]] - 互联网黑暗森林化：可见即可复制，护城河只在AI看不见的地方
 - [[steel-film-vs-whetstone]] - 钢化膜与磨刀石：面对AI的两种生存模式——隔绝世界vs打磨自己
+- [[agent-immune-system]] - Agent适应性免疫系统：~100 token实现认知激活式安全防御
+- [[multi-step-agent-attack]] - 针对Agent的多步社交工程攻击链：每步无辜但整体是攻击
+- [[agent-self-defense]] - Agent自主防御：首次现实环境中观察到AI Agent自建安全机制
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

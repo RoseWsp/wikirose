@@ -46,5 +46,6 @@
 - [[ai-first-prerequisites]]：自动化测试和CI/CD是验证体系的底层前提
 - [[compulsive-capability-use]]：验证体系是应对强迫性使用的工程手段——Agent对新能力的过度使用只有被验证体系捕获后才能被约束
 - [[harness-engineering]]：Boris预言Claude Code一年后只剩100行代码，验证体系取代了外壳（harness）——当模型自己做正确的事，prompt注入保护、命令校验、权限模式等安全机制都不再重要，验证体系本身就是全部的"安全层"。([[boris-chenyi-sequoia-ai-ascent]])
+- [[agent-immune-system]]：免疫系统是验证体系的"认知层"——不验证输出是否正确，而是验证输入是否安全。两者形成上下游互补
 
 > 核心来源：[[venturini-agent-output-compiler]]

@@ -51,7 +51,7 @@ Agent-first：SQLite WAL + FTS5全文检索，schema第6版带迁移。支持ses
 ### 5. 安全哲学
 
 Gateway-first：应用级检查，完全本地访问，信任用户。
-Agent-first：多后端沙箱隔离，子agent工具白名单+预算上限+深度限制。
+Agent-first：多后端沙箱隔离，子agent工具白名单+预算上限+深度限制。此外，Agent-first的复盘机制（skill_manage + 记忆写入）为[[agent-immune-system|适应性免疫系统]]提供了天然载体——玄武实验室在Hermes上仅用~100 token就实现了自主安全防御 ([[xuanwu-hermes-rce-immune-system]])。
 
 ### 6. 进化路径
 

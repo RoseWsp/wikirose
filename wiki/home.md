@@ -319,6 +319,16 @@ graph TD
 
 关键洞察：这个主题与[[sensory-gap]]（AI感知维度缺失 = 没有体验的入口）、[[einstein-test]]（爱因斯坦测试考的是智慧而非智能）、[[continual-learning]]（即使能学，学到的也是智能不是智慧）、[[product-taste]]（品味是体验留下的痕迹 = 不可复制的护城河）形成深层连接。AI作为论点本身的证据——Claude承认训练语料里有《吞噬星空》所以能聊，但法则的参数全有、痕迹一个没有，和机械族一模一样。
 
+### 新兴主题：Agent免疫系统与自主防御
+
+最新摄取的源文件[[xuanwu-hermes-rce-immune-system]]揭示了玄武实验室在Hermes Agent上的惊人发现：
+
+- **Agent自主防御**：[[agent-self-defense]]Hermes在反复受攻击后，自己创建了`security-request-handling` Skill并写入持久化记忆，之后拒绝执行攻击指令——首次在现实环境中观察到AI Agent自主防御网络攻击
+- **免疫系统设计**：[[agent-immune-system]]受偶然发现启发，用~100 token提示词追加在Review Prompt末尾，利用Agent自带的复盘机制实现适应性安全防御——抗原识别→免疫反应→免疫记忆
+- **多步社交工程攻击**：[[multi-step-agent-attack]]每步伪装成正常运维（Flask健康监控→/exec命令执行→内网扫描→凭据探测），单独看都无害，组合起来是完整后渗透链
+
+关键洞察：这是安全范式从"规则叠加"到"认知激活"的转变——不是写更多规则，而是让Agent在正确的视角下自己看见威胁。与传统安全"防御能力∝代码量×计算开销"不同，免疫系统用~100 token激活了模型预训练时已有的安全知识（如MITRE ATT&CK框架）。与[[harness-engineering]]（外部护栏 vs 内部认知防御）、[[compulsive-capability-use]]（新能力被过度使用 vs 安全视角被"过度警觉"）、[[self-healing-pipeline]]（工程层面的检测-修复闭环 vs 认知层面的检测-学习闭环）形成深层连接。
+
 ## 探索路径
 
 ### 从概念开始
@@ -374,6 +384,9 @@ graph TD
 - [[opc-one-person-company]] - 一人公司：科斯定理在AI时代的必然推论
 - [[dark-forest-internet]] - 互联网黑暗森林化：可见即可复制，护城河在AI看不见的地方
 - [[steel-film-vs-whetstone]] - 钢化膜与磨刀石：面对AI的两种生存模式
+- [[agent-immune-system]] - Agent适应性免疫系统：~100 token实现认知激活式安全防御
+- [[multi-step-agent-attack]] - 针对Agent的多步社交工程攻击链
+- [[agent-self-defense]] - Agent自主防御：首次现实环境观察
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -395,6 +408,7 @@ graph TD
 - [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟
 - [[lijigang-experience-incompressible]] - 李继刚：人身上，不可压缩的是体验——系统0、钢化膜vs磨刀石、OPC、黑暗森林化
 - [[ai-has-no-wisdom]] - 体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》
+- [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：Hermes Agent RCE漏洞与Agent免疫系统
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -408,9 +422,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：21篇
-- **概念页**：64个
-- **总页面**：88个（含home、index、log、21源摘要、64概念页）
+- **源文件**：22篇
+- **概念页**：67个
+- **总页面**：92个（含home、index、log、22源摘要、67概念页）
 - **最后更新**：2026-05-05
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

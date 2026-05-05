@@ -19,6 +19,8 @@
 - [[companies-not-ready-for-ai]] - Daniel Miessler：大多数公司根本没有为AI做好准备，问题不在AI技术，在于组织自我认知
 - [[spiegel-software-no-moat]] - Evan Spiegel对谈：软件护城河是假的，分发才是瓶颈，社会抵触AI被低估
 - [[claude-discovers-clock]] - Claude发现时钟后失控：AI获得新感知维度后的强迫性使用现象
+- [[venturini-agent-output-compiler]] - Hugo Venturini：将Agent输出视为编译器输出，用验证流程替代代码审查
+- [[venturini-code-never-for-machines]] - Hugo Venturini：代码从来不是为机器写的——直到现在，工具应从人类可读转向Agent原生
 
 ## Concepts (概念)
 - [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破
@@ -74,6 +76,8 @@
 - [[social-resistance-to-ai]] - 社会对AI变革的抵触：科技行业严重低估了人类接受度对技术部署速度的制约
 - [[sensory-gap]] - AI感知维度缺失：感知能力缺失如何限制智能的本质，AI活在永恒的"当下"
 - [[compulsive-capability-use]] - 新能力强迫性使用：获得新感知维度后的过度使用现象
+- [[agent-output-verification]] - Agent输出验证：用验证流程替代代码审查，信任流程而非制品
+- [[agent-native-tooling]] - Agent原生工具：为Agent而非人类优化的工具与语言，可读性时代的终结
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

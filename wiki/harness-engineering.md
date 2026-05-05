@@ -52,6 +52,8 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 - [[continual-learning]]——Hassabis指出缺乏持续学习是Agent无法"交付后不管"的根本原因，脚手架工程在持续学习突破前只能用上下文窗口等"胶带方案"应急
 - [[sensory-gap]]——AI对新感知维度的强迫性使用意味着脚手架必须预设过度使用场景并设置约束
 - [[compulsive-capability-use]]——给AI新工具时，预设它会过度使用，在脚手架中设置适当约束
+- [[agent-output-verification]]——脚手架的上游约束是Agent输出验证的"上游层"，为Agent构建可验证的执行规格
+- [[agent-native-tooling]]——脚手架工程为Agent构建约束环境，Agent-native工具为Agent构建原生工作介质——两者是同一转变的两面
 
 ## 组织层面的脚手架
 

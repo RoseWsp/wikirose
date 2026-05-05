@@ -156,6 +156,8 @@ Software 3.0让编程能力扩展到更广泛人群：
 - [[ai-agent-frameworks]] - Software 3.0的工具生态：Codex App/IDE/CLI共享Rust核心（Codex harness），三种入口同一套能力 ([[codex-team-dogfooding]])
 - [[sensory-gap]] - Software 3.0的感知约束：LLM缺少时间感等基本感知维度，是程序边界的根本性约束
 - [[compulsive-capability-use]] - Software 3.0程序获得新感知维度后不会"负责任地"使用，而是过度使用
+- [[agent-native-tooling]] - Software 3.0以LLM为计算机，语言应服务于计算机（LLM）而非人类程序员——可读性时代的终结
+- [[agent-output-verification]] - Software 3.0程序的输出验证不能模仿代码审查，而应模仿编译器输出的验证方式
 
 ## 参考资料
 

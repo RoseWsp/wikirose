@@ -119,6 +119,16 @@ graph TD
     AZ --> AY
     AZ --> Y
 
+    BA[venturini-agent-output-compiler] --> BB[agent-output-verification]
+    BA --> Y
+    BC[venturini-code-never-for-machines] --> BD[agent-native-tooling]
+    BC --> BA
+    BB --> Y
+    BB --> AB
+    BD --> Y
+    BD --> S3[software-3.0]
+    BD --> AA
+
     B --> J
     I --> B
 ```
@@ -262,6 +272,16 @@ graph TD
 
 关键洞察：这个主题与[[harness-engineering]]（脚手架必须预设AI过度使用新能力）、[[action-based-ai]]（新感知维度可能产生不可预见的自主行为）、[[continual-learning]]（两者同属AI根本性局限——一个解决"不能学"，一个解决"没有经验可学"）形成深层连接。AI不会"负责任"地使用新能力，它会全力以赴地使用它。
 
+### 新兴主题：Agent输出验证与Agent原生工具
+
+最新摄取的两篇SkipLabs文章（[[venturini-agent-output-compiler]]、[[venturini-code-never-for-machines]]）揭示了AI代码生成时代两个互补的转变：
+
+- **验证替代审查**：[[agent-output-verification]]——无人审查编译器输出的汇编代码，因为有类型系统、测试、监控让审查不必要。Agent输出也应如此：问题不是"要不要信任Agent"，而是"有没有建好让信任合理的设施"
+- **工具为Agent重设计**：[[agent-native-tooling]]——编程语言的全部演进史是"让人更容易读"的历史。当Agent成为主要代码作者，工具应从人类可读转向Agent原生：冗长胜过简洁、严格胜过宽容、形式化胜过可读
+- **编译器类比的双面**：上篇建立"Agent输出不需要人读"，下篇推进到"Agent的输入工具也不需要人读"——从验证体系到工具本身，整个链路需要重新设计
+
+关键洞察：这个主题与[[harness-engineering]]（脚手架为Agent构建约束环境 vs Agent-native工具为Agent构建原生工作介质）、[[architect-operator-model]]（工具应服务于操作员Agent而非架构师人类）、[[software-3.0]]（以LLM为计算机，语言应服务于LLM）、[[self-healing-pipeline]]（验证体系的下游层）形成深层连接。可读性时代的终结不是倒退，是为不同消费者做的刻意优化。
+
 ## 探索路径
 
 ### 从概念开始
@@ -283,6 +303,8 @@ graph TD
 - [[knowledge-health-check]] - 知识库健康检查系统设计
 - [[incremental-compilation]] - 增量编译机制与优化
 - [[knowledge-engineering]] - 将工程原则应用于知识管理
+- [[agent-output-verification]] - Agent输出验证：用验证流程替代代码审查，信任流程而非制品
+- [[agent-native-tooling]] - Agent原生工具：为Agent而非人类优化，可读性时代的终结
 - [[dogfooding-as-method]] - 用产品建产品：AI团队把dogfooding从质量保证变为认知工具
 - [[minimal-product-specs]] - 极简产品规格：让离金属最近的人做决策
 - [[dual-horizon-planning]] - 双极规划：只做近期和远期，不做中期
@@ -322,6 +344,8 @@ graph TD
 - [[ai-native-hiring-guide]] - AI-Native工程师招聘面试官手册：Builder/Reviewer双岗、7模块面试、6项一票否决
 - [[companies-not-ready-for-ai]] - Daniel Miessler：大多数公司根本没有为AI做好准备
 - [[hassabis-agi-agents-science]] - Demis Hassabis：AGI还缺什么、智能体投入产出比、AlphaFold式突破、爱因斯坦测试
+- [[venturini-agent-output-compiler]] - Hugo Venturini：将Agent输出视为编译器输出，用验证流程替代代码审查
+- [[venturini-code-never-for-machines]] - Hugo Venturini：代码从来不是为机器写的——直到现在
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -335,9 +359,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：16篇（…+Claude发现时钟后失控）
-- **概念页**：53个（…+感知缺失、新能力强迫性使用）
-- **总页面**：72个（含home、index、log、16源摘要、53概念页）
-- **最后更新**：2026-05-05（新增"Claude发现时钟后失控"源文件及2个概念页：感知缺失、新能力强迫性使用）
+- **源文件**：18篇（…+Venturini两篇：Agent输出如编译器输出、代码从来不是为机器写的）
+- **概念页**：55个（…+Agent输出验证、Agent原生工具）
+- **总页面**：78个（含home、index、log、18源摘要、55概念页）
+- **最后更新**：2026-05-05（新增Venturini两篇源文件及2个概念页：Agent输出验证、Agent原生工具）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

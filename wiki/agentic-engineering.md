@@ -150,6 +150,8 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[ai-readiness-gap]] - 清晰公司与混乱公司在Agentic Engineering上的鸿沟
 - [[sensory-gap]] - AI感知维度缺失：Agentic Engineering需要考虑新感知维度的强迫性使用风险
 - [[compulsive-capability-use]] - Agent获得新能力后可能过度使用，脚手架工程需要预设这种场景
+- [[agent-output-verification]] - Agent输出的验证体系设计：从"人读人审"转向"流程验证"，信任流程而非制品
+- [[agent-native-tooling]] - 为Agent而非人类优化的工具与语言：冗长胜过简洁，严格胜过宽容
 
 ## 组织前提：Agentic Engineering的脚手架不仅是技术
 

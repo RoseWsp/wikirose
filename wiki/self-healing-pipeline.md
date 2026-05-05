@@ -56,3 +56,4 @@ CREAO构建的自愈反馈循环是[[harness-engineering]]的标志性产出。�
 - [[action-based-ai]]——自愈流水线是行动派AI在运维层面的体现
 - [[dogfooding-as-method]]——CREAO用智能体平台构建智能体平台的dogfooding
 - [[ai-first-strategy-wrong]]——源文件
+- [[agent-output-verification]]——自愈流水线是Agent输出验证的"下游层"：出问题快速捕获和回滚

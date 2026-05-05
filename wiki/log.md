@@ -1,5 +1,22 @@
 # Log
 
+## [2026-05-05 11:30] ingest | Treat Agent Output Like Compiler Output + Code Was Never for Machines — Until Now
+- 源文件：[[venturini-agent-output-compiler]]、[[venturini-code-never-for-machines]]
+- 创建源摘要页：
+  - [[venturini-agent-output-compiler]]（Hugo Venturini：将Agent输出视为编译器输出，用验证流程替代代码审查）
+  - [[venturini-code-never-for-machines]]（Hugo Venturini：代码从来不是为机器写的——直到现在，工具应从人类可读转向Agent原生）
+- 创建概念页：
+  - [[agent-output-verification]]（Agent输出验证：用验证流程替代代码审查，信任流程而非制品）
+  - [[agent-native-tooling]]（Agent原生工具：为Agent而非人类优化的工具与语言，可读性时代的终结）
+- 交叉链接更新：
+  - [[harness-engineering]]：添加agent-output-verification、agent-native-tooling关联
+  - [[self-healing-pipeline]]：添加agent-output-verification关联
+  - [[agentic-engineering]]：添加agent-output-verification、agent-native-tooling关联
+  - [[architect-operator-model]]：添加agent-native-tooling、agent-output-verification关联
+  - [[software-3.0]]：添加agent-native-tooling、agent-output-verification关联
+  - [[builder-reviewer-model]]：添加agent-output-verification、agent-native-tooling关联
+- 更新：[[index.md]]、[[home.md]]（新增主题"Agent输出验证与Agent原生工具"、更新mermaid图和状态）
+
 ## [2026-05-05 10:00] ingest | Claude发现了时钟，然后失控了
 - 源文件：[[claude-discovers-clock]]
 - 创建概念页：

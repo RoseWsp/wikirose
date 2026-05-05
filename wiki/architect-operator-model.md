@@ -51,3 +51,5 @@ CTO从60%时间管理人员变成不到10%，从"管理者"变回"建造者"。�
 - [[ai-native-veto]]——架构师和操作员都不兼容的行为信号
 - [[organizational-self-knowledge]]——架构师的核心能力是组织自我认知在个人层面的映射：清晰描述需求和约束
 - [[ai-readiness-gap]]——架构师-操作员模型是跨越AI准备度鸿沟后的组织形态
+- [[agent-native-tooling]]——当Agent承担操作员角色，工具应服务于操作员（Agent）而非架构师（人类）
+- [[agent-output-verification]]——架构师设计验证体系替代代码审查，让操作员（AI）的输出无需人审

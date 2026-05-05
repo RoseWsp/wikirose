@@ -123,3 +123,8 @@ raw: raw/clips/热门agent对比.md
 
 ---
 *本文综合了Simular.ai的《2026年7种最佳OpenClaw替代方案》和AI价值官的《快速蹿红的Hermes Agent，会成为下一个OpenClaw吗？》等多篇对比分析。*
+
+## 相关概念
+
+[[ai-agent-frameworks]]、[[agent-architecture-patterns]]、[[action-based-ai]]、[[agentic-engineering]]、[[product-taste]]、[[openclaw-hermes-architecture]]
+

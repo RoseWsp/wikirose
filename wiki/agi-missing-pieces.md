@@ -20,7 +20,7 @@ Hassabis的判断比大多数行业声音更克制。Google DeepMind两边都押
 
 ## 与其他观点的关系
 
-- [[jagged-intelligence]]是推理缺陷的具体表现——能解IMO金牌题却犯基本算术错误
+- [[jagged-intelligence]]、[[einstein-test]]、[[general-specialized-architecture]]、[[jevons-paradox-inference]]是推理缺陷的具体表现——能解IMO金牌题却犯基本算术错误
 - 缺乏[[continual-learning]]也是Agent无法"交付后不管"的根本原因
 - 记忆问题的解决可能需要借鉴海马体机制（Hassabis的博士研究方向）
 - [[alphafold-breakthrough-conditions]]的三条件框架属于现有范式能解决的问题，AGI缺失的部分可能是无法被该框架覆盖的

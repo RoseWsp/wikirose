@@ -30,4 +30,4 @@ Hassabis的博士研究直接相关：大脑在睡眠（特别是REM快速眼动
 - [[jagged-intelligence]] — 不能持续学习的系统，其"锯齿"永远无法通过经验自修复
 - [[agent-matrix]] — Agent矩阵的可靠运行依赖持续学习能力
 - [[neural-computer]] — 神经计算机架构可能天然支持持续学习
-- [[sensory-gap]] — 持续学习解决"不能从经验学习"，感知缺失解决"没有经验可学"——两者互补
+- [[sensory-gap]]、[[compulsive-capability-use]] — 持续学习解决"不能从经验学习"，感知缺失解决"没有经验可学"——两者互补

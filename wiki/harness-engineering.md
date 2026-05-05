@@ -20,7 +20,7 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 
 ## 与相关概念的区别
 
-脚手架工程不是[[vibe-coding]]——Vibe Coding是凭感觉调prompt直到跑通，脚手架工程是构建让AI稳定产出的系统。Vibe Coding只能做原型，脚手架工程才能做生产 ([[ai-first-strategy-wrong]])。
+脚手架工程不是[[vibe-coding]]、[[ai-native-veto]]——Vibe Coding是凭感觉调prompt直到跑通，脚手架工程是构建让AI稳定产出的系统。Vibe Coding只能做原型，脚手架工程才能做生产 ([[ai-first-strategy-wrong]])。
 
 脚手架工程是[[agentic-engineering]]的具体实践形态——Agentic Engineering定义了"在使用Agent加速的同时保持专业质量"的纪律，脚手架工程给出了"怎么做到"的答案：搭脚手架，让AI在护栏内奔跑。
 
@@ -38,7 +38,7 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 - [[ai-first-prerequisites]]——脚手架工程的五大技术前提
 - [[self-healing-pipeline]]——脚手架工程的核心产出：自愈闭环
 - [[architect-operator-model]]——脚手架工程催生的新组织结构
-- [[vibe-coding]]——脚手架工程的对立面：一个靠系统，一个靠感觉
+- [[vibe-coding]]、[[ai-native-veto]]——脚手架工程的对立面：一个靠系统，一个靠感觉
 - [[product-taste]]——架构师的核心能力是批判AI的品味
 - [[action-based-ai]]——脚手架工程是行动派AI在工程层面的落地
 - [[ai-first-strategy-wrong]]——源文件

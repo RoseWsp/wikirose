@@ -99,9 +99,9 @@ outputs/health/YYYY-MM-DD.md
 ### 孤岛检测示例
 ```
 问题：页面"AI漫剧经济学"链接不足
-入链：1个（来自[[推理成本]]）
+入链：1个（来自推理成本）
 出链：0个
-建议：链接到[[GPU租赁]]、[[开源模型]]、[[工具链自动化]]
+建议：链接到GPU租赁、开源模型、工具链自动化
 ```
 
 ## 实践效果
@@ -156,6 +156,9 @@ outputs/health/YYYY-MM-DD.md
 - [[compiled-knowledge-base]] - 编译型知识库架构
 - [[knowledge-engineering]] - 将工程原则应用于知识管理
 - [[incremental-compilation]] - 增量编译与健康检查的协同
+- [[rag-alternatives]] - 健康检查在RAG替代方案中的适用边界
+- [[obsidian-optimization]] - 健康检查与Obsidian优化的协同
+- [[obsidian-rebuild-experience]] - 实践中的质量保证需求
 
 ### 来源参考
 - [[karpathy-knowledge-workflow-guide]] - 健康检查系统的详细设计

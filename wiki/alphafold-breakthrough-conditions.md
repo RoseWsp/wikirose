@@ -2,7 +2,7 @@
 
 **TL;DR** 适合AI突破的科学问题需要同时满足三个条件：巨大的组合搜索空间、清晰的目标函数、足够的数据或模拟器。三个条件成立时，现有方法就能在"大海捞针"式搜索中走很远。
 
-Hassabis从AlphaGo和AlphaFold的经验中总结出的框架。他在YC访谈中说"应该把这个写下来"：([[hassabis-agi-agents-science]])
+Hassabis从AlphaGo和AlphaFold的经验中总结出的框架。他在YC访谈中说"应该把这个写下来"：([[hassabis-agi-agents-science]]、[[jevons-paradox-inference]])
 
 ## 三条件
 
@@ -14,7 +14,7 @@ Hassabis从AlphaGo和AlphaFold的经验中总结出的框架。他在YC访谈中
 
 药物发现也是同样的框架：总有一个化合物能治这种病、没有副作用，只要物理定律允许它存在，剩下的问题就是如何高效地找到它。
 
-Hassabis把AlphaFold称为"根节点问题"（root node problems）——一旦解决就能打开全新研究分支的科学难题。全球超过300万研究人员在使用AlphaFold，从制药界高管那里听到的反馈是"从现在起几乎每一种新药的发现过程都会用到AlphaFold"。([[hassabis-agi-agents-science]])
+Hassabis把AlphaFold称为"根节点问题"（root node problems）——一旦解决就能打开全新研究分支的科学难题。全球超过300万研究人员在使用AlphaFold，从制药界高管那里听到的反馈是"从现在起几乎每一种新药的发现过程都会用到AlphaFold"。([[hassabis-agi-agents-science]]、[[jevons-paradox-inference]])
 
 其他领域——材料科学、气候建模、数学——目前大约处于"AlphaFold 1的阶段"，结果很有前景但还没有真正解决该领域的大挑战。Hassabis预计未来几年会有很多进展。
 

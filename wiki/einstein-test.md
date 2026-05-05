@@ -4,7 +4,7 @@
 
 ## 测试内容
 
-Hassabis在YC访谈中提出了一个递进的创造力标准：([[hassabis-agi-agents-science]])
+Hassabis在YC访谈中提出了一个递进的创造力标准：([[hassabis-agi-agents-science]]、[[general-specialized-architecture]]、[[jevons-paradox-inference]])
 
 1. **解决已知难题** — 千禧年难题级别，他觉得可能只需要几年。他个人最想看到P=NP问题的解决
 2. **提出新问题** — 比解决千禧年难题更难：能否提出一组新的千禧年级别问题，让顶级数学家认为它们同样深刻？
@@ -20,7 +20,7 @@ AlphaGo第二局第37手（Move 37）让人类棋手震惊，Hassabis看到这�
 
 ## 当前系统缺什么
 
-Hassabis认为当前系统缺乏"类比推理"（analogical reasoning）能力。真正的发现超越了模式匹配（因为没有现成模式可以匹配），也超越了简单的外推。他坦白说，还没有看到任何一个来自AI的"重大发现"。Google DeepMind有Co-Scientist这样的通用科学推理系统，也有AlphaEvolve这类在基础Gemini之上增加能力的算法，但真正的突破还没有到来。这和[[jagged-intelligence]]中"缺乏自省"的观察是一致的——系统不知道自己不知道什么。([[hassabis-agi-agents-science]])
+Hassabis认为当前系统缺乏"类比推理"（analogical reasoning）能力。真正的发现超越了模式匹配（因为没有现成模式可以匹配），也超越了简单的外推。他坦白说，还没有看到任何一个来自AI的"重大发现"。Google DeepMind有Co-Scientist这样的通用科学推理系统，也有AlphaEvolve这类在基础Gemini之上增加能力的算法，但真正的突破还没有到来。这和[[jagged-intelligence]]中"缺乏自省"的观察是一致的——系统不知道自己不知道什么。([[hassabis-agi-agents-science]]、[[general-specialized-architecture]]、[[jevons-paradox-inference]])
 
 ## 与其他概念的关系
 

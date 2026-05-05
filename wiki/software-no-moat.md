@@ -28,7 +28,7 @@ Snap转向硬件不只是战略宣言，已有11年的工程积累：2014年开�
 
 Spiegel对AR的战略判断是：今天的人平均每天花七八个小时在屏幕上，说明计算设备需要进化。AR眼镜让用户在跟真实世界互动的同时使用数字服务，而不是把用户从世界里拔出来塞进一块小屏幕。他把在手机上用AR比喻成**"透过钥匙孔看世界"**。
 
-对市面上另一种路线——普通眼镜上加HUD——Spiegel批评得更具体：当你低头看嵌在镜角的小屏幕时，如果正跟朋友面对面说话，你的视线实际上是落在对方的裆部位置。这种体验不会被广泛接受 ([[spiegel-software-no-moat]])。
+对市面上另一种路线——普通眼镜上加HUD——Spiegel批评得更具体：当你低头看嵌在镜角的小屏幕时，如果正跟朋友面对面说话，你的视线实际上是落在对方的裆部位置。这种体验不会被广泛接受 ([[spiegel-software-no-moat]]、[[listen-dont-build]]、[[social-resistance-to-ai]])。
 
 与[[distribution-bottleneck]]互为表里：当功能不构成护城河，分发就成了决定产品生死的因素。TikTok和Threads都没有产品本质突破，但解决了分发。
 
@@ -38,6 +38,6 @@ Spiegel对AR的战略判断是：今天的人平均每天花七八个小时在�
 
 ## 熔炼时刻
 
-Spiegel把2026年称为Snap的"crucible moment"——年营收接近财富500强门槛（2025年营收59.3亿美元），月活接近十亿，但公司还没实现净利润（2025年净亏损4.6亿美元）。他必须证明Snapchat能成为盈利能力强的业务，否则Specs的长期战略站不住脚。Spiegel用"中间的孩子"形容Snap的市场位置：比Pinterest和Reddit大得多，但比Meta和Google小得多。中间的孩子最大的挑战是定义自己是谁——这恰好印证了[[organizational-self-knowledge]]的核心判断：清晰描述"我们是谁"比功能堆叠更重要 ([[spiegel-software-no-moat]])。
+Spiegel把2026年称为Snap的"crucible moment"——年营收接近财富500强门槛（2025年营收59.3亿美元），月活接近十亿，但公司还没实现净利润（2025年净亏损4.6亿美元）。他必须证明Snapchat能成为盈利能力强的业务，否则Specs的长期战略站不住脚。Spiegel用"中间的孩子"形容Snap的市场位置：比Pinterest和Reddit大得多，但比Meta和Google小得多。中间的孩子最大的挑战是定义自己是谁——这恰好印证了[[organizational-self-knowledge]]的核心判断：清晰描述"我们是谁"比功能堆叠更重要 ([[spiegel-software-no-moat]]、[[listen-dont-build]]、[[social-resistance-to-ai]])。
 
-> 来源：[[spiegel-software-no-moat]]
+> 来源：[[spiegel-software-no-moat]]、[[listen-dont-build]]、[[social-resistance-to-ai]]

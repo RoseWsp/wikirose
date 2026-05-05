@@ -16,7 +16,7 @@ Spiegel举了两个近年的成功案例：
 
 这个判断解释了为什么过去15年几乎没有新的社交消费产品活下来。Spiegel的原话是：Snapchat之后几乎没有新的社交消费产品活下来。TikTok算半个（更像媒体平台），Threads算半个（长在Instagram的社交图谱上）。所有人都想做社交产品，几乎所有人都失败了——不是因为产品不行，是因为分发渠道被封锁了。
 
-Spiegel把Snapchat的早期增长归功于一个特殊的时间窗口：2011年前后，智能手机和App Store刚起步，用户愿意大量下载新应用。那个窗口已经彻底消失了。今天的用户不再频繁下载新App，分发成了消费级产品最大的壁垒 ([[spiegel-software-no-moat]])。
+Spiegel把Snapchat的早期增长归功于一个特殊的时间窗口：2011年前后，智能手机和App Store刚起步，用户愿意大量下载新应用。那个窗口已经彻底消失了。今天的用户不再频繁下载新App，分发成了消费级产品最大的壁垒 ([[spiegel-software-no-moat]]、[[product-taste]])。
 
 在AI时代，分发瓶颈可能更严重。AI产品天然需要大量用户数据来改善体验（数据飞轮），但获取第一批用户的难度比移动互联网早期高了一个数量级。这也解释了为什么大公司（Google、Meta、Microsoft）在AI分发上有结构性优势——它们有现成的用户触达渠道。
 
@@ -28,4 +28,4 @@ Spiegel把Snapchat的早期增长归功于一个特殊的时间窗口：2011年�
 
 分发瓶颈与[[social-resistance-to-ai]]形成双重约束：即使解决了分发（让用户下载了你的AI产品），社会抵触可能阻止用户真正使用它。Spiegel的判断是：AI产品面临的不是一层壁垒，而是两层——分发让你够不到用户，社会抵触让够到的用户不用。
 
-> 来源：[[spiegel-software-no-moat]]
+> 来源：[[spiegel-software-no-moat]]、[[product-taste]]

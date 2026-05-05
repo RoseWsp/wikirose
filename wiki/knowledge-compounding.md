@@ -23,7 +23,7 @@
 - **分析过程**：结合wiki数据+外部搜索验证
 - **反直觉发现**：GPU涨40%，但漫剧成本从2000-5000→400元/分钟
 - **原因**：头部团队自建算力+开源模型+工具链自动化
-- **成果**：新页面《[[漫剧工具推理经济学]]》被创建并链接回相关概念
+- **成果**：新页面《漫剧工具推理经济学》被创建并链接回相关概念
 - **开放验证机制**：wiki提供积累的上下文，外部搜索提供实时事实，两者组合比单独使用更强，类似人类认知迭代
 
 ### 个人实践验证（([[karpathy-obsidian-rebuild]])）
@@ -64,7 +64,7 @@
 
 ## 相关概念
 
-[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]
+[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]、[[rag-alternatives]]
 
 ## 与AI产品开发的关联（([[anthropic-cat-wu-product-taste]])）
 

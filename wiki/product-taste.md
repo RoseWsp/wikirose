@@ -85,7 +85,7 @@ Karpathy提出关键洞察（[[karpathy-interview-agentic-engineering]]）：
 ## 与相关概念的关系
 
 ### [[llm-knowledge-management]]
-产品品味是有效利用[[claude-code]]等LLM工具的前提，决定了工具使用的方向和价值。
+产品品味是有效利用Claude Code等LLM工具的前提，决定了工具使用的方向和价值。
 
 ### [[action-based-ai]]
 行动派AI范式要求更高的产品品味，因为自动化决策的后果更直接、更不可逆。

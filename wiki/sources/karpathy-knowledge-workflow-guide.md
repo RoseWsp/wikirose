@@ -85,8 +85,8 @@ Lint / CI        →  健康检查
 question: "RAG和轻量索引的适用边界？"
 asked_at: 2026-04-03
 sources:
-  - [[S-001 MotherDuck Obsidian RAG]]
-  - [[C-042 RAG]]
+  - S-001 MotherDuck Obsidian RAG
+  - C-042 RAG
 ---
 # RAG vs 轻量索引
 ## TL;DR

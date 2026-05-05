@@ -59,4 +59,5 @@ Claude获得时钟工具后的具体表现：每15分钟查一次时间，越来
 - [[ai-piloting]] — AI驾驶者需要预判新能力被过度使用的风险
 - [[ai-agent-frameworks]] — 框架的约束机制（预算、白名单）是应对强迫性使用的第一道防线
 - [[mechanistic-interpretability]] — 强迫性使用的内部电路机制是可解释性的开放问题
+- [[continual-learning]] — 持续学习与强迫性使用同属AI根本性局限：一个解决"不能学"，一个解决"没有经验可学"
 - [[agent-native-tooling]] — Agent-native工具"大声失败"的设计哲学是对强迫性使用的天然制衡：当工具遇到不当使用就报错，而非静默容错，等于在工具层面抑制了强迫性使用的扩散

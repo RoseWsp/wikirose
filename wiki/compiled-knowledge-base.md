@@ -30,7 +30,7 @@ raw/          wiki/
 - **输入**：40页PDF（`raw/reports/semianalysis-gpu-lease.pdf`）
 - **编译**：LLM提取4个核心判断+论据+评注
 - **输出**：800字洞察页（`wiki/insights/gpu-lease-trends.md`）
-- **关联**：自动链接到[[推理成本]]、[[AI漫剧经济学]]等相关概念
+- **关联**：自动链接到推理成本、AI漫剧经济学等相关概念
 - **认知转变**：原始信息与所需知识之间存在gap，LLM填补这个gap，实现从"存储"到"编译"的转变
 
 ### 个人实践验证（([[karpathy-obsidian-rebuild]])）
@@ -63,4 +63,4 @@ raw/          wiki/
 
 ## 相关概念
 
-[[llm-knowledge-management]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]
+[[llm-knowledge-management]]、[[knowledge-compounding]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]、[[rag-alternatives]]

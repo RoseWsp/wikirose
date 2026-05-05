@@ -1,3 +1,29 @@
+## [2026-05-05 12:53] lint | 修复1个死胡同页、17个破损链接、添加15+交叉链接、更新home.md页数
+
+- 修复死胡同页：[[ai-agent-comparisons-2026]]添加6个出站链接
+- 修复破损链接（17处）：
+  - [[推理成本]]、[[AI漫剧经济学]]、[[GPU租赁]]、[[开源模型]]、[[工具链自动化]]、[[向量数据库]]、[[源模型]]、[[GPU推理]]、[[AI幻觉经济学]]、[[模型选择]]、[[漫剧工具推理经济学]]、[[快速工程化能力]] → 移除方括号（无对应页面）
+  - [[claude-code]] → Claude Code（工具名，非页面）
+  - [[lint]] → /lint（命令，非页面）
+  - [[wikilinks]] → wikilinks（格式描述，非页面）
+  - [[home.md]]、[[index.md]] → [[home]]、[[index]]（命名规范）
+  - [[C-042 RAG]]、[[S-001 MotherDuck Obsidian RAG]] → 移除方括号（示例引用，非页面）
+- 添加交叉链接（15+处）：
+  - compiled-knowledge-base ↔ rag-alternatives
+  - knowledge-compounding ↔ rag-alternatives
+  - knowledge-health-check ↔ rag-alternatives, obsidian-optimization, obsidian-rebuild-experience
+  - continual-learning ↔ compulsive-capability-use（双向）
+  - agi-missing-pieces → einstein-test, general-specialized-architecture, jevons-paradox-inference
+  - agent-matrix → ai-agent-frameworks, agent-architecture-patterns
+  - software-no-moat → listen-dont-build, social-resistance-to-ai
+  - distribution-bottleneck → product-taste
+  - einstein-test → general-specialized-architecture, jevons-paradox-inference
+  - alphafold-breakthrough-conditions → jevons-paradox-inference
+  - harness-engineering → ai-native-veto
+- 更新home.md：总页数78→76（核实修正）
+- 矛盾检查：未发现矛盾，所有主题集群观点一致
+- 孤儿页：0（所有页面均有入站链接）
+- 死胡同页：0（所有页面均有出站链接）
 # Log
 
 ## [2026-05-05 16:00] digest | 4源深度传播：软件护城河+AI感知缺失+Agent验证+Agent原生工具
@@ -35,7 +61,7 @@
   - [[architect-operator-model]]：添加agent-native-tooling、agent-output-verification关联
   - [[software-3.0]]：添加agent-native-tooling、agent-output-verification关联
   - [[builder-reviewer-model]]：添加agent-output-verification、agent-native-tooling关联
-- 更新：[[index.md]]、[[home.md]]（新增主题"Agent输出验证与Agent原生工具"、更新mermaid图和状态）
+- 更新：[[index]]、[[home]]（新增主题"Agent输出验证与Agent原生工具"、更新mermaid图和状态）
 
 ## [2026-05-05 10:00] ingest | Claude发现了时钟，然后失控了
 - 源文件：[[claude-discovers-clock]]
@@ -285,7 +311,7 @@
   - [[openclaw-hermes-architecture]]：添加6条出站链接
   - [[anthropic-interpretability]]：添加5条出站链接
   - [[ai-agent-comparisons-2026]]：添加6条出站链接
-- 修复1个破损链接：home.md中`[[claude-code]]`→移除（无对应页面）
+- 修复1个破损链接：home.md中`Claude Code`→移除（无对应页面）
 - 添加缺失交叉链接：
   - [[software-3.0]] → [[action-based-ai]]
   - [[agentic-engineering]] → [[knowledge-engineering]]
@@ -354,7 +380,7 @@
   - [[ai-agent-frameworks]]：添加[[agentic-engineering]]作为相关概念
   - [[knowledge-engineering]]：添加源文件引用
 - 交叉链接：新概念页与所有相关概念页双向链接
-- 反向链接：更新4个现有概念页的相关概念部分，添加指向新页面的[[wikilinks]]
+- 反向链接：更新4个现有概念页的相关概念部分，添加指向新页面的wikilinks
 - 索引更新：[[index]]添加1源摘要+5概念页
 - 门户更新：[[home]]添加新兴主题"AI-native工程范式"，更新实时状态和查看源文件列表
 
@@ -380,7 +406,7 @@
   - [[action-based-ai]]：添加透明度与可审计性需求部分，链接到[[mechanistic-interpretability]]
   - [[product-taste]]：添加安全与可解释性投资部分，链接到[[mechanistic-interpretability]]
 - 交叉链接：新概念页与所有相关概念页双向链接
-- 反向链接：更新3个现有概念页的相关概念部分，添加指向新页面的[[wikilinks]]
+- 反向链接：更新3个现有概念页的相关概念部分，添加指向新页面的wikilinks
 - 索引更新：[[index]]添加1源摘要+1概念页
 - 门户更新：[[home]]添加新兴主题部分，更新实时状态和探索路径
 
@@ -392,7 +418,7 @@
   - [[llm-knowledge-management]]：在相关概念部分添加[[ai-agent-frameworks]]链接
   - [[product-taste]]：添加AI Agent框架选型作为产品品味案例
 - 交叉链接：新概念页与所有相关概念页双向链接
-- 反向链接：更新3个现有概念页的相关概念部分，添加指向新页面的[[wikilinks]]
+- 反向链接：更新3个现有概念页的相关概念部分，添加指向新页面的wikilinks
 - 索引更新：[[index]]添加1源摘要+1概念页
 - 门户更新：[[home]]添加新兴主题部分，更新实时状态和探索路径
 
@@ -404,7 +430,7 @@
   - [[llm-knowledge-management]]：补充详细工作流指南、工程化原则
   - [[compiled-knowledge-base]]：添加工作流指南引用
 - 交叉链接：新概念页与所有相关概念页双向链接
-- 反向链接：更新7个现有概念页的相关概念部分，添加指向新页面的[[wikilinks]]
+- 反向链接：更新7个现有概念页的相关概念部分，添加指向新页面的wikilinks
 - 索引更新：[[index]]添加1源摘要+3概念页
 - 门户更新：[[home]]更新实时状态，添加新源文件和进阶概念
 
@@ -416,7 +442,7 @@
   - [[compiled-knowledge-base]]：补充编译效果、交叉节点发现
   - [[knowledge-compounding]]：扩展复利循环体验、实践意义
 - 交叉链接：新页面与所有相关概念页双向链接
-- 反向链接：现有概念页添加指向新页面的[[wikilinks]]
+- 反向链接：现有概念页添加指向新页面的wikilinks
 
 ## [2026-05-03 15:00] digest | Anthropic产品负责人Cat Wu访谈深度整合
 - 源文件：[[anthropic-cat-wu-product-taste]]
@@ -456,4 +482,4 @@
 - 更新索引：[[index]] 添加2个源摘要+2个概念页
 - 更新门户：[[home]] 扩展概念网络，添加AI产品开发主题
 - 交叉链接：新页面与[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[knowledge-compounding]]相互链接
-- 反向链接：现有页面添加指向新页面的[[wikilinks]]
+- 反向链接：现有页面添加指向新页面的wikilinks

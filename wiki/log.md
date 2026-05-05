@@ -1,3 +1,23 @@
+## [2026-05-05 17:30] ingest | Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟
+- 源文件：[[boris-chenyi-sequoia-ai-ascent]]
+- 创建源摘要页：[[boris-chenyi-sequoia-ai-ascent]]（Boris Cherny × Sequoia AI Ascent 2026深度对话）
+- 创建概念页：
+  - [[loop-scheduling]]（Loop调度：用cron调度Agent重复任务，从按需工具到持续运行服务）
+  - [[org-process-gap]]（组织流程代差：同样的AI工具，谁先改造组织流程谁就领先）
+  - [[product-overhang]]（产品过剩：模型能力跑在产品前面，为下一个模型版本设计产品）
+- 交叉链接更新：
+  - [[role-convergence]]：添加Boris全员编程实践（跨学科通才）、组织流程代差关联
+  - [[software-no-moat]]：添加Boris的七种力量分析（转换成本+流程壁垒被AI削弱）
+  - [[agent-matrix]]：添加Boris的Agent矩阵实践数据（几百Agent+Loop管理+Slack互通信）
+  - [[harness-engineering]]：添加loop-scheduling、org-process-gap关联；Boris预言脚手架重要性下降
+  - [[architect-operator-model]]：添加loop-scheduling、org-process-gap关联
+  - [[self-healing-pipeline]]：添加loop-scheduling关联（Loop看护PR/CI是自愈流水线实时版）
+  - [[product-taste]]：添加product-overhang关联（前瞻性判断是品味的极致体现）
+  - [[dogfooding-as-method]]：添加Boris的dogfooding战略意义+org-process-gap关联
+  - [[clarity-before-automation]]：添加org-process-gap关联（组织流程代差是"先清晰"的竞争后果）
+  - [[action-based-ai]]：添加loop-scheduling、org-process-gap关联
+- 更新：[[index]]、[[home]]（新增主题"组织流程代差与Loop调度"、概念图扩展、状态更新19源/58概念/80页）
+
 ## [2026-05-05 12:53] lint | 修复1个死胡同页、17个破损链接、添加15+交叉链接、更新home.md页数
 
 - 修复死胡同页：[[ai-agent-comparisons-2026]]添加6个出站链接

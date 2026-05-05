@@ -43,3 +43,4 @@
 - [[minimal-product-specs]] — 极简规格是"先清晰"的实践方法
 - [[listen-dont-build]] — "先清晰"在用户研究中的体现：倾听底层需求而非表面请求 ([[spiegel-software-no-moat]])
 - [[social-resistance-to-ai]] — Spiegel的"先考虑人类需求再谈技术部署"是社会层面的"先清晰再自动化" ([[spiegel-software-no-moat]])
+- [[org-process-gap]] — 组织流程代差是"先清晰再自动化"的竞争后果：清晰公司已经让AI渗透每个流程，混乱公司连第一步都没迈出

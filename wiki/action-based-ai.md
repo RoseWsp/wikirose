@@ -168,6 +168,12 @@ Codex团队的plan mode展示了行动派AI的新工作方式：产品规划不�
 ### [[builder-reviewer-model]]
 行动派AI改变了招聘标准：Builder驱动行动派AI完成工作，Reviewer守住行动派AI的产出质量。传统"只写代码"的人无法与行动派AI协作。
 
+### [[loop-scheduling]]
+Loop调度是行动派AI的持续性形态——Agent不再是按需工具，而是像后台进程一样持续运转。Boris的Loop自动看护PR、维持CI健康、抓取反馈，即使人离线也在执行。([[boris-chenyi-sequoia-ai-ascent]])
+
+### [[org-process-gap]]
+组织流程代差是行动派AI在组织层面的落地条件：同样的行动派AI工具，谁先改造组织流程让它渗透每个环节，谁就获得真正的竞争优势。([[boris-chenyi-sequoia-ai-ascent]])
+
 ## 实践建议
 
 1. **从简单开始**：选择高价值、可验证的简单任务自动化

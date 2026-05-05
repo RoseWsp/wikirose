@@ -140,4 +140,7 @@ Hassabis指出工具降低执行门槛后缺的不是速度，而是"craft和sou
 ### [[software-no-moat]]
 Evan Spiegel的判断："被抄总比做出没人想抄的东西好"——当软件功能不再构成护城河，产品品味决定了你选择构建什么样的生态系统和关系型壁垒，而非功能型壁垒。品味是不可复制的护城河。([[spiegel-software-no-moat]])
 
+### [[product-overhang]]
+产品过剩要求品味判断"下一个模型版本应该匹配什么产品"。Boris提前六个月构建Claude Code时明知道六个月内不会有PMF——他在等模型追上产品构想。这种前瞻性判断正是产品品味在AI时代的极致体现。([[boris-chenyi-sequoia-ai-ascent]])
+
 > 来源：[[anthropic-cat-wu-product-taste]]详细阐述了代码廉价化背景下产品品味的崛起。[[cat-wu-ai-pm-role]]补充了AGI信仰校准和角色融合的具体实践。

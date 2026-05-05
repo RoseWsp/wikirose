@@ -30,6 +30,8 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 
 但AI First不是万能的。即使五大前提都做到，也只适合一部分场景：后端逻辑为主、内部工具、早期产品快速试错。不适合的场景包括UI密集产品、功能质量敏感产品、安全性要求高场景。值得注意的是，Anthropic和OpenAI自己都不敢在Claude Code和Codex上全自动迭代——这就是最好的反面证据 ([[ai-first-strategy-wrong]])。
 
+Boris Cherny的判断指向了脚手架工程的消亡方向：他预言Claude Code一年后可能只剩100行代码。随着模型自主行动能力增强，prompt注入保护、命令校验、权限模式等安全机制都会变得不重要——模型会自己做正确的事。"外壳"（harness）的重要性在下降。([[boris-chenyi-sequoia-ai-ascent]])
+
 宝玉xp的关键洞察：AI First的真正终点未必是让AI干所有活，而是借着这股力量，把一直想做但没动力做的工程改进真正推动起来。仰望星空，脚踏实地。
 
 ## 关联
@@ -54,6 +56,8 @@ OpenAI在2026年2月提出"脚手架工程"这个概念，但CREAO在实践中�
 - [[compulsive-capability-use]]——给AI新工具时，预设它会过度使用，在脚手架中设置适当约束
 - [[agent-output-verification]]——脚手架的上游约束是Agent输出验证的"上游层"，为Agent构建可验证的执行规格
 - [[agent-native-tooling]]——脚手架工程为Agent构建约束环境，Agent-native工具为Agent构建原生工作介质——两者是同一转变的两面
+- [[loop-scheduling]]——Loop调度减少了对脚手架的依赖：模型自主决定何时循环运行，脚手架的重要性随模型增强而下降
+- [[org-process-gap]]——组织流程代差是脚手架工程的组织层面对应：工程面搭脚手架+组织面改造流程=AI最大化嵌入
 
 ## 组织层面的脚手架
 

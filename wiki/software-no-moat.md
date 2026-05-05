@@ -36,6 +36,8 @@ Spiegel对AR的战略判断是：今天的人平均每天花七八个小时在�
 
 与[[agent-native-tooling]]的前瞻性连接：当软件功能不构成护城河，而Agent成为主要代码作者，工具链的优化方向本身就成为差异化竞争维度。Snap转向硬件和生态系统，本质上是在寻找"Agent无法一键复制的"竞争壁垒。如果所有公司都用相同的Agent+相同的工具，产出同质化的软件，那么[[agent-output-verification|验证体系]]和[[agent-native-tooling|Agent原生工具]]的设计能力就变成了新的"生态系统"级护城河。
 
+Boris Cherny用Hamilton Helmer的"七种力量"框架做了更精确的分析：AI会削弱**转换成本**（模型帮用户轻松迁移）和**流程壁垒**（Claude 4.7能自主迭代优化复杂流程），但网络效应、规模经济、独占资源等传统护城河不受影响。他预言未来十年颠覆性初创公司数量增加10倍——小公司能打造大公司同等量级产品，且没有组织转型阻力。([[boris-chenyi-sequoia-ai-ascent]])
+
 ## 熔炼时刻
 
 Spiegel把2026年称为Snap的"crucible moment"——年营收接近财富500强门槛（2025年营收59.3亿美元），月活接近十亿，但公司还没实现净利润（2025年净亏损4.6亿美元）。他必须证明Snapchat能成为盈利能力强的业务，否则Specs的长期战略站不住脚。Spiegel用"中间的孩子"形容Snap的市场位置：比Pinterest和Reddit大得多，但比Meta和Google小得多。中间的孩子最大的挑战是定义自己是谁——这恰好印证了[[organizational-self-knowledge]]的核心判断：清晰描述"我们是谁"比功能堆叠更重要 ([[spiegel-software-no-moat]]、[[listen-dont-build]]、[[social-resistance-to-ai]])。

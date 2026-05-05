@@ -40,3 +40,5 @@ Cat Wu 确认 token 成本在涨：每次模型升级后人们把更多任务交
 ## Cowork 的定位
 
 Cat Wu 对 Claude 产品矩阵的分类暗示了 Agent 矩阵的入口：Cowork 处理非代码输出（Slack、slide deck、文档），连接所有数据源（Calendar、Gmail、Drive）后才能给出高质量输出。数据源接入是 Agent 矩阵的基础设施。([[cat-wu-ai-pm-role]])
+
+Boris Cherny提供了Agent矩阵的最新实践数据：大概几百个Agent在跑，每天晚上几千个做更深层工作。他用[[loop-scheduling|Loop]]管理这些Agent——用cron调度重复任务，如自动看护PR、维持CI健康、每30分钟抓Twitter反馈。Anthropic内部更进一步：Agent之间通过Slack互相通信协商解决问题。([[boris-chenyi-sequoia-ai-ascent]])

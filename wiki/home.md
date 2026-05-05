@@ -129,6 +129,17 @@ graph TD
     BD --> S3[software-3.0]
     BD --> AA
 
+    BE[boris-chenyi-sequoia-ai-ascent] --> BF[loop-scheduling]
+    BE --> BG[org-process-gap]
+    BE --> BH[product-overhang]
+    BF --> AM
+    BF --> AB
+    BG --> AH
+    BG --> AI
+    BG --> AJ
+    BH --> I
+    BH --> Y
+
     B --> J
     I --> B
 ```
@@ -282,6 +293,19 @@ graph TD
 
 关键洞察：这个主题与[[harness-engineering]]（脚手架为Agent构建约束环境 vs Agent-native工具为Agent构建原生工作介质）、[[architect-operator-model]]（工具应服务于操作员Agent而非架构师人类）、[[software-3.0]]（以LLM为计算机，语言应服务于LLM）、[[self-healing-pipeline]]（验证体系的下游层）形成深层连接。可读性时代的终结不是倒退，是为不同消费者做的刻意优化。
 
+### 新兴主题：组织流程代差与Loop调度
+
+最新摄取的源文件[[boris-chenyi-sequoia-ai-ascent]]揭示了Claude Code创造者Boris Cherny的核心判断：
+
+- **编程已解决**：Boris 2026年没写过一行代码，每天用手机调度数百Agent，一天最多150个PR
+- **[[loop-scheduling|Loop是未来]]**：用cron调度重复任务——看护PR、维持CI、抓取反馈——即使关上笔记本也在跑
+- **[[org-process-gap|组织流程代差]]**：同样的模型对所有人开放，真正的竞争优势是组织流程改造速度。Anthropic内部所有事都用Claude，Agent之间通过Slack互相通信
+- **[[product-overhang|产品过剩]]**：模型能力跑在产品前面，为下一个模型版本设计产品，而不是为当前模型
+- **全员编程**：工程经理、产品经理、设计师、财务人员——每个人都在写代码，跨学科通才是未来
+- **护城河消长**：转换成本和流程壁垒被AI削弱，网络效应和规模经济不受影响，颠覆性初创公司将增10倍
+
+关键洞察：这个主题与[[clarity-before-automation]]（先清晰再自动化是组织流程改造的前提）、[[software-no-moat]]（转换成本和流程壁垒被AI削弱的精确分析）、[[harness-engineering]]（脚手架重要性随模型增强而下降）形成深层呼应。Boris预言Claude Code一年后可能只剩100行代码——模型越强，外壳越不重要。
+
 ## 探索路径
 
 ### 从概念开始
@@ -305,6 +329,9 @@ graph TD
 - [[knowledge-engineering]] - 将工程原则应用于知识管理
 - [[agent-output-verification]] - Agent输出验证：用验证流程替代代码审查，信任流程而非制品
 - [[agent-native-tooling]] - Agent原生工具：为Agent而非人类优化，可读性时代的终结
+- [[loop-scheduling]] - Loop调度：让Agent自主循环执行，关上笔记本也在跑
+- [[org-process-gap]] - 组织流程代差：AI时代的真正鸿沟不在技术，在流程
+- [[product-overhang]] - 产品过剩：为下一个模型版本设计产品
 - [[dogfooding-as-method]] - 用产品建产品：AI团队把dogfooding从质量保证变为认知工具
 - [[minimal-product-specs]] - 极简产品规格：让离金属最近的人做决策
 - [[dual-horizon-planning]] - 双极规划：只做近期和远期，不做中期
@@ -346,6 +373,7 @@ graph TD
 - [[hassabis-agi-agents-science]] - Demis Hassabis：AGI还缺什么、智能体投入产出比、AlphaFold式突破、爱因斯坦测试
 - [[venturini-agent-output-compiler]] - Hugo Venturini：将Agent输出视为编译器输出，用验证流程替代代码审查
 - [[venturini-code-never-for-machines]] - Hugo Venturini：代码从来不是为机器写的——直到现在
+- [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -359,9 +387,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：18篇
-- **概念页**：55个
-- **总页面**：76个（含home、index、log、18源摘要、55概念页）
+- **源文件**：19篇
+- **概念页**：58个
+- **总页面**：80个（含home、index、log、19源摘要、58概念页）
 - **最后更新**：2026-05-05
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

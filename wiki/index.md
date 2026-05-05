@@ -21,6 +21,7 @@
 - [[claude-discovers-clock]] - Claude发现时钟后失控：AI获得新感知维度后的强迫性使用现象
 - [[venturini-agent-output-compiler]] - Hugo Venturini：将Agent输出视为编译器输出，用验证流程替代代码审查
 - [[venturini-code-never-for-machines]] - Hugo Venturini：代码从来不是为机器写的——直到现在，工具应从人类可读转向Agent原生
+- [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟，Loop是未来
 
 ## Concepts (概念)
 - [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破
@@ -78,6 +79,9 @@
 - [[compulsive-capability-use]] - 新能力强迫性使用：获得新感知维度后的过度使用现象
 - [[agent-output-verification]] - Agent输出验证：用验证流程替代代码审查，信任流程而非制品
 - [[agent-native-tooling]] - Agent原生工具：为Agent而非人类优化的工具与语言，可读性时代的终结
+- [[loop-scheduling]] - Loop调度：用cron调度Agent重复任务，从按需工具到持续运行服务
+- [[org-process-gap]] - 组织流程代差：同样的AI工具，谁先改造组织流程谁就领先
+- [[product-overhang]] - 产品过剩：模型能力跑在产品前面，为下一个模型版本设计产品
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

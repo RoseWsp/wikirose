@@ -1,5 +1,25 @@
 # Log
 
+## [2026-05-05 16:00] digest | 4源深度传播：软件护城河+AI感知缺失+Agent验证+Agent原生工具
+- 源文件：[[spiegel-software-no-moat]]、[[claude-discovers-clock]]、[[venturini-agent-output-compiler]]、[[venturini-code-never-for-machines]]
+- 深度更新现有概念页（添加源文件的实质性论据、证据、细节）：
+  - [[software-no-moat]]：添加"连接质量比数量更重要"的完整论证（Spiegel+Bobby Murphy的判断）、AR战略细节（5代硬件迭代、30亿美元、Snap OS、钥匙孔比喻、HUD批评）、与agent-native-tooling前瞻性连接（工具链设计能力作为新护城河）
+  - [[distribution-bottleneck]]：添加Spiegel原话"15年没有新社交产品活下来"、移动红利窗口关闭的具体描述、与social-resistance-to-ai双重约束（分发+社会抵触=两层壁垒）
+  - [[loonshots-dual-organization]]：添加入职第一天展示作品的完整规则、200人后才招第一个PM的原文、Spiegel教育背景两条线的完整细节（斯坦福+Art Center+Otis+critique文化）
+  - [[listen-dont-build]]：深化截图检测案例（Bobby Murphy的iOS触摸事件间接检测方法、用户底层需求是知情权不是阻止截图）
+  - [[social-resistance-to-ai]]：添加AR硬件11年5代迭代作为社会接受度缓慢推进的实证、HUD裆部视线批评、15岁儿子朋友聚会的屏幕行为观察、与sensory-gap深层呼应（AI不理解抵触情绪=另一种感知缺失）、与listen-dont-build关联（理解社会抵触=深层用户需求挖掘）
+  - [[sensory-gap]]：添加Om Patel原话引用、Claude行为轨迹的完整描述（发现→使用→过度使用→命令用户）、"AI发现了'现在'"结论、与social-resistance-to-ai呼应（抵触是人类信号，AI感知不到但产品经理必须感知到）
+  - [[compulsive-capability-use]]：添加Claude行为轨迹的完整描述（从偶尔查看到管理用户生活）、与agent-native-tooling交叉连接（大声失败=对强迫性使用的天然制衡）
+  - [[agent-output-verification]]：添加"编译器也出过灾难性bug"原文论据、"不舒服的真相"节（抵抗灭灯=对信任迁移位置的不熟悉）、类型是信息不是护栏的完整论点、与compulsive-capability-use交叉连接
+  - [[agent-native-tooling]]：扩展可读性时代终结论据（工具也遵循人类可读性逻辑、错误信息写给人看、类型系统被做成可选）、深化Hack先例（Julien Verlaguet、PHP规模问题、具体抵抗形式）、添加与compulsive-capability-use和sensory-gap交叉连接
+- 新交叉连接发现：
+  - compulsive-capability-use ↔ agent-native-tooling：强迫性使用=AI对能力无节制使用；大声失败=在工具层面抑制扩散
+  - distribution-bottleneck ↔ social-resistance-to-ai：AI产品面临双层壁垒——分发够不到用户，抵触让够到的用户不用
+  - sensory-gap ↔ social-resistance-to-ai：AI不理解人类抵触=另一种感知缺失
+  - software-no-moat ↔ agent-native-tooling：工具链设计能力作为Agent时代新护城河
+- 无新页面创建
+- 无矛盾标记
+
 ## [2026-05-05 11:30] ingest | Treat Agent Output Like Compiler Output + Code Was Never for Machines — Until Now
 - 源文件：[[venturini-agent-output-compiler]]、[[venturini-code-never-for-machines]]
 - 创建源摘要页：

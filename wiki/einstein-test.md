@@ -28,3 +28,4 @@ Hassabis认为当前系统缺乏"类比推理"（analogical reasoning）能力�
 - [[jagged-intelligence]] — 锯齿状智能的极端表现：能解已知难题但无法发明新框架
 - [[alphafold-breakthrough-conditions]] — AlphaFold在"搜索大空间+优化目标函数"框架内成功，但爱因斯坦测试要求的是发明新的搜索空间本身
 - [[vibe-coding]] — 工具降低执行门槛（半小时做出Theme Park原型），但创造力本身（craft和soul）还没有被替代
+- [[intelligence-vs-wisdom]] — 爱因斯坦测试考的是"能否发明新概念框架"，不是"能否解决已知难题"——智慧而非智能。AI能解已知难题（智能），但发明新框架需要从体验中生成新认知（智慧）

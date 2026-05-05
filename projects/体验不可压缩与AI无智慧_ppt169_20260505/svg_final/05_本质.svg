@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="centerGlow" cx="50%" cy="42%" r="40%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="rainGlow" cx="50%" cy="75%" r="30%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <g id="bg-p05">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#centerGlow)" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#rainGlow)" />
+  </g>
+
+  
+  <g id="p05-core-statement">
+    <text x="640" y="280" text-anchor="middle" font-size="38" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">智慧不是从信息中提取的</text>
+    <text x="640" y="340" text-anchor="middle" font-size="38" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">是从参与中生成的</text>
+  </g>
+
+  
+  <g id="p05-divider">
+    <line x1="480" y1="400" x2="800" y2="400" stroke="#30363D" stroke-width="1" />
+  </g>
+
+  
+  <g id="p05-rain-metaphor">
+    
+  <g transform="translate(490.0, 440.0) scale(2.25)" fill="#4A9EFF">
+    <path d="M8 0C10.2091 0 12 1.79086 12 4V5C14.2091 5 16 6.79086 16 9H0V8C0 5.79086 1.79086 4 4 4C4 1.79086 5.79086 0 8 0Z" />
+    <path d="M4 16L5 11H3L2 16H4Z" />
+    <path d="M8 16L9 11H7L6 16H8Z" />
+    <path d="M13 11L12 16H10L11 11H13Z" />
+  </g>
+    <text x="540" y="468" font-size="22" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">模拟下雨，地面不会湿</text>
+    <text x="640" y="520" text-anchor="middle" font-size="20" fill="#E6EDF3" font-family="Georgia, SimSun, serif">不是湿得不够，是根本不存在"湿"这回事</text>
+  </g>
+
+  
+  <g id="p05-bottom-truth">
+    <path fill="#161B22" stroke="#F85149" stroke-width="1" stroke-opacity="0.3" d="M312,580 H968 A12,12 0 0 1 980,592 V628 A12,12 0 0 1 968,640 H312 A12,12 0 0 1 300,628 V592 A12,12 0 0 1 312,580 Z" />
+    <text x="640" y="618" text-anchor="middle" font-size="18" fill="#F85149" font-family="Georgia, SimSun, serif">算力解决的是"描述多精确"，体验是"有没有发生"</text>
+  </g>
+
+  
+  <g id="p05-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">05</text>
+  </g>
+</svg>

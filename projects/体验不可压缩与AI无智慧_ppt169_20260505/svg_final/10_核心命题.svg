@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="finalGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="finalColdGlow" cx="50%" cy="80%" r="40%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="finalDivider" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  
+  <g id="bg-p10">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#finalGlow)" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#finalColdGlow)" />
+
+    
+    <circle cx="180" cy="120" r="1" fill="#E6EDF3" fill-opacity="0.3" />
+    <circle cx="400" cy="80" r="1.5" fill="#E6EDF3" fill-opacity="0.25" />
+    <circle cx="850" cy="100" r="1" fill="#E6EDF3" fill-opacity="0.2" />
+    <circle cx="1100" cy="150" r="1" fill="#C9A96E" fill-opacity="0.3" />
+    <circle cx="300" cy="600" r="1" fill="#4A9EFF" fill-opacity="0.2" />
+    <circle cx="1000" cy="580" r="1.5" fill="#E6EDF3" fill-opacity="0.15" />
+  </g>
+
+  
+  <g id="p10-proposition">
+    <text x="640" y="220" text-anchor="middle" font-size="28" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">体验不可压缩</text>
+    <text x="640" y="280" text-anchor="middle" font-size="22" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">不是因为压缩方法还不够好</text>
+
+    <rect x="340" y="320" width="600" height="2" fill="url(#finalDivider)" />
+
+    <text x="640" y="380" text-anchor="middle" font-size="32" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">而是因为模拟不是发生</text>
+
+    <rect x="340" y="420" width="600" height="2" fill="url(#finalDivider)" />
+
+    <text x="640" y="470" text-anchor="middle" font-size="24" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI站在体验的门外</text>
+  </g>
+
+  
+  <g id="p10-final">
+    <path fill="#161B22" stroke="#F85149" stroke-width="1.5" stroke-opacity="0.4" d="M236,520 H1044 A16,16 0 0 1 1060,536 V584 A16,16 0 0 1 1044,600 H236 A16,16 0 0 1 220,584 V536 A16,16 0 0 1 236,520 Z" />
+    
+  <g transform="translate(260.0, 544.0) scale(2.0)" fill="#F85149">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 6V4C4 1.79086 5.79086 0 8 0C10.2091 0 12 1.79086 12 4V6H14V16H2V6H4ZM6 4C6 2.89543 6.89543 2 8 2C9.10457 2 10 2.89543 10 4V6H6V4ZM7 13V9H9V13H7Z" />
+  </g>
+    <text x="310" y="570" font-size="26" font-weight="bold" fill="#F85149" font-family="Georgia, SimSun, serif">门不是算力能推开的</text>
+    <text x="310" y="590" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">它根本不是一扇门，是两面墙</text>
+  </g>
+
+  
+  <g id="p10-footer">
+    
+  <g transform="translate(605.0, 650.0)" fill="#C9A96E">
+    <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" />
+  </g>
+    
+  <g transform="translate(628.0, 650.0)" fill="#C9A96E">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 9C15 12.866 11.866 16 8 16C4.13401 16 1 12.866 1 9C1 5.5 4 3 4 3H6V4.5C6 5.05228 6.44772 5.5 7 5.5C7.55228 5.5 8 5.05228 8 4.5V0H10C10 0 15 3 15 9ZM10 12C10 13.1046 9.10457 14 8 14C6.89543 14 6 13.1046 6 12C6 9.5 8 8 8 8C8 8 10 9.5 10 12Z" />
+  </g>
+    
+  <g transform="translate(651.0, 650.0)" fill="#C9A96E">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM12.7071 5.70711L11.2929 4.29289L6.5 9.08579L4.70711 7.29289L3.29289 8.70711L6.5 11.9142L12.7071 5.70711Z" />
+  </g>
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">10</text>
+  </g>
+</svg>

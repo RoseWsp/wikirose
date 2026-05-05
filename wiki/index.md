@@ -21,7 +21,9 @@
 - [[claude-discovers-clock]] - Claude发现时钟后失控：AI获得新感知维度后的强迫性使用现象
 - [[venturini-agent-output-compiler]] - Hugo Venturini：将Agent输出视为编译器输出，用验证流程替代代码审查
 - [[venturini-code-never-for-machines]] - Hugo Venturini：代码从来不是为机器写的——直到现在，工具应从人类可读转向Agent原生
-- [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟，Loop是未来
+- [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟
+- [[lijigang-experience-incompressible]] - 李继刚：人身上，不可压缩的是体验——系统0、钢化膜vs磨刀石、OPC、黑暗森林化
+- [[ai-has-no-wisdom]] - 体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》的深度讨论，Loop是未来
 
 ## Concepts (概念)
 - [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破
@@ -82,6 +84,12 @@
 - [[loop-scheduling]] - Loop调度：用cron调度Agent重复任务，从按需工具到持续运行服务
 - [[org-process-gap]] - 组织流程代差：同样的AI工具，谁先改造组织流程谁就领先
 - [[product-overhang]] - 产品过剩：模型能力跑在产品前面，为下一个模型版本设计产品
+- [[system-zero]] - 系统0：AI在人类直觉启动之前就给出答案，悄然接管自主意识
+- [[experience-incompressible]] - 体验不可压缩：模拟不是发生，算力解决"描述多精确"，体验是"有没有发生"
+- [[intelligence-vs-wisdom]] - 智能与智慧：智能是处理已有的，智慧是从参与中生成的——两个不同的谱系
+- [[opc-one-person-company]] - 一人公司：科斯定理在AI时代的必然推论，管理100个agent远低于管理100人
+- [[dark-forest-internet]] - 互联网黑暗森林化：可见即可复制，护城河只在AI看不见的地方
+- [[steel-film-vs-whetstone]] - 钢化膜与磨刀石：面对AI的两种生存模式——隔绝世界vs打磨自己
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

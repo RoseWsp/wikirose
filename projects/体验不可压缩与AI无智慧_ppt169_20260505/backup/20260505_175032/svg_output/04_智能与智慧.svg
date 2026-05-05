@@ -1,0 +1,94 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coldGlow2" cx="25%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warmGlow2" cx="75%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <g id="bg-p04">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#coldGlow2)"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#warmGlow2)"/>
+  </g>
+
+  <!-- Header -->
+  <g id="p04-header">
+    <rect x="60" y="40" width="4" height="36" fill="#8B5CF6"/>
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">智能与智慧是两回事</text>
+    <text x="80" y="100" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">Rose的论点比李继刚的更锋利</text>
+  </g>
+
+  <!-- Left: 智能 (cold blue) -->
+  <g id="panel-intelligence">
+    <rect x="60" y="130" width="520" height="400" rx="16" fill="#161B22" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.2"/>
+    <rect x="60" y="130" width="520" height="6" rx="3" fill="#4A9EFF" fill-opacity="0.5"/>
+
+    <use data-icon="chunk-filled/robot" x="100" y="170" width="40" height="40" fill="#4A9EFF"/>
+    <text x="154" y="200" font-size="36" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">智能</text>
+    <text x="100" y="240" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">Intelligence</text>
+
+    <rect x="100" y="270" width="440" height="1" fill="#30363D"/>
+
+    <!-- Definition items -->
+    <text x="100" y="310" font-size="22" fill="#E6EDF3" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-weight="bold">处理已有的</text>
+    <text x="100" y="355" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="100" dy="0">从信息中<tspan fill="#4A9EFF">提取</tspan></tspan>
+      <tspan x="100" dy="36">算力的<tspan fill="#4A9EFF">产物</tspan></tspan>
+      <tspan x="100" dy="36">描述的<tspan fill="#4A9EFF">精确度</tspan></tspan>
+    </text>
+
+    <!-- Bottom tag -->
+    <rect x="100" y="470" width="160" height="36" rx="18" fill="#4A9EFF" fill-opacity="0.1" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="180" y="494" text-anchor="middle" font-size="15" fill="#4A9EFF" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI拥有</text>
+  </g>
+
+  <!-- Center: contradiction -->
+  <g id="p04-center">
+    <rect x="605" y="260" width="70" height="70" rx="35" fill="#0D1117" stroke="#8B5CF6" stroke-width="2" stroke-opacity="0.5"/>
+    <text x="640" y="304" text-anchor="middle" font-size="28" fill="#8B5CF6" font-family="Georgia, SimSun, serif">≠</text>
+    <text x="640" y="370" text-anchor="middle" font-size="14" fill="#8B5CF6" font-family="Georgia, SimSun, serif">不是同一谱系</text>
+    <text x="640" y="392" text-anchor="middle" font-size="14" fill="#8B5CF6" font-family="Georgia, SimSun, serif">上的强弱</text>
+  </g>
+
+  <!-- Right: 智慧 (warm gold) -->
+  <g id="panel-wisdom">
+    <rect x="700" y="130" width="520" height="400" rx="16" fill="#161B22" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2"/>
+    <rect x="700" y="130" width="520" height="6" rx="3" fill="#C9A96E" fill-opacity="0.5"/>
+
+    <use data-icon="chunk-filled/heart" x="740" y="170" width="40" height="40" fill="#C9A96E"/>
+    <text x="794" y="200" font-size="36" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">智慧</text>
+    <text x="740" y="240" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">Wisdom</text>
+
+    <rect x="740" y="270" width="440" height="1" fill="#30363D"/>
+
+    <!-- Definition items -->
+    <text x="740" y="310" font-size="22" fill="#E6EDF3" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-weight="bold">从经历中生出新的</text>
+    <text x="740" y="355" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="740" dy="0">从参与中<tspan fill="#C9A96E">生成</tspan></tspan>
+      <tspan x="740" dy="36">体验的<tspan fill="#C9A96E">痕迹</tspan></tspan>
+      <tspan x="740" dy="36">有没有<tspan fill="#C9A96E">"经过身体"</tspan></tspan>
+    </text>
+
+    <!-- Bottom tag -->
+    <rect x="740" y="470" width="160" height="36" rx="18" fill="#C9A96E" fill-opacity="0.1" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="820" y="494" text-anchor="middle" font-size="15" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI没有</text>
+  </g>
+
+  <!-- Bottom takeaway -->
+  <g id="p04-takeaway">
+    <rect x="60" y="570" width="1160" height="70" rx="12" fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.2"/>
+    <use data-icon="chunk-filled/sparkles" x="84" y="590" width="28" height="28" fill="#8B5CF6"/>
+    <text x="128" y="613" font-size="20" fill="#8B5CF6" font-weight="bold" font-family="Georgia, SimSun, serif">区别不在于输出质量，而在于有没有"经过身体"</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="p04-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">04</text>
+  </g>
+</svg>

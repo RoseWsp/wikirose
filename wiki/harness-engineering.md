@@ -58,6 +58,8 @@ Boris Cherny的判断指向了脚手架工程的消亡方向：他预言Claude C
 - [[agent-native-tooling]]——脚手架工程为Agent构建约束环境，Agent-native工具为Agent构建原生工作介质——两者是同一转变的两面
 - [[loop-scheduling]]——Loop调度减少了对脚手架的依赖：模型自主决定何时循环运行，脚手架的重要性随模型增强而下降
 - [[org-process-gap]]——组织流程代差是脚手架工程的组织层面对应：工程面搭脚手架+组织面改造流程=AI最大化嵌入
+- [[intelligence-vs-wisdom]]——脚手架为AI构建约束，但脚手架本身不产生智慧——AI有智能无智慧，约束的是行为不是认知
+- [[experience-incompressible]]——脚手架压缩了AI出错的概率，但无法压缩人类体验——两者是不同维度的防线
 
 ## 组织层面的脚手架
 

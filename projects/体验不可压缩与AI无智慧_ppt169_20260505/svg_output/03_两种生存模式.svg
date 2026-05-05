@@ -1,0 +1,88 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="warmGlow" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coldGlow" cx="25%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <g id="bg-p03">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#coldGlow)"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#warmGlow)"/>
+  </g>
+
+  <!-- Header -->
+  <g id="p03-header">
+    <rect x="60" y="40" width="4" height="36" fill="#8B5CF6"/>
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">两种生存模式</text>
+  </g>
+
+  <!-- Left panel: 钢化膜 (cold blue) -->
+  <g id="panel-steel">
+    <rect x="60" y="120" width="560" height="480" rx="16" fill="#161B22" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Top accent -->
+    <rect x="60" y="120" width="560" height="6" rx="3" fill="#4A9EFF" fill-opacity="0.6"/>
+
+    <use data-icon="chunk-filled/shield" x="100" y="160" width="48" height="48" fill="#4A9EFF"/>
+    <text x="164" y="195" font-size="32" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">钢化膜</text>
+    <text x="100" y="240" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">隔绝世界，保护自己</text>
+
+    <rect x="100" y="270" width="480" height="1" fill="#30363D"/>
+
+    <text x="100" y="310" font-size="22" fill="#E6EDF3" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="100" dy="0" font-weight="bold" fill="#4A9EFF">AI替你做一切</tspan>
+    </text>
+    <text x="100" y="360" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="100" dy="0">• 不需要思考，AI给你答案</tspan>
+      <tspan x="100" dy="34">• 不需要记忆，AI替你搜索</tspan>
+      <tspan x="100" dy="34">• 不需要判断，AI帮你决策</tspan>
+      <tspan x="100" dy="34">• 不需要体验，AI描述给你</tspan>
+    </text>
+
+    <rect x="100" y="520" width="480" height="56" rx="10" fill="#4A9EFF" fill-opacity="0.08" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="340" y="555" text-anchor="middle" font-size="18" fill="#4A9EFF" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-weight="bold">结果：能力退化，依赖加深</text>
+  </g>
+
+  <!-- Center divider -->
+  <g id="p03-divider">
+    <rect x="635" y="180" width="10" height="360" rx="5" fill="#8B5CF6" fill-opacity="0.15"/>
+    <text x="640" y="370" text-anchor="middle" font-size="14" fill="#8B5CF6" font-family="Georgia, SimSun, serif">VS</text>
+  </g>
+
+  <!-- Right panel: 磨刀石 (warm gold) -->
+  <g id="panel-whetstone">
+    <rect x="660" y="120" width="560" height="480" rx="16" fill="#161B22" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Top accent -->
+    <rect x="660" y="120" width="560" height="6" rx="3" fill="#C9A96E" fill-opacity="0.6"/>
+
+    <use data-icon="chunk-filled/bolt" x="700" y="160" width="48" height="48" fill="#C9A96E"/>
+    <text x="764" y="195" font-size="32" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">磨刀石</text>
+    <text x="700" y="240" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">用AI打磨自己</text>
+
+    <rect x="700" y="270" width="480" height="1" fill="#30363D"/>
+
+    <text x="700" y="310" font-size="22" fill="#E6EDF3" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="700" dy="0" font-weight="bold" fill="#C9A96E">保持与世界摩擦</tspan>
+    </text>
+    <text x="700" y="360" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="700" dy="0">• AI给答案，但你要理解为什么</tspan>
+      <tspan x="700" dy="34">• AI提效，但你保留判断力</tspan>
+      <tspan x="700" dy="34">• AI辅助，但你亲自下场</tspan>
+      <tspan x="700" dy="34">• 体验不可外包</tspan>
+    </text>
+
+    <rect x="700" y="520" width="480" height="56" rx="10" fill="#C9A96E" fill-opacity="0.08" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="940" y="555" text-anchor="middle" font-size="18" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-weight="bold">结果：能力增长，体验积累</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="p03-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">03</text>
+  </g>
+</svg>

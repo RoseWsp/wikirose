@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="coldGlow3" cx="25%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="warmGlow3" cx="75%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <g id="bg-p07">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#coldGlow3)" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#warmGlow3)" />
+  </g>
+
+  
+  <g id="p07-header">
+    <rect x="60" y="40" width="4" height="36" fill="#C9A96E" />
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">《吞噬星空》的比喻</text>
+    <text x="80" y="100" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">两种生命，两种命运</text>
+  </g>
+
+  
+  <g id="panel-mech">
+    <path fill="#161B22" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.2" d="M76,130 H584 A16,16 0 0 1 600,146 V534 A16,16 0 0 1 584,550 H76 A16,16 0 0 1 60,534 V146 A16,16 0 0 1 76,130 Z" />
+    <path fill="#4A9EFF" fill-opacity="0.5" d="M63,130 H597 A3,3 0 0 1 600,133 V133 A3,3 0 0 1 597,136 H63 A3,3 0 0 1 60,133 V133 A3,3 0 0 1 63,130 Z" />
+
+    
+    <path fill="#0D1117" stroke="#30363D" stroke-width="1" stroke-dasharray="8,4" d="M102,160 H558 A12,12 0 0 1 570,172 V308 A12,12 0 0 1 558,320 H102 A12,12 0 0 1 90,308 V172 A12,12 0 0 1 102,160 Z" />
+    <text x="330" y="240" text-anchor="middle" font-size="14" fill="#484F58" font-family="Consolas, &quot;Courier New&quot;, monospace">mechanical_vs_flesh.jpg (left half)</text>
+
+    
+  <g transform="translate(90.0, 340.0) scale(2.25)" fill="#4A9EFF">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0V2H13L16 8.5L13 15H3L0 8.5L3 2H7V0H9ZM4.59794 11.7384L8 12.2618L11.4021 11.7384L11.0979 9.76163L8 10.2382L4.90206 9.76163L4.59794 11.7384ZM7 6.75C7 7.44036 6.44036 8 5.75 8C5.05964 8 4.5 7.44036 4.5 6.75C4.5 6.05964 5.05964 5.5 5.75 5.5C6.44036 5.5 7 6.05964 7 6.75ZM10.25 8C10.9404 8 11.5 7.44036 11.5 6.75C11.5 6.05964 10.9404 5.5 10.25 5.5C9.55964 5.5 9 6.05964 9 6.75C9 7.44036 9.55964 8 10.25 8Z" />
+  </g>
+    <text x="140" y="368" font-size="28" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">机械族</text>
+
+    <text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="90" y="410"><tspan>算力、精度、模拟、<tspan fill="#4A9EFF">无限寿命</tspan></tspan>
+      </text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="90" y="442">什么都有</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="90" y="474"><tspan>但<tspan fill="#F85149" font-weight="bold">卡住了</tspan></tspan>
+    </text><path fill="#F85149" fill-opacity="0.08" stroke="#F85149" stroke-width="1" stroke-opacity="0.2" d="M98,495 H562 A8,8 0 0 1 570,503 V523 A8,8 0 0 1 562,531 H98 A8,8 0 0 1 90,523 V503 A8,8 0 0 1 98,495 Z" />
+    <text x="330" y="519" text-anchor="middle" font-size="16" fill="#F85149" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">永久困在原始宇宙，境界突破不了</text>
+  </g>
+
+  
+  <g id="panel-flesh">
+    <path fill="#161B22" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2" d="M696,130 H1204 A16,16 0 0 1 1220,146 V534 A16,16 0 0 1 1204,550 H696 A16,16 0 0 1 680,534 V146 A16,16 0 0 1 696,130 Z" />
+    <path fill="#C9A96E" fill-opacity="0.5" d="M683,130 H1217 A3,3 0 0 1 1220,133 V133 A3,3 0 0 1 1217,136 H683 A3,3 0 0 1 680,133 V133 A3,3 0 0 1 683,130 Z" />
+
+    
+    <path fill="#0D1117" stroke="#30363D" stroke-width="1" stroke-dasharray="8,4" d="M722,160 H1178 A12,12 0 0 1 1190,172 V308 A12,12 0 0 1 1178,320 H722 A12,12 0 0 1 710,308 V172 A12,12 0 0 1 722,160 Z" />
+    <text x="950" y="240" text-anchor="middle" font-size="14" fill="#484F58" font-family="Consolas, &quot;Courier New&quot;, monospace">mechanical_vs_flesh.jpg (right half)</text>
+
+    
+  <g transform="translate(710.0, 340.0) scale(2.25)" fill="#C9A96E">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 9C15 12.866 11.866 16 8 16C4.13401 16 1 12.866 1 9C1 5.5 4 3 4 3H6V4.5C6 5.05228 6.44772 5.5 7 5.5C7.55228 5.5 8 5.05228 8 4.5V0H10C10 0 15 3 15 9ZM10 12C10 13.1046 9.10457 14 8 14C6.89543 14 6 13.1046 6 12C6 9.5 8 8 8 8C8 8 10 9.5 10 12Z" />
+  </g>
+    <text x="760" y="368" font-size="28" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">血肉类生命</text>
+
+    <text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="710" y="410"><tspan>会死、会累、<tspan fill="#C9A96E">会晕眩</tspan></tspan>
+      </text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="710" y="442">弱得多</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="710" y="474"><tspan>但能<tspan fill="#C9A96E" font-weight="bold">感悟</tspan>法则</tspan>
+    </text><path fill="#C9A96E" fill-opacity="0.08" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2" d="M718,495 H1182 A8,8 0 0 1 1190,503 V523 A8,8 0 0 1 1182,531 H718 A8,8 0 0 1 710,523 V503 A8,8 0 0 1 718,495 Z" />
+    <text x="950" y="519" text-anchor="middle" font-size="16" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">靠感悟法则走向更远的宇宙</text>
+  </g>
+
+  
+  <g id="p07-banner">
+    <path fill="#8B5CF6" fill-opacity="0.08" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3" d="M72,590 H1208 A12,12 0 0 1 1220,602 V648 A12,12 0 0 1 1208,660 H72 A12,12 0 0 1 60,648 V602 A12,12 0 0 1 72,590 Z" />
+    <text x="640" y="622" text-anchor="middle" font-size="26" font-weight="bold" fill="#8B5CF6" font-family="Georgia, SimSun, serif">"感在前，悟在后"</text>
+    <text x="640" y="648" text-anchor="middle" font-size="15" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">不是计算法则，不是推导法则，是用整个身心去触碰法则</text>
+  </g>
+
+  
+  <g id="p07-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">07</text>
+  </g>
+</svg>

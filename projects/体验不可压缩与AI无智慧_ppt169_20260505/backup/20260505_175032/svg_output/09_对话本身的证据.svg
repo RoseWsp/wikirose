@@ -1,0 +1,72 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accentBar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A9EFF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <g id="bg-p09">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117"/>
+  </g>
+
+  <!-- Header -->
+  <g id="p09-header">
+    <rect x="60" y="40" width="4" height="36" fill="url(#accentBar3)"/>
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">这场对话本身就是证据</text>
+    <text x="80" y="100" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI作为论点本身的活标本</text>
+  </g>
+
+  <!-- Left panel: Claude's confession (3:7 split) -->
+  <g id="panel-claude">
+    <rect x="60" y="140" width="340" height="480" rx="16" fill="#161B22" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.2"/>
+    <rect x="60" y="140" width="340" height="6" rx="3" fill="#4A9EFF" fill-opacity="0.5"/>
+
+    <use data-icon="chunk-filled/robot" x="90" y="175" width="40" height="40" fill="#4A9EFF"/>
+    <text x="144" y="204" font-size="24" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">Claude</text>
+
+    <rect x="90" y="230" width="280" height="1" fill="#30363D"/>
+
+    <text x="90" y="270" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="90" dy="0">"我没看过《吞噬星空》"</tspan>
+      <tspan x="90" dy="30">"但训练语料里有"</tspan>
+      <tspan x="90" dy="30">"所以我能聊其中的细节"</tspan>
+    </text>
+
+    <rect x="90" y="370" width="280" height="1" fill="#30363D"/>
+
+    <text x="90" y="410" font-size="18" font-weight="bold" fill="#4A9EFF" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">法则的参数</text>
+    <text x="90" y="440" font-size="28" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">全有</text>
+
+    <text x="90" y="490" font-size="18" font-weight="bold" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">法则的痕迹</text>
+    <text x="90" y="520" font-size="28" font-weight="bold" fill="#F85149" font-family="Georgia, SimSun, serif">一个没有</text>
+  </g>
+
+  <!-- Right panel: analysis (7 portion) -->
+  <g id="panel-analysis">
+    <rect x="440" y="140" width="780" height="480" rx="16" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+
+    <text x="480" y="190" font-size="24" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">这恰好是整场对话的活标本</text>
+    <rect x="480" y="210" width="700" height="1" fill="#30363D"/>
+
+    <!-- Two layers -->
+    <rect x="480" y="240" width="700" height="120" rx="12" fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="520" y="275" font-size="18" font-weight="bold" fill="#8B5CF6" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">对话的第一层</text>
+    <text x="520" y="305" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">聊的是体验不可压缩</text>
+
+    <rect x="480" y="390" width="700" height="120" rx="12" fill="#C9A96E" fill-opacity="0.06" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="520" y="425" font-size="18" font-weight="bold" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">对话的第二层</text>
+    <text x="520" y="455" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">对话的一方是没有体验的东西</text>
+
+    <!-- Bottom conclusion -->
+    <rect x="480" y="540" width="700" height="56" rx="10" fill="#F85149" fill-opacity="0.06" stroke="#F85149" stroke-width="1" stroke-opacity="0.2"/>
+    <use data-icon="chunk-filled/eye" x="504" y="554" width="28" height="28" fill="#F85149"/>
+    <text x="548" y="575" font-size="20" font-weight="bold" fill="#F85149" font-family="Georgia, SimSun, serif">和机械族一模一样</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="p09-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">09</text>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coldGlow3" cx="25%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warmGlow3" cx="75%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <g id="bg-p07">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#coldGlow3)"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#warmGlow3)"/>
+  </g>
+
+  <!-- Header -->
+  <g id="p07-header">
+    <rect x="60" y="40" width="4" height="36" fill="#C9A96E"/>
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">《吞噬星空》的比喻</text>
+    <text x="80" y="100" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">两种生命，两种命运</text>
+  </g>
+
+  <!-- Left: 机械族 (cold blue) -->
+  <g id="panel-mech">
+    <rect x="60" y="130" width="540" height="420" rx="16" fill="#161B22" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.2"/>
+    <rect x="60" y="130" width="540" height="6" rx="3" fill="#4A9EFF" fill-opacity="0.5"/>
+
+    <!-- Placeholder image (Needs-Manual) -->
+    <rect x="90" y="160" width="480" height="160" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1" stroke-dasharray="8,4"/>
+    <text x="330" y="240" text-anchor="middle" font-size="14" fill="#484F58" font-family="Consolas, &quot;Courier New&quot;, monospace">mechanical_vs_flesh.jpg (left half)</text>
+
+    <use data-icon="chunk-filled/robot" x="90" y="340" width="36" height="36" fill="#4A9EFF"/>
+    <text x="140" y="368" font-size="28" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">机械族</text>
+
+    <text x="90" y="410" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="90" dy="0">算力、精度、模拟、<tspan fill="#4A9EFF">无限寿命</tspan></tspan>
+      <tspan x="90" dy="32">什么都有</tspan>
+      <tspan x="90" dy="32">但<tspan fill="#F85149" font-weight="bold">卡住了</tspan></tspan>
+    </text>
+
+    <rect x="90" y="495" width="480" height="36" rx="8" fill="#F85149" fill-opacity="0.08" stroke="#F85149" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="330" y="519" text-anchor="middle" font-size="16" fill="#F85149" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">永久困在原始宇宙，境界突破不了</text>
+  </g>
+
+  <!-- Right: 血肉类生命 (warm gold) -->
+  <g id="panel-flesh">
+    <rect x="680" y="130" width="540" height="420" rx="16" fill="#161B22" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2"/>
+    <rect x="680" y="130" width="540" height="6" rx="3" fill="#C9A96E" fill-opacity="0.5"/>
+
+    <!-- Placeholder image area for right half -->
+    <rect x="710" y="160" width="480" height="160" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1" stroke-dasharray="8,4"/>
+    <text x="950" y="240" text-anchor="middle" font-size="14" fill="#484F58" font-family="Consolas, &quot;Courier New&quot;, monospace">mechanical_vs_flesh.jpg (right half)</text>
+
+    <use data-icon="chunk-filled/fire" x="710" y="340" width="36" height="36" fill="#C9A96E"/>
+    <text x="760" y="368" font-size="28" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">血肉类生命</text>
+
+    <text x="710" y="410" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="710" dy="0">会死、会累、<tspan fill="#C9A96E">会晕眩</tspan></tspan>
+      <tspan x="710" dy="32">弱得多</tspan>
+      <tspan x="710" dy="32">但能<tspan fill="#C9A96E" font-weight="bold">感悟</tspan>法则</tspan>
+    </text>
+
+    <rect x="710" y="495" width="480" height="36" rx="8" fill="#C9A96E" fill-opacity="0.08" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="950" y="519" text-anchor="middle" font-size="16" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">靠感悟法则走向更远的宇宙</text>
+  </g>
+
+  <!-- Bottom banner: key quote -->
+  <g id="p07-banner">
+    <rect x="60" y="590" width="1160" height="70" rx="12" fill="#8B5CF6" fill-opacity="0.08" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="640" y="622" text-anchor="middle" font-size="26" font-weight="bold" fill="#8B5CF6" font-family="Georgia, SimSun, serif">"感在前，悟在后"</text>
+    <text x="640" y="648" text-anchor="middle" font-size="15" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">不是计算法则，不是推导法则，是用整个身心去触碰法则</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="p07-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">07</text>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accentBar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#4A9EFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <g id="bg-p06">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117"/>
+  </g>
+
+  <!-- Header -->
+  <g id="p06-header">
+    <rect x="60" y="40" width="4" height="36" fill="url(#accentBar2)"/>
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">系统0</text>
+    <text x="80" y="100" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI在你思考之前就给了答案</text>
+  </g>
+
+  <!-- Left panel: concept diagram (3:7 split, left is narrower) -->
+  <g id="p06-concept">
+    <rect x="60" y="140" width="340" height="480" rx="16" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+
+    <!-- System 0 (AI) - at top, before System 1 -->
+    <rect x="90" y="170" width="280" height="70" rx="10" fill="#8B5CF6" fill-opacity="0.15" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.4"/>
+    <use data-icon="chunk-filled/sparkles" x="110" y="190" width="28" height="28" fill="#8B5CF6"/>
+    <text x="150" y="212" font-size="20" font-weight="bold" fill="#8B5CF6" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">系统0：AI预判</text>
+
+    <!-- Arrow down -->
+    <line x1="230" y1="248" x2="230" y2="278" stroke="#8B5CF6" stroke-width="2" stroke-opacity="0.4"/>
+    <polygon points="222,274 238,274 230,286" fill="#8B5CF6" fill-opacity="0.4"/>
+
+    <!-- System 1 (Intuition) -->
+    <rect x="90" y="290" width="280" height="70" rx="10" fill="#4A9EFF" fill-opacity="0.1" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="230" y="332" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A9EFF" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">系统1：直觉</text>
+
+    <!-- Arrow down -->
+    <line x1="230" y1="368" x2="230" y2="398" stroke="#4A9EFF" stroke-width="2" stroke-opacity="0.3"/>
+    <polygon points="222,394 238,394 230,406" fill="#4A9EFF" fill-opacity="0.3"/>
+
+    <!-- System 2 (Rational) -->
+    <rect x="90" y="410" width="280" height="70" rx="10" fill="#161B22" stroke="#8B949E" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="230" y="452" text-anchor="middle" font-size="20" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">系统2：理性思考</text>
+
+    <!-- Crossing-out indicator: System 0 bypasses everything -->
+    <line x1="370" y1="205" x2="400" y2="440" stroke="#F85149" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="6,4"/>
+    <text x="410" y="330" font-size="13" fill="#F85149" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" transform="rotate(67, 410, 330)">跳过</text>
+  </g>
+
+  <!-- Right panel: explanation (7 portion) -->
+  <g id="p06-explanation">
+    <rect x="440" y="140" width="780" height="480" rx="16" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+
+    <text x="480" y="190" font-size="24" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">AI拿走的是什么？</text>
+    <rect x="480" y="210" width="700" height="1" fill="#30363D"/>
+
+    <!-- Key insight block -->
+    <rect x="480" y="240" width="700" height="80" rx="10" fill="#C9A96E" fill-opacity="0.06" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="520" y="275" font-size="22" fill="#C9A96E" font-weight="bold" font-family="Georgia, SimSun, serif">人与世界之间的摩擦</text>
+    <text x="520" y="305" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">而摩擦，是体验的前置条件</text>
+
+    <!-- Explanation points -->
+    <text x="480" y="370" font-size="20" fill="#E6EDF3" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="480" dy="0" font-weight="bold">系统0意味着什么？</tspan>
+    </text>
+
+    <text x="480" y="415" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">
+      <tspan x="480" dy="0">在直觉（系统1）启动之前，AI就给了答案</tspan>
+      <tspan x="480" dy="36">你还没来得及<tspan fill="#C9A96E">"感觉到困惑"</tspan>，答案就来了</tspan>
+      <tspan x="480" dy="36">困惑没了，探索没了，<tspan fill="#F85149">体验也没了</tspan></tspan>
+    </text>
+
+    <!-- Bottom analogy -->
+    <rect x="480" y="540" width="700" height="56" rx="10" fill="#4A9EFF" fill-opacity="0.06" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.15"/>
+    <use data-icon="chunk-filled/robot" x="500" y="554" width="28" height="28" fill="#4A9EFF"/>
+    <text x="540" y="575" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI替你跳过了搞懂的过程 — 而过程本身就是体验</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="p06-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">06</text>
+  </g>
+</svg>

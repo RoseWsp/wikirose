@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="warmGlow" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="coldGlow" cx="25%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <g id="bg-p03">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#coldGlow)" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#warmGlow)" />
+  </g>
+
+  
+  <g id="p03-header">
+    <rect x="60" y="40" width="4" height="36" fill="#8B5CF6" />
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">两种生存模式</text>
+  </g>
+
+  
+  <g id="panel-steel">
+    <path fill="#161B22" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.3" d="M76,120 H604 A16,16 0 0 1 620,136 V584 A16,16 0 0 1 604,600 H76 A16,16 0 0 1 60,584 V136 A16,16 0 0 1 76,120 Z" />
+    
+    <path fill="#4A9EFF" fill-opacity="0.6" d="M63,120 H617 A3,3 0 0 1 620,123 V123 A3,3 0 0 1 617,126 H63 A3,3 0 0 1 60,123 V123 A3,3 0 0 1 63,120 Z" />
+
+    
+  <g transform="translate(100.0, 160.0) scale(3.0)" fill="#4A9EFF">
+    <path d="M4.35009 13.3929L8 16L11.6499 13.3929C13.7523 11.8912 15 9.46667 15 6.88306V3L8 0L1 3V6.88306C1 9.46667 2.24773 11.8912 4.35009 13.3929Z" />
+  </g>
+    <text x="164" y="195" font-size="32" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">钢化膜</text>
+    <text x="100" y="240" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">隔绝世界，保护自己</text>
+
+    <rect x="100" y="270" width="480" height="1" fill="#30363D" />
+
+    <text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#4A9EFF" x="100" y="310" font-weight="bold">AI替你做一切</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="100" y="360">• 不需要思考，AI给你答案</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="100" y="394">• 不需要记忆，AI替你搜索</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="100" y="428">• 不需要判断，AI帮你决策</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="100" y="462">• 不需要体验，AI描述给你</text><path fill="#4A9EFF" fill-opacity="0.08" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.2" d="M110,520 H570 A10,10 0 0 1 580,530 V566 A10,10 0 0 1 570,576 H110 A10,10 0 0 1 100,566 V530 A10,10 0 0 1 110,520 Z" />
+    <text x="340" y="555" text-anchor="middle" font-size="18" fill="#4A9EFF" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-weight="bold">结果：能力退化，依赖加深</text>
+  </g>
+
+  
+  <g id="p03-divider">
+    <path fill="#8B5CF6" fill-opacity="0.15" d="M640,180 H640 A5,5 0 0 1 645,185 V535 A5,5 0 0 1 640,540 H640 A5,5 0 0 1 635,535 V185 A5,5 0 0 1 640,180 Z" />
+    <text x="640" y="370" text-anchor="middle" font-size="14" fill="#8B5CF6" font-family="Georgia, SimSun, serif">VS</text>
+  </g>
+
+  
+  <g id="panel-whetstone">
+    <path fill="#161B22" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.3" d="M676,120 H1204 A16,16 0 0 1 1220,136 V584 A16,16 0 0 1 1204,600 H676 A16,16 0 0 1 660,584 V136 A16,16 0 0 1 676,120 Z" />
+    
+    <path fill="#C9A96E" fill-opacity="0.6" d="M663,120 H1217 A3,3 0 0 1 1220,123 V123 A3,3 0 0 1 1217,126 H663 A3,3 0 0 1 660,123 V123 A3,3 0 0 1 663,120 Z" />
+
+    
+  <g transform="translate(700.0, 160.0) scale(3.0)" fill="#C9A96E">
+    <path d="M9 7L10 0H8L2 7V9H7L6 16H8L14 9L14 7H9Z" />
+  </g>
+    <text x="764" y="195" font-size="32" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">磨刀石</text>
+    <text x="700" y="240" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">用AI打磨自己</text>
+
+    <rect x="700" y="270" width="480" height="1" fill="#30363D" />
+
+    <text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#C9A96E" x="700" y="310" font-weight="bold">保持与世界摩擦</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="700" y="360">• AI给答案，但你要理解为什么</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="700" y="394">• AI提效，但你保留判断力</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="700" y="428">• AI辅助，但你亲自下场</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="700" y="462">• 体验不可外包</text><path fill="#C9A96E" fill-opacity="0.08" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2" d="M710,520 H1170 A10,10 0 0 1 1180,530 V566 A10,10 0 0 1 1170,576 H710 A10,10 0 0 1 700,566 V530 A10,10 0 0 1 710,520 Z" />
+    <text x="940" y="555" text-anchor="middle" font-size="18" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-weight="bold">结果：能力增长，体验积累</text>
+  </g>
+
+  
+  <g id="p03-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">03</text>
+  </g>
+</svg>

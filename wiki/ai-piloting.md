@@ -50,3 +50,4 @@ AI驾驶能力是[[agentic-engineering]]的个人技能维度。Agentic Engineer
 - [[sensory-gap]]——理解AI感知缺失是高阶驾驶的前提：知道AI在哪些维度全盲，才能避开盲区
 - [[compulsive-capability-use]]——AI对新能力的强迫性使用是驾驶中需要预判和约束的风险
 - [[ai-native-hiring-guide]]——源文件
+- [[steel-film-vs-whetstone]]——AI驾驶 = 磨刀石模式，驾驶而非乘坐，用AI打磨自己而非替代自己

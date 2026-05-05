@@ -1,0 +1,48 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="centerGlow" cx="50%" cy="42%" r="40%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rainGlow" cx="50%" cy="75%" r="30%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <g id="bg-p05">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#centerGlow)"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#rainGlow)"/>
+  </g>
+
+  <!-- Core statement — negative-space driven, centered -->
+  <g id="p05-core-statement">
+    <text x="640" y="280" text-anchor="middle" font-size="38" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">智慧不是从信息中提取的</text>
+    <text x="640" y="340" text-anchor="middle" font-size="38" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">是从参与中生成的</text>
+  </g>
+
+  <!-- Divider -->
+  <g id="p05-divider">
+    <line x1="480" y1="400" x2="800" y2="400" stroke="#30363D" stroke-width="1"/>
+  </g>
+
+  <!-- Rain metaphor -->
+  <g id="p05-rain-metaphor">
+    <use data-icon="chunk-filled/cloud-rain" x="490" y="440" width="36" height="36" fill="#4A9EFF" fill-opacity="0.6"/>
+    <text x="540" y="468" font-size="22" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">模拟下雨，地面不会湿</text>
+    <text x="640" y="520" text-anchor="middle" font-size="20" fill="#E6EDF3" font-family="Georgia, SimSun, serif">不是湿得不够，是根本不存在"湿"这回事</text>
+  </g>
+
+  <!-- Bottom truth -->
+  <g id="p05-bottom-truth">
+    <rect x="300" y="580" width="680" height="60" rx="12" fill="#161B22" stroke="#F85149" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="640" y="618" text-anchor="middle" font-size="18" fill="#F85149" font-family="Georgia, SimSun, serif">算力解决的是"描述多精确"，体验是"有没有发生"</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="p05-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">05</text>
+  </g>
+</svg>

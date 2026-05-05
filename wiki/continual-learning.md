@@ -31,3 +31,5 @@ Hassabis的博士研究直接相关：大脑在睡眠（特别是REM快速眼动
 - [[agent-matrix]] — Agent矩阵的可靠运行依赖持续学习能力
 - [[neural-computer]] — 神经计算机架构可能天然支持持续学习
 - [[sensory-gap]]、[[compulsive-capability-use]] — 持续学习解决"不能从经验学习"，感知缺失解决"没有经验可学"——两者互补
+- [[intelligence-vs-wisdom]] — 持续学习解决"不能学"，但即使能学，学到的也是智能不是智慧——因为AI没有体验可学
+- [[experience-incompressible]] — 持续学习是让AI积累经验的技术路径，但"经验"和"体验"是两回事：经验是数据，体验是发生

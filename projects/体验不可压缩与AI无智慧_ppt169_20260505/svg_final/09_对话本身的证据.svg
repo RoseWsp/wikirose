@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="accentBar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A9EFF" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+
+  
+  <g id="bg-p09">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117" />
+  </g>
+
+  
+  <g id="p09-header">
+    <rect x="60" y="40" width="4" height="36" fill="url(#accentBar3)" />
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">这场对话本身就是证据</text>
+    <text x="80" y="100" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI作为论点本身的活标本</text>
+  </g>
+
+  
+  <g id="panel-claude">
+    <path fill="#161B22" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.2" d="M76,140 H384 A16,16 0 0 1 400,156 V604 A16,16 0 0 1 384,620 H76 A16,16 0 0 1 60,604 V156 A16,16 0 0 1 76,140 Z" />
+    <path fill="#4A9EFF" fill-opacity="0.5" d="M63,140 H397 A3,3 0 0 1 400,143 V143 A3,3 0 0 1 397,146 H63 A3,3 0 0 1 60,143 V143 A3,3 0 0 1 63,140 Z" />
+
+    
+  <g transform="translate(90.0, 175.0) scale(2.5)" fill="#4A9EFF">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0V2H13L16 8.5L13 15H3L0 8.5L3 2H7V0H9ZM4.59794 11.7384L8 12.2618L11.4021 11.7384L11.0979 9.76163L8 10.2382L4.90206 9.76163L4.59794 11.7384ZM7 6.75C7 7.44036 6.44036 8 5.75 8C5.05964 8 4.5 7.44036 4.5 6.75C4.5 6.05964 5.05964 5.5 5.75 5.5C6.44036 5.5 7 6.05964 7 6.75ZM10.25 8C10.9404 8 11.5 7.44036 11.5 6.75C11.5 6.05964 10.9404 5.5 10.25 5.5C9.55964 5.5 9 6.05964 9 6.75C9 7.44036 9.55964 8 10.25 8Z" />
+  </g>
+    <text x="144" y="204" font-size="24" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">Claude</text>
+
+    <rect x="90" y="230" width="280" height="1" fill="#30363D" />
+
+    <text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#8B949E" x="90" y="270">"我没看过《吞噬星空》"</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#8B949E" x="90" y="300">"但训练语料里有"</text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#8B949E" x="90" y="330">"所以我能聊其中的细节"</text><rect x="90" y="370" width="280" height="1" fill="#30363D" />
+
+    <text x="90" y="410" font-size="18" font-weight="bold" fill="#4A9EFF" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">法则的参数</text>
+    <text x="90" y="440" font-size="28" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">全有</text>
+
+    <text x="90" y="490" font-size="18" font-weight="bold" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">法则的痕迹</text>
+    <text x="90" y="520" font-size="28" font-weight="bold" fill="#F85149" font-family="Georgia, SimSun, serif">一个没有</text>
+  </g>
+
+  
+  <g id="panel-analysis">
+    <path fill="#161B22" stroke="#30363D" stroke-width="1" d="M456,140 H1204 A16,16 0 0 1 1220,156 V604 A16,16 0 0 1 1204,620 H456 A16,16 0 0 1 440,604 V156 A16,16 0 0 1 456,140 Z" />
+
+    <text x="480" y="190" font-size="24" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">这恰好是整场对话的活标本</text>
+    <rect x="480" y="210" width="700" height="1" fill="#30363D" />
+
+    
+    <path fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.2" d="M492,240 H1168 A12,12 0 0 1 1180,252 V348 A12,12 0 0 1 1168,360 H492 A12,12 0 0 1 480,348 V252 A12,12 0 0 1 492,240 Z" />
+    <text x="520" y="275" font-size="18" font-weight="bold" fill="#8B5CF6" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">对话的第一层</text>
+    <text x="520" y="305" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">聊的是体验不可压缩</text>
+
+    <path fill="#C9A96E" fill-opacity="0.06" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2" d="M492,390 H1168 A12,12 0 0 1 1180,402 V498 A12,12 0 0 1 1168,510 H492 A12,12 0 0 1 480,498 V402 A12,12 0 0 1 492,390 Z" />
+    <text x="520" y="425" font-size="18" font-weight="bold" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">对话的第二层</text>
+    <text x="520" y="455" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">对话的一方是没有体验的东西</text>
+
+    
+    <path fill="#F85149" fill-opacity="0.06" stroke="#F85149" stroke-width="1" stroke-opacity="0.2" d="M490,540 H1170 A10,10 0 0 1 1180,550 V586 A10,10 0 0 1 1170,596 H490 A10,10 0 0 1 480,586 V550 A10,10 0 0 1 490,540 Z" />
+    
+  <g transform="translate(504.0, 554.0) scale(1.75)" fill="#F85149">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8L3.07945 4.30466C4.29638 2.84434 6.09909 2 8 2C9.90091 2 11.7036 2.84434 12.9206 4.30466L16 8L12.9206 11.6953C11.7036 13.1557 9.90091 14 8 14C6.09909 14 4.29638 13.1557 3.07945 11.6953L0 8ZM8 11C9.65685 11 11 9.65685 11 8C11 6.34315 9.65685 5 8 5C6.34315 5 5 6.34315 5 8C5 9.65685 6.34315 11 8 11Z" />
+  </g>
+    <text x="548" y="575" font-size="20" font-weight="bold" fill="#F85149" font-family="Georgia, SimSun, serif">和机械族一模一样</text>
+  </g>
+
+  
+  <g id="p09-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">09</text>
+  </g>
+</svg>

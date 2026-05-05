@@ -32,6 +32,8 @@ Spiegel对AR的战略判断是：今天的人平均每天花七八个小时在�
 
 与[[distribution-bottleneck]]互为表里：当功能不构成护城河，分发就成了决定产品生死的因素。TikTok和Threads都没有产品本质突破，但解决了分发。
 
+与[[dark-forest-internet]]深层同频：互联网正从阳光共享变成黑暗森林——所有可见的皆可复制，护城河只在AI看不见的地方。[[lijigang-experience-incompressible|李继刚]]说"唯一不可复制的是底层的审美、品味与自由意志"，这恰好是[[experience-incompressible|体验不可压缩]]在竞争维度的投射。
+
 与[[organizational-self-knowledge]]深层呼应：如果软件功能不构成护城河，那公司更需要回答"我们是谁"——因为你的护城河不是功能，而是你选择构建的生态系统和关系，这需要组织有清晰的自我认知。
 
 与[[agent-native-tooling]]的前瞻性连接：当软件功能不构成护城河，而Agent成为主要代码作者，工具链的优化方向本身就成为差异化竞争维度。Snap转向硬件和生态系统，本质上是在寻找"Agent无法一键复制的"竞争壁垒。如果所有公司都用相同的Agent+相同的工具，产出同质化的软件，那么[[agent-output-verification|验证体系]]和[[agent-native-tooling|Agent原生工具]]的设计能力就变成了新的"生态系统"级护城河。

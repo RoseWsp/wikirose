@@ -1,3 +1,29 @@
+## [2026-05-05 20:00] ingest | 李继刚：人身上，不可压缩的是体验 & AI有智慧吗
+- 源文件：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]
+- 创建源摘要页：
+  - [[lijigang-experience-incompressible]]（李继刚AIFUT演讲：系统0、钢化膜vs磨刀石、OPC、黑暗森林化、体验不可压缩）
+  - [[ai-has-no-wisdom]]（体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》的深度讨论）
+- 创建概念页：
+  - [[system-zero]]（系统0：AI在直觉启动前给答案，悄然接管自主意识）
+  - [[experience-incompressible]]（体验不可压缩：模拟不是发生，算力解决"描述多精确"，体验是"有没有发生"）
+  - [[intelligence-vs-wisdom]]（智能与智慧：智能是处理已有的，智慧是从参与中生成的——两个不同的谱系）
+  - [[opc-one-person-company]]（一人公司：科斯定理在AI时代的必然推论）
+  - [[dark-forest-internet]]（互联网黑暗森林化：可见即可复制，护城河在AI看不见的地方）
+  - [[steel-film-vs-whetstone]]（钢化膜与磨刀石：面对AI的两种生存模式）
+- 交叉链接更新：
+  - [[sensory-gap]] → [[experience-incompressible]]、[[intelligence-vs-wisdom]]、[[system-zero]]
+  - [[product-taste]] → [[experience-incompressible]]、[[intelligence-vs-wisdom]]
+  - [[clarity-before-automation]] → [[system-zero]]、[[experience-incompressible]]
+  - [[software-no-moat]] → [[dark-forest-internet]]、[[experience-incompressible]]
+  - [[ai-piloting]] → [[steel-film-vs-whetstone]]
+  - [[architect-operator-model]] → [[steel-film-vs-whetstone]]、[[opc-one-person-company]]
+  - [[harness-engineering]] → [[intelligence-vs-wisdom]]、[[experience-incompressible]]
+  - [[einstein-test]] → [[intelligence-vs-wisdom]]
+  - [[continual-learning]] → [[intelligence-vs-wisdom]]、[[experience-incompressible]]
+  - [[compulsive-capability-use]] → [[intelligence-vs-wisdom]]、[[system-zero]]
+- 更新 [[home.md]]：新增"体验不可压缩与AI无智慧"主题板块
+- 更新 [[index.md]]：新增8个页面条目
+
 ## [2026-05-05 18:15] digest | Boris Cherny × Sequoia：编程已解决，组织流程代差
 - 源文件：[[boris-chenyi-sequoia-ai-ascent]]
 - 深度传播：26个现有页面更新

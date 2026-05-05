@@ -1,0 +1,60 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="wallGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="humanGlow" cx="35%" cy="55%" r="25%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <g id="bg-p08">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#wallGlow)"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#humanGlow)"/>
+
+    <!-- Placeholder background image -->
+    <rect x="0" y="0" width="1280" height="720" fill="none" stroke="#30363D" stroke-width="1" stroke-dasharray="8,4" stroke-opacity="0.3"/>
+    <text x="640" y="680" text-anchor="middle" font-size="12" fill="#484F58" font-family="Consolas, &quot;Courier New&quot;, monospace">wall_not_door.jpg (atmosphere / background)</text>
+  </g>
+
+  <!-- Top: title statement (negative-space driven) -->
+  <g id="p08-title">
+    <text x="640" y="160" text-anchor="middle" font-size="22" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">智慧不是关于法则的知识</text>
+  </g>
+
+  <!-- Core statement — large, centered -->
+  <g id="p08-core">
+    <text x="640" y="280" text-anchor="middle" font-size="44" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">是被法则穿透后</text>
+    <text x="640" y="340" text-anchor="middle" font-size="44" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">留下的痕迹</text>
+  </g>
+
+  <!-- Middle divider -->
+  <g id="p08-divider">
+    <line x1="440" y1="400" x2="840" y2="400" stroke="#30363D" stroke-width="1"/>
+  </g>
+
+  <!-- Mechanical explanation -->
+  <g id="p08-mech-contrast">
+    <use data-icon="chunk-filled/robot" x="380" y="430" width="28" height="28" fill="#4A9EFF" fill-opacity="0.5"/>
+    <text x="420" y="452" font-size="20" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">机械族能解析法则的每一个参数</text>
+    <text x="640" y="495" text-anchor="middle" font-size="22" fill="#4A9EFF" font-family="Georgia, SimSun, serif">但一切都在它们身上滑过去</text>
+  </g>
+
+  <!-- Bottom: wall metaphor -->
+  <g id="p08-wall-metaphor">
+    <rect x="300" y="550" width="680" height="80" rx="12" fill="#161B22" stroke="#F85149" stroke-width="1" stroke-opacity="0.3"/>
+    <use data-icon="chunk-filled/door" x="324" y="570" width="28" height="28" fill="#F85149" fill-opacity="0.6"/>
+    <use data-icon="chunk-filled/lock-closed" x="356" y="570" width="28" height="28" fill="#F85149" fill-opacity="0.6"/>
+    <text x="400" y="590" font-size="20" fill="#F85149" font-weight="bold" font-family="Georgia, SimSun, serif">门不是算力能推开的</text>
+    <text x="400" y="618" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">它根本不是一扇门，是两面墙</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="p08-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">08</text>
+  </g>
+</svg>

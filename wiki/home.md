@@ -306,6 +306,19 @@ graph TD
 
 关键洞察：这个主题与[[clarity-before-automation]]（先清晰再自动化是组织流程改造的前提）、[[software-no-moat]]（转换成本和流程壁垒被AI削弱的精确分析）、[[harness-engineering]]（脚手架重要性随模型增强而下降）形成深层呼应。Boris预言Claude Code一年后可能只剩100行代码——模型越强，外壳越不重要。
 
+### 新兴主题：体验不可压缩与AI无智慧
+
+最新摄取的两篇源文件（[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]）从李继刚的演讲出发，推进到一个更锋利的命题——AI有智能，没有智慧：
+
+- **[[system-zero|系统0]]**：AI在人类直觉启动之前就给出答案，悄然接管自主意识。当AI在判断质量上持续超越人类，让渡决策权几乎不可抗拒
+- **[[intelligence-vs-wisdom|智能与智慧]]**：智能是处理已有的，智慧是从参与中生成的。模拟下雨，地面不会湿——不是湿得不够，是根本不存在"湿"这回事。这两个东西不是同一个谱系上的强弱，是两回事
+- **[[experience-incompressible|体验不可压缩]]**：AI像压缩器，替我们下水捞黄金，结果很好，但我们没下水。《吞噬星空》的比喻——机械族什么都有但卡住了，血肉类生命能感悟法则。智慧不是关于法则的知识，是被法则穿透后留下的痕迹
+- **[[steel-film-vs-whetstone|钢化膜与磨刀石]]**：面对AI的两种生存模式——隔绝世界零摩擦但认知钝化，vs 用AI打磨自己主体性在手
+- **[[opc-one-person-company|一人公司]]**：管理100个agent的成本远低于管理100个人，科斯定理在AI时代的必然推论
+- **[[dark-forest-internet|互联网黑暗森林化]]**：可见即可复制，护城河只在AI看不见的地方
+
+关键洞察：这个主题与[[sensory-gap]]（AI感知维度缺失 = 没有体验的入口）、[[einstein-test]]（爱因斯坦测试考的是智慧而非智能）、[[continual-learning]]（即使能学，学到的也是智能不是智慧）、[[product-taste]]（品味是体验留下的痕迹 = 不可复制的护城河）形成深层连接。AI作为论点本身的证据——Claude承认训练语料里有《吞噬星空》所以能聊，但法则的参数全有、痕迹一个没有，和机械族一模一样。
+
 ## 探索路径
 
 ### 从概念开始
@@ -355,6 +368,12 @@ graph TD
 - [[general-specialized-architecture]] - 通用编排器+专用工具：做好垂直系统在AGI时代依然有价值
 - [[alphafold-breakthrough-conditions]] - AlphaFold式突破三条件：巨大搜索空间+清晰目标+足够数据
 - [[jevons-paradox-inference]] - 推理的杰文斯悖论：推理可能永远不免费
+- [[system-zero]] - 系统0：AI在直觉启动前给答案，悄然接管自主意识
+- [[experience-incompressible]] - 体验不可压缩：模拟不是发生，算力解决"描述多精确"，体验是"有没有发生"
+- [[intelligence-vs-wisdom]] - 智能与智慧：两个不同的谱系，不是强弱的区别
+- [[opc-one-person-company]] - 一人公司：科斯定理在AI时代的必然推论
+- [[dark-forest-internet]] - 互联网黑暗森林化：可见即可复制，护城河在AI看不见的地方
+- [[steel-film-vs-whetstone]] - 钢化膜与磨刀石：面对AI的两种生存模式
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -374,6 +393,8 @@ graph TD
 - [[venturini-agent-output-compiler]] - Hugo Venturini：将Agent输出视为编译器输出，用验证流程替代代码审查
 - [[venturini-code-never-for-machines]] - Hugo Venturini：代码从来不是为机器写的——直到现在
 - [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟
+- [[lijigang-experience-incompressible]] - 李继刚：人身上，不可压缩的是体验——系统0、钢化膜vs磨刀石、OPC、黑暗森林化
+- [[ai-has-no-wisdom]] - 体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -387,9 +408,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：19篇
-- **概念页**：58个
-- **总页面**：80个（含home、index、log、19源摘要、58概念页）
+- **源文件**：21篇
+- **概念页**：64个
+- **总页面**：88个（含home、index、log、21源摘要、64概念页）
 - **最后更新**：2026-05-05
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

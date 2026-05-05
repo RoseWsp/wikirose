@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="coldGlow2" cx="25%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="warmGlow2" cx="75%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <g id="bg-p04">
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#coldGlow2)" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#warmGlow2)" />
+  </g>
+
+  
+  <g id="p04-header">
+    <rect x="60" y="40" width="4" height="36" fill="#8B5CF6" />
+    <text x="80" y="70" font-size="36" font-weight="bold" fill="#E6EDF3" font-family="Georgia, SimSun, serif">智能与智慧是两回事</text>
+    <text x="80" y="100" font-size="16" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">Rose的论点比李继刚的更锋利</text>
+  </g>
+
+  
+  <g id="panel-intelligence">
+    <path fill="#161B22" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.2" d="M76,130 H564 A16,16 0 0 1 580,146 V514 A16,16 0 0 1 564,530 H76 A16,16 0 0 1 60,514 V146 A16,16 0 0 1 76,130 Z" />
+    <path fill="#4A9EFF" fill-opacity="0.5" d="M63,130 H577 A3,3 0 0 1 580,133 V133 A3,3 0 0 1 577,136 H63 A3,3 0 0 1 60,133 V133 A3,3 0 0 1 63,130 Z" />
+
+    
+  <g transform="translate(100.0, 170.0) scale(2.5)" fill="#4A9EFF">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0V2H13L16 8.5L13 15H3L0 8.5L3 2H7V0H9ZM4.59794 11.7384L8 12.2618L11.4021 11.7384L11.0979 9.76163L8 10.2382L4.90206 9.76163L4.59794 11.7384ZM7 6.75C7 7.44036 6.44036 8 5.75 8C5.05964 8 4.5 7.44036 4.5 6.75C4.5 6.05964 5.05964 5.5 5.75 5.5C6.44036 5.5 7 6.05964 7 6.75ZM10.25 8C10.9404 8 11.5 7.44036 11.5 6.75C11.5 6.05964 10.9404 5.5 10.25 5.5C9.55964 5.5 9 6.05964 9 6.75C9 7.44036 9.55964 8 10.25 8Z" />
+  </g>
+    <text x="154" y="200" font-size="36" font-weight="bold" fill="#4A9EFF" font-family="Georgia, SimSun, serif">智能</text>
+    <text x="100" y="240" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">Intelligence</text>
+
+    <rect x="100" y="270" width="440" height="1" fill="#30363D" />
+
+    
+    <text x="100" y="310" font-size="22" fill="#E6EDF3" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-weight="bold">处理已有的</text>
+    <text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="100" y="355"><tspan>从信息中<tspan fill="#4A9EFF">提取</tspan></tspan>
+      </text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="100" y="391"><tspan>算力的<tspan fill="#4A9EFF">产物</tspan></tspan>
+      </text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="100" y="427"><tspan>描述的<tspan fill="#4A9EFF">精确度</tspan></tspan>
+    </text><path fill="#4A9EFF" fill-opacity="0.1" stroke="#4A9EFF" stroke-width="1" stroke-opacity="0.3" d="M118,470 H242 A18,18 0 0 1 260,488 V488 A18,18 0 0 1 242,506 H118 A18,18 0 0 1 100,488 V488 A18,18 0 0 1 118,470 Z" />
+    <text x="180" y="494" text-anchor="middle" font-size="15" fill="#4A9EFF" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI拥有</text>
+  </g>
+
+  
+  <g id="p04-center">
+    <path fill="#0D1117" stroke="#8B5CF6" stroke-width="2" stroke-opacity="0.5" d="M640,260 H640 A35,35 0 0 1 675,295 V295 A35,35 0 0 1 640,330 H640 A35,35 0 0 1 605,295 V295 A35,35 0 0 1 640,260 Z" />
+    <text x="640" y="304" text-anchor="middle" font-size="28" fill="#8B5CF6" font-family="Georgia, SimSun, serif">≠</text>
+    <text x="640" y="370" text-anchor="middle" font-size="14" fill="#8B5CF6" font-family="Georgia, SimSun, serif">不是同一谱系</text>
+    <text x="640" y="392" text-anchor="middle" font-size="14" fill="#8B5CF6" font-family="Georgia, SimSun, serif">上的强弱</text>
+  </g>
+
+  
+  <g id="panel-wisdom">
+    <path fill="#161B22" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.2" d="M716,130 H1204 A16,16 0 0 1 1220,146 V514 A16,16 0 0 1 1204,530 H716 A16,16 0 0 1 700,514 V146 A16,16 0 0 1 716,130 Z" />
+    <path fill="#C9A96E" fill-opacity="0.5" d="M703,130 H1217 A3,3 0 0 1 1220,133 V133 A3,3 0 0 1 1217,136 H703 A3,3 0 0 1 700,133 V133 A3,3 0 0 1 703,130 Z" />
+
+    
+  <g transform="translate(740.0, 170.0) scale(2.5)" fill="#C9A96E">
+    <path d="M1.24264 8.24264L8 15L14.7574 8.24264C15.553 7.44699 16 6.36786 16 5.24264V5.05234C16 2.8143 14.1857 1 11.9477 1C10.7166 1 9.55233 1.55959 8.78331 2.52086L8 3.5L7.21669 2.52086C6.44767 1.55959 5.28338 1 4.05234 1C1.8143 1 0 2.8143 0 5.05234V5.24264C0 6.36786 0.44699 7.44699 1.24264 8.24264Z" />
+  </g>
+    <text x="794" y="200" font-size="36" font-weight="bold" fill="#C9A96E" font-family="Georgia, SimSun, serif">智慧</text>
+    <text x="740" y="240" font-size="18" fill="#8B949E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">Wisdom</text>
+
+    <rect x="740" y="270" width="440" height="1" fill="#30363D" />
+
+    
+    <text x="740" y="310" font-size="22" fill="#E6EDF3" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-weight="bold">从经历中生出新的</text>
+    <text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="740" y="355"><tspan>从参与中<tspan fill="#C9A96E">生成</tspan></tspan>
+      </text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="740" y="391"><tspan>体验的<tspan fill="#C9A96E">痕迹</tspan></tspan>
+      </text><text font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="18" fill="#8B949E" x="740" y="427"><tspan>有没有<tspan fill="#C9A96E">"经过身体"</tspan></tspan>
+    </text><path fill="#C9A96E" fill-opacity="0.1" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.3" d="M758,470 H882 A18,18 0 0 1 900,488 V488 A18,18 0 0 1 882,506 H758 A18,18 0 0 1 740,488 V488 A18,18 0 0 1 758,470 Z" />
+    <text x="820" y="494" text-anchor="middle" font-size="15" fill="#C9A96E" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">AI没有</text>
+  </g>
+
+  
+  <g id="p04-takeaway">
+    <path fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.2" d="M72,570 H1208 A12,12 0 0 1 1220,582 V628 A12,12 0 0 1 1208,640 H72 A12,12 0 0 1 60,628 V582 A12,12 0 0 1 72,570 Z" />
+    
+  <g transform="translate(84.0, 590.0) scale(1.75)" fill="#8B5CF6">
+    <path d="M8 3L10.5 2.5L11 0H12L12.5 2.5L15 3V4L12.5 4.5L12 7H11L10.5 4.5L8 4V3Z" />
+    <path d="M0 11V10L4 9L5 5H6L7 9L11 10V11L7 12L6 16H5L4 12L0 11Z" />
+    <path d="M1 2L2.5 0.5L4 2L2.5 3.5L1 2Z" />
+    <path d="M15 14L13 12L11 14L13 16L15 14Z" />
+    <path d="M15 10C15.5523 10 16 9.55229 16 9C16 8.44771 15.5523 8 15 8C14.4477 8 14 8.44771 14 9C14 9.55229 14.4477 10 15 10Z" />
+  </g>
+    <text x="128" y="613" font-size="20" fill="#8B5CF6" font-weight="bold" font-family="Georgia, SimSun, serif">区别不在于输出质量，而在于有没有"经过身体"</text>
+  </g>
+
+  
+  <g id="p04-footer">
+    <text x="1200" y="690" text-anchor="end" font-size="12" fill="#484F58" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif">04</text>
+  </g>
+</svg>

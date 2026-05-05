@@ -32,6 +32,6 @@ AI替我们下水捞上来黄金，结果很好，但我们没下水。
 - [[ai-readiness-gap]] — 钢化膜模式的个体是"没准备好"的，磨刀石模式的个体是"准备好"的
 - [[distribution-bottleneck]] — 分发瓶颈+黑暗森林化双重约束下，体验不可压缩的护城河是唯一活路
 - [[agi-missing-pieces]] — 即使AGI能力维度全达标，仍然可能没有智慧——缺失的可能是一整条通向智慧的路径
-- [[agent-self-defense]] — Agent的自主防御能力也是"体验"的产物：反复被攻击后建立了记忆，就像身体被病毒入侵后产生抗体——但这是模拟的"经验"，不是真正的"体验"
+- [[agent-self-defense]] — Agent"从被攻击中学会防御"拆开看只是外部记忆的增删改查，模型权重零变化——连最像体验的行为也不是体验
 
 来源：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]

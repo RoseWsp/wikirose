@@ -33,5 +33,7 @@ AI替我们下水捞上来黄金，结果很好，但我们没下水。
 - [[distribution-bottleneck]] — 分发瓶颈+黑暗森林化双重约束下，体验不可压缩的护城河是唯一活路
 - [[agi-missing-pieces]] — 即使AGI能力维度全达标，仍然可能没有智慧——缺失的可能是一整条通向智慧的路径
 - [[agent-self-defense]] — Agent"从被攻击中学会防御"拆开看只是外部记忆的增删改查，模型权重零变化——连最像体验的行为也不是体验
+- [[curse-of-dimensionality]] — 维度灾难是计算论层面"不可计算"，体验不可压缩是存在论层面"不可计算"——两种"不够"不在同一层面
+- [[bounded-rationality]] — 有限理性说的是计算上的近似（答案存在但算力不够），体验不可压缩说的是存在论上的近似（答案不在计算范围内）——前者可被更多算力缓解，后者不能
 
-来源：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]
+来源：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]、[[dynamic-programming-bellman]]

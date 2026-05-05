@@ -352,6 +352,16 @@ graph TD
 
 关键洞察：这个主题与wiki多个概念形成深层共振——[[intelligence-vs-wisdom]]（灵感vs汗水=智慧vs智能，Clark的激进论点：在AI研发赛道上智慧可能不是必需品）、[[harness-engineering]]（递归自改进拷问脚手架极限：当被约束的系统比约束者更聪明时）、[[agent-matrix]]（终极形态是不再需要人类操作员）、[[product-overhang]]（不是线性而是指数扩大）、[[dark-forest-internet]]（AI能自主复现任何论文，学术出版保护窗口缩短到零）、[[agent-immune-system]]（~100 token方案在单代有效，但递归循环下任何<100%的防御都会衰减）。
 
+### 新兴主题：动态规划、维度灾难与有限理性
+
+最新摄取的源文件[[dynamic-programming-bellman]]从贝尔曼的"忽悠命名"切入，揭示了AI发展史的一条深层线索：
+
+- **[[bellman-equation|贝尔曼方程]]**：最优性原理的递归公式V(S)=max[R+γ·V(S')]——从终点倒推，每步利用前步结果。名字是贝尔曼为拿经费故弄玄虚的产物，本质是"倒推法"
+- **[[curse-of-dimensionality|维度灾难]]**：4个点算得了，围棋 3^361≈10^172 爆掉。"整个深度学习的工作，本质上就是在用算力和数据去暴力对抗维数灾难"
+- **[[bounded-rationality|有限理性]]**：西蒙对贝尔曼的冷水——算不完就别算完美，"满意"(satisficing)比"最优"(optimizing)更现实。ε-greedy、Beam Search、MCTS——所有实际AI系统都在做有限理性
+
+关键洞察：这条线索与wiki多个概念形成深层连接——[[intelligence-vs-wisdom]]（贝尔曼方程是智能的极致，有限理性是智慧的起步——智能问"能不能算出来"，智慧问"该不该算这个"）、[[alphafold-breakthrough-conditions]]（三条件是"暴力对抗维度灾难什么时候有希望赢"的边界）、[[clarity-before-automation]]（西蒙会说：你本来就不可能完美优化任何东西）、[[experience-incompressible]]（维度灾难是计算论层面的"不可计算"，体验不可压缩是存在论层面的——两种"不够"不在同一层面）、[[agent-immune-system]]（~100 token激活模型泛化能力替代安全规则表，是"函数逼近替代查表"在安全领域的同构）、[[harness-engineering]]（脚手架工程本质上是给AI划定有限理性的边界）。
+
 ## 探索路径
 
 ### 从概念开始
@@ -414,6 +424,9 @@ graph TD
 - [[agent-self-defense]] - Agent自主防御：首次现实环境观察
 - [[recursive-self-improvement]] - 递归自改进：AI自主构建继任者，误差累积是对齐致命挑战
 - [[automated-ai-rd]] - 自动化AI研发：AI端到端自动化AI开发，乐高vs相对论
+- [[bellman-equation]] - 贝尔曼方程：最优性原理的递归公式，动态规划的核心，本质是倒推法
+- [[curse-of-dimensionality]] - 维度灾难：状态空间指数爆炸之墙，深度学习本质是暴力对抗这堵墙
+- [[bounded-rationality]] - 有限理性：算不完就别算完美，满意比最优更现实，AI系统的设计原则
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -437,6 +450,7 @@ graph TD
 - [[ai-has-no-wisdom]] - 体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》
 - [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：Hermes Agent RCE漏洞与Agent免疫系统
 - [[jack-clark-ai-self-construction]] - Jack Clark：AI系统即将开始自我构建，2028年底递归自改进概率60%
+- [[dynamic-programming-bellman]] - 动态规划、贝尔曼方程与维度灾难：倒推法本质、最优性原理、西蒙的有限理性
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -450,9 +464,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：23篇
-- **概念页**：69个
-- **总页面**：96个（含home、index、log、23源摘要、69概念页）
+- **源文件**：24篇
+- **概念页**：72个
+- **总页面**：100个（含home、index、log、24源摘要、72概念页）
 - **最后更新**：2026-05-05
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

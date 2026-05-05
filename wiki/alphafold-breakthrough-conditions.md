@@ -27,3 +27,5 @@ Hassabis把AlphaFold称为"根节点问题"（root node problems）——一旦�
 - [[einstein-test]] — 三条件框架解决"搜索"问题，爱因斯坦测试要求"发明搜索空间"
 - [[agi-missing-pieces]] — 三条件框架属于现有范式能解决的问题，AGI缺失的部分可能是无法被这个框架覆盖的
 - [[general-specialized-architecture]] — AlphaFold就是专用工具的典范，在AGI时代仍会被通用模型调用
+- [[curse-of-dimensionality]] — 三条件是"暴力对抗维度灾难什么时候有希望赢"的边界条件：维度灾难让价值表不可填，但三条件齐备时搜索可以走通
+- [[bounded-rationality]] — 三条件不满足时，有限理性就是你的框架——不追求完美折叠，追求"足够好"的药物筛选

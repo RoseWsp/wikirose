@@ -64,7 +64,7 @@
 
 ## 相关概念
 
-[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]、[[rag-alternatives]]
+[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[obsidian-optimization]]、[[product-taste]]、[[action-based-ai]]、[[obsidian-rebuild-experience]]、[[knowledge-compilation-workflow]]、[[knowledge-health-check]]、[[incremental-compilation]]、[[knowledge-engineering]]、[[rag-alternatives]]、[[bellman-equation]]
 
 ## 与AI产品开发的关联（([[anthropic-cat-wu-product-taste]])）
 

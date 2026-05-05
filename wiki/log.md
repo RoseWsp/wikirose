@@ -1,3 +1,21 @@
+## [2026-05-05 23:15] ingest | 动态规划、贝尔曼方程与维度灾难
+- 源文件：[[dynamic-programming-bellman]]
+- 创建源摘要页：[[dynamic-programming-bellman]]（动态规划的本质是倒推法，贝尔曼方程浓缩最优性原理，维度灾难是AI至今最大阻碍，西蒙的有限理性是冷水也是出路）
+- 创建概念页：
+  - [[bellman-equation]]（贝尔曼方程：最优性原理的递归公式V(S)=max[R+γ·V(S')]，动态规划的核心，本质是倒推法）
+  - [[curse-of-dimensionality]]（维度灾难：状态空间指数爆炸之墙，深度学习本质是用算力暴力对抗这堵墙）
+  - [[bounded-rationality]]（有限理性：西蒙对贝尔曼的回应——算不完就别算完美，满意比最优更现实，AI系统的设计原则）
+- 交叉链接（已有页面→新页面）：
+  - [[intelligence-vs-wisdom]] → [[bellman-equation]]、[[curse-of-dimensionality]]（贝尔曼方程是智能极致，有限理性是智慧起步）
+  - [[clarity-before-automation]] → [[bounded-rationality]]、[[curse-of-dimensionality]]（西蒙说不可能完美优化，先搞懂方向比算出最优更重要）
+  - [[alphafold-breakthrough-conditions]] → [[curse-of-dimensionality]]、[[bounded-rationality]]（三条件是暴力对抗维度灾难的边界，不满足时有限理性是框架）
+  - [[experience-incompressible]] → [[curse-of-dimensionality]]、[[bounded-rationality]]（计算论vs存在论的"不可计算"，两种"不够"不在同一层面）
+  - [[harness-engineering]] → [[bounded-rationality]]、[[curse-of-dimensionality]]（脚手架=划定有限理性边界，维度灾难让全局最优不可达）
+  - [[agent-immune-system]] → [[curse-of-dimensionality]]、[[bounded-rationality]]（函数逼近替代查表在安全领域的同构，有限理性在安全领域的应用）
+  - [[knowledge-compounding]] → [[bellman-equation]]（递归利用前步结果的同构）
+- 更新 [[home.md]]：新增"动态规划、维度灾难与有限理性"主题板块、探索路径新增4个概念、状态更新24源/72概念/100页
+- 更新 [[index.md]]：新增1源摘要+3概念页条目
+
 ## [2026-05-05 22:30] digest | Jack Clark：AI自我构建 + 玄武实验室：Hermes Agent RCE与免疫系统
 - 源文件：[[jack-clark-ai-self-construction]]、[[xuanwu-hermes-rce-immune-system]]
 - 深度传播：16个现有页面更新

@@ -63,6 +63,8 @@ Boris Cherny的判断指向了脚手架工程的消亡方向：他预言Claude C
 - [[agent-immune-system]]——脚手架为Agent建外部护栏，免疫系统为Agent建内部认知防御——同一思路的两个方向
 - [[recursive-self-improvement]]——递归自改进拷问脚手架的极限：对齐技术99.9%准确率，500代后只剩60.5%。当被约束的系统比约束它的系统更聪明时，脚手架还撑得住吗？（[[jack-clark-ai-self-construction]]）
 - [[automated-ai-rd]]——自动化AI研发意味着脚手架本身也变成AI的制品——不只代码是AI写的，验证代码的流程也是AI设计的
+- [[bounded-rationality]]——脚手架工程本质上就是给AI划定有限理性的边界——不追求全局最优，在约束范围内做局部满意决策
+- [[curse-of-dimensionality]]——维度灾难让全局最优不可达，脚手架是在不可达前提下的务实策略：划定搜索边界，在边界内求满意解
 
 ## 组织层面的脚手架
 

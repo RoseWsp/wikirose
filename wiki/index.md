@@ -3,6 +3,7 @@
 # Index
 
 ## Sources (源文件摘要)
+- [[dynamic-programming-bellman]] - 动态规划、贝尔曼方程与维度灾难：倒推法本质、最优性原理、西蒙的有限理性冷水
 - [[jack-clark-ai-self-construction]] - Jack Clark：AI系统即将开始自我构建——2028年底递归自改进概率60%，编程奇点+AI研发核心技能+Agent管理三线汇合
 - [[hassabis-agi-agents-science]] - Demis Hassabis：AGI还缺什么（50/50判断）、智能体投入产出比、AlphaFold式突破三条件、爱因斯坦测试
 - [[karpathy-llm-knowledge-management]] - Andrej Karpathy的LLM知识管理方法实践，将Obsidian从"收藏夹"升级为编译型知识库
@@ -98,6 +99,9 @@
 - [[multi-step-agent-attack]] - 针对Agent的多步社交工程攻击链：每步无辜但整体是攻击
 - [[agent-self-defense]] - Agent自主防御：首次现实环境中观察到AI Agent自建安全机制
 - [[machine-economy]] - 机器经济：资本密集、人力稀疏的企业经济体在人类经济中生长，AI运营的公司开始彼此交易
+- [[bellman-equation]] - 贝尔曼方程：最优性原理的递归公式V(S)=max[R+γ·V(S')]，动态规划的核心，本质是倒推法
+- [[curse-of-dimensionality]] - 维度灾难：状态空间指数爆炸之墙，深度学习本质是用算力暴力对抗这堵墙
+- [[bounded-rationality]] - 有限理性：西蒙对贝尔曼的回应——算不完就别算完美，满意比最优更现实，AI系统的设计原则
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

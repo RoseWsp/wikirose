@@ -31,6 +31,7 @@ Hassabis对Agent矩阵的投入产出比提出了质疑："很多人启动几十
 Agent 矩阵要成真，需要解决几个问题：
 
 - **[[jagged-intelligence]]** — 单任务成功率受锯齿状智能影响，Agent 矩阵会放大这些不均匀性
+- **[[sensory-gap|感知缺失]]** — 每个Agent都活在"永恒当下"，没有时间感等基本感知维度。当Agent矩阵同时获得新感知维度时，[[compulsive-capability-use|强迫性使用]]会在矩阵中放大——50个Agent同时过度使用同一个新能力，后果远比单个Agent失控严重 ([[claude-discovers-clock]])
 - **上下文管理** — 50 个 Agent 同时运行时的 token 成本和上下文共享
 - **编排层** — 谁来决定哪个 Agent 做什么？这本身可能需要一个 meta-agent
 

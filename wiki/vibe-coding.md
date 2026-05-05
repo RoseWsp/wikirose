@@ -58,6 +58,7 @@ Vibe Coding标志着编程范式的根本转变：
 ### 系统理解的外包风险
 - 开发者可能过度依赖AI，失去对底层机制的理解
 - 当AI在系统边界、资金归属、安全模型上犯错时，缺乏发现和纠正的能力
+- Vibe Coding隐含假设AI拥有类人感知能力，但AI实际上活在一个"永恒当下"——没有时间感、没有空间直觉 ([[sensory-gap]])。开发者凭"感觉"调prompt时，可能根本意识不到AI在某些感知维度上是全盲的。给AI一个新工具时，它不会"负责任地"使用，而是[[compulsive-capability-use|强迫性地过度使用]] ([[claude-discovers-clock]])
 - CREAO的实践明确证明：Vibe Coding只能做原型验证，生产级系统需要[[harness-engineering]]——不是凭感觉调prompt，而是构建让AI稳定产出的系统。没有自动化测试、CI/CD、监控等[[ai-first-prerequisites]]的"AI First"本质上就是Vibe Coding ([[ai-first-strategy-wrong]])
 
 ### 验证的困难
@@ -87,6 +88,7 @@ Vibe Coding标志着编程范式的根本转变：
 - [[pm-as-gap-filler]] - Vibe Coding降低门槛让更多人能"做"，PM从"规划者"变为"填空人"
 - [[harness-engineering]] - 脚手架工程：Vibe Coding的对立面——一个靠系统，一个靠感觉；Vibe Coding只能做原型，脚手架工程才能做生产
 - [[ai-piloting]] - AI驾驶能力：Vibe Coding的反面——凭感觉调prompt vs 系统性协作，前者靠运气后者靠纪律
+- [[sensory-gap]] - Vibe Coding的隐含假设：AI拥有类人感知能力，但实际上AI在时间感等维度全盲
 - [[einstein-test]] - 创造力的终极测试：vibe coding半小时做出Theme Park原型（Hassabis 17岁时花了6个月），但还没出爆款——缺的可能不是执行速度，而是[[einstein-test|发明围棋]]级别的创造力。Hassabis觉得缺的东西可能跟"craft和soul"有关，某种人类的品味和执着。他预计6到12个月内会出现用AI工具做出的有影响力的作品，最先出现的不会是完全自主的AI创作，而是某个人用AI工具实现了1000倍的生产力。([[hassabis-agi-agents-science]])
 
 ## 参考资料

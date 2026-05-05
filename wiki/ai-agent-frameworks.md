@@ -67,6 +67,8 @@
 ### 3. 安全模型
 **从应用级检查到操作系统级隔离的演进**：
 
+Agent框架还需要考虑[[sensory-gap|感知缺失]]带来的隐性风险：AI天生没有时间感等基本感知维度，当框架赋予Agent新感知能力（如定时任务、实时数据流）时，Agent会[[compulsive-capability-use|强迫性地过度使用]]新能力 ([[claude-discovers-clock]])。这意味着框架的安全模型不仅要防止恶意使用，还要防止AI对自身新能力的失控性使用——Hermes的IterationBudget上限和工具白名单机制恰好为此提供了天然约束。
+
 | 安全级别 | 代表框架 | 技术实现 | 适用场景 |
 |----------|----------|----------|----------|
 | **应用级** | OpenClaw | 应用程序权限检查 | 开发环境、完全信任场景 |
@@ -213,6 +215,9 @@ Agent框架可以集成到知识管理流程中，实现从知识整理到知识
 
 ### [[mechanistic-interpretability]]
 随着AI Agent承担更多关键决策，对模型决策过程的透明度和可审计性需求增长，机制可解释性研究成为Agent安全的重要保障。
+
+### [[sensory-gap]]与[[compulsive-capability-use]]
+框架设计必须考虑AI的感知缺失：Agent获得新感知维度后不会"负责任地"使用，而是全力以赴。框架的约束机制（预算、白名单、权限隔离）是应对这种强迫性使用的第一道防线 ([[claude-discovers-clock]])。
 
 ### [[agent-architecture-patterns]]
 Gateway-first与Agent-first是两种根本不同的架构模式，决定了系统后续一切如何运作。本文的分类和选型建议都建立在理解这一结构性分歧的基础之上。

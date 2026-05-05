@@ -56,3 +56,8 @@ Claude获得时钟工具后的反应揭示了一个根本事实：AI模型的智
 - [[harness-engineering]] — 脚手架工程需要预设AI会过度使用新能力
 - [[action-based-ai]] — 行动派AI+新感知维度=不可预见的自主行为
 - [[mechanistic-interpretability]] — 理解AI为何对新感知维度过度使用的底层机制
+- [[software-3.0]] — 感知缺失是Software 3.0程序的边界约束，LLM继承的"永恒当下"限制了程序能力
+- [[agent-matrix]] — Agent矩阵中感知缺失会被放大：50个Agent同时过度使用新能力的后果远超单个Agent
+- [[vibe-coding]] — Vibe Coding隐含假设AI拥有类人感知，实际上AI在时间感等维度全盲
+- [[ai-piloting]] — 有效的AI驾驶需要理解AI在哪些感知维度上是全盲的
+- [[ai-agent-frameworks]] — 框架设计必须考虑感知缺失带来的隐性风险和强迫性使用

@@ -16,13 +16,15 @@ AI驱动的开发流程正在成型：提交Issues → Claude Code审核确认 �
 
 ## 为什么重要
 
-### 应对AI Agent的“尖刺性”
-Karpathy将AI Agent描述为“spiky entities”——能力很强但会犯错、有随机性、不稳定的实体。Agentic Engineering提供了一套方法来管理这种不确定性：
+### 应对AI Agent的”尖刺性”
+Karpathy将AI Agent描述为”spiky entities”——能力很强但会犯错、有随机性、不稳定的实体。Agentic Engineering提供了一套方法来管理这种不确定性：
 
 1. **边界控制**：明确每个Agent的权限范围和行动边界
 2. **流程设计**：将Agent放入合适的流程中：生成方案→写代码→跑测试→互相检查
 3. **回滚机制**：当Agent出错时能快速恢复到安全状态
 4. **监督层级**：人类监督关键决策，AI处理执行细节
+
+尖刺性的一个深层根源是[[sensory-gap|感知缺失]]：AI活在一个”永恒当下”，缺少时间感等基本感知维度。当Agent获得新感知能力时，它会[[compulsive-capability-use|强迫性地过度使用]]——不是偶尔多用，而是全力以赴 ([[claude-discovers-clock]])。这意味着Agentic Engineering的边界控制不仅要防Agent做错事，还要防Agent对自身新能力的失控性使用。
 
 ### 解决规模化挑战
 单个AI Agent辅助编程已经普及，但协调多个Agent完成大型项目需要新的工程方法：

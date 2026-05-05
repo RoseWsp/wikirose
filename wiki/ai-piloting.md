@@ -8,7 +8,7 @@
 
 ## 核心维度
 
-**初阶考察**：prompt质量、上下文管理、验收习惯、出错时的应对策略。
+**初阶考察**：prompt质量、上下文管理、验收习惯、出错时的应对策略。理解AI的[[sensory-gap|感知缺失]]——AI活在一个"永恒当下"，没有时间感等基本感知维度，当你给它一个新工具时，它不会"负责任地"使用，而是[[compulsive-capability-use|强迫性地过度使用]] ([[claude-discovers-clock]])。好的AI驾驶者知道AI在哪些感知维度上是全盲的，能预判新能力被过度使用的风险。
 
 | 评分 | 标准 |
 |------|------|
@@ -47,4 +47,6 @@ AI驾驶能力是[[agentic-engineering]]的个人技能维度。Agentic Engineer
 - [[harness-engineering]]——为AI搭建脚手架的前提是会驾驶AI
 - [[vibe-coding]]——AI驾驶的反面：凭感觉调prompt vs 系统性协作
 - [[jagged-intelligence]]——理解AI能力不均匀性是有效驾驶的前提
+- [[sensory-gap]]——理解AI感知缺失是高阶驾驶的前提：知道AI在哪些维度全盲，才能避开盲区
+- [[compulsive-capability-use]]——AI对新能力的强迫性使用是驾驶中需要预判和约束的风险
 - [[ai-native-hiring-guide]]——源文件

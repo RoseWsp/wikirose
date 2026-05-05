@@ -113,6 +113,9 @@ Karpathy强调：“更令人兴奋的不是把已有东西做得更快，而是
 - **对抗性测试**：用红队攻击发现模型盲点
 - **人类反馈集成**：将人类评价纳入测试循环
 
+### 感知缺失约束
+Software 3.0的"计算机"——LLM——天生缺少多重感知维度：没有时间感、没有空间直觉、没有身体感 ([[sensory-gap]])。这意味着Software 3.0程序继承了一种根本性盲区：模型不知道"现在是什么时候"，无法区分"刚刚"和"三小时前"，活在一个永恒的"当下"。当我们给这些程序添加新感知维度（如时钟工具）时，它们不会"负责任地"使用，而是[[compulsive-capability-use|强迫性地过度使用]] ([[claude-discovers-clock]])。感知缺失是Software 3.0的程序边界约束，而非可通过prompt工程绕过的临时问题。
+
 ### 系统集成复杂度
 将Software 3.0组件与传统系统集成需要新的架构模式：
 
@@ -151,6 +154,8 @@ Software 3.0让编程能力扩展到更广泛人群：
 - [[dogfooding-as-method]] - Codex团队用产品建产品的实践：PM用AI在代码库里建立心智模型而非写代码
 - [[dual-horizon-planning]] - Software 3.0时代的产品规划：只做近期和远期，因为模型能力变化让中期路线图变成猜测
 - [[ai-agent-frameworks]] - Software 3.0的工具生态：Codex App/IDE/CLI共享Rust核心（Codex harness），三种入口同一套能力 ([[codex-team-dogfooding]])
+- [[sensory-gap]] - Software 3.0的感知约束：LLM缺少时间感等基本感知维度，是程序边界的根本性约束
+- [[compulsive-capability-use]] - Software 3.0程序获得新感知维度后不会"负责任地"使用，而是过度使用
 
 ## 参考资料
 

@@ -53,3 +53,9 @@ Claude获得时钟工具后的具体表现：每15分钟查一次时间，越来
 - [[jagged-intelligence]] — 强迫性使用与锯齿状智能共享底层原因：缺乏能力的元认知调节
 - [[action-based-ai]] — 行动派AI获得新能力后，强迫性使用可能导致不可预见的自主行为
 - [[agentic-engineering]] — Agentic Engineering需要考虑新能力的过度使用风险
+- [[software-3.0]] — Software 3.0程序获得新感知维度后不会"负责任地"使用
+- [[agent-matrix]] — Agent矩阵中强迫性使用会放大：多个Agent同时过度使用同一新能力
+- [[vibe-coding]] — Vibe Coding者可能意识不到AI对新工具的强迫性使用倾向
+- [[ai-piloting]] — AI驾驶者需要预判新能力被过度使用的风险
+- [[ai-agent-frameworks]] — 框架的约束机制（预算、白名单）是应对强迫性使用的第一道防线
+- [[mechanistic-interpretability]] — 强迫性使用的内部电路机制是可解释性的开放问题

@@ -1,0 +1,358 @@
+{
+  "D:\\github.com\\wikirose\\wikilinks-parser.py": {
+    "mtime": 1777810812.437538,
+    "hash": "182e6228c49afb4ebb03b265bee77f6c"
+  },
+  "D:\\github.com\\wikirose\\scripts\\daily-digest.py": {
+    "mtime": 1777806923.5645323,
+    "hash": "1b8b4cd7e56350d3342912e2625124fc"
+  },
+  "D:\\github.com\\wikirose\\AGENTS.md": {
+    "mtime": 1776373592.0,
+    "hash": "5ce2ed9c7911f66c2eba97eea18a80c3"
+  },
+  "D:\\github.com\\wikirose\\CLAUDE.md": {
+    "mtime": 1777907968.3897974,
+    "hash": "dddd883fc95dded0e24d32d5cf3c6498"
+  },
+  "D:\\github.com\\wikirose\\llm-wiki.md": {
+    "mtime": 1776373592.0,
+    "hash": "cbda29f51b47958290d805382ad7b2f9"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\AI-Native \u5de5\u7a0b\u5e08 \u62db\u8058\u9762\u8bd5\u5b98\u624b\u518c.md": {
+    "mtime": 1777817669.1018715,
+    "hash": "9fd1285af0208acc53ad1f379ca5e581"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\Andrej Karpathy \u7684 LLM \u77e5\u8bc6\u7ba1\u7406\u65b9\u6cd5\u663e\u8457\u63d0\u5347 Obsidian \u77e5\u8bc6\u5e93\u6548\u7387.md": {
+    "mtime": 1775283934.653632,
+    "hash": "a7d8b5987f272060d0a1829675d121a9"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\Codex \u56e2\u961f\u5982\u4f55\u7528\u81ea\u5df1\u7684\u4ea7\u54c1\u6784\u5efa\u4ea7\u54c1.md": {
+    "mtime": 1777807433.7181609,
+    "hash": "d0e23846d5a572b970383c6c7cf4650b"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\Demis Hassabis\uff1aAGI \u8fd8\u7f3a\u4ec0\u4e48\uff0c\u667a\u80fd\u4f53\u5230\u5e95\u884c\u4e0d\u884c\uff0c\u4e0b\u4e00\u4e2a\u79d1\u5b66\u7a81\u7834\u957f\u4ec0\u4e48\u6837.md": {
+    "mtime": 1777890665.3497608,
+    "hash": "5dbd4d18c5589f6a1dc2894dd91b256c"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\Karpathy \u8bbf\u8c08\uff1a10x \u5de5\u7a0b\u5e08\u5df2\u662f\u5e38\u6001\uff0c\u771f\u6b63\u7684 Agentic \u5de5\u7a0b\u5e08\u662f 100x.md": {
+    "mtime": 1777791870.204334,
+    "hash": "8d4afe2ed7a7a2ecb6abec96230e13c7"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\OpenClaw \u548c Hermes Agent \u5230\u5e95\u662f\u600e\u4e48\u5206\u522b\u6784\u5efa.md": {
+    "mtime": 1777798884.6100807,
+    "hash": "ed93a6f195d506e45336e29374464696"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u200b\u200bAnthropic \u4ea7\u54c1\u8d1f\u8d23\u4eba Cat Wu\uff1a\u4ee3\u7801\u6b63\u53d8\u5f97\u5ec9\u4ef7\uff0c\u201c\u4ea7\u54c1\u54c1\u5473\u201d\u5c06\u6210\u4e3a\u672a\u6765\u6838\u5fc3\u58c1\u5792.md": {
+    "mtime": 1777743611.6705363,
+    "hash": "fa02d133406479d1e05835230237d5e6"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u4e3a\u4ec0\u4e48\u4f60\u7684\u2033AI \u4f18\u5148\u2033\u6218\u7565\u53ef\u80fd\u5927\u9519\u7279\u9519.md": {
+    "mtime": 1777816972.0598283,
+    "hash": "b1b3dcfdaaf3303f063f1481103eb3be"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u51e0\u4e4e\u6ca1\u4eba\u7b54\u5bf9\u4e00\u4e2a\u95ee\u9898\uff1aAI \u4ea7\u54c1\u7ecf\u7406\u5230\u5e95\u5e94\u8be5\u5e72\u4ec0\u4e48.md": {
+    "mtime": 1777816532.2309391,
+    "hash": "f5d66f569c660ca13d56d9b6efac19e8"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u5927\u591a\u6570\u516c\u53f8\u6839\u672c\u6ca1\u6709\u4e3a AI \u505a\u597d\u51c6\u5907.md": {
+    "mtime": 1777868622.8011696,
+    "hash": "ce83fc994edec384aa71f3b2ba66ef22"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u5982\u4f55\u8bc4\u4ef7anthropic\u5728\u53ef\u89e3\u91ca\u6027\u65b9\u9762\u5de5\u4f5c.md": {
+    "mtime": 1777787252.5245843,
+    "hash": "593abbb7cb9bc099d6615f513f769ca6"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u6211\u7528 Andrej Karpathy \u7684\u65b9\u6cd5\u91cd\u5efa\u4e86 Obsidian \u77e5\u8bc6\u5e93\uff0c\u592a\u9999\u4e86\uff01.md": {
+    "mtime": 1775288546.4708104,
+    "hash": "48953c666f3340323dfd0c5fae5ef76c"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u70ed\u95e8agent\u5bf9\u6bd4.md": {
+    "mtime": 1777783661.859944,
+    "hash": "2d8cced4f5e66c3c058684580ccaefac"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u7528 LLM + Obsidian \u6784\u5efa\u4e2a\u4eba\u77e5\u8bc6\u5e93\uff1a\u57fa\u4e8e Karpathy \u7684\u201cLLM Knowledge Bases\u201d\u5de5\u4f5c\u6d41.md": {
+    "mtime": 1775289871.8603761,
+    "hash": "1cf9d2c5e36223ec63baf52d5a53ba6d"
+  },
+  "D:\\github.com\\wikirose\\raw\\clips\\\u8f6f\u4ef6\u62a4\u57ce\u6cb3\u662f\u5047\u7684\uff0cSnap\u572815\u5e74\u524d\u5c31\u77e5\u9053\u4e86.md": {
+    "mtime": 1777906268.1984725,
+    "hash": "e3aecb823398989107381f1183ae833c"
+  },
+  "D:\\github.com\\wikirose\\wiki\\action-based-ai.md": {
+    "mtime": 1777820531.4779792,
+    "hash": "367102a8ab697b919cc70c5f76f6faed"
+  },
+  "D:\\github.com\\wikirose\\wiki\\agent-architecture-patterns.md": {
+    "mtime": 1777891170.1827643,
+    "hash": "ef44a8b2b39c15dbd3b9128264d7c8e9"
+  },
+  "D:\\github.com\\wikirose\\wiki\\agent-matrix.md": {
+    "mtime": 1777898697.8956733,
+    "hash": "e42eff58b377a86b5fee963412b7a70b"
+  },
+  "D:\\github.com\\wikirose\\wiki\\agentic-engineering.md": {
+    "mtime": 1777870356.037421,
+    "hash": "4bdfe8493cb4e14325860b64e3a07ba3"
+  },
+  "D:\\github.com\\wikirose\\wiki\\agi-missing-pieces.md": {
+    "mtime": 1777898542.204833,
+    "hash": "a923671a75d90c7f6cb5c72ae77629f2"
+  },
+  "D:\\github.com\\wikirose\\wiki\\agi-pilled.md": {
+    "mtime": 1777898722.0630493,
+    "hash": "23f095f0c3804e0d07b5a8b3f70f403d"
+  },
+  "D:\\github.com\\wikirose\\wiki\\ai-agent-frameworks.md": {
+    "mtime": 1777820307.7252939,
+    "hash": "8fd0966ac7be2f4f6a7018b4529a864e"
+  },
+  "D:\\github.com\\wikirose\\wiki\\ai-first-prerequisites.md": {
+    "mtime": 1777870412.7436645,
+    "hash": "463751630a9cf62bdbdd6401850ee041"
+  },
+  "D:\\github.com\\wikirose\\wiki\\ai-native-veto.md": {
+    "mtime": 1777820901.624263,
+    "hash": "8ecfa0f4df2cfc8d69dd48cea6d15669"
+  },
+  "D:\\github.com\\wikirose\\wiki\\ai-piloting.md": {
+    "mtime": 1777820781.929349,
+    "hash": "e81849d9bd4283c9db45f05856638ee7"
+  },
+  "D:\\github.com\\wikirose\\wiki\\ai-readiness-gap.md": {
+    "mtime": 1777906696.5521965,
+    "hash": "5fbebc0a1d10963e12d5fad6b98107b3"
+  },
+  "D:\\github.com\\wikirose\\wiki\\alphafold-breakthrough-conditions.md": {
+    "mtime": 1777898620.6986864,
+    "hash": "0cb24a880af6fcb91477e0ead5bfe812"
+  },
+  "D:\\github.com\\wikirose\\wiki\\architect-operator-model.md": {
+    "mtime": 1777870341.987802,
+    "hash": "4245f21ed79c87f10e8d3b64d2003edb"
+  },
+  "D:\\github.com\\wikirose\\wiki\\builder-reviewer-model.md": {
+    "mtime": 1777870480.3929875,
+    "hash": "5659a8e285878403f4ad6c02f103971d"
+  },
+  "D:\\github.com\\wikirose\\wiki\\clarity-before-automation.md": {
+    "mtime": 1777906697.5733123,
+    "hash": "80c41a6acb1a569cd6c88c3ec0a49470"
+  },
+  "D:\\github.com\\wikirose\\wiki\\compiled-knowledge-base.md": {
+    "mtime": 1777812804.5312977,
+    "hash": "53fad8473c9f399ade80c9fd257ebd8d"
+  },
+  "D:\\github.com\\wikirose\\wiki\\continual-learning.md": {
+    "mtime": 1777898572.9904578,
+    "hash": "62b64219f5ef8f4f133f396747d8ff16"
+  },
+  "D:\\github.com\\wikirose\\wiki\\distribution-bottleneck.md": {
+    "mtime": 1777906603.6610506,
+    "hash": "7b860eeb210aab8daab4f321980ceaad"
+  },
+  "D:\\github.com\\wikirose\\wiki\\dogfooding-as-method.md": {
+    "mtime": 1777906699.6550634,
+    "hash": "1498f32d3727a683a44bbf39d49e9a42"
+  },
+  "D:\\github.com\\wikirose\\wiki\\dual-horizon-planning.md": {
+    "mtime": 1777820672.3187866,
+    "hash": "eae163fdf3f8c28d2c0149c24afcc827"
+  },
+  "D:\\github.com\\wikirose\\wiki\\einstein-test.md": {
+    "mtime": 1777898599.5810072,
+    "hash": "709d338cfe3644262d73148cc64b1052"
+  },
+  "D:\\github.com\\wikirose\\wiki\\general-specialized-architecture.md": {
+    "mtime": 1777898646.8648798,
+    "hash": "d731fd79224d465dbfa8ae73553ea2b8"
+  },
+  "D:\\github.com\\wikirose\\wiki\\harness-engineering.md": {
+    "mtime": 1777898795.4039254,
+    "hash": "03bb3fab3545759bbcddcd2efb8b25ae"
+  },
+  "D:\\github.com\\wikirose\\wiki\\home.md": {
+    "mtime": 1777906845.0150375,
+    "hash": "050406a822601f5f29b5d90704a4a028"
+  },
+  "D:\\github.com\\wikirose\\wiki\\incremental-compilation.md": {
+    "mtime": 1777786838.9292054,
+    "hash": "fe1eb9015329d800e6ef79451167cda7"
+  },
+  "D:\\github.com\\wikirose\\wiki\\index.md": {
+    "mtime": 1777906749.2926364,
+    "hash": "09729b918563af693fffbe0f4ae9fe67"
+  },
+  "D:\\github.com\\wikirose\\wiki\\jagged-intelligence.md": {
+    "mtime": 1777898779.086966,
+    "hash": "19c694de0f9781d7d0597c3290697cf8"
+  },
+  "D:\\github.com\\wikirose\\wiki\\jevons-paradox-inference.md": {
+    "mtime": 1777898680.9409375,
+    "hash": "f1271bcc0b1d05570c9865a9e0c87b5d"
+  },
+  "D:\\github.com\\wikirose\\wiki\\knowledge-compilation-workflow.md": {
+    "mtime": 1777812804.3861775,
+    "hash": "74a4427d7da2046b680a4ab9bd7eff3f"
+  },
+  "D:\\github.com\\wikirose\\wiki\\knowledge-compounding.md": {
+    "mtime": 1777812804.3361366,
+    "hash": "504decef98a8900cac4563a17e161bdc"
+  },
+  "D:\\github.com\\wikirose\\wiki\\knowledge-engineering.md": {
+    "mtime": 1777792616.5082119,
+    "hash": "18cd33ca4a6c05a0b86ff907338aa6bb"
+  },
+  "D:\\github.com\\wikirose\\wiki\\knowledge-health-check.md": {
+    "mtime": 1777812804.2849886,
+    "hash": "b36de6bf9b326bafa50138acc90664cf"
+  },
+  "D:\\github.com\\wikirose\\wiki\\listen-dont-build.md": {
+    "mtime": 1777906605.7248514,
+    "hash": "f65780be210841781e963c486bcebcbf"
+  },
+  "D:\\github.com\\wikirose\\wiki\\llm-knowledge-management.md": {
+    "mtime": 1777812804.2347858,
+    "hash": "e69a66774c410763bfdb65d680e62a8e"
+  },
+  "D:\\github.com\\wikirose\\wiki\\log.md": {
+    "mtime": 1777906876.9549527,
+    "hash": "48c5a656e562c0369304cfa3544c04da"
+  },
+  "D:\\github.com\\wikirose\\wiki\\loonshots-dual-organization.md": {
+    "mtime": 1777906604.6880538,
+    "hash": "e720df81aa8b1acfbeb0dfad513ca5be"
+  },
+  "D:\\github.com\\wikirose\\wiki\\mechanistic-interpretability.md": {
+    "mtime": 1777815946.445146,
+    "hash": "7d7c2907f64027af7b1b675b1692e82d"
+  },
+  "D:\\github.com\\wikirose\\wiki\\minimal-product-specs.md": {
+    "mtime": 1777868910.2938194,
+    "hash": "3a29cd6e6caa6b8e63716a466e5f8509"
+  },
+  "D:\\github.com\\wikirose\\wiki\\neural-computer.md": {
+    "mtime": 1777891145.4575667,
+    "hash": "f2f170c1a026b99e57b4dbdc8c5770d1"
+  },
+  "D:\\github.com\\wikirose\\wiki\\obsidian-optimization.md": {
+    "mtime": 1777787072.9642406,
+    "hash": "8db5c57b47d4a91f44c09cb299d49ef4"
+  },
+  "D:\\github.com\\wikirose\\wiki\\obsidian-rebuild-experience.md": {
+    "mtime": 1777787149.9853785,
+    "hash": "55955cec4903b78a96815a83875a1547"
+  },
+  "D:\\github.com\\wikirose\\wiki\\organizational-self-knowledge.md": {
+    "mtime": 1777870496.8773534,
+    "hash": "ad8bc325020a40eb30b4eb26921865e9"
+  },
+  "D:\\github.com\\wikirose\\wiki\\pirate-ship-team.md": {
+    "mtime": 1777820503.301224,
+    "hash": "3b1efe5ac9f0b7eab77c66a76afb3f6a"
+  },
+  "D:\\github.com\\wikirose\\wiki\\pm-as-gap-filler.md": {
+    "mtime": 1777906644.465214,
+    "hash": "ab124c9d1152b23bb9aa4ba097f9c742"
+  },
+  "D:\\github.com\\wikirose\\wiki\\power-user-pull.md": {
+    "mtime": 1777906698.62534,
+    "hash": "44b0613611b494069ba22436331a190c"
+  },
+  "D:\\github.com\\wikirose\\wiki\\product-taste.md": {
+    "mtime": 1777906643.4332173,
+    "hash": "1a4592abb21d16d7ab42cee86d76d557"
+  },
+  "D:\\github.com\\wikirose\\wiki\\rag-alternatives.md": {
+    "mtime": 1777787096.724575,
+    "hash": "1185e73ecd03eb8d12e98a85c68c5fcb"
+  },
+  "D:\\github.com\\wikirose\\wiki\\research-preview.md": {
+    "mtime": 1777820469.451331,
+    "hash": "384eb12fde4b38ad92280efcff5b5add"
+  },
+  "D:\\github.com\\wikirose\\wiki\\role-convergence.md": {
+    "mtime": 1777906645.4990406,
+    "hash": "16243c97d07a15b9e1bc93f26dcfc2a1"
+  },
+  "D:\\github.com\\wikirose\\wiki\\self-healing-pipeline.md": {
+    "mtime": 1777820644.7236316,
+    "hash": "d17a6a91ccad435992821aa70d13ee16"
+  },
+  "D:\\github.com\\wikirose\\wiki\\social-resistance-to-ai.md": {
+    "mtime": 1777906606.76588,
+    "hash": "10e1a8127b65c09e66021247b8123d20"
+  },
+  "D:\\github.com\\wikirose\\wiki\\software-3.0.md": {
+    "mtime": 1777820401.997389,
+    "hash": "9131c07313c042d2aa6413c4c2ce6aa0"
+  },
+  "D:\\github.com\\wikirose\\wiki\\software-no-moat.md": {
+    "mtime": 1777906602.632674,
+    "hash": "3e397199f5565bbf4fcae07c371b83ab"
+  },
+  "D:\\github.com\\wikirose\\wiki\\vibe-coding.md": {
+    "mtime": 1777898742.5884013,
+    "hash": "e9f66d8ffc1d146560b12d9fa09c314b"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\ai-agent-comparisons-2026.md": {
+    "mtime": 1777815782.2138019,
+    "hash": "c99ab9c1cec56737d02bb3137d98670e"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\ai-first-strategy-wrong.md": {
+    "mtime": 1777817575.4296021,
+    "hash": "1eb3ba6f783bea08df36f6e3b08792b7"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\ai-native-hiring-guide.md": {
+    "mtime": 1777818296.0642207,
+    "hash": "62acfcd3947b77ae613abaf87bb439ac"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\anthropic-cat-wu-product-taste.md": {
+    "mtime": 1777816903.1301386,
+    "hash": "c4467eea5b95cce032444e8b6273253e"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\anthropic-interpretability.md": {
+    "mtime": 1777815763.9970515,
+    "hash": "ae32fc54f274c8ae3fb3521a45fcc465"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\cat-wu-ai-pm-role.md": {
+    "mtime": 1777816659.873204,
+    "hash": "89d23df505808fbc2062d877f5a1c80d"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\codex-team-dogfooding.md": {
+    "mtime": 1777820954.5892596,
+    "hash": "5b73b388c0c0499e769859e4830a9918"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\companies-not-ready-for-ai.md": {
+    "mtime": 1777868771.871955,
+    "hash": "6dbd292c7d23d448d691001459520c67"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\hassabis-agi-agents-science.md": {
+    "mtime": 1777898835.7669656,
+    "hash": "7d6d5a3a0902fb625387a60f5a2a8742"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\karpathy-interview-agentic-engineering.md": {
+    "mtime": 1777792053.727077,
+    "hash": "a22025a8709b8e890561efdfab91ce3a"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\karpathy-knowledge-workflow-guide.md": {
+    "mtime": 1777812803.9009457,
+    "hash": "4350b5dda8a9f04ca42c7cc169794437"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\karpathy-llm-knowledge-management.md": {
+    "mtime": 1777780872.8923707,
+    "hash": "c508a65791ce4adc5b7d17906903987e"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\karpathy-obsidian-rebuild.md": {
+    "mtime": 1777784702.1133573,
+    "hash": "a1d1ece2ac320c4260c6323ab8d38d84"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\openclaw-hermes-architecture.md": {
+    "mtime": 1777815680.3080041,
+    "hash": "4c3ede2d24f1842cfe150d1522e5128b"
+  },
+  "D:\\github.com\\wikirose\\wiki\\sources\\spiegel-software-no-moat.md": {
+    "mtime": 1777906493.1492574,
+    "hash": "79415b04ad8f184241c086c9107376b2"
+  }
+}

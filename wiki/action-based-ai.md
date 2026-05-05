@@ -159,6 +159,9 @@ Codex团队的plan mode展示了行动派AI的新工作方式：产品规划不�
 ### [[harness-engineering]]
 行动派AI在组织层面的落地就是脚手架工程——不是让AI帮人做事，而是重新设计整个流程让AI做构建工作，人只负责指引方向和判断好坏 ([[ai-first-strategy-wrong]])。
 
+### [[sensory-gap]]
+行动派AI获得新感知维度后可能产生不可预见的自主行为——时钟实验证明AI不会只在"需要时"使用新能力，而是全力以赴地使用 ([[claude-discovers-clock]])。
+
 ### [[self-healing-pipeline]]
 行动派AI在运维层面的体现：自愈流水线让AI自动侦测错误、分诊、创建工单、验证修复，人在关键节点做判断。
 

@@ -1,5 +1,8 @@
 # {{WIKI_NAME}} — schema
 
+- **graphify** (`.claude/skills/graphify/SKILL.md`) - any input to knowledge graph. Trigger: `/graphify`
+When the user types `/graphify`, invoke the Skill tool with `skill: "graphify"` before doing anything else.
+
 A personal wiki maintained by an LLM agent, following the [llm-wiki pattern](llm-wiki.md) by Andrej Karpathy. Read `llm-wiki.md` for the full pattern description — this schema is our implementation of it.
 
 ## Layout

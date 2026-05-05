@@ -177,6 +177,7 @@ Neural Computer可能缓解但不能完全解决Jagged Intelligence：
 - [[agentic-engineering]] - 在神经计算环境中的工程实践
 - [[jagged-intelligence]] - Neural Computer需要应对的能力挑战
 - [[continual-learning]] - 神经计算机架构可能天然支持持续学习，缓解当前"快照"模型的根本限制
+- [[sensory-gap]] - Neural Computer的感知子系统正是填补AI感知缺失的架构方向
 - [[karpathy-interview-agentic-engineering]] - Karpathy关于Neural Computer的原始论述
 - [[ai-agent-frameworks]] - 当前Agent技术的演进方向
 

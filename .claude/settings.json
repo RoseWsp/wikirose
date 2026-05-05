@@ -1,7 +1,16 @@
 {
   "permissions": {
     "defaultMode": "auto",
+    "deny": [
+      "Edit(/.git/**)",
+      "Delete(/.git/**)",
+      "Bash(rm -rf .git)",
+      "Bash(rm .git/**)",
+      "Bash(del .git/**)",
+      "Bash(rd /s /q .git)"
+    ],
     "allow": [
+      "Bash(*)",
       "Bash(./*)",
       "Bash(xxd *)",
       "Edit(./*)",

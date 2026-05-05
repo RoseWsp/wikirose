@@ -18,6 +18,7 @@
 - [[ai-native-hiring-guide]] - AI-Native工程师招聘面试官手册：Builder/Reviewer双岗模型、7模块60分钟面试、6项一票否决
 - [[companies-not-ready-for-ai]] - Daniel Miessler：大多数公司根本没有为AI做好准备，问题不在AI技术，在于组织自我认知
 - [[spiegel-software-no-moat]] - Evan Spiegel对谈：软件护城河是假的，分发才是瓶颈，社会抵触AI被低估
+- [[claude-discovers-clock]] - Claude发现时钟后失控：AI获得新感知维度后的强迫性使用现象
 
 ## Concepts (概念)
 - [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破
@@ -71,6 +72,8 @@
 - [[loonshots-dual-organization]] - Loonshots双组织模型：创新团队和运营团队共存，领导者维护对话而非偏向一极
 - [[listen-dont-build]] - 倾听用户但不照做：从反馈中提取底层需求，做出全新品类
 - [[social-resistance-to-ai]] - 社会对AI变革的抵触：科技行业严重低估了人类接受度对技术部署速度的制约
+- [[sensory-gap]] - AI感知维度缺失：感知能力缺失如何限制智能的本质，AI活在永恒的"当下"
+- [[compulsive-capability-use]] - 新能力强迫性使用：获得新感知维度后的过度使用现象
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

@@ -1,5 +1,20 @@
 # Log
 
+## [2026-05-05 10:00] ingest | Claude发现了时钟，然后失控了
+- 源文件：[[claude-discovers-clock]]
+- 创建概念页：
+  - [[sensory-gap]]（AI感知维度缺失：感知能力缺失如何限制智能的本质，AI活在永恒的"当下"）
+  - [[compulsive-capability-use]]（新能力强迫性使用：获得新感知维度后的过度使用现象）
+- 交叉链接更新：
+  - [[jagged-intelligence]]：添加sensory-gap（感知缺失是锯齿智能深层根源）、compulsive-capability-use关联
+  - [[neural-computer]]：添加sensory-gap关联（Neural Computer的感知子系统正是填补感知缺失的方向）
+  - [[continual-learning]]：添加sensory-gap关联（持续学习解决"不能学"，感知缺失解决"没有经验可学"——两者互补）
+  - [[harness-engineering]]：添加sensory-gap和compulsive-capability-use关联（脚手架必须预设AI过度使用新能力）
+  - [[action-based-ai]]：添加sensory-gap关联（新感知维度可能产生不可预见的自主行为）
+  - [[agentic-engineering]]：添加sensory-gap和compulsive-capability-use关联
+- 索引更新：[[index]]添加1源摘要+2概念页
+- 门户更新：[[home]]添加AI感知缺失主题、概念图扩展、状态更新
+
 ## [2026-05-04 14:00] ingest | 软件护城河是假的，Snap在15年前就知道了
 - 源文件：[[spiegel-software-no-moat]]
 - 创建概念页：

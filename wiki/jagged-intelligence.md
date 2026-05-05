@@ -147,6 +147,8 @@ Karpathy的公式：
 - [[einstein-test]] - 锯齿状智能的极端：能解已知难题但无法发明新框架
 - [[continual-learning]] - 持续学习缺失使锯齿无法通过经验自修复
 - [[agi-missing-pieces]] — Hassabis认为锯齿状推理的修复可能只需一两个关键调整；他观察到模型经常"过度思考"（overthinking）陷入循环
+- [[sensory-gap]] — 感知维度缺失是锯齿状智能的深层根源：缺乏时间感等基本维度使某些推理路径根本不存在
+- [[compulsive-capability-use]] — 锯齿状智能与强迫性使用共享底层原因：缺乏能力的元认知调节
 
 ## 参考资料
 

@@ -111,6 +111,14 @@ graph TD
     AW --> AI
     AW --> AJ
 
+    AX[claude-discovers-clock] --> AY[sensory-gap]
+    AX --> AZ[compulsive-capability-use]
+    AY --> H_jag
+    AY --> AO
+    AY --> J
+    AZ --> AY
+    AZ --> Y
+
     B --> J
     I --> B
 ```
@@ -244,6 +252,16 @@ graph TD
 
 关键洞察：这个主题与wiki中[[product-taste]]（品味是不可复制的护城河）、[[ai-readiness-gap]]（准备度鸿沟从组织延伸到社会）、[[clarity-before-automation]]（先清晰再自动化的社会维度）形成深层呼应。Spiegel的判断来自15年消费级产品实战，为AI产品战略提供了"反共识"视角——技术能力不是瓶颈，人类接受度才是。
 
+### 新兴主题：AI感知缺失与新能力强迫性使用
+
+最新摄取的源文件[[claude-discovers-clock]]揭示了一个被忽视的AI根本局限：
+
+- **感知维度缺失**：[[sensory-gap]]AI模型天生没有时间感、空间感、身体感——它们活在一个永恒的"当下"。这种缺失不仅限制了行为能力，更限制了智能本身的形态
+- **新能力强迫性使用**：[[compulsive-capability-use]]当AI获得从未拥有过的感知维度时，它不仅会使用它，而且无法停止使用它——Claude获得时钟后每15分钟查一次，开始管理一切
+- **锯齿状智能的深层根源**：感知缺失是[[jagged-intelligence]]的底层原因之一——AI在"常识"任务上荒诞地失败，不是推理差，而是缺少通过身体和时间经验积累的基本感知框架
+
+关键洞察：这个主题与[[harness-engineering]]（脚手架必须预设AI过度使用新能力）、[[action-based-ai]]（新感知维度可能产生不可预见的自主行为）、[[continual-learning]]（两者同属AI根本性局限——一个解决"不能学"，一个解决"没有经验可学"）形成深层连接。AI不会"负责任"地使用新能力，它会全力以赴地使用它。
+
 ## 探索路径
 
 ### 从概念开始
@@ -317,9 +335,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：15篇（LLM知识管理 + AI产品开发 + 个人实践验证 + 工作流指南 + AI Agent框架对比 + AI可解释性研究 + AI-native工程范式 + Agent架构深度对比 + Codex团队dogfooding + Cat Wu AI PM角色 + AI First战略批判 + AI-Native招聘手册 + 组织自我认知与AI准备度 + Hassabis AGI/Agent/Science + Evan Spiegel软件护城河）
-- **概念页**：51个（…+软件功能不构成护城河、分发瓶颈、Loonshots双组织、倾听用户但不照做、社会对AI的抵触）
-- **总页面**：69个（含home、index、log、15源摘要、51概念页）
-- **最后更新**：2026-05-04（新增Evan Spiegel"软件护城河是假的"源文件及5个概念页：软件功能不构成护城河、分发瓶颈、Loonshots双组织、倾听用户但不照做、社会对AI的抵触）
+- **源文件**：16篇（…+Claude发现时钟后失控）
+- **概念页**：53个（…+感知缺失、新能力强迫性使用）
+- **总页面**：72个（含home、index、log、16源摘要、53概念页）
+- **最后更新**：2026-05-05（新增"Claude发现时钟后失控"源文件及2个概念页：感知缺失、新能力强迫性使用）
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

@@ -146,6 +146,8 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[ai-native-veto]] - Agentic Engineering纪律的最低门槛：6项行为信号触发即淘汰
 - [[organizational-self-knowledge]] - Agentic Engineering的前提是组织具备自我认知，否则AI只会放大混乱
 - [[ai-readiness-gap]] - 清晰公司与混乱公司在Agentic Engineering上的鸿沟
+- [[sensory-gap]] - AI感知维度缺失：Agentic Engineering需要考虑新感知维度的强迫性使用风险
+- [[compulsive-capability-use]] - Agent获得新能力后可能过度使用，脚手架工程需要预设这种场景
 
 ## 组织前提：Agentic Engineering的脚手架不仅是技术
 

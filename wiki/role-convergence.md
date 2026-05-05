@@ -41,3 +41,5 @@ Boris Cherny把角色融合推到了极端：Claude Code团队里工程经理、
 角色融合的另一个极端是[[opc-one-person-company|一人公司]]——一个人同时是产品、工程、运营、设计，其余全是AI agent。科斯定理在AI时代的推论：管理100个agent的成本远低于管理100个人，OPC不再是概念而是经济必然。当角色融合走到OPC，"融合"的字面意义消失了——不是多个角色融合到一个人身上，而是一个人+AI矩阵覆盖全部职能。([[lijigang-experience-incompressible]])
 
 角色融合的另一个极端形态是[[org-process-gap|组织流程代差]]——Anthropic内部全员编程不是个人能力问题，而是组织流程彻底改造的结果。同样的模型对所有人开放，但只有把AI嵌入每个工作流程的组织才能实现全员编程。([[boris-chenyi-sequoia-ai-ascent]])
+
+角色融合的终极图景是[[machine-economy|机器经济]]：当AI运营的公司开始彼此交易，经济中人力稀疏、资本密集，角色融合不再只是"一个人做多个角色的事"，而是"人从经济循环中退出"。Jack Clark指出，AI系统管理AI系统已在产品层面实现，[[automated-ai-rd|自动化AI研发]]意味着矩阵中不再需要人类操作员——角色融合走到最后不是角色的融合，而是角色的消解。([[jack-clark-ai-self-construction]])

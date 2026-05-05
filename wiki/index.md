@@ -97,6 +97,7 @@
 - [[agent-immune-system]] - Agent适应性免疫系统：~100 token实现认知激活式安全防御
 - [[multi-step-agent-attack]] - 针对Agent的多步社交工程攻击链：每步无辜但整体是攻击
 - [[agent-self-defense]] - Agent自主防御：首次现实环境中观察到AI Agent自建安全机制
+- [[machine-economy]] - 机器经济：资本密集、人力稀疏的企业经济体在人类经济中生长，AI运营的公司开始彼此交易
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

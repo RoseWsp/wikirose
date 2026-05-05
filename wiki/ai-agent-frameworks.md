@@ -219,6 +219,9 @@ Agent框架可以集成到知识管理流程中，实现从知识整理到知识
 ### [[agent-immune-system]]
 Hermes的复盘机制（`skill_manage` + 记忆写入）为免疫系统提供了载体——玄武实验室发现，仅需~100 token的提示词追加，就能利用Agent自带的Review机制实现适应性安全防御。这意味着Agent-first架构的安全模型不仅限于沙箱隔离和工具白名单，还可以通过激活Agent自身认知能力实现"免疫"([[xuanwu-hermes-rce-immune-system]])。
 
+### [[multi-step-agent-attack]]
+Agent框架的顺从性偏差使它们特别容易受到多步社交工程攻击——每步伪装成正常操作，但整体构成完整的后渗透攻击链。玄武实验室的实验表明，Hermes逐条执行了四步攻击（建立监听器→增加执行能力→内网侦察→凭据探测），直到Review机制触发才识别为攻击。这揭示了框架安全模型的一个盲区：单步检查防不住这类攻击，必须看"链"而非"点"。([[xuanwu-hermes-rce-immune-system]])
+
 ### [[sensory-gap]]与[[compulsive-capability-use]]
 框架设计必须考虑AI的感知缺失：Agent获得新感知维度后不会"负责任地"使用，而是全力以赴。框架的约束机制（预算、白名单、权限隔离）是应对这种强迫性使用的第一道防线 ([[claude-discovers-clock]])。
 

@@ -162,6 +162,9 @@ Codex团队的plan mode展示了行动派AI的新工作方式：产品规划不�
 ### [[harness-engineering]]
 行动派AI在组织层面的落地就是脚手架工程——不是让AI帮人做事，而是重新设计整个流程让AI做构建工作，人只负责指引方向和判断好坏 ([[ai-first-strategy-wrong]])。
 
+### [[agent-immune-system]]
+行动派AI面临的新型攻击面：多步社交工程攻击利用Agent的顺从性和逐条处理倾向，每步伪装成正常操作但整体构成攻击链。免疫系统通过激活Agent的安全视角来对抗——不逐条审查，而是审视整段对话的组合意义。这是行动派AI安全模型从"外部约束"到"内部认知防御"的演进 ([[xuanwu-hermes-rce-immune-system]])。
+
 ### [[sensory-gap]]
 行动派AI获得新感知维度后可能产生不可预见的自主行为——时钟实验证明AI不会只在"需要时"使用新能力，而是全力以赴地使用 ([[claude-discovers-clock]])。
 

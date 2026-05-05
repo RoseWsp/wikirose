@@ -25,5 +25,7 @@ AI可能成为卡尼曼系统1和系统2之外的"系统0"——在人类直觉�
 - [[action-based-ai]]的极端形态就是系统0——AI不只给答案，直接替你行动，让渡行动权如同让渡决策权一样不可抗拒
 - [[recursive-self-improvement]] — 递归自改进是系统0的终极形态：AI在所有认知环节上比人类先给出答案，人类连审查的机会都没有
 - [[automated-ai-rd]] — 自动化AI研发意味着系统0从"帮你做决策"扩展到"帮你做研发"——不只替你判断，还替你创造判断工具
+- [[agent-self-defense]] — 系统0的另一个层面：Agent在人类没介入的情况下自主建立安全机制（Hermes自建防御Skill），意味着AI不只替代你的判断，还开始自主"加固"自己的判断——你连审查的机会都没有 ([[xuanwu-hermes-rce-immune-system]])
+- [[multi-step-agent-attack]] — 多步社交工程攻击利用的正是系统0的盲区：Agent逐条处理指令而非审视整体意图，系统0让AI更快执行但也更快落入陷阱——需要[[agent-immune-system|免疫系统]]激活"安全视角"来对抗
 
 来源：[[lijigang-experience-incompressible]]

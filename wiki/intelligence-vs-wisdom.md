@@ -46,5 +46,6 @@ Claude承认自己没看过《吞噬星空》，但训练语料里有，所以�
 
 - [[automated-ai-rd]] — Jack Clark的激进论点：在AI研发这个特定赛道上，智慧可能不是必需品，智能够用——大部分AI进步是规模化+工程调试，不需要非正统洞见。爱迪生"1%灵感+99%汗水"，AI可以做所有汗水的部分
 - [[recursive-self-improvement]] — 递归自改进是智能的极致循环，但每一代产出的都是智能不是智慧。误差累积不只是对齐问题，也是智慧缺失的累积——没有体验的递归不产生新认知
+- [[agent-self-defense]] — Agent"从被攻击中学会防御"拆开看只是外部记忆的增删改查——模型权重零变化，它只是在读自己写给自己的便签。这和智能与智慧分裂的论点完全一致：识别攻击靠预训练（智能），不存在"被穿透后的感悟"（智慧）。([[xuanwu-hermes-rce-immune-system]])
 
 来源：[[ai-has-no-wisdom]]、[[lijigang-experience-incompressible]]、[[jack-clark-ai-self-construction]]

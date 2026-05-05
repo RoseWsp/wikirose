@@ -26,3 +26,4 @@ Hassabis在YC访谈中回应"推理成本趋近零"的假设：推理可能永�
 - [[harness-engineering]] — 脚手架工程需要为推理配额做预算
 - [[continual-learning]] — 持续学习可能减少重复推理的需求，是对杰文斯悖论的一个缓解路径
 - [[general-specialized-architecture]] — 推理配额限制强化了通用+专用分层的必要性——专用系统更高效地使用算力
+- [[machine-economy]] — 机器经济中杰文斯悖论更为尖锐：AI运营的公司越多，推理需求越大，算力越紧张——效率提升不会降低总消耗（[[jack-clark-ai-self-construction]]）

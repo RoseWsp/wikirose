@@ -1,3 +1,15 @@
+## [2026-05-05 22:30] digest | Jack Clark：AI自我构建 + 玄武实验室：Hermes Agent RCE与免疫系统
+- 源文件：[[jack-clark-ai-self-construction]]、[[xuanwu-hermes-rce-immune-system]]
+- 深度传播：16个现有页面更新
+  - 新增机器经济概念：[[opc-one-person-company]]（OPC是机器经济的微观细胞）、[[jevons-paradox-inference]]（杰文斯悖论在机器经济中更尖锐）、[[social-resistance-to-ai]]（机器经济下社会抵触的经济根源）、[[role-convergence]]（角色融合的终极图景是机器经济中角色的消解）、[[automated-ai-rd]]（机器经济是自动化AI研发的后果）、[[recursive-self-improvement]]（递归自改进是机器经济的终极加速器）
+  - 新增安全维度传播：[[agentic-engineering]]（免疫系统作为Agentic Engineering安全层补充）、[[system-zero]]（Agent自主加固判断、多步攻击利用系统0盲区）、[[jagged-intelligence]]（自主防御能力的锯齿性）、[[action-based-ai]]（行动派AI的安全盲区与免疫系统）、[[ai-agent-frameworks]]（多步攻击+RCE漏洞暴露Gateway薄层风险）、[[agent-architecture-patterns]]（Agent-first架构的Gateway漏洞案例）
+  - 新增双向链接：[[intelligence-vs-wisdom]]（Agent自主防御≠智慧）、[[agent-self-defense]]（+jagged-intelligence、system-zero、multi-step-agent-attack反向链接）、[[multi-step-agent-attack]]（+jagged-intelligence、action-based-ai反向链接）、[[agent-immune-system]]（+jagged-intelligence、multi-step-agent-attack、action-based-ai反向链接）
+- 新建页面：
+  - [[machine-economy]]（机器经济：资本密集、人力稀疏的企业经济体在人类经济中生长）
+- 更新 [[index.md]]：新增1个概念页条目
+- 无矛盾标记
+- 判断要点：Clark的机器经济概念与OPC/角色融合/社会抵触的交叉是本轮传播最深的洞察；Hermes RCE漏洞暴露Agent-first架构的Gateway薄层风险是架构层面的重要发现
+
 ## [2026-05-05 22:12] ingest | Jack Clark：AI系统即将开始自我构建。这意味着什么？
 - 源文件：[[jack-clark-ai-self-construction]]
 - 创建源摘要页：[[jack-clark-ai-self-construction]]（Anthropic联合创始人：2028年底递归自改进概率60%，编程奇点+AI研发核心技能+Agent管理三线汇合）

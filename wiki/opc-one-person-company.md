@@ -21,5 +21,6 @@ AI降低的不仅是执行成本，更是协调、监督、沟通成本。当管
 - [[harness-engineering]] — 脚手架工程是OPC的工程保障
 - [[role-convergence]] — 角色融合的终极形态：一个人同时是产品、工程、运营。OPC不是多角色融合到一个人，而是一个人+AI矩阵覆盖全部职能
 - [[loop-scheduling]] — Loop调度让OPC的Agent即使关上笔记本也在跑
+- [[machine-economy]] — 机器经济是OPC的宏观图景：当大量一人公司通过AI彼此交易，经济形态从人-人转向机器-机器。OPC是机器经济的微观细胞（[[jack-clark-ai-self-construction]]）
 
 来源：[[lijigang-experience-incompressible]]

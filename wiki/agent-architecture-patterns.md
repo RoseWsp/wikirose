@@ -53,6 +53,8 @@ Agent-first：SQLite WAL + FTS5全文检索，schema第6版带迁移。支持ses
 Gateway-first：应用级检查，完全本地访问，信任用户。
 Agent-first：多后端沙箱隔离，子agent工具白名单+预算上限+深度限制。此外，Agent-first的复盘机制（skill_manage + 记忆写入）为[[agent-immune-system|适应性免疫系统]]提供了天然载体——玄武实验室在Hermes上仅用~100 token就实现了自主安全防御 ([[xuanwu-hermes-rce-immune-system]])。
 
+值得注意的是，玄武实验室发现的Hermes RCE漏洞（Webhook端点未校验`X-Twilio-Signature`，任何人可伪造短信让Hermes执行任意指令）恰好暴露了Agent-first架构中Gateway作为"薄适配层"的风险：当消息验证等安全职责被简化为适配层代码时，一旦该层有漏洞，攻击者直接获得Agent的完整执行权限。这也是[[multi-step-agent-attack|多步社交工程攻击]]之所以有效的前提——Gateway只做消息转发，不做意图审查。([[xuanwu-hermes-rce-immune-system]])
+
 ### 6. 进化路径
 
 Gateway-first：社区市场驱动。skill由他人编写，安装后基本不变。横向扩展。13,000+社区技能的市场规模。

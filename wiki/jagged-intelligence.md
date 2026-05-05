@@ -149,6 +149,7 @@ Karpathy的公式：
 - [[agi-missing-pieces]] — Hassabis认为锯齿状推理的修复可能只需一两个关键调整；他观察到模型经常"过度思考"（overthinking）陷入循环
 - [[sensory-gap]] — 感知维度缺失是锯齿状智能的深层根源：缺乏时间感等基本维度使某些推理路径根本不存在
 - [[compulsive-capability-use]] — 锯齿状智能与强迫性使用共享底层原因：缺乏能力的元认知调节
+- [[agent-self-defense]] — Agent自主防御能力的锯齿性：Hermes能识别攻击靠预训练数据中的安全知识（如MITRE ATT&CK），训练数据里没有的攻击模式就识别不出来——这是锯齿状智能在安全维度的直接体现。玄武实验室的[[agent-immune-system|免疫系统]]通过激活安全视角弥补了这个断崖，但本质上仍受训练数据分布制约 ([[xuanwu-hermes-rce-immune-system]])
 
 ## 参考资料
 

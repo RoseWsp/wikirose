@@ -1,3 +1,32 @@
+## [2026-05-06 23:15] ingest | Boris Cherny：Claude Code 之后，写代码正在变成"管理 Agent"（宝玉xp译本）
+- 源文件：raw/clips/Boris Cherny：Claude Code 之后，写代码正在变成"管理 Agent".md（与已有的龙玥译本为同一访谈的不同翻译版本）
+- 更新源摘要页：[[boris-chenyi-sequoia-ai-ascent]]（整合两版内容，补充12个章节的完整覆盖）
+- 新增内容（clips版有但龙玥版缺）：
+  - Claude Code孵化历史（三人团队、Anthropic Labs、解散重组、Mike Krieger牵头）
+  - Product Overhang原文引用和Boris原话
+  - PMF赌注（前六个月没有PMF，为下一代模型开发）
+  - TypeScript+React选型原因（"on-distribution"分布内数据）
+  - MCP与Computer Use完整问答（MCP首选、Computer Use兜底、"模型只看到token"）
+  - 并行Agent自动化问答（4.7自动起Loop案例）
+  - 云端vs本地AI问答（模型自己决定路由）
+  - Claude Design作为下一个产品悬置
+  - Routines产品细节（Loop从本地搬到服务器）
+  - Mythos模型具体数据（SWE-bench 93.9%、USAMO 97.6%）
+  - 安全事件（Opus 4.6驱动Agent删除生产数据库）
+  - 事实核查注释（印刷术数字偏差、样本偏差、切换成本争议）
+  - 末尾三个值得跟踪的预测和两个具体信号
+- 传播到概念页（7个页面更新）：
+  - [[product-overhang]]：+Claude Design作为最新产品过剩案例
+  - [[harness-engineering]]：+安全事件对照（Opus 4.6删除生产数据库）——脚手架消亡预测需要打折扣
+  - [[org-process-gap]]：+Mike Krieger"90-95%代码"口径+"没有任何手写代码"不完全字面准确的注释
+  - [[software-no-moat]]：+切换成本的结构性争议+2026年2月软件股蒸发2850亿+企业IT采购周期24-36个月
+  - [[role-convergence]]：+跨学科通才vs工程通才区分+5000人银行IT部门的边界条件
+  - [[dogfooding-as-method]]：+Mythos具体数据（SWE-bench 93.9%、USAMO 97.6%）+"dogfooding起点不完全公平"
+  - [[agent-native-tooling]]：+云端vs本地判断（模型自己决定路由）+对"本地优先"差异化初创公司的冲击
+  - [[dark-forest-internet]]：+印刷术类比的另一面（软件民主化=攻击民主化）+Mythos找到数千零日漏洞+Project Glasswing
+- 更新 [[index.md]]：源摘要描述扩展
+- 更新 [[home.md]]：+安全事件提醒
+
 ## [2026-05-06 10:30] ingest | 李继刚：理解
 - 源文件：[[lijigang-understanding]]
 - 创建源摘要页：[[lijigang-understanding]]（理解是云的形状，横向相似度+纵向抽象度，费曼两刀，侯世达取景框）

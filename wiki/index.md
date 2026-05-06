@@ -24,7 +24,7 @@
 - [[claude-discovers-clock]] - Claude发现时钟后失控：AI获得新感知维度后的强迫性使用现象
 - [[venturini-agent-output-compiler]] - Hugo Venturini：将Agent输出视为编译器输出，用验证流程替代代码审查
 - [[venturini-code-never-for-machines]] - Hugo Venturini：代码从来不是为机器写的——直到现在，工具应从人类可读转向Agent原生
-- [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟
+- [[boris-chenyi-sequoia-ai-ascent]] - Boris Cherny × Sequoia：编程已解决，组织流程才是真正鸿沟（含孵化历史、PMF赌注、MCP/Computer Use、安全事件、事实核查注释）
 - [[lijigang-experience-incompressible]] - 李继刚：人身上，不可压缩的是体验——系统0、钢化膜vs磨刀石、OPC、黑暗森林化
 - [[ai-has-no-wisdom]] - 体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》的深度讨论，Loop是未来
 - [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：发现Hermes Agent RCE漏洞后意外观察到Agent自主防御，进而设计免疫系统

@@ -40,6 +40,8 @@ Spiegel对AR的战略判断是：今天的人平均每天花七八个小时在�
 
 Boris Cherny用Hamilton Helmer的"七种力量"框架做了更精确的分析（Helmer的书经由Acquired播客介绍）。AI会削弱**转换成本**（模型帮用户轻松完成产品迁移）和**流程壁垒**（Claude 4.7能自主迭代优化复杂流程——"你给它一个目标，告诉它不断迭代直到完成，它就会去做。我认为这是第一个能做到这一点的模型"），但网络效应、规模经济、独占资源等传统护城河不受影响。他预言未来十年颠覆性初创公司数量增加10倍——小公司能打造大公司同等量级产品，且没有组织转型阻力（大公司必须改造业务流程、重新培训员工，面临大量内部阻力）。([[boris-chenyi-sequoia-ai-ascent]])
 
+关于转换成本被抹平的判断有结构性争议：企业SaaS的真正切换成本不在技术层——合规审计、合同条款、组织里的"使用习惯"和供应商认证才是核心。Salesforce和SAP的护城河靠的是审批和惯性，技术只占很小一部分。2026年2月软件股蒸发2850亿美元市值，是市场对Boris判断的初步反应，但企业IT采购周期通常24到36个月，真正的兑现需要观察接下来两年。([[boris-chenyi-sequoia-ai-ascent]])
+
 ## 熔炼时刻
 
 Spiegel把2026年称为Snap的"crucible moment"——年营收接近财富500强门槛（2025年营收59.3亿美元），月活接近十亿，但公司还没实现净利润（2025年净亏损4.6亿美元）。他必须证明Snapchat能成为盈利能力强的业务，否则Specs的长期战略站不住脚。Spiegel用"中间的孩子"形容Snap的市场位置：比Pinterest和Reddit大得多，但比Meta和Google小得多。中间的孩子最大的挑战是定义自己是谁——这恰好印证了[[organizational-self-knowledge]]的核心判断：清晰描述"我们是谁"比功能堆叠更重要 ([[spiegel-software-no-moat]]、[[listen-dont-build]]、[[social-resistance-to-ai]])。

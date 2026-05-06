@@ -14,6 +14,8 @@
 
 唯一不可复制的是底层的审美、品味与自由意志。护城河从"做了什么"转移到"为什么做"和"怎么感受"——这些恰恰是[[experience-incompressible|体验不可压缩]]的领域。
 
+印刷术的类比揭示了黑暗森林化的另一面：Boris用印刷术类比软件民主化，但只讲了创造力释放的一半。印刷术也催生了几百年间最严格的审查制度、版权战争和宗教改革引发的政治动荡。**"软件人人都能写"对应的不只是创造力释放，也包括恶意软件、深伪诈骗、AI生成漏洞利用的同步爆发。** Anthropic自己的Mythos模型已经在内部找出了几千个零日漏洞，他们用Project Glasswing控制释放节奏——说明他们也意识到黑暗森林化的另一面。([[boris-chenyi-sequoia-ai-ascent]])
+
 ## 与wiki的连接
 
 - [[software-no-moat]] — 软件功能不构成护城河，与本主题完全同频
@@ -21,5 +23,6 @@
 - [[experience-incompressible]] — 体验不可压缩 = 护城河在AI看不见的地方
 - [[distribution-bottleneck]] — 分发瓶颈讲的是"怎么把产品送到用户手里"，黑暗森林化讲的是"送到了也会被复制"——两个约束叠加，消费级产品活路更窄
 - [[automated-ai-rd]] — AI能自主复现任何论文（CORE-Bench 95.5%）、参加任何Kaggle竞赛（MLE-Bench 64.4%），学术出版的保护窗口从"发表到被复现"缩短到几乎为零——黑暗森林化从产品层扩展到研究层（[[jack-clark-ai-self-construction]]）
+- [[org-process-gap]] — 印刷术类比的双面性：软件民主化=创造力释放+攻击能力民主化，Anthropic的Mythos已找到数千零日漏洞
 
 来源：[[lijigang-experience-incompressible]]

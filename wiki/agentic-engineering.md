@@ -155,6 +155,9 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[agent-immune-system]] - Agent适应性免疫系统是Agentic Engineering的安全层补充：脚手架和验证流程是外部约束，免疫系统是Agent内部的认知防御——激活Agent自身的安全知识，使其在遭受攻击时自主生成防御机制。~100 token成本、全向防御、自适应进化，是Agentic Engineering在安全维度的"轻量级基建" ([[xuanwu-hermes-rce-immune-system]])
 - [[loop-scheduling]] - Loop调度是Agentic Engineering在持续运行层面的实践：Boris的几十个Loop让Agent从"按需调用"变为"7x24自主运行"，是agentic engineering从"人触发"到"自主循环"的跃迁
 - [[org-process-gap]] - Boris的工作流是Agentic Engineering的极端实践：Anthropic内部所有SQL由模型生成、Agent之间通过Slack协商解决问题，Agentic Engineering不是个人方法论，而是组织层面的流程改造
+- [[anti-rationalization]] - LLM的合理化是Agentic Engineering的隐形敌人——它能生成完美理由跳过任何纪律。反合理化表格把工程纪律从"建议"变为"无法自我说服绕过的约束" ([[addyosmani-agent-skills]])
+- [[scope-discipline]] - 范围纪律是Agentic Engineering最基本的一条：只碰你被要求碰的。agent PR能否被合并，范围纪律是最大决定因素 ([[addyosmani-agent-skills]])
+- [[workflow-over-prose]] - Agentic Engineering的核心就是用流程替代散文来约束agent——工作流可执行可验证，文章只能被读完跳过 ([[addyosmani-agent-skills]])
 
 ## 磨刀石模式的工程纪律
 

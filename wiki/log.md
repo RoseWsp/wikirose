@@ -1,3 +1,11 @@
+## [2026-05-06 23:50] ingest | Addy Osmani：Agent Skills——高级工程纪律编码成skill工作流
+- 源文件：raw/blog/Agent Skill.md
+- 新建源摘要页：[[addyosmani-agent-skills]]
+- 新建概念页：[[anti-rationalization]]、[[scope-discipline]]、[[workflow-over-prose]]
+- 更新现有页面（添加交叉链接）：[[harness-engineering]]、[[agent-immune-system]]、[[system-zero]]、[[bounded-rationality]]、[[agentic-engineering]]、[[agent-output-verification]]、[[ai-first-prerequisites]]、[[self-healing-pipeline]]
+- 更新[[home]]新增主题"反合理化与Agent工程纪律"
+- 关键洞察：反合理化是系统0的工程版，与免疫系统同构（认知激活），范围纪律与有限理性对称（认知边界vs行动边界），三层递进——脚手架搭外部护栏、免疫系统建内部认知防御、反合理化防自我说服绕过一切
+
 ## [2026-05-06 23:15] ingest | Boris Cherny：Claude Code 之后，写代码正在变成"管理 Agent"（宝玉xp译本）
 - 源文件：raw/clips/Boris Cherny：Claude Code 之后，写代码正在变成"管理 Agent".md（与已有的龙玥译本为同一访谈的不同翻译版本）
 - 更新源摘要页：[[boris-chenyi-sequoia-ai-ascent]]（整合两版内容，补充12个章节的完整覆盖）

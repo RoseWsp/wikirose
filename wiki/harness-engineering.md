@@ -66,6 +66,9 @@ Boris Cherny的判断指向了脚手架工程的消亡方向：他预言Claude C
 - [[recursive-self-improvement]]——递归自改进拷问脚手架的极限：对齐技术99.9%准确率，500代后只剩60.5%。当被约束的系统比约束它的系统更聪明时，脚手架还撑得住吗？（[[jack-clark-ai-self-construction]]）
 - [[automated-ai-rd]]——自动化AI研发意味着脚手架本身也变成AI的制品——不只代码是AI写的，验证代码的流程也是AI设计的
 - [[bounded-rationality]]——脚手架工程本质上就是给AI划定有限理性的边界——不追求全局最优，在约束范围内做局部满意决策
+- [[anti-rationalization]]——脚手架建好约束还不够，还得防agent自我说服绕过约束——反合理化表格是脚手架的认知层
+- [[scope-discipline]]——脚手架划定agent的行动范围，范围纪律是脚手架的意志层
+- [[workflow-over-prose]]——脚手架工程是"流程优先于散文"在系统层面的体现
 - [[curse-of-dimensionality]]——维度灾难让全局最优不可达，脚手架是在不可达前提下的务实策略：划定搜索边界，在边界内求满意解
 
 ## 组织层面的脚手架

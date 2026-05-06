@@ -59,3 +59,4 @@ CREAO构建的自愈反馈循环是[[harness-engineering]]的标志性产出。�
 - [[agent-output-verification]]——自愈流水线是Agent输出验证的"下游层"：出问题快速捕获和回滚
 - [[loop-scheduling]]——Loop看护PR和CI是自愈流水线的实时版：Boris的Loop自动修复CI、rebase、修复flaky test，与自愈流水线逻辑完全一致。区别在于自愈流水线是事件驱动（错误触发修复），Loop是时间驱动（cron定期巡检）。两者叠加可以实现"7x24无人值守"——Loop每分钟巡检，发现异常立即触发自愈流水线 ([[boris-chenyi-sequoia-ai-ascent]])
 - [[agent-immune-system]]——自愈流水线是工程层面的检测-修复闭环，免疫系统是认知层面的检测-学习闭环——结构同构，层级不同
+- [[scope-discipline]]——自愈流水线的"每个工具只负责一个阶段"是范围纪律在系统层面的体现 ([[addyosmani-agent-skills]])

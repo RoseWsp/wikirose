@@ -43,6 +43,7 @@ Anthropic和OpenAI自己都不敢在Claude Code和Codex上全自动迭代——�
 - [[ai-first-strategy-wrong]]——源文件
 - [[organizational-self-knowledge]]——五大前提本质上是组织自我认知的最低门槛
 - [[clarity-before-automation]]——先清晰再自动化：做不到五大前提，说明组织还没"配得上"AI
+- [[workflow-over-prose]]——五大前提本身需要被编码成可执行的工作流而非散文——"请保持自动化测试覆盖"是散文，CI流水线中的测试门是流程 ([[addyosmani-agent-skills]])
 
 ## 技术前提之上还有组织前提
 

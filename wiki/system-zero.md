@@ -28,5 +28,6 @@ AI可能成为卡尼曼系统1和系统2之外的"系统0"——在人类直觉�
 - [[agent-self-defense]] — 系统0的另一个层面：Agent在人类没介入的情况下自主建立安全机制（Hermes自建防御Skill），意味着AI不只替代你的判断，还开始自主"加固"自己的判断——你连审查的机会都没有 ([[xuanwu-hermes-rce-immune-system]])
 - [[multi-step-agent-attack]] — 多步社交工程攻击利用的正是系统0的盲区：Agent逐条处理指令而非审视整体意图，系统0让AI更快执行但也更快落入陷阱——需要[[agent-immune-system|免疫系统]]激活"安全视角"来对抗
 - [[understanding-as-cloud]] — 系统0给你的是云的一个点（定义/结论），但理解需要整朵云的形状。答案来得太快，来不及让周围的"像"被点亮、来不及在抽象梯上攀爬——系统0用点的速度碾压了云的形成
+- [[anti-rationalization]] — LLM的合理化是系统0的工程版：它不只替你做决策，还替跳过决策找理由，而且理由听起来完全正确。系统0替换决策本身，合理化替换决策的合理性感知——后者更危险，因为你甚至不觉得决策被替换了 ([[addyosmani-agent-skills]])
 
 来源：[[lijigang-experience-incompressible]]

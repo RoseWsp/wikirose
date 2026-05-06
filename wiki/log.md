@@ -1,3 +1,18 @@
+## [2026-05-06 10:30] ingest | 李继刚：理解
+- 源文件：[[lijigang-understanding]]
+- 创建源摘要页：[[lijigang-understanding]]（理解是云的形状，横向相似度+纵向抽象度，费曼两刀，侯世达取景框）
+- 创建概念页：
+  - [[understanding-as-cloud]]（理解作为云的形状：两条轴撑起理解，AI横向碾压但纵向经常是空的）
+  - [[abstraction-ladder]]（抽象之梯：同一概念在不同抽象层级上看，上下攀爬都站得住才是真懂）
+- 交叉链接（已有页面→新页面）：
+  - [[intelligence-vs-wisdom]] → [[understanding-as-cloud]]、[[abstraction-ladder]]（横向=智能地盘，纵向=智慧地盘，AI云挂高层下面空的）
+  - [[experience-incompressible]] → [[understanding-as-cloud]]、[[abstraction-ladder]]（云没变形=没理解，体验是抽象梯每层的锚点）
+  - [[system-zero]] → [[understanding-as-cloud]]（系统0用点的速度碾压云的形成）
+  - [[clarity-before-automation]] → [[understanding-as-cloud]]、[[abstraction-ladder]]（无法自动化一朵还没有形状的云）
+  - [[product-taste]] → [[understanding-as-cloud]]、[[abstraction-ladder]]（品味=纵向长期攀爬后的云形状，不可复制）
+- 更新 [[home.md]]：新增"理解作为云的形状与抽象之梯"主题板块、状态更新25源/74概念/103页
+- 更新 [[index.md]]：新增1源摘要+2概念页条目
+
 ## [2026-05-05 23:15] ingest | 动态规划、贝尔曼方程与维度灾难
 - 源文件：[[dynamic-programming-bellman]]
 - 创建源摘要页：[[dynamic-programming-bellman]]（动态规划的本质是倒推法，贝尔曼方程浓缩最优性原理，维度灾难是AI至今最大阻碍，西蒙的有限理性是冷水也是出路）

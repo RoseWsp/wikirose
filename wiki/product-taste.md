@@ -140,6 +140,9 @@ Hassabis指出工具降低执行门槛后缺的不是速度，而是"craft和sou
 ### [[experience-incompressible]]与[[intelligence-vs-wisdom]]
 品味不可复制 = 体验留下的痕迹 = 护城河在AI看不见的地方。李继刚说"唯一不可复制的是底层的审美、品味与自由意志"，这恰好是[[experience-incompressible|体验不可压缩]]在产品维度的投射。品味不是信息处理的结果，是经验积累的痕迹——[[intelligence-vs-wisdom|智慧]]而非智能。([[lijigang-experience-incompressible]])
 
+### [[understanding-as-cloud]]与[[abstraction-ladder]]
+品味是长期在特定领域攀爬[[abstraction-ladder|抽象之梯]]后形成的[[understanding-as-cloud|云的形状]]。功能是横向的（可复制），品味是纵向的（不可复制）——[[software-no-moat|软件没有护城河]]的补充：功能可抄，云的形状抄不走。([[lijigang-understanding]])
+
 ### [[software-no-moat]]
 Evan Spiegel的判断："被抄总比做出没人想抄的东西好"——当软件功能不再构成护城河，产品品味决定了你选择构建什么样的生态系统和关系型壁垒，而非功能型壁垒。品味是不可复制的护城河。([[spiegel-software-no-moat]])
 

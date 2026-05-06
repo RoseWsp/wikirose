@@ -49,5 +49,7 @@ Claude承认自己没看过《吞噬星空》，但训练语料里有，所以�
 - [[agent-self-defense]] — Agent"从被攻击中学会防御"拆开看只是外部记忆的增删改查——模型权重零变化，它只是在读自己写给自己的便签。这和智能与智慧分裂的论点完全一致：识别攻击靠预训练（智能），不存在"被穿透后的感悟"（智慧）。([[xuanwu-hermes-rce-immune-system]])
 - [[bellman-equation]] — 贝尔曼方程是智能的极致：给定规则算最优。有限理性是智慧的起步：知道什么时候放弃完美。智能问"能不能算出来"，智慧问"该不该算这个"
 - [[curse-of-dimensionality]] — 维度灾难说明智能有物理极限，智慧在极限外另辟路径
+- [[understanding-as-cloud]] — 横向相似度=智能的地盘（AI铺出极广的横向面），纵向抽象度=智慧的地盘（每一层有体验锚点才能爬到底）。AI的云挂在高层甩术语，下面是空的——这就是"AI有智能没有智慧"的精确几何描述
+- [[abstraction-ladder]] — 抽象之梯的纵向攀爬需要每一层有体验锚点，AI缺的正是这些锚点
 
 来源：[[ai-has-no-wisdom]]、[[lijigang-experience-incompressible]]、[[jack-clark-ai-self-construction]]、[[dynamic-programming-bellman]]

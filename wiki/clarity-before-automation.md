@@ -48,3 +48,5 @@
 - [[experience-incompressible]] — AI替你跳过了搞懂的过程，你获得了结果但失去了体验——先清晰再自动化是防止体验被压缩的防线
 - [[bounded-rationality]] — 西蒙会说：你本来就不可能完美优化任何东西。先搞懂方向比算出最优更重要——有限理性是"先清晰"的哲学根基
 - [[curse-of-dimensionality]] — 维度灾难让"完美优化"在数学上不可达，"先清晰"是在不可达前提下的务实策略
+- [[understanding-as-cloud]] — 你无法自动化一朵还没有形状的云。Clarity不是写文档，是让云长出轮廓
+- [[abstraction-ladder]] — "先清晰"意味着在抽象梯上至少站到了能看清问题全貌的那一层

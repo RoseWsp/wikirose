@@ -3,6 +3,7 @@
 # Index
 
 ## Sources (源文件摘要)
+- [[lijigang-understanding]] - 李继刚：理解——理解是云的形状，横向相似度（广度）+纵向抽象度（深度），费曼两刀，侯世达取景框
 - [[dynamic-programming-bellman]] - 动态规划、贝尔曼方程与维度灾难：倒推法本质、最优性原理、西蒙的有限理性冷水
 - [[jack-clark-ai-self-construction]] - Jack Clark：AI系统即将开始自我构建——2028年底递归自改进概率60%，编程奇点+AI研发核心技能+Agent管理三线汇合
 - [[hassabis-agi-agents-science]] - Demis Hassabis：AGI还缺什么（50/50判断）、智能体投入产出比、AlphaFold式突破三条件、爱因斯坦测试
@@ -29,6 +30,8 @@
 - [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：发现Hermes Agent RCE漏洞后意外观察到Agent自主防御，进而设计免疫系统
 
 ## Concepts (概念)
+- [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的
+- [[abstraction-ladder]] - 抽象之梯：同一概念在不同抽象层级上看，上下攀爬都站得住才是真懂，只挂高层术语=云是虚的
 - [[recursive-self-improvement]] - 递归自改进：AI自主构建自身继任者，2028年底概率60%，误差累积是对齐的致命挑战
 - [[automated-ai-rd]] - 自动化AI研发：AI端到端自动化AI开发过程，乐高vs相对论——大部分AI进步不需要范式突破
 - [[agi-missing-pieces]] - AGI的50/50判断：现有范式可能是最终架构的一部分，但也可能还需1-2个关键突破

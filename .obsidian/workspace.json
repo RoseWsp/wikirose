@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "25cfef2a063888d3",
+        "id": "053f21fc90c131e9",
         "type": "tabs",
         "children": [
           {
-            "id": "c2e0aa92e0d2d5ae",
+            "id": "08184298783cb5b1",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -176,8 +176,9 @@
       "bases:新建数据库": false
     }
   },
-  "active": "c2e0aa92e0d2d5ae",
+  "active": "08184298783cb5b1",
   "lastOpenFiles": [
+    "向量数据库.md",
     "raw/blog/纯管人的领导者会被AI淘汰｜如果你做的是自己热爱的事，就没有失败可言.md",
     "未命名.canvas",
     "wiki/log.md.tmp.12872.1777993773918",
@@ -214,7 +215,6 @@
     "wiki/system-zero.md",
     "wiki/sources/ai-has-no-wisdom.md",
     "wiki/sources/lijigang-experience-incompressible.md",
-    "raw/recordings/AI有智慧吗.md",
     "projects/体验不可压缩与AI无智慧_ppt169_20260505/backup/20260505_175032/svg_output/10_核心命题.svg",
     "projects/体验不可压缩与AI无智慧_ppt169_20260505/backup/20260505_175032/svg_output/09_对话本身的证据.svg",
     "projects/体验不可压缩与AI无智慧_ppt169_20260505/backup/20260505_175032/svg_output/08_法则的痕迹.svg",

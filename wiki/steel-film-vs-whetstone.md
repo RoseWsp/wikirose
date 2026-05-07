@@ -28,4 +28,6 @@
 - [[ai-piloting]] — AI驾驶 = 磨刀石模式，驾驶而非乘坐
 - [[architect-operator-model]] — 纯操作员 = 钢化膜模式，架构师 = 磨刀石模式
 
-来源：[[lijigang-experience-incompressible]]
+- [[fortune-misfortune-dialectic]] — 选福=钢化膜模式（隔绝困难零摩擦但认知钝化），选祸=磨刀石模式（主动迎接摩擦打磨自己）。两者的四格矩阵结构完全同构——贪婪/恐惧 × 拿起/放下 = 钢化膜/磨刀石
+
+来源：[[lijigang-experience-incompressible]]、[[renxuan-tianxuan-lun]]

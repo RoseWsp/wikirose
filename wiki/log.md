@@ -1,3 +1,18 @@
+## [2026-05-07 16:00] ingest | 天选人选论（路飞：福祸相依的决策框架）
+- 源文件：raw/recordings/天选人选论.md
+- 新建源摘要页：[[renxuan-tianxuan-lun]]
+- 新建概念页：[[fortune-misfortune-dialectic]]（福祸辩证法——人选福时天选祸，人选祸时天选福）
+- 交叉链接（已有页面→新页面）：
+  - [[experience-incompressible]] → [[fortune-misfortune-dialectic]]（选祸的"苦"是体验不可压缩的正面案例）
+  - [[intelligence-vs-wisdom]] → [[fortune-misfortune-dialectic]]（选福需智能，选祸需智慧——决策论的表达）
+  - [[bounded-rationality]] → [[fortune-misfortune-dialectic]]（福祸辩证法是在完全不确定下的有限理性决策规则）
+  - [[system-zero]] → [[fortune-misfortune-dialectic]]（选福=系统0路径，AI只能选福不能选祸）
+  - [[steel-film-vs-whetstone]] → [[fortune-misfortune-dialectic]]（选福=钢化膜，选祸=磨刀石，四格同构）
+  - [[understanding-as-cloud]] → [[fortune-misfortune-dialectic]]（选祸让你在抽象梯每层有体验锚点）
+- 更新 [[home.md]]：在"体验不可压缩与AI无智慧"板块新增福祸辩证法条目、查看源文件列表新增、状态更新29源/82概念/116页
+- 更新 [[index.md]]：新增1源摘要+1概念页条目
+- 关键洞察：天选人选论与wiki核心线索（体验不可压缩→智能与智慧）形成精密连接——"福"不是补偿，是经历本身留下的痕迹
+
 ## [2026-05-07 15:35] ladder | three-way-handshake + two-generals-problem
 - 审计2个概念页（ingest同步创建）
 - [[three-way-handshake]]：UP=Yes（bounded-rationality实例+two-generals-problem工程解），DOWN=Weak→补强（添加日常打电话类比）

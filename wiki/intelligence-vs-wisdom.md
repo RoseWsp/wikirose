@@ -51,5 +51,6 @@ Claude承认自己没看过《吞噬星空》，但训练语料里有，所以�
 - [[curse-of-dimensionality]] — 维度灾难说明智能有物理极限，智慧在极限外另辟路径
 - [[understanding-as-cloud]] — 横向相似度=智能的地盘（AI铺出极广的横向面），纵向抽象度=智慧的地盘（每一层有体验锚点才能爬到底）。AI的云挂在高层甩术语，下面是空的——这就是"AI有智能没有智慧"的精确几何描述
 - [[abstraction-ladder]] — 抽象之梯的纵向攀爬需要每一层有体验锚点，AI缺的正是这些锚点
+- [[fortune-misfortune-dialectic]] — 选福只需求智能（算出表面最优），选祸需要智慧（理解福祸转化需要体验）——福祸框架是智能与智慧分裂的决策论表达
 
 来源：[[ai-has-no-wisdom]]、[[lijigang-experience-incompressible]]、[[jack-clark-ai-self-construction]]、[[dynamic-programming-bellman]]

@@ -30,6 +30,7 @@
 - [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：发现Hermes Agent RCE漏洞后意外观察到Agent自主防御，进而设计免疫系统
 - [[addyosmani-agent-skills]] - Addy Osmani：Agent Skills——把高级工程师的工程纪律编码成agent无法绕过的skill工作流，反合理化表格、范围纪律、流程优先于散文
 - [[finbarr-treat-agents-like-developers]] - Finbarr Taylor：把Coding Agent当开发者对待——Fork开发者不是分支，全量拷贝+命名空间隔离，并行需要隔离
+- [[renxuan-tianxuan-lun]] - 路飞的人选天选论：福祸相依的决策框架，贪婪与恐惧驱动的四格矩阵——选福时天选祸，选祸时天选福
 - [[tcp-three-way-handshake]] - TCP三次握手：不可靠信道上双向共识的信息论下界，六维度独立收敛到3，两将军问题的工程解
 
 ## Concepts (概念)
@@ -115,6 +116,7 @@
 - [[agent-as-developer]] - Agent即开发者：Fork的单位是开发者不是分支，给agent一张桌子让它push branch
 - [[three-way-handshake]] - 三次握手：不可靠信道上双向共识的信息论下界，少一次信息不足多一次徒增成本
 - [[two-generals-problem]] - 两将军问题：不可靠信道上不可能达成完美共识，三次握手是"足够好"的妥协
+- [[fortune-misfortune-dialectic]] - 福祸辩证法：人选福时天选祸，人选祸时天选福——动机与结果的系统性偏差
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

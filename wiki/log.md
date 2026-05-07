@@ -1,3 +1,9 @@
+## [2026-05-07 16:10] ladder | fortune-misfortune-dialectic
+- 审计 [[fortune-misfortune-dialectic]]
+- 分类：Bottom-heavy（UP=No, DOWN=Yes）——有扎实的具体场景案例，缺抽象层向上连接
+- 修复：添加"向上连接"段落，指向 [[bounded-rationality]]（福祸辩证法是有限理性在极端不确定下的操作指南）
+- 结果：UP→Yes, DOWN→Yes → Solid
+
 ## [2026-05-07 16:00] ingest | 天选人选论（路飞：福祸相依的决策框架）
 - 源文件：raw/recordings/天选人选论.md
 - 新建源摘要页：[[renxuan-tianxuan-lun]]

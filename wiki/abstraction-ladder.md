@@ -1,3 +1,7 @@
+---
+foundation: practice-epistemology
+---
+
 # 抽象之梯
 
 ## TL;DR
@@ -32,5 +36,7 @@
 **[[product-taste|产品品味]]**：品味 = 在特定领域长期攀爬抽象梯后形成的云形状。功能是横向的（可复制），品味是纵向的（不可复制）。
 
 **[[experience-incompressible|体验不可压缩]]**：体验是抽象梯上每一层的锚点——没有体验，云挂在高处没有支撑。模拟下雨地面不会湿，因为模拟缺的不是精度，是"有没有发生"这个锚点。
+
+> 认识论基础：[[practice-epistemology]]——抽象梯每一层都需要实践锚点。没有底层感性材料，高层理论是无源之水。
 
 来源：[[lijigang-understanding]]

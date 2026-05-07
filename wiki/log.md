@@ -1,3 +1,18 @@
+## [2026-05-07 16:30] ingest | 实践论（毛泽东1937，基座源）
+- 源文件：raw/recordings/实践论.md
+- 新建基座源摘要页：[[practice-theory]]（标注为哲学底稿）
+- 新建基座概念页：[[practice-epistemology]]（实践认识论：wiki核心线索链的哲学底稿）
+- **引入 `foundation` frontmatter 约定**：概念页可声明 `foundation: <slug>` 表示该概念建立在一个更基础的框架之上。更新 CLAUDE.md 记录此约定
+- 为5个概念页添加 `foundation: practice-epistemology` 前件和显式基座链接：
+  - [[experience-incompressible]] — 感性认识只能从直接实践中来
+  - [[intelligence-vs-wisdom]] — 完整两趟飞跃=智慧，半条链=智能
+  - [[understanding-as-cloud]] — 感知→概念→理论=云的纵向轴
+  - [[abstraction-ladder]] — 抽象梯每层需要实践锚点
+  - [[fortune-misfortune-dialectic]] — "吃一堑长一智"=选祸→天选福的认识论机制
+- 更新 [[home.md]]：新增"基座"章节，状态更新30源/83概念/119页（含1基座页）
+- 更新 [[index.md]]：新增1源摘要+1[基座]概念页条目
+- 关键洞察：实践认识论是wiki现存"体验不可压缩→智能无智慧"核心链条在1937年的完整哲学论证——给"为什么体验不可压缩"提供了认识论层面的机制
+
 ## [2026-05-07 16:10] ladder | fortune-misfortune-dialectic
 - 审计 [[fortune-misfortune-dialectic]]
 - 分类：Bottom-heavy（UP=No, DOWN=Yes）——有扎实的具体场景案例，缺抽象层向上连接

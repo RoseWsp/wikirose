@@ -1,3 +1,7 @@
+---
+foundation: practice-epistemology
+---
+
 # 理解作为云的形状
 
 ## TL;DR
@@ -27,6 +31,8 @@
 **[[bounded-rationality]]**——有限理性是"云在当前层的形状够用了就不爬了"的决策。满意（satisficing）不是偷懒，是承认云的形状在当前层足够覆盖问题。
 
 **[[fortune-misfortune-dialectic]]**——选祸让你在抽象梯每一层有体验锚点：迎向困难意味着你必须纵向攀爬、每一层都站稳才能走出来。选福是跳过过程只挂住高层术语——云的形状是空的。
+
+> 认识论基础：[[practice-epistemology]]——感知→概念→理论=云的纵向轴。没有底层感性材料的抽象层是虚的。
 
 ## 费曼测试的两刀
 

@@ -2,6 +2,10 @@
 
 这是一个基于Andrej Karpathy**LLM编译型知识库**模式的个人wiki，由Claude Code自动维护。wiki将原始素材编译为结构化、互链的知识网络，实现知识复利增长。
 
+## 基座
+
+该 wiki 核心线索链——体验不可压缩→智能与智慧→理解作为云→福祸辩证法——建立在[[practice-epistemology|实践认识论]]之上。毛泽东《实践论》(1937) 提供了完整认识论框架：**实践→感性认识→理性认识→回到实践检验，螺旋上升**。AI 因为没有自己的实践，其理性知识是"无源之水"——这是 wiki 核心论点的认识论底稿。
+
 ## 当前焦点：LLM驱动的知识管理革命
 
 最近摄取的源文件[[karpathy-llm-knowledge-management]]揭示了知识管理范式的根本转变：
@@ -489,6 +493,7 @@ graph TD
 - [[addyosmani-agent-skills]] - Addy Osmani：Agent Skills——高级工程纪律编码成skill工作流，反合理化、范围纪律、流程优先于散文
 - [[finbarr-treat-agents-like-developers]] - Finbarr Taylor：把Coding Agent当开发者对待——全量拷贝+命名空间隔离，Fork开发者不是分支
 - [[tcp-three-way-handshake]] - TCP三次握手：不可靠信道上双向共识的信息论下界，六维度独立收敛到3
+- [[practice-theory]] - 毛泽东《实践论》(1937)：实践→认识→再实践→再认识的完整认识论螺旋
 - [[renxuan-tianxuan-lun]] - 路飞的人选天选论：福祸相依的决策框架，贪婪与恐惧驱动的四格矩阵
 
 ### 新兴主题：设计思想——工程决策背后的数学必然
@@ -513,9 +518,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：29篇
-- **概念页**：82个
-- **总页面**：116个（含home、index、log、29源摘要、82概念页）
+- **源文件**：30篇
+- **概念页**：83个
+- **总页面**：119个（含home、index、log、30源摘要、83概念页、1基座页）
 - **最后更新**：2026-05-07
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

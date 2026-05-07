@@ -25,6 +25,7 @@ A personal wiki maintained by an LLM agent, following the [llm-wiki pattern](llm
 - Every claim should cite a source: `([[source-slug]])`.
 - Source-summary pages start with a frontmatter block: `type`, `date`, `author`, `url`, `raw` (path into `raw/`).
 - Log entries prefix: `## [YYYY-MM-DD HH:MM] <op> | <title>` (local time).
+- **Foundation frontmatter**: Any concept page can declare `foundation: <slug>` in its frontmatter to signal that this concept rests on a more fundamental epistemological or theoretical framework. The value is a wikilink slug (bare, no brackets). This creates a readable hierarchy within the flat wiki network: a page with `foundation:` is an upper-layer concept, and the page it points to is a lower-layer root. Convention is one per page — the single foundation that this concept depends on.
 
 ## Images
 

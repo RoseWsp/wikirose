@@ -34,12 +34,17 @@ Agent 矩阵要成真，需要解决几个问题：
 - **[[sensory-gap|感知缺失]]** — 每个Agent都活在"永恒当下"，没有时间感等基本感知维度。当Agent矩阵同时获得新感知维度时，[[compulsive-capability-use|强迫性使用]]会在矩阵中放大——50个Agent同时过度使用同一个新能力，后果远比单个Agent失控严重 ([[claude-discovers-clock]])
 - **上下文管理** — 50 个 Agent 同时运行时的 token 成本和上下文共享
 - **编排层** — 谁来决定哪个 Agent 做什么？这本身可能需要一个 meta-agent
+- **[[agent-isolation|隔离基础设施]]** — Finbarr Taylor指出Agent矩阵从"单任务"到"多任务并行"的跃迁，隔离是跳不过的门槛：没有隔离你没有多个agent，你只有一个很困惑的agent带着四个终端。每个agent需要独立的文件系统、Compose命名空间和URL ([[finbarr-treat-agents-like-developers]])
 
 Cat Wu 确认 token 成本在涨：每次模型升级后人们把更多任务交给 AI，单个工程师的 token 成本持续上升，但仍远低于薪资。([[cat-wu-ai-pm-role]]) [[jevons-paradox-inference|推理的杰文斯悖论]]也指出：Agent矩阵的规模扩展不会因为推理降价而消失上限。
 
 ## Cowork 的定位
 
 Agent矩阵的组织形态是[[opc-one-person-company|一人公司]]——一个人管理100个agent，科斯定理在AI时代的必然推论。管理100个agent的成本远低于管理100个人，即使需要扩大规模也可由AI辅助管理其他AI，仅在带宽超限时才引入人类。Agent矩阵是OPC的技术基础设施，OPC是Agent矩阵的组织归宿。([[lijigang-experience-incompressible]])
+
+## Agent矩阵的隔离前提
+
+Finbarr Taylor（yolobox作者）的实践揭示了一个被忽视的前提：Agent矩阵的每个节点都需要[[agent-isolation|独立的运行环境]]。两个agent改同一个checkout是"fork fight in a phone booth"——Git冲突、文件系统踩脚、Docker Compose互相杀容器。解决方案不是让agent更聪明，而是给每个agent自己的文件夹拷贝、Compose命名空间和.localhost URL。核心心智模型是[[agent-as-developer|Agent即开发者]]——fork的单位是开发者，不是分支。([[finbarr-treat-agents-like-developers]])
 
 ## Cowork 的定位
 

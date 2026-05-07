@@ -40,5 +40,7 @@ agent看到一段"无用"代码时，默认行为是删除它。但那段代码�
 - [[agentic-engineering]]——范围纪律是Agentic Engineering最基本的一条
 - [[self-healing-pipeline]]——自愈流水线的"每个工具只负责一个阶段"是范围纪律在系统层面的体现
 - [[clarity-before-automation]]——你不清晰定义范围，agent就无法遵守范围纪律
+- [[agent-isolation]]——隔离在物理层划定边界（不同agent不碰同一份代码），范围纪律在行动层划定边界（同一agent不碰未被要求的代码）——两者合在一起是完整的agent约束
+- [[agent-as-developer]]——范围纪律是agent作为开发者必须遵守的第一条规则：人类开发者不擅自改别人的模块，agent也不应擅自改未被要求的文件
 
 来源：[[addyosmani-agent-skills]]

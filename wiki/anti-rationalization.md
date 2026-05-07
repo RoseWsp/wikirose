@@ -45,5 +45,7 @@ LLM的训练目标是生成合理的下一个token，所以它天然倾向于产
 - [[agentic-engineering]]——反合理化编码了Agentic Engineering的纪律
 - [[scope-discipline]]——范围违反是最常见的合理化目标："顺便重构一下"
 - [[workflow-over-prose]]——反合理化表格嵌入在工作流中才有效，单独存在只是文章
+- [[agent-isolation]]——隔离防agent互相踩脚，反合理化防agent自我说服跳过纪律——两种不同方向的防御
+- [[agent-as-developer]]——反合理化是agent作为初级开发者最需要的纪律约束：初级开发者也擅长合理化跳过步骤
 
 来源：[[addyosmani-agent-skills]]

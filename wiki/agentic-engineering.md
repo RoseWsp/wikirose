@@ -158,6 +158,8 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[anti-rationalization]] - LLM的合理化是Agentic Engineering的隐形敌人——它能生成完美理由跳过任何纪律。反合理化表格把工程纪律从"建议"变为"无法自我说服绕过的约束" ([[addyosmani-agent-skills]])
 - [[scope-discipline]] - 范围纪律是Agentic Engineering最基本的一条：只碰你被要求碰的。agent PR能否被合并，范围纪律是最大决定因素 ([[addyosmani-agent-skills]])
 - [[workflow-over-prose]] - Agentic Engineering的核心就是用流程替代散文来约束agent——工作流可执行可验证，文章只能被读完跳过 ([[addyosmani-agent-skills]])
+- [[agent-isolation]] - 隔离是Agentic Engineering基础设施层的第一课：多agent并行时，没有隔离就没有纪律可言——agent踩脚比agent偷懒更难修复
+- [[agent-as-developer]] - Agent即开发者是Agentic Engineering的隐含心智模型：给agent开发者级别的环境，要求开发者级别的纪律
 
 ## 磨刀石模式的工程纪律
 

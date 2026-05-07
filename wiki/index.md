@@ -29,6 +29,7 @@
 - [[ai-has-no-wisdom]] - 体验不可压缩与AI无智慧——从李继刚演讲到《吞噬星空》的深度讨论，Loop是未来
 - [[xuanwu-hermes-rce-immune-system]] - 玄武实验室：发现Hermes Agent RCE漏洞后意外观察到Agent自主防御，进而设计免疫系统
 - [[addyosmani-agent-skills]] - Addy Osmani：Agent Skills——把高级工程师的工程纪律编码成agent无法绕过的skill工作流，反合理化表格、范围纪律、流程优先于散文
+- [[finbarr-treat-agents-like-developers]] - Finbarr Taylor：把Coding Agent当开发者对待——Fork开发者不是分支，全量拷贝+命名空间隔离，并行需要隔离
 
 ## Concepts (概念)
 - [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的
@@ -109,6 +110,8 @@
 - [[anti-rationalization]] - 反合理化：LLM极其擅长给跳过工程纪律找理由，反合理化表格是对agent还没说出口的谎言提前写好的反驳
 - [[scope-discipline]] - 范围纪律：只碰你被要求碰的，有限理性是认知的边界，范围纪律是行动的边界
 - [[workflow-over-prose]] - 流程优先于散文：工作流可执行可验证，文章只能被读完跳过
+- [[agent-isolation]] - Agent隔离：并行需要隔离，没有隔离你只有一个很困惑的agent带着四个终端
+- [[agent-as-developer]] - Agent即开发者：Fork的单位是开发者不是分支，给agent一张桌子让它push branch
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

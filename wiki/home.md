@@ -382,6 +382,15 @@ graph TD
 
 关键洞察：反合理化是[[system-zero|系统0]]在工程决策中的表现——系统0替换决策本身，合理化替换决策的合理性感知。后者更危险，因为你甚至不觉得决策被替换了。Addy的五条不可协商原则（先揭示假设、冲突时停下来、有必要要反驳、偏好朴素方案、只碰被要求碰的）构成了[[agentic-engineering|Agentic Engineering]]纪律的完整骨架，与wiki已有的[[harness-engineering|脚手架工程]]（约束的工程层）和[[agent-immune-system|免疫系统]]（约束的认知层）形成三层递进：脚手架搭外部护栏，免疫系统建内部认知防御，反合理化防自我说服绕过一切。
 
+### 新兴主题：Agent隔离与"Agent即开发者"
+
+最新摄取的源文件[[finbarr-treat-agents-like-developers]]（yolobox作者Finbarr Taylor）揭示了多agent并行工作的基础设施前提——不是让agent更聪明，而是给它和人类开发者一样的隔离环境：
+
+- **[[agent-isolation|Agent隔离]]**：并行需要隔离。没有隔离你没有多个agent——你只有一个很困惑的agent带着四个终端。Git冲突、文件系统踩脚、Docker Compose互相杀容器——三个东西依次崩塌。解法是全量拷贝+独立命名空间+本地反代URL，笨但可靠
+- **[[agent-as-developer|Agent即开发者]]**：Fork的单位是开发者，不是分支。Git worktree只隔离了.git，但一个开发者需要的远不止git——依赖、缓存、环境变量、运行时服务。用分支建模"另一个开发者"是错配的抽象
+
+关键洞察：这篇文章与[[addyosmani-agent-skills|Agent Skills]]形成完美互补——Finbarr管"身体"（环境隔离），Addy管"纪律"（流程约束）。合在一起才是完整的"agent = developer"：一个初级开发者需要的不只是一台电脑，还需要有人盯着走完SDLC。两者共同指向**通向AI-native的路不是让agent更魔法，而是让它更不特殊**——与[[harness-engineering|脚手架工程]]（瓶颈在护栏不在模型）、[[org-process-gap|组织流程代差]]（瓶颈在流程不在技术）深层共振。
+
 ## 探索路径
 
 ### 从概念开始
@@ -450,6 +459,8 @@ graph TD
 - [[anti-rationalization]] - 反合理化：LLM极其擅长给跳过工程纪律找理由，反合理化表格提前反驳
 - [[scope-discipline]] - 范围纪律：只碰你被要求碰的，有限理性是认知边界，范围纪律是行动边界
 - [[workflow-over-prose]] - 流程优先于散文：工作流可执行可验证，文章只能被读完跳过
+- [[agent-isolation]] - Agent隔离：并行需要隔离，没有隔离只有一个很困惑的agent带着四个终端
+- [[agent-as-developer]] - Agent即开发者：Fork开发者不是分支，给agent一张桌子让它push branch
 
 ### 查看源文件
 - [[karpathy-llm-knowledge-management]] - LLM知识管理实践案例
@@ -475,6 +486,7 @@ graph TD
 - [[jack-clark-ai-self-construction]] - Jack Clark：AI系统即将开始自我构建，2028年底递归自改进概率60%
 - [[dynamic-programming-bellman]] - 动态规划、贝尔曼方程与维度灾难：倒推法本质、最优性原理、西蒙的有限理性
 - [[addyosmani-agent-skills]] - Addy Osmani：Agent Skills——高级工程纪律编码成skill工作流，反合理化、范围纪律、流程优先于散文
+- [[finbarr-treat-agents-like-developers]] - Finbarr Taylor：把Coding Agent当开发者对待——全量拷贝+命名空间隔离，Fork开发者不是分支
 
 ### 浏览索引
 - [[index]] - 所有页面的分类目录
@@ -488,9 +500,9 @@ graph TD
 
 ## 实时状态
 
-- **源文件**：26篇
-- **概念页**：77个
-- **总页面**：107个（含home、index、log、26源摘要、77概念页）
-- **最后更新**：2026-05-06
+- **源文件**：27篇
+- **概念页**：79个
+- **总页面**：110个（含home、index、log、27源摘要、79概念页）
+- **最后更新**：2026-05-07
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

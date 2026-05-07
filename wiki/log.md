@@ -1,3 +1,19 @@
+## [2026-05-07 00:15] ingest | Finbarr Taylor：把Coding Agent当开发者对待
+- 源文件：raw/blog/Treat Your Coding Agents Like Developers.md
+- 新建源摘要页：[[finbarr-treat-agents-like-developers]]
+- 新建概念页：[[agent-isolation]]（Agent隔离：并行需要隔离）、[[agent-as-developer]]（Agent即开发者：Fork开发者不是分支）
+- 交叉链接（已有页面→新页面）：
+  - [[harness-engineering]] → [[agent-isolation]]、[[agent-as-developer]]（隔离是脚手架在运行时层的基础，agent-as-developer提供正确心智模型）
+  - [[agent-matrix]] → [[agent-isolation]]（隔离是Agent矩阵跳不过的门槛，新增"Agent矩阵的隔离前提"章节）
+  - [[agentic-engineering]] → [[agent-isolation]]、[[agent-as-developer]]（隔离是Agentic Engineering基础设施层第一课）
+  - [[org-process-gap]] → [[agent-isolation]]、[[agent-as-developer]]（组织流程改造+隔离基础设施配套，让agent更不特殊）
+  - [[scope-discipline]] → [[agent-isolation]]、[[agent-as-developer]]（隔离物理层边界+范围纪律行动层边界=完整约束）
+  - [[anti-rationalization]] → [[agent-isolation]]、[[agent-as-developer]]（两种不同方向防御：踩脚vs自我说服）
+  - [[addyosmani-agent-skills]] → [[finbarr-treat-agents-like-developers]]（互补：纪律vs身体）
+- 更新 [[home.md]]：新增"Agent隔离与Agent即开发者"主题板块、更新状态27源/79概念/110页
+- 更新 [[index.md]]：新增1源摘要+2概念页条目
+- 关键洞察：与Agent Skills互补——Finbarr管"身体"（环境隔离），Addy管"纪律"（流程约束），合在一起才是完整的agent=developer。两者共同指向"通向AI-native的路不是让agent更魔法，而是让它更不特殊"
+
 ## [2026-05-06 23:50] ingest | Addy Osmani：Agent Skills——高级工程纪律编码成skill工作流
 - 源文件：raw/blog/Agent Skill.md
 - 新建源摘要页：[[addyosmani-agent-skills]]

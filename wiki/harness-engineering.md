@@ -70,6 +70,8 @@ Boris Cherny的判断指向了脚手架工程的消亡方向：他预言Claude C
 - [[scope-discipline]]——脚手架划定agent的行动范围，范围纪律是脚手架的意志层
 - [[workflow-over-prose]]——脚手架工程是"流程优先于散文"在系统层面的体现
 - [[curse-of-dimensionality]]——维度灾难让全局最优不可达，脚手架是在不可达前提下的务实策略：划定搜索边界，在边界内求满意解
+- [[agent-isolation]]——隔离是脚手架在运行时层的基础：多个agent并行时，脚手架必须包含环境隔离（文件系统、Compose命名空间、URL），否则护栏拦不住agent互相踩脚
+- [[agent-as-developer]]——脚手架工程为agent搭护栏，agent-as-developer提供正确的心智模型：护栏的单位是"开发者的机器"而非"分支"
 
 ## 组织层面的脚手架
 

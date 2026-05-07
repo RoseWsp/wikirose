@@ -58,3 +58,4 @@ Skills充满了来自《Software Engineering at Google》和Google公开工程�
 - [[bounded-rationality]]——范围纪律是有限理性在行动层面的应用：知道自己不该碰什么，和不去做自己不该做的事
 - [[ai-first-prerequisites]]——Agent Skills的skill集可以视为五大前提在agent工作流层面的展开
 - [[self-healing-pipeline]]——Agent Skills的验证退出标准与自愈流水线的检测-验证闭环逻辑一致
+- [[finbarr-treat-agents-like-developers]]——互补篇：Agent Skills管"纪律"（流程约束），Finbarr的yolobox管"身体"（环境隔离）。合在一起才是完整的"agent=developer"——不仅需要SDLC纪律，还需要一张桌子

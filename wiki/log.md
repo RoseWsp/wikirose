@@ -1,3 +1,22 @@
+## [2026-05-07 15:35] ladder | three-way-handshake + two-generals-problem
+- 审计2个概念页（ingest同步创建）
+- [[three-way-handshake]]：UP=Yes（bounded-rationality实例+two-generals-problem工程解），DOWN=Weak→补强（添加日常打电话类比）
+- [[two-generals-problem]]：UP=Yes（bounded-rality精确表述），DOWN=Yes（山谷两军故事自带费曼级类比），Solid
+- 修复：1页（three-way-handshake添加日常类比段落）
+- 无需新建抽象页
+
+## [2026-05-07 15:30] ingest | TCP为什么是三次握手，而不是两次或四次
+- 源文件：raw/zhihu/TCP 为什么是三次握手，而不是两次或四次.md
+- 新建源摘要页：[[tcp-three-way-handshake]]
+- 新建概念页：[[three-way-handshake]]（三次握手：信息论下界）、[[two-generals-problem]]（两将军问题：完美共识不可达）
+- 交叉链接（已有页面→新页面）：
+  - [[bounded-rationality]] → [[three-way-handshake]]、[[two-generals-problem]]（三次握手是有限理性的协议层实例）
+  - [[understanding-as-cloud]] → [[three-way-handshake]]（文章是云变形的范例，纵向爬五层）
+  - [[experience-incompressible]] → [[three-way-handshake]]（"背了但说不清"=云没变形=没理解）
+- 更新 [[home.md]]：新增"设计思想"主题板块、更新状态28源/81概念/114页
+- 更新 [[index.md]]：新增1源摘要+2概念页条目
+- 关键洞察：六维度独立收敛到3是工程设计与数学本质重合的优雅。文章本身是李继刚"理解作为云"的验证——从点（报文序列）到云（信息论下界），读完回不去了
+
 ## [2026-05-07 00:15] ingest | Finbarr Taylor：把Coding Agent当开发者对待
 - 源文件：raw/blog/Treat Your Coding Agents Like Developers.md
 - 新建源摘要页：[[finbarr-treat-agents-like-developers]]

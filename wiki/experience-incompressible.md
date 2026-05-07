@@ -38,4 +38,8 @@ AI替我们下水捞上来黄金，结果很好，但我们没下水。
 - [[understanding-as-cloud]] — "云没变形=没理解"是体验不可压缩的精确诊断：信息过了眼但没改变任何连接的权重，结构没被重塑
 - [[abstraction-ladder]] — 体验是抽象梯上每一层的锚点——没有体验，云挂在高处没有支撑
 
-来源：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]、[[dynamic-programming-bellman]]
+## 云没变形=没理解的协议层验证
+
+[[three-way-handshake|TCP三次握手]]提供了"读了等于没读"的精确案例：大多数网络工程师背得出SYN→SYN+ACK→ACK，但说不清"为什么不是两次或四次"。信息过了眼，云的形状没变。那篇知乎文章从六个独立维度论证（信息论、状态机、可靠性、效率、安全、历史报文），读完后再也回不到"三个报文"那个点了——这才是云变形。
+
+来源：[[lijigang-experience-incompressible]]、[[ai-has-no-wisdom]]、[[dynamic-programming-bellman]]、[[tcp-three-way-handshake]]

@@ -48,4 +48,6 @@ AI时代尤其如此。模型越大，搜索空间越爆炸，追求全局最优
 
 **→ [[scope-discipline]]** 有限理性是认知的边界——"算不完就别算完美"。范围纪律是行动的边界——"没叫你碰就别碰"。两者合在一起才是完整的AI自我约束：知道自己不该知道什么，和不去做自己不该做的事。一个是搜索的边界，一个是修改的边界 ([[addyosmani-agent-skills]])。
 
-来源：[[dynamic-programming-bellman]]
+**→ [[three-way-handshake]]** 三次握手是有限理性在协议层的实例——不追求完美共识（[[two-generals-problem|两将军问题]]证明不可达），追求"足够好"的共识。三次是"满意比最优更现实"的协议层表达。西蒙1978年拿诺贝尔奖，RFC 793在1981年发布，两者独立收敛到同一个哲学。
+
+来源：[[dynamic-programming-bellman]]、[[tcp-three-way-handshake]]

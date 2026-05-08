@@ -32,6 +32,7 @@
 - [[finbarr-treat-agents-like-developers]] - Finbarr Taylor：把Coding Agent当开发者对待——Fork开发者不是分支，全量拷贝+命名空间隔离，并行需要隔离
 - [[renxuan-tianxuan-lun]] - 路飞的人选天选论：福祸相依的决策框架，贪婪与恐惧驱动的四格矩阵——选福时天选祸，选祸时天选福
 - [[practice-theory]] - 毛泽东《实践论》(1937)：实践→感性认识→理性认识→回到实践检验，螺旋上升——wiki核心线索的认识论底稿
+- [[mao-dun-lun]] - 毛泽东《矛盾论》(1937)：对立统一法则，内因外因、主要矛盾、共性与个性、相反相成——wiki核心线索的辩证法底稿
 - [[tcp-three-way-handshake]] - TCP三次握手：不可靠信道上双向共识的信息论下界，六维度独立收敛到3，两将军问题的工程解
 
 ## Concepts (概念)
@@ -119,6 +120,7 @@
 - [[two-generals-problem]] - 两将军问题：不可靠信道上不可能达成完美共识，三次握手是"足够好"的妥协
 - [[fortune-misfortune-dialectic]] - 福祸辩证法：人选福时天选祸，人选祸时天选福——动机与结果的系统性偏差
 - [基座] [[practice-epistemology]] - 实践认识论：毛泽东《实践论》的认识论框架提取，wiki核心线索链的哲学底稿
+- [基座] [[contradiction-dialectics]] - 矛盾辩证法：毛泽东《矛盾论》的辩证法框架提取，wiki第二个方法论基座——主要矛盾、内因外因、共性与个性、相反相成
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

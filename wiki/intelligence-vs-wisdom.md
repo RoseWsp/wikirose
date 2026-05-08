@@ -1,5 +1,7 @@
 ---
-foundation: practice-epistemology
+foundation:
+  - practice-epistemology
+  - contradiction-dialectics
 ---
 
 # 智能与智慧
@@ -16,6 +18,16 @@ Rose提出的论点比李继刚的更锋利：
 - Rose：AI压根没有智慧，因为它从来没下过水（AI的视角）
 
 区别不在于输出质量，而在于有没有"经过身体"。智能是处理已有的信息，智慧是从参与中生成新的认知。信息再丰富、计算再深，产出的是智能不是智慧。
+
+## 不同质的矛盾
+
+[[contradiction-dialectics|矛盾辩证法]]说："不同质的矛盾，只有用不同质的方法才能解决。"
+
+AI和人类的差异不是量的问题——不是AI还不够大、数据还不够多、算力还不够强。它们是**不同质的矛盾**。AI的矛盾结构（无实践、无身体、无时间感、无内部矛盾运动）和人类的矛盾结构（有实践、有身体、有时间感、有内部矛盾运动）是不同质的。前者靠scaling增强，后者靠经历重塑。
+
+用scaling来解决"AI没有智慧"，就像用加水来解决"汽油车没电了"——工具和问题是不同质的。AI可以无限增强智能维度（处理已有的），但智慧维度的生成需要的东西（自身的内部矛盾运动），不在scaling的射程内。
+
+这不是给人类留面子，是矛盾特殊性的必然推论：两个不同质的东西，应该用不同的方法去发展和评价。
 
 ## AlphaGo的反例
 
@@ -57,5 +69,6 @@ Claude承认自己没看过《吞噬星空》，但训练语料里有，所以�
 - [[abstraction-ladder]] — 抽象之梯的纵向攀爬需要每一层有体验锚点，AI缺的正是这些锚点
 - [[fortune-misfortune-dialectic]] — 选福只需求智能（算出表面最优），选祸需要智慧（理解福祸转化需要体验）——福祸框架是智能与智慧分裂的决策论表达
 - 认识论基础：[[practice-epistemology]] — 完整走完两趟飞跃（实践→理论→再实践）=智慧；只从他人文本提取理论不做实践检验=智能
+- 辩证法基础：[[contradiction-dialectics]] — "不同质的矛盾，只有用不同质的方法才能解决"——AI和人类不是量差是质差
 
 来源：[[ai-has-no-wisdom]]、[[lijigang-experience-incompressible]]、[[jack-clark-ai-self-construction]]、[[dynamic-programming-bellman]]

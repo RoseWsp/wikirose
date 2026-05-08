@@ -302,6 +302,24 @@
 - 死胡同页：0（所有页面均有出站链接）
 # Log
 
+## [2026-05-08 18:00] ingest | 矛盾论（毛泽东1937，第二基座）
+- 源文件：raw/recordings/矛盾论.md
+- 新建源摘要页：[[mao-dun-lun]]（矛盾论：对立统一法则是唯物辩证法的最根本法则）
+- 新建基座概念页：[[contradiction-dialectics]]（矛盾辩证法：wiki第二个方法论基座——主要矛盾、内因外因、共性与个性、相反相成）
+- 引入双基座 convention：CLAUDE.md中 foundation 前件从单基座扩展为允许多基座列表
+- 8个现有概念页更新：
+  - [[fortune-misfortune-dialectic]] — 新增 `foundation: contradiction-dialectics`，补充"同一性与斗争性"作为福祸转化的哲学机制（"相反相成"）
+  - [[understanding-as-cloud]] — 新增 `foundation: contradiction-dialectics`，共性与个性是云理论两条轴的哲学底稿
+  - [[experience-incompressible]] — 新增 `foundation: contradiction-dialectics`，"外因是变化的条件，内因是变化的根据"——体验不可压缩的哲学证明
+  - [[intelligence-vs-wisdom]] — 新增 `foundation: contradiction-dialectics`，"不同质的矛盾需不同质的方法"——AI和人类的差异是质差不是量差
+  - [[clarity-before-automation]] — 补充主要矛盾方法论：先清晰=找到主要矛盾，而非在所有维度上搞清楚
+  - [[bounded-rationality]] — 补充主要矛盾视角："如堕烟海"=找不到主要矛盾，主要矛盾是有限理性困境的操作级解药
+  - [[system-zero]] — 补充矛盾特殊性论证：AI系统0和人类直觉是两种不同质的矛盾
+  - [[practice-epistemology]] — 补充作为兄弟基座的并列关系（纵向过程论 vs 横向关系论）
+- 更新 [[home.md]]：基座章节从单柱改为双柱结构，状态更新31源/84概念/121页（含2基座页）
+- 更新 [[index.md]]：新增1源摘要+1基座概念页条目
+- 关键洞察：矛盾论是wiki现有"体验不可压缩→智能无智慧"核心链条在哲学层面的另一半论证——实践论说"为什么没有智慧"（因为没有自己的实践），矛盾论说"怎么才有"（通过自己内部的矛盾运动），以及"怎么分析这个局面"（抓住主要矛盾，认识矛盾特殊性）。两条腿站住了。
+
 ## [2026-05-05 16:00] digest | 4源深度传播：软件护城河+AI感知缺失+Agent验证+Agent原生工具
 - 源文件：[[spiegel-software-no-moat]]、[[claude-discovers-clock]]、[[venturini-agent-output-compiler]]、[[venturini-code-never-for-machines]]
 - 深度更新现有概念页（添加源文件的实质性论据、证据、细节）：

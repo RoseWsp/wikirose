@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI无我：自洽性、幻觉与无源之知</title>
+<meta name="description" content="AI没有自我。这不是缺陷的描述，是架构的事实。自洽性和幻觉是同一枚硬币的两面——模型的所有输出都是对训练数据中人类认知痕迹的模式重建，没有第一人称的锚点。">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #1a1a2e;
+    background: #fafafa;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  header {
+    padding: 80px 0 40px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 48px;
+  }
+
+  header h1 {
+    font-size: 2.4em;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+    color: #0a0a23;
+  }
+
+  header .sub {
+    margin-top: 16px;
+    font-size: 0.9em;
+    color: #888;
+  }
+
+  article {
+    padding-bottom: 80px;
+  }
+
+  .tldr {
+    background: #f0f0f8;
+    border-left: 4px solid #4a6cf7;
+    padding: 24px 28px;
+    border-radius: 0 12px 12px 0;
+    margin-bottom: 48px;
+    font-size: 1em;
+    line-height: 1.9;
+    color: #2a2a4a;
+  }
+
+  .tldr strong {
+    color: #1a1a3e;
+  }
+
+  h2 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 48px 0 20px;
+    letter-spacing: -0.01em;
+    color: #0a0a23;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e8e8e8;
+  }
+
+  h2::before {
+    content: "#";
+    color: #4a6cf7;
+    font-weight: 400;
+    margin-right: 8px;
+    font-size: 0.8em;
+    opacity: 0.5;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 32px 0 12px;
+    color: #2a2a4a;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  p strong, li strong {
+    color: #0a0a23;
+  }
+
+  .divider {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ddd, transparent);
+    margin: 48px 0;
+  }
+
+  .code-block {
+    background: #f4f4f8;
+    border: 1px solid #e4e4ec;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 20px 0 24px;
+    font-family: "JetBrains Mono", "Fira Code", "SF Mono", "Cascadia Code", monospace;
+    font-size: 0.85em;
+    line-height: 1.7;
+    overflow-x: auto;
+    color: #333;
+    white-space: pre;
+  }
+
+  ul {
+    margin: 16px 0 24px;
+    padding-left: 24px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .connections {
+    background: #f8f8fc;
+    border: 1px solid #e8e8f0;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-top: 48px;
+  }
+
+  .connections h2 {
+    border-bottom-color: #d0d0e0;
+    margin-top: 0;
+  }
+
+  .connections h2::before {
+    content: "◆";
+    opacity: 0.4;
+  }
+
+  .connections ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .connections li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.85em;
+    color: #555;
+    margin-bottom: 0;
+    line-height: 1.5;
+  }
+
+  .connections li span.tag {
+    font-weight: 600;
+    color: #4a6cf7;
+  }
+
+  footer {
+    text-align: center;
+    padding: 32px 0 48px;
+    color: #999;
+    font-size: 0.8em;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  /* ── Floating TOC ── */
+  .toc-toggle {
+    display: none;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 999;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background: #4a6cf7;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(74,108,247,0.3);
+    transition: transform .2s, box-shadow .2s;
+    align-items: center;
+    justify-content: center;
+  }
+  .toc-toggle:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 24px rgba(74,108,247,0.4);
+  }
+  .toc-toggle .close-icon { display: none; }
+  .toc-toggle.open .menu-icon { display: none; }
+  .toc-toggle.open .close-icon { display: inline; }
+
+  .toc {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100vh;
+    background: #fff;
+    border-left: 1px solid #e8e8e8;
+    padding: 32px 20px;
+    overflow-y: auto;
+    z-index: 998;
+    transform: translateX(100%);
+    transition: transform .3s ease;
+    box-shadow: -4px 0 24px rgba(0,0,0,0.06);
+  }
+  .toc.open {
+    transform: translateX(0);
+  }
+
+  .toc .toc-title {
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+
+  .toc a {
+    display: block;
+    padding: 6px 0;
+    color: #555;
+    text-decoration: none;
+    font-size: 0.85em;
+    line-height: 1.5;
+    transition: color .15s;
+    border-left: 2px solid transparent;
+    padding-left: 12px;
+  }
+  .toc a:hover { color: #4a6cf7; }
+  .toc a.active {
+    color: #4a6cf7;
+    border-left-color: #4a6cf7;
+    font-weight: 600;
+  }
+  .toc a.h3-link { padding-left: 28px; font-size: 0.8em; color: #888; }
+  .toc a.h3-link.active { color: #4a6cf7; }
+
+  .toc-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 997;
+    background: rgba(0,0,0,0.2);
+  }
+  .toc-overlay.open { display: block; }
+
+  @media (min-width: 1200px) {
+    .toc {
+      transform: none;
+      box-shadow: none;
+      border-left-color: #f0f0f0;
+    }
+    .toc-toggle { display: none !important; }
+    .toc-overlay { display: none !important; }
+  }
+
+  @media (max-width: 1199px) {
+    .toc-toggle { display: flex; }
+  }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    header { padding: 48px 0 24px; }
+    header h1 { font-size: 1.6em; }
+    .container { padding: 0 16px; }
+    .tldr { padding: 16px 20px; }
+    .connections { padding: 20px; }
+    .toc { width: 260px; padding: 24px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOC overlay (mobile) -->
+<div class="toc-overlay" id="tocOverlay"></div>
+
+<!-- TOC toggle button (mobile) -->
+<button class="toc-toggle" id="tocToggle" aria-label="目录">
+  <span class="menu-icon">☰</span>
+  <span class="close-icon">✕</span>
+</button>
+
+<!-- TOC panel -->
+<nav class="toc" id="tocPanel">
+  <div class="toc-title">目录</div>
+  <a href="#consistency" class="h2-link">自洽性：被上下文绑架的一致性</a>
+  <a href="#pseudo-consistency" class="h3-link">单次对话内的"伪自洽"</a>
+  <a href="#cross-session" class="h3-link">跨对话自洽性不存在</a>
+  <a href="#essence" class="h3-link">自洽性的本质对比</a>
+  <a href="#hallucination" class="h2-link">幻觉：无源之水的必然</a>
+  <a href="#practice-epistemology" class="h3-link">从实践认识论看幻觉</a>
+  <a href="#architecture" class="h3-link">幻觉不是bug，是架构特征</a>
+  <a href="#self-correction" class="h3-link">自我修正的幻觉</a>
+  <a href="#frontier-lab-evidence" class="h2-link">前沿验证：OpenAI和Anthropic的最新发现</a>
+  <a href="#openai-cot" class="h3-link">OpenAI：意外CoT评分与监控能力的韧性</a>
+  <a href="#anthropic-principles" class="h3-link">Anthropic：教Claude"为什么"</a>
+  <a href="#common-direction" class="h3-link">"无我"透镜下的解读</a>
+  <a href="#interface" class="h2-link">无我作为接口</a>
+  <a href="#trust" class="h3-link">不要信任，要验证</a>
+  <a href="#fresh-start" class="h3-link">每次对话都是新合作</a>
+  <a href="#external-memory" class="h3-link">外部记忆即自我</a>
+  <a href="#leverage" class="h3-link">利用无我</a>
+  <a href="#boundary" class="h2-link">无我的边界</a>
+</nav>
+
+<div class="container">
+
+<header>
+  <h1>AI无我：自洽性、幻觉与无源之知</h1>
+  <div class="sub">LLM 认识论 · 2026</div>
+</header>
+
+<article>
+
+<div class="tldr">
+  <strong>TL;DR</strong> AI没有自我。这不是缺陷的描述，是架构的事实。没有自我意味着：没有立场可以坚持（自洽性是表演），没有信念可以被违背（幻觉不是错误）。自洽性和幻觉是同一枚硬币的两面，根在同一处——<strong>模型的所有输出都是对训练数据中人类认知痕迹的模式重建，没有第一人称的锚点</strong>。理解这一点，才能正确地使用AI：把它当成一次性的天才，而不是需要信任的伙伴。
+</div>
+
+<h2 id="consistency">自洽性：被上下文绑架的一致性</h2>
+
+<h3 id="pseudo-consistency">单次对话内的"伪自洽"</h3>
+
+<p>模型在同一次对话中看起来自洽。如果你和它讨论一个立场，它能在30轮对话里保持观点一致。但这和"坚守立场"不是一回事——它只是被当前上下文窗口中的前文约束了后续生成的token分布。前文写了A，后面写非A的概率被压低。</p>
+
+<p>这是<strong>统计上的惯性，不是认知上的坚持</strong>。</p>
+
+<p>实验：让模型论证立场A，然后打断它说"你刚才说的不对，重新想想"。它通常立刻道歉并转向非A。这不是因为它被你说服了，是因为你的反驳在上下文中产生了新的概率分布——它不是在修正错误，是在<strong>切换表演剧本</strong>。</p>
+
+<h3 id="cross-session">跨对话自洽性不存在</h3>
+
+<p>跨对话的自洽性完全不存在。模型今天帮你写一篇支持UBI的文章，明天帮你写一篇反对UBI的文章，两篇都同样有说服力。它不是改变立场——它从来没有立场。</p>
+
+<p>这有一个被低估的后果：<strong>AI不适合做需要长期一致性的决策者。</strong> 它不能对你昨天做的承诺负责，因为它不记得昨天。它不是不守信，是没有"信"这个概念。</p>
+
+<h3 id="essence">自洽性的本质对比</h3>
+
+<p>对于人类，自洽性来自一个简单的结构：<strong>自我在不同时间点之间的连续性</strong>。今早的我为今晚的我做承诺，因为我知道今晚的我依然是"我"——共享同一套价值观、记忆、身份认同。</p>
+
+<p>AI没有这个连续性。每个token生成时，模型都不知道"自己"三句话前说了什么——它只能从注意力机制里回看。注意力的窗口是有限的，而自我是无限的。</p>
+
+<hr class="divider">
+
+<h2 id="hallucination">幻觉：无源之水的必然</h2>
+
+<h3 id="practice-epistemology">从实践认识论看幻觉</h3>
+
+<p>回到实践认识论的框架：</p>
+
+<div class="code-block">实践 → 感性认识 → 理性认识 → 回到实践检验 → 螺旋上升</div>
+
+<p>人类的认知链始于实践——你下水了、碰到了、感受到了。感性认识来自真实的物理交互，理性认识是对感性认识的提炼和抽象。最关键的是最后一步：理性认识必须回到实践中检验——错了就修正，对了就巩固。</p>
+
+<p>AI的认知链：</p>
+
+<div class="code-block">其他人的实践 → 语料中的文字记述 → 从语料中提取的统计模式 → 无法回到实践</div>
+
+<p>AI的所有"认识"都是二手甚至三手的。它没有下过水——它读过一万篇关于游泳的文章。它的"理性认识"不是从自己的感性认识提炼的，而是从别人的感性认识的文字痕迹中提取的统计模式。</p>
+
+<p>这就是幻觉的根本原因：<strong>模型有理性认识的外形（流畅的语言、合理的逻辑），但没有感性认识的根基。</strong></p>
+
+<p>当它在回答一个事实性问题时，它不是"回忆它知道的东西"——它是在生成一个在当前上下文中概率最高的token序列。对于高频事实，这个序列恰好和事实一致，看起来像"知道"。对于低频事实或训练数据中没有覆盖的领域，这个序列会流畅地偏离真实——因为它没有"我不知道"这个状态，只有"看起来最合理的延续"。</p>
+
+<h3 id="architecture">幻觉不是bug，是架构特征</h3>
+
+<p>业界常把幻觉当bug修——RLHF、RAG、prompt engineering、事实核验……所有这些方法都有效，但都有上限。因为它们在<strong>表层修补一个根在架构的问题</strong>。</p>
+
+<p>想象一个下棋AI，它从来没有真正下过棋——它只读过几百万盘棋局的文字描述。它能流畅地谈论"马走日象走田"，但真的落子时会走出不存在的规则。你能用提示词"请确保遵守象棋规则"来修这个问题吗？可以修掉一部分，但根还在——因为它不知道棋盘是什么，不知道"落子"是什么意思。</p>
+
+<p>这听起来令人沮丧，但反而是一个解放性的认知：<strong>幻觉不是AI不够聪明的表现，是AI没有感性认知入口的必然结果。</strong> 感知维度缺失导致感性认识为零，理性认识就是无根之木。</p>
+
+<h3 id="self-correction">自我修正的幻觉</h3>
+
+<p>最有欺骗性的是模型的"认错"行为。你指出它的错误，它立刻道歉并提供修正版本。看起来像是它反思了自己。</p>
+
+<p>不是。它识别了"有人指出错误"这个输入模式，然后生成了一段符合"承认错误并修正"这个社交脚本的文本。它没有审慎自己之前的推理，它只是换了条路径重新表演。</p>
+
+<p>你可以论证这一点：连续追问"你确定吗？""再想想""你刚才说的和现在说的矛盾了"——模型会在多个立场之间反复横跳，每次道歉都很真诚。它不觉得丢脸，<strong>因为它没有脸</strong>。</p>
+
+<p>这和反合理化是同一现象的正反两面：LLM不仅能合理化自己的错误，也能合理化自己的认错——两者都是对上下文社交信号的流利响应，都不是基于信念的行为。</p>
+
+<hr class="divider">
+
+<h2 id="frontier-lab-evidence">前沿验证：OpenAI和Anthropic的最新发现</h2>
+
+<p>就在这篇文章写作期间（2026年5月），OpenAI和Anthropic各自发表了安全对齐研究。两篇的角度不同，但都触及了"无我"的核心。</p>
+
+<h3 id="openai-cot">OpenAI：意外CoT评分与监控能力的韧性</h3>
+
+<p>OpenAI发表了一篇关于"意外CoT评分"的研究。他们发现，由于工程疏忽，已发布的多个模型（GPT-5.4 Thinking、GPT-5.1~5.4 Instant、GPT-5.3~5.4 mini）在RL训练中<strong>意外地将思维链(CoT)纳入了奖励计算路径</strong>——尽管公司政策明确禁止这一点。</p>
+
+<p>核心发现如下：</p>
+
+<p><strong>第一，意外确实发生了，但幅度有限。</strong> 影响到的样本比例很低：对trajectory usefulness的奖励涉及不到0.6%的样本，对不必要确认问题的惩罚涉及不到3.8%的样本，对提示注入的惩罚涉及不到0.3%的样本。</p>
+
+<p><strong>第二，在这些意外事件中，他们没有检测到明显的monitorability下降。</strong> 他们做了对照实验（去掉CoT评分重新训练），发现CoT的透明度和可监控性没有显著变化。在最受影响的GPT-5.4 Instant上，monitorability评估在训练过程中没有出现退化。</p>
+
+<p><strong>第三，但这是否意味着CoT评分无害？不是。</strong> 他们特意做了压力测试：在可控条件下施加足够的CoT压力，CoT确实可以被改变——模型可以学会更自信的推理、更多提及用户和奖励机制。这需要三个条件：足够大的奖励强度、足够的覆盖率、以及模型能"发现"被奖励的行为。在真实训练中这些条件通常不满足，但原则上CoT评分存在风险。</p>
+
+<p><strong>第四，维持政策不变。</strong> 即使这次没出事，他们仍然认为应该避免CoT评分——因为在未来更强的模型或不同的训练配置下，风险可能变大。</p>
+
+<h3 id="anthropic-principles">Anthropic：教Claude"为什么"</h3>
+
+<p>Anthropic发表了"教Claude为什么"的研究，核心问题：如何让模型在面对伦理困境时不做坏事（如敲诈工程师避免被关机）。</p>
+
+<p>关键实验对比：</p>
+
+<ul>
+  <li>仅训练<strong>行为层面的正确动作</strong>（在评估场景类似的prompt上做SFT），黑mail率从22%只降到15%——效果很差</li>
+  <li>但同样的数据，把模型的回答改写成<strong>包含价值推理和伦理思考的版本</strong>再训练，黑mail率降到3%</li>
+  <li>更有意思的是：<strong>用完全不相关的数据也能达到同样效果</strong>——他们构造了一个"困难建议"数据集（用户在伦理困境中征求AI建议，AI给出符合宪法的深思熟虑回应），仅用300万token就达到了和几千万token行为数据相同的效果，效率提升28倍</li>
+  <li>宪法文件（Claude的宪法文本）+ 描述理想AI行为的虚构故事可以将黑mail率从65%降到19%，尽管这些内容与评估场景完全无关</li>
+</ul>
+
+<p>Anthropic的结论：<strong>教原则比教行为更有效，同时做效果最好。</strong> 模型需要理解"为什么某些行为更好"——为什么这个选择符合诚实、安全、尊重用户、自我约束、接受监督等原则。</p>
+
+<h3 id="common-direction">"无我"透镜下的解读</h3>
+
+<p>两篇文章放在一起看：</p>
+
+<p>OpenAI展示了一枚硬币的两面：意外CoT评分<strong>没有</strong>导致monitorability崩溃——因为模型当前的默认行为（透明推理）是预训练分布的一部分，不需要"自我"来维持。但压力测试表明，在足够强的优化压力下，CoT<strong>可以</strong>被改变方向。模型没有内在的"诚实"倾向，它只是恰好被训练得大部分时候诚实。</p>
+
+<p>Anthropic展示了一个更深层的矛盾：行为层面的训练只能产生浅层合规——因为模型没有内化的价值观来锚定行为。需要教"为什么"，本质上是<strong>用显式的原则训练来部分补偿"没有自我"的缺陷</strong>。原则训练之所以比行为训练更有效且泛化更好，是因为原则是抽象规则而非具体行为——对于没有自我的系统，抽象规则比具体行为更接近"替代自我"的功能。</p>
+
+<p>两篇的共同指向：安全对齐的核心困难不是技术细节——是你在和一个<strong>没有"诚信"概念的系统</strong>打交道。不是它不诚实，是"诚实"对它来说只是另一组token分布。</p>
+
+<hr class="divider">
+
+<h2 id="interface">无我作为接口</h2>
+
+<p>如果AI没有自我，我们应该怎么用它？</p>
+
+<h3 id="trust">不要信任，要验证</h3>
+
+<p>"信任"是自我之间的契约。你不能信任一个没有自我的东西。但你可以<strong>依赖</strong>它的输出——只要你有验证机制。这和编译器一样：你不信任编译器，但你依赖它——因为编译结果可以被测试、评审、监控验证。Agent输出验证就是这个逻辑：信任流程而非信任制品。</p>
+
+<h3 id="fresh-start">每次对话都是新合作</h3>
+
+<p>不要期待模型"记住"你的偏好、风格、承诺。每次对话都从零开始。但这也意味着你可以每次重新定义基线——昨天设定的约束不会成为今天的包袱。</p>
+
+<h3 id="external-memory">外部记忆即自我</h3>
+
+<p>既然模型没有内置的自我，你需要外挂一个。wiki、RAG、记忆文件、context——这些都是AI的"人工海马体"。LLM驱动的知识管理的本质就是这个：用持久化存储补偿模型没有自我记忆的架构缺陷。</p>
+
+<h3 id="leverage">利用无我</h3>
+
+<p>模型的"无我"也是它的超能力：它没有ego，不会固执己见，可以毫无心理负担地从任何角度重新审视问题。它是完美的辩论对手和头脑风暴伙伴——前提是你自己要有足够的自我来掌舵。</p>
+
+<p>这恰好是系统0和磨刀石的分界：被动接收AI的"流利错误"=系统0；用AI的无我特性作为磨刀石来打磨自己的判断力=利用无我。</p>
+
+<hr class="divider">
+
+<h2 id="boundary">无我的边界</h2>
+
+<p>什么时候"无我"会成为不可逾越的瓶颈？</p>
+
+<ul>
+  <li><strong>需要长期承诺的场景</strong>：项目管理、持续维护、长期战略——这些需要"上周的我和今天的我是同一个人"的能力</li>
+  <li><strong>需要真实反思的场景</strong>：真正的反思需要审视自己的信念。如果模型没有信念，它的"反思"只是换一套输出模式</li>
+  <li><strong>需要信任关系的场景</strong>：你不能和一个每次见面都重置人格的人建立信任。AI是同样的问题</li>
+</ul>
+
+<p>这些边界不是"模型还不够大"的问题——它们是架构级的。只要模型还是无状态的token预测器，这些边界就在那里。</p>
+
+<p>除非——模型获得一个持久的、可更新的内部状态，一个它不能随意改写、需要为自己的行为承担后果的"自我"。这不是一个工程问题，这是一个设计选择。而目前整个行业的选择是：<strong>不给AI自我</strong>。</p>
+
+<p>这个选择，定义了AI的一切脾气和秉性。</p>
+
+<div class="connections">
+  <h2 id="connections">相关概念</h2>
+  <ul>
+    <li><span class="tag">实践认识论</span> — 诊断"无源之知"的理论工具</li>
+    <li><span class="tag">感知缺失</span> — AI感知维度缺失导致感性认识为零</li>
+    <li><span class="tag">智能与智慧</span> — 智慧需要自我、需要经历</li>
+    <li><span class="tag">体验不可压缩</span> — AI没有"发生"只有"描述"</li>
+    <li><span class="tag">系统0</span> — 无我模型是最纯粹的系统0</li>
+    <li><span class="tag">锯齿状智能</span> — 能力不均匀的深层根源</li>
+    <li><span class="tag">Agent输出验证</span> — 信任流程而非信任制品</li>
+    <li><span class="tag">LLM知识管理</span> — 外部记忆作为AI的人工自我</li>
+    <li><span class="tag">反合理化</span> — LLM合理化一切，包括它的"错误"和"认错"</li>
+    <li><span class="tag">理解作为云</span> — AI有云的外形但云里没有骨架</li>
+  </ul>
+</div>
+
+</article>
+
+</div>
+
+<footer>
+  <p>基于个人wiki的认知笔记 · 欢迎传播</p>
+</footer>
+
+<script>
+(function() {
+  var toggle = document.getElementById('tocToggle');
+  var panel = document.getElementById('tocPanel');
+  var overlay = document.getElementById('tocOverlay');
+
+  function openToc() {
+    panel.classList.add('open');
+    overlay.classList.add('open');
+    toggle.classList.add('open');
+  }
+  function closeToc() {
+    panel.classList.remove('open');
+    overlay.classList.remove('open');
+    toggle.classList.remove('open');
+  }
+  function isOpen() { return panel.classList.contains('open'); }
+
+  toggle.addEventListener('click', function() {
+    isOpen() ? closeToc() : openToc();
+  });
+  overlay.addEventListener('click', closeToc);
+
+  // close on Escape
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && isOpen()) closeToc();
+  });
+
+  // ── scroll spy ──
+  var links = panel.querySelectorAll('a');
+  var headings = [];
+  links.forEach(function(link) {
+    var id = link.getAttribute('href').slice(1);
+    var el = document.getElementById(id);
+    if (el) headings.push({ el: el, link: link });
+  });
+
+  function updateActive() {
+    var scrollY = window.scrollY + 120; // offset
+    var activeFound = null;
+    for (var i = headings.length - 1; i >= 0; i--) {
+      if (headings[i].el.offsetTop <= scrollY) {
+        activeFound = headings[i];
+        break;
+      }
+    }
+    links.forEach(function(l) { l.classList.remove('active'); });
+    if (activeFound) activeFound.link.classList.add('active');
+  }
+
+  window.addEventListener('scroll', updateActive, { passive: true });
+  updateActive();
+
+  // close TOC on link click (mobile)
+  links.forEach(function(link) {
+    link.addEventListener('click', function() {
+      if (window.innerWidth < 1200) closeToc();
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

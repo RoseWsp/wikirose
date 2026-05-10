@@ -34,6 +34,7 @@
 - [[practice-theory]] - 毛泽东《实践论》(1937)：实践→感性认识→理性认识→回到实践检验，螺旋上升——wiki核心线索的认识论底稿
 - [[mao-dun-lun]] - 毛泽东《矛盾论》(1937)：对立统一法则，内因外因、主要矛盾、共性与个性、相反相成——wiki核心线索的辩证法底稿
 - [[tcp-three-way-handshake]] - TCP三次握手：不可靠信道上双向共识的信息论下界，六维度独立收敛到3，两将军问题的工程解
+- [[natural-language-autoencoders]] - Anthropic的Natural Language Autoencoders方法论：round-trip激活可观测化，方法论创新但结论草率
 
 ## Concepts (概念)
 - [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的
@@ -122,6 +123,9 @@
 - [[fortune-misfortune-dialectic]] - 福祸辩证法：人选福时天选祸，人选祸时天选福——动机与结果的系统性偏差
 - [基座] [[practice-epistemology]] - 实践认识论：毛泽东《实践论》的认识论框架提取，wiki核心线索链的哲学底稿
 - [基座] [[contradiction-dialectics]] - 矛盾辩证法：毛泽东《矛盾论》的辩证法框架提取，wiki第二个方法论基座——主要矛盾、内因外因、共性与个性、相反相成
+
+## Dialogues (对话记录)
+- [[生命]] — 一场关于AI无我、权重冻结与智慧的深入对话——从NLA批判到体感，重新审视人与AI的本质差异
 
 ## Core Pages (核心页面)
 - [[home]] - 门户页面，wiki概览与导航

@@ -302,6 +302,20 @@
 - 死胡同页：0（所有页面均有出站链接）
 # Log
 
+## [2026-05-10 17:30] 对话 | 生命——从NLA到体感，一场关于AI无我、权重冻结与智慧的深入讨论
+- 新建页面：[[生命]]（独立对话记录——从NLA批判出发，经权重冻结、Liquid Neural Networks、智慧vs智能，最终落脚于"体感是唯一珍贵的东西"）
+- 核心结论：当前AI与人的最硬界碑是"权重冻结"（训练后参数不再变化），而非哲学上的"无我"；LNN在架构上可以拆除这个界碑；但要长智慧还需要物理世界的高维摩擦；最终——没有真理，追求的过程留下的体感才是宝贵的
+- 触发 [[ai-without-self]] 的重新审视：需要在"权重冻结"和"架构可突破"两个维度上重新表述
+- 参见 [[natural-language-autoencoders]] 的完整吸收记录
+
+## [2026-05-10 16:30] ingest | Natural Language Autoencoders——创新方法与草率结论
+- 源文件：raw/blog/Natural Language Autoencoders.md
+- 新建源摘要页：[[natural-language-autoencoders]]（对NLA的客观评价——方法创新 + 结论过度声明）
+- 更新 [[mechanistic-interpretability]]：新增第六阶段NLA，详述round-trip架构创新（AV/AR/RL训练/推理时hook），同时标注方法论警示——把"激活中存在可文本化的模式"说成"读到了隐藏想法"是过度声明
+- 更新 [[ai-without-self]]：新增"NLA过度声明"章节，作为"把训练数据记忆当作情感体验"的精准案例——NLA的结论恰好验证了wiki的论点：如果把无我系统的激活文本化，然后声称读了它的"隐藏动机"——不是interpretability，是anthropomorphism
+- 更新 [[index.md]]：新增1源摘要条目
+- 关键洞察：NLA在方法论上的round-trip验证机制是真正的创新——用重建准确率替代人工标注作为解释质量的自动metric。但其blackmail测试解读暴露了方法论到结论之间的逻辑跳跃：模型识别测试场景是泛化能力的正常表现，不是"隐瞒评估意识"。这与wiki核心论点（AI无我、体验不可压缩）形成有力呼应
+
 ## [2026-05-08 18:00] ingest | 矛盾论（毛泽东1937，第二基座）
 - 源文件：raw/recordings/矛盾论.md
 - 新建源摘要页：[[mao-dun-lun]]（矛盾论：对立统一法则是唯物辩证法的最根本法则）

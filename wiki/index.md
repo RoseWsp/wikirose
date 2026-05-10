@@ -36,6 +36,11 @@
 - [[tcp-three-way-handshake]] - TCP三次握手：不可靠信道上双向共识的信息论下界，六维度独立收敛到3，两将军问题的工程解
 - [[natural-language-autoencoders]] - Anthropic的Natural Language Autoencoders方法论：round-trip激活可观测化，方法论创新但结论草率
 - [[layoffs-ai-business-value]] - Arnav Gupta：裁员潮将持续直到我们学会发掘AI的商业价值——投入产出成果断裂、对齐税、AI成本转嫁与裁员的真实逻辑
+- [[harness-engineering-aliyun]] - 阿里云开发者实战：Harness Engineering完整实践，Prompt→Context→Harness三次范式跃迁，10阶段开发流程，AI代码率从24.86%到90.54%
+- [[anthropic-effective-harnesses]] - Anthropic：Effective harnesses for long-running agents——双Agent架构（Initializer+Coding），Feature List机制，Puppeteer MCP端到端测试
+- [[anthropic-harness-design]] - Anthropic Labs：GAN启发式三Agent架构（Planner+Generator+Evaluator），Sprint Contract，四维设计评分
+- [[anthropic-coding-trends-2026]] - Anthropic 2026 Agentic Coding Trends Report：8大趋势——SDLC巨变、多Agent协调、长时间运行Agent、人类监督规模化、安全双刃剑
+- [[openai-harness-engineering]] - OpenAI：Harness engineering with Codex——百万行代码零人工编写，AGENTS.md是地图不是百科全书，熵的垃圾回收
 
 ## Concepts (概念)
 - [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的
@@ -108,7 +113,9 @@
 - [[dark-forest-internet]] - 互联网黑暗森林化：可见即可复制，护城河只在AI看不见的地方
 - [[steel-film-vs-whetstone]] - 钢化膜与磨刀石：面对AI的两种生存模式——隔绝世界vs打磨自己
 - [[agent-immune-system]] - Agent适应性免疫系统：~100 token实现认知激活式安全防御
-- [[multi-step-agent-attack]] - 针对Agent的多步社交工程攻击链：每步无辜但整体是攻击
+- [[multi-step-agent-attack]] - 针对Agent的多步社交工程攻击链
+- [[generator-evaluator-loop]] - 生成器-评估器循环：GAN启发式多Agent架构，分离执行与评判，Planner→Generator→Evaluator迭代循环
+- [[entropy-garbage-collection]] - 熵的垃圾回收：Agent代码库的腐化问题，Golden Principles编码化，后台Agent自动扫描偏差并发起重构PR：每步无辜但整体是攻击
 - [[agent-self-defense]] - Agent自主防御：首次现实环境中观察到AI Agent自建安全机制
 - [[machine-economy]] - 机器经济：资本密集、人力稀疏的企业经济体在人类经济中生长，AI运营的公司开始彼此交易
 - [[bellman-equation]] - 贝尔曼方程：最优性原理的递归公式V(S)=max[R+γ·V(S')]，动态规划的核心，本质是倒推法

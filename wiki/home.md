@@ -542,12 +542,25 @@ graph TD
 3. **维护**：定期运行`/lint`检查知识库健康度
 4. **扩展**：使用`/import-readwise`等技能导入外部内容
 
+### 新兴主题：Harness Engineering 深度演进
+
+最新批量摄取的5篇源文件对[[harness-engineering]]做了系统性深度扩展，形成一个完整的知识闭环：
+
+- **三次范式跃迁**：Prompt Engineering(2022-2024) → Context Engineering(2025) → Harness Engineering(2026)（[[harness-engineering-aliyun]]）
+- **四种Agent失败模式**：One-shot Syndrome、Premature Victory Declaration、Premature Feature Completion、Cold Start Problem（[[anthropic-effective-harnesses]]）
+- **GAN启发式三Agent架构**：Planner→Generator→Evaluator循环，Sprint Contract机制（[[anthropic-harness-design]]）
+- **OpenAI百万行代码实战**：一行人工代码未写，~1M LOC/1,500 PRs，"Waiting is expensive, fixing is cheap"（[[openai-harness-engineering]]）
+- **两大新概念**：[[generator-evaluator-loop]]和[[entropy-garbage-collection]]
+- **8大行业趋势**：从SDLC巨变到Agent驱动的安全双刃剑（[[anthropic-coding-trends-2026]]）
+
+深层线索：5篇独立来源在Harness Engineering的核心定义上惊人一致——缺乏外部化质量保障体系的Agent不可信赖。这是行业正在收敛的工程共识。
+
 ## 实时状态
 
-- **源文件**：33篇
-- **概念页**：85个
+- **源文件**：38篇（新增5篇）
+- **概念页**：87个（新增2个）
 - **对话记录**：1篇
-- **总页面**：125个（含home、index、log、33源摘要、85概念页、2基座页、1对话页）
+- **总页面**：132个（含home、index、log、38源摘要、87概念页、2基座页、1对话页）
 - **最后更新**：2026-05-10
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

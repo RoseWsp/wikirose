@@ -805,3 +805,23 @@
 - 更新门户：[[home]] 扩展概念网络，添加AI产品开发主题
 - 交叉链接：新页面与[[llm-knowledge-management]]、[[compiled-knowledge-base]]、[[knowledge-compounding]]相互链接
 - 反向链接：现有页面添加指向新页面的wikilinks
+
+## [2026-05-10 21:00] ingest | Harness Engineering深度扩展——5源批量ingest
+- 源文件：[[harness-engineering-aliyun]]、[[anthropic-effective-harnesses]]、[[anthropic-harness-design]]、[[anthropic-coding-trends-2026]]、[[openai-harness-engineering]]
+- 创建5个源摘要页：
+  - [[harness-engineering-aliyun]]（阿里云开发者实战：Prompt→Context→Harness范式跃迁，10阶段开发流程，AI代码率24.86%→90.54%）
+  - [[anthropic-effective-harnesses]]（Anthropic：双Agent架构——Initializer+Coding Agent，Feature List JSON，Puppeteer MCP端到端测试）
+  - [[anthropic-harness-design]]（Anthropic Labs：GAN启发式三Agent架构——Planner+Generator+Evaluator，Sprint Contract，四维设计评分）
+  - [[anthropic-coding-trends-2026]]（Anthropic 2026报告：8大趋势——SDLC巨变、多Agent协调、安全双刃剑）
+  - [[openai-harness-engineering]]（OpenAI Codex：百万行代码零人工编写，AGENTS.md是地图不是百科全书，熵的垃圾回收）
+- 创建2个新概念页：
+  - [[generator-evaluator-loop]]（生成器-评估器循环：GAN启发式多Agent架构，分离执行与评判）
+  - [[entropy-garbage-collection]]（熵的垃圾回收：Golden Principles编码化，后台Agent自动清理代码腐化）
+- 大幅更新 [[harness-engineering]]：新增三次范式跃迁、四种Agent失败模式、四根支柱、10阶段开发流程、GAN架构、Sprint Contract、熵的回收、Context Anxiety、质量门禁程序化验证等完整内容
+- 交叉链接（已有页面→新页面）：
+  - [[harness-engineering]] → [[generator-evaluator-loop]]、[[entropy-garbage-collection]]
+  - [[harness-engineering]] → [[harness-engineering-aliyun]]、[[anthropic-effective-harnesses]]、[[anthropic-harness-design]]、[[anthropic-coding-trends-2026]]、[[openai-harness-engineering]]
+  - [[generator-evaluator-loop]] → [[harness-engineering]]、[[agent-failure-modes]]、[[agent-output-verification]]、[[anti-rationalization]]
+  - [[entropy-garbage-collection]] → [[harness-engineering]]、[[anti-rationalization]]、[[self-healing-pipeline]]、[[organizational-self-knowledge]]
+- 更新 [[home.md]]：新增"Harness Engineering深度演进"主题板块，状态更新38源/87概念/132页
+- 更新 [[index.md]]：新增5源摘要+2概念页条目

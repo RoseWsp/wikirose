@@ -180,3 +180,4 @@ Anthropic展示了一个更深层的矛盾：行为层面的训练只能产生�
 - [[llm-knowledge-management]] —— 外部记忆作为AI的人工自我
 - [[anti-rationalization]] —— LLM合理化一切，包括它的"错误"和"认错"
 - [[understanding-as-cloud]] —— AI有云的外形（流畅的语言）但云里没有骨架（没有体验锚点）
+- [[ai-value-distribution]] —— "无我"不仅是一个认知架构问题，也是一个分配问题——谁在 AI 时代"无我"？是被优化的劳动者，还是在分配结构中让渡收益的资本

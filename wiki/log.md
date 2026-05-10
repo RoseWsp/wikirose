@@ -300,6 +300,20 @@
 - 矛盾检查：未发现矛盾，所有主题集群观点一致
 - 孤儿页：0（所有页面均有入站链接）
 - 死胡同页：0（所有页面均有出站链接）
+## [2026-05-10 19:00] ingest | 裁员潮将持续，直到我们学会发掘 AI 的商业价值
+- 源文件：raw/blog/裁员潮将持续，直到我们学会发掘 AI 的商业价值.md
+- 新建源摘要页：[[layoffs-ai-business-value]]（Arnav Gupta：投入-产出-成果断裂、对齐税、AI成本转嫁与裁员真实逻辑）
+- 新建概念页：[[ai-value-distribution]]（AI时代的价值分配——投入暴增但成果滞后、生产力悖论、成本转嫁机制、内因外因分析）
+- 交叉链接（已有页面→新页面）：
+  - [[contradiction-dialectics]] → [[layoffs-ai-business-value]]、[[ai-value-distribution]]（作为内因外因的当代案例——AI是外因，分配不均和组织摩擦是内因）
+  - [[machine-economy]] → [[ai-value-distribution]]（机器经济的微观分配维度——token账单在资本间流转，劳动者承担成本）
+  - [[org-process-gap]] → [[layoffs-ai-business-value]]、[[ai-value-distribution]]（"对齐税"是组织流程代差在协作层面的具体表现）
+  - [[clarity-before-automation]] → [[layoffs-ai-business-value]]（8/10问题——AI让企业可以做所有事但在做之前没想清楚）
+  - [[ai-without-self]] → [[ai-value-distribution]]（"无我"问题从认知架构延伸到分配——谁在AI时代"无我"）
+- 更新 [[home.md]]：新增"AI时代的价值分配与裁员潮"主题板块、状态更新33源/85概念/125页
+- 更新 [[index.md]]：新增1源摘要+1概念页条目
+- 关键洞察：裁员潮的根本原因是资本的结构性矛盾在AI时代的集中爆发——AI撕掉了遮羞布，暴露了"投入暴增但成果滞后"的剪刀差。只要分配结构不变（收益归资本、成本归劳动），裁员就是结构性必然。
+
 # Log
 
 ## [2026-05-10 17:30] 对话 | 生命——从NLA到体感，一场关于AI无我、权重冻结与智慧的深入讨论

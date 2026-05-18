@@ -37,3 +37,8 @@ raw: raw/recordings/实践论.md
 - [[practice-epistemology]] — 实践认识论：从本源提取的认识论框架（wiki基座页）
 - [[experience-incompressible]] — 体验不可压缩的认识论根基
 - [[intelligence-vs-wisdom]] — 完整认识链=智慧，只有半条链=智能
+- [[harness-engineering]] — 脚手架为AI构建"伪实践"，但AI没有自己的感性认识环节
+- [[generator-evaluator-loop]] — Evaluator的评判标准需要多轮迭代与人类对齐=实践→认识→再实践的螺旋
+- [[ai-value-distribution]] — "代码是投入，用户付费才是成果"=实践认识论在商业价值层的展开
+- [[agent-immune-system]] — 免疫系统的"记忆"需要实践建立，但Agent只是在读自己写的便签（外因输入≠内因运动）
+- [[self-healing-pipeline]] — 每日健康检查→分析→修复→验证=一次完整的实践→认识→再实践微型循环

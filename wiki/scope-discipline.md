@@ -42,5 +42,8 @@ agent看到一段"无用"代码时，默认行为是删除它。但那段代码�
 - [[clarity-before-automation]]——你不清晰定义范围，agent就无法遵守范围纪律
 - [[agent-isolation]]——隔离在物理层划定边界（不同agent不碰同一份代码），范围纪律在行动层划定边界（同一agent不碰未被要求的代码）——两者合在一起是完整的agent约束
 - [[agent-as-developer]]——范围纪律是agent作为开发者必须遵守的第一条规则：人类开发者不擅自改别人的模块，agent也不应擅自改未被要求的文件
+- [[anthropic-effective-harnesses]] — Anthropic的Feature List机制是范围纪律的结构化实现：JSON格式的功能清单标记"passes: false/true"，Agent只允许修改passes状态，禁止删除或修改测试项——"只碰你被要求碰的"从文本指令变为代码约束
+- [[openai-harness-engineering]] — "The agent's knowledge boundary equals the repository's file boundary"——OpenAI的这条经验是范围纪律的边界定义：Agent只能看到仓库中的文件，Slack讨论和Google Docs对它不存在。范围纪律不仅约束Agent的行为，还约束Agent的感知边界
+- [[contradiction-dialectics]]——范围纪律是"抓住主要矛盾"在行动层面的体现：只碰你被要求碰的=只处理当前的主要矛盾，不碰次要矛盾。当Agent同时面对"修bug"和"重构相邻模块"两个矛盾时，修bug是主要矛盾，重构是次要矛盾——范围纪律就是"捉住了主要矛盾，一切问题就迎刃而解"的Agent版
 
 来源：[[addyosmani-agent-skills]]

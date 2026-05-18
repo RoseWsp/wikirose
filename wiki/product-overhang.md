@@ -27,4 +27,5 @@ Boris提前六个月构建产品，明知道六个月内不会有PMF——因为
 - [[dual-horizon-planning]] — 双极规划与产品过剩天然匹配：近期一周看一次，远期瞄准模型6个月后的能力，中间不规划
 - [[automated-ai-rd]] — 自动化AI研发让产品过剩不是线性扩大而是指数扩大：模型自己训练下一代，产品团队永远追不上模型能力的迭代速度
 - [[recursive-self-improvement]] — 递归自改进是产品过剩的极端形态：gap不再以月衡量，而是以代（generation）衡量
+- [[ai-value-distribution]]——产品过剩加剧了价值分配的矛盾：模型能力暴增但产品没跟上，意味着AI投入（token消耗）在暴增而商业成果（收入）不变。产品过剩不是技术问题，是"投入-产出-成果"链条中产出到成果的转化率太低——Gupta的框架正好解释了为什么模型越强，裁员压力反而越大([[layoffs-ai-business-value]])
 - [[dogfooding-as-method]] — Claude Design是产品过剩的最新案例：Boris被问"现在又在做什么六个月到一年后会很不一样的东西"，他的答案是Claude Design——"现在已经挺好用了，未来会好得多"。这和Claude Code的诞生逻辑完全一致：看到模型能力在某个领域的过剩，提前为那个点构建产品。([[boris-chenyi-sequoia-ai-ascent]])

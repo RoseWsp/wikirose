@@ -92,7 +92,6 @@
 - [[ai-native-veto]] - AI-Native一票否决项：6项行为信号触发即淘汰，判断力>执行力
 - [[organizational-self-knowledge]] - 组织自我认知：AI赋能的前提不是AI技术，而是组织能否清晰描述自己
 - [[ai-readiness-gap]] - AI准备度鸿沟：清晰公司用AI如虎添翼，混乱公司用AI只是镀金
-- [[ai-without-self]] - AI无我：自洽性与幻觉的根因——模型没有自我锚点，自洽是统计惯性，幻觉是无源之水的必然
 - [[clarity-before-automation]] - 先清晰再自动化：你无法去优化一个连你自己都没搞懂的东西
 - [[software-no-moat]] - 软件功能不构成护城河：功能被快速复制，生态系统、硬件、关系才是壁垒
 - [[distribution-bottleneck]] - 分发是消费级产品的真正瓶颈：产品好不好不重要，能不能送到用户手里才重要

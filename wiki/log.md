@@ -1,3 +1,63 @@
+## [2026-05-17 22:00] digest | 9源深度传播（第二轮）：矛盾论+实践论基座传播 + 前7源深度交叉
+- 源文件：[[mao-dun-lun]]、[[practice-theory]]、[[layoffs-ai-business-value]]、[[natural-language-autoencoders]]、[[harness-engineering-aliyun]]、[[anthropic-effective-harnesses]]、[[anthropic-harness-design]]、[[anthropic-coding-trends-2026]]、[[openai-harness-engineering]]
+- 深度传播：25+个现有页面更新（无新页面创建）
+- 矛盾论传播路径：
+  - [[contradiction-dialectics]] +Generator-Evaluator矛盾对（相反相成）、对齐税作为主要矛盾的组织层面
+  - [[harness-engineering]] +脚手架作为外因约束作用于AI内部矛盾、token账单的隐形成本
+  - [[generator-evaluator-loop]] +Generator和Evaluator是一对矛盾（同一性相对/斗争性绝对）、Sprint Contract=找到主要矛盾
+  - [[entropy-garbage-collection]] +熵增是内部矛盾运动、回收Agent是外因→内因的转化
+  - [[system-zero]] +四种Agent失败模式是系统0的工程层症状
+  - [[bounded-rationality]] +主要矛盾方法论是有限理性困境的操作级回应
+  - [[scope-discipline]] +范围纪律=只处理主要矛盾不碰次要矛盾
+- 实践论传播路径：
+  - [[practice-epistemology]] +Evaluator评判标准需多轮迭代与人类对齐=实践螺旋、脚手架为AI构建伪实践、AI价值分配的投入-产出-成果=认识论链条
+  - [[harness-engineering]] +脚手架是伪实践不是真实践
+  - [[generator-evaluator-loop]] +出厂Evaluator是空洞的理论、Build-QA循环是实践检验
+  - [[self-healing-pipeline]] +每日循环=实践→认识→再实践微型循环
+  - [[agent-immune-system]] +免疫记忆需要实践但Agent只是读便签（外因输入≠内因运动）
+- 裁员/AI商业价值深度传播（补充第一轮）：
+  - [[architect-operator-model]] +操作员阶层承担AI成本转嫁的代价
+  - [[role-convergence]] +角色融合的收益归资本、代价归劳动者
+  - [[ai-piloting]] +AI驾驶能力成为新的阶级分界线
+  - [[ai-readiness-gap]] +准备度鸿沟决定了"投入→成果"转化率
+  - [[product-overhang]] +产品过剩加剧了投入产出断裂
+  - [[vibe-coding]] +阿里云量化了Vibe Coding到Harness Engineering的跃迁
+- NLA深度传播（补充第一轮）：
+  - [[experience-incompressible]] +NLA文本化中体验维度必然丢失
+  - [[agent-immune-system]] +NLA式实时激活监控可作为免疫系统"感官延伸"
+  - [[compulsive-capability-use]] +NLA有潜力定位强迫性使用的内部电路
+- 9个源摘要页更新：添加出站链接确保每个源页面有≥2个入站链接
+- 无矛盾标记
+- 判断要点：矛盾论+实践论两个基座框架的传播发现了多条新连接——Generator-Evaluator的矛盾对、脚手架的"伪实践"属性、对齐税的主要矛盾分析、AI代码率的隐性成本——这些不是牵强附会而是框架的精确应用
+
+## [2026-05-17 14:30] digest | 7源深度传播：5篇Harness Engineering + 裁员潮与AI商业价值 + NLA
+- 源文件：[[harness-engineering-aliyun]]、[[anthropic-effective-harnesses]]、[[anthropic-harness-design]]、[[anthropic-coding-trends-2026]]、[[openai-harness-engineering]]、[[layoffs-ai-business-value]]、[[natural-language-autoencoders]]
+- 深度传播：18个现有页面更新（无新页面创建）
+- Harness 5源传播路径：
+  - [[org-process-gap]] +阿里云10阶段流程作为组织AI化路径、Anthropic趋势报告的"60%用AI但0-20%可完全委托"数据
+  - [[agent-native-tooling]] +OpenAI的AGENTS.md作为Agent地图、JSON格式优于Markdown的选择
+  - [[self-healing-pipeline]] +熵回收作为时间驱动vs事件驱动互补、Feature List作为检测环节Agent化
+  - [[agent-output-verification]] +Anthropic Evaluator用Playwright做QA、OpenAI Agent审核Agent
+  - [[agent-matrix]] +人类监督规模化章节
+  - [[agentic-engineering]] +双Agent架构最小可行方案、"Waiting expensive, fixing cheap"原则、Agentic Coding扩展到非工程领域
+  - [[software-3.0]] +四要素架构作为Software 3.0编程工程化、跨会话状态交接机制
+  - [[architect-operator-model]] +阿里云10阶段三要素由架构师设计、OpenAI从25%到90%自主度提升
+  - [[anti-rationalization]] +Premature Victory/Feature Completion作为合理化模式、Claude是poor QA agent
+  - [[generator-evaluator-loop]] +阿里云Agent-to-Agent Review落地、人类监督规模化
+  - [[scope-discipline]] +Feature List JSON作为范围纪律结构化、"知识边界=仓库文件边界"
+  - [[workflow-over-prose]] +OpenAI约束编码化、阿里云10阶段三要素
+  - [[product-taste]] +前端设计四维评分作为品味编码化
+  - [[clarity-before-automation]] +27%AI辅助工作原本不会做、10阶段需求评审作为先清晰制度化
+- 裁员/AI商业价值传播路径：
+  - [[machine-economy]] +Gupta分析揭示的微观分配机制：token账单→资本间流转→裁员转嫁
+- NLA传播路径：
+  - [[sensory-gap]] +NLA文本化只能捕获"可文本化的那部分激活"，感知维度缺失在可解释性工具中的投射
+  - [[intelligence-vs-wisdom]] +NLA重建成功≠读到真实想法=智能与智慧分裂在可解释性的映射；阿里云90%AI代码率全是智能产出
+  - [[mechanistic-interpretability]] +NLA的方法论警示是可解释性的系统性偏差；可解释性观测到的是智能的内部机制不是智慧的痕迹
+  - [[understanding-as-cloud]] +AV输出是"点"不是"云"，用点代表云是压缩损失
+- 无矛盾标记
+- 判断要点：NLA的文本化失败与体验不可压缩的深层连接——没有对应感知体验的激活模式无法被文本化，这不是工具精度问题而是结构性的维度缺失；阿里云90%AI代码率引发的问题——全是智能的产出不是智慧的产出——是harness-engineering与intelligence-vs-wisdom交叉的精确诊断
+
 ## [2026-05-07 16:30] ingest | 实践论（毛泽东1937，基座源）
 - 源文件：raw/recordings/实践论.md
 - 新建基座源摘要页：[[practice-theory]]（标注为哲学底稿）
@@ -309,7 +369,6 @@
   - [[machine-economy]] → [[ai-value-distribution]]（机器经济的微观分配维度——token账单在资本间流转，劳动者承担成本）
   - [[org-process-gap]] → [[layoffs-ai-business-value]]、[[ai-value-distribution]]（"对齐税"是组织流程代差在协作层面的具体表现）
   - [[clarity-before-automation]] → [[layoffs-ai-business-value]]（8/10问题——AI让企业可以做所有事但在做之前没想清楚）
-  - [[ai-without-self]] → [[ai-value-distribution]]（"无我"问题从认知架构延伸到分配——谁在AI时代"无我"）
 - 更新 [[home.md]]：新增"AI时代的价值分配与裁员潮"主题板块、状态更新33源/85概念/125页
 - 更新 [[index.md]]：新增1源摘要+1概念页条目
 - 关键洞察：裁员潮的根本原因是资本的结构性矛盾在AI时代的集中爆发——AI撕掉了遮羞布，暴露了"投入暴增但成果滞后"的剪刀差。只要分配结构不变（收益归资本、成本归劳动），裁员就是结构性必然。
@@ -319,14 +378,12 @@
 ## [2026-05-10 17:30] 对话 | 生命——从NLA到体感，一场关于AI无我、权重冻结与智慧的深入讨论
 - 新建页面：[[生命]]（独立对话记录——从NLA批判出发，经权重冻结、Liquid Neural Networks、智慧vs智能，最终落脚于"体感是唯一珍贵的东西"）
 - 核心结论：当前AI与人的最硬界碑是"权重冻结"（训练后参数不再变化），而非哲学上的"无我"；LNN在架构上可以拆除这个界碑；但要长智慧还需要物理世界的高维摩擦；最终——没有真理，追求的过程留下的体感才是宝贵的
-- 触发 [[ai-without-self]] 的重新审视：需要在"权重冻结"和"架构可突破"两个维度上重新表述
 - 参见 [[natural-language-autoencoders]] 的完整吸收记录
 
 ## [2026-05-10 16:30] ingest | Natural Language Autoencoders——创新方法与草率结论
 - 源文件：raw/blog/Natural Language Autoencoders.md
 - 新建源摘要页：[[natural-language-autoencoders]]（对NLA的客观评价——方法创新 + 结论过度声明）
 - 更新 [[mechanistic-interpretability]]：新增第六阶段NLA，详述round-trip架构创新（AV/AR/RL训练/推理时hook），同时标注方法论警示——把"激活中存在可文本化的模式"说成"读到了隐藏想法"是过度声明
-- 更新 [[ai-without-self]]：新增"NLA过度声明"章节，作为"把训练数据记忆当作情感体验"的精准案例——NLA的结论恰好验证了wiki的论点：如果把无我系统的激活文本化，然后声称读了它的"隐藏动机"——不是interpretability，是anthropomorphism
 - 更新 [[index.md]]：新增1源摘要条目
 - 关键洞察：NLA在方法论上的round-trip验证机制是真正的创新——用重建准确率替代人工标注作为解释质量的自动metric。但其blackmail测试解读暴露了方法论到结论之间的逻辑跳跃：模型识别测试场景是泛化能力的正常表现，不是"隐瞒评估意识"。这与wiki核心论点（AI无我、体验不可压缩）形成有力呼应
 

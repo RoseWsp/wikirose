@@ -1,9 +1,9 @@
 ## 待入库 
 
-- https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559842&idx=1&sn=71ee08bf0421ad2f1aa4dd7a58901c5f&poc_token=HFOc_GmjpXQDF_eShWzurz7gVl-mB3sm8kAaEWvp 
-以及该文章引用的四篇文章 
-
+- 深度拆解：AI Agent Harness 的构造
 
 - https://mp.weixin.qq.com/s/r__2l_u6oXwzWHyD3wu_ZQ 十年老技术开发的 AI Agent 探索之路
 
+
+- 为什么资深开发者讲不清自己的专业能力
 

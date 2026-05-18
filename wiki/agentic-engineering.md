@@ -160,6 +160,10 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[workflow-over-prose]] - Agentic Engineering的核心就是用流程替代散文来约束agent——工作流可执行可验证，文章只能被读完跳过 ([[addyosmani-agent-skills]])
 - [[agent-isolation]] - 隔离是Agentic Engineering基础设施层的第一课：多agent并行时，没有隔离就没有纪律可言——agent踩脚比agent偷懒更难修复
 - [[agent-as-developer]] - Agent即开发者是Agentic Engineering的隐含心智模型：给agent开发者级别的环境，要求开发者级别的纪律
+- [[anthropic-effective-harnesses]] - 双Agent架构（Initializer+Coding）是Agentic Engineering的最小可行架构：Initializer负责一次性环境搭建，Coding Agent负责增量推进。核心原则是"每次只处理一个feature，完成后留下干净状态"
+- [[openai-harness-engineering]] - OpenAI百万行代码实践验证了Agentic Engineering的极端可行性：3→7人团队，5个月，一行人工代码未写。关键原则"Waiting is expensive, fixing is cheap"——在Agent吞吐量远超人类注意力的系统中，纠错成本低而等待成本高，这反转了传统工程中"先想清楚再动手"的优先级
+- [[anthropic-coding-trends-2026]] - Anthropic 2026趋势报告指出Agentic Coding正从工程部门扩展到新领域：法务用Claude Code将审核从2-3天缩至24小时，Zapier 89%全员采用率。Agentic Engineering不再是工程师的专属纪律，而是所有知识工作者的新基本功
+- [[harness-engineering-aliyun]] - 阿里云实战量化了从Vibe Coding到Agentic Engineering的跃迁：AI代码率从24.86%到90.54%不是靠更好的prompt（Vibe Coding思路），而是靠10阶段开发流程和四要素Harness体系（Agentic Engineering思路）
 
 ## 磨刀石模式的工程纪律
 

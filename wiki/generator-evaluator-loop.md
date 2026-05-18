@@ -62,3 +62,8 @@ Opus 4.6去除了对Context Reset的需求、去除了Sprint结构（模型可�
 - [[context-architecture]] — Sprint Contract是上下文架构在交互层面的实现
 - [[agent-output-verification]] — Evaluator的功能等价于验证流程自动化
 - [[anti-rationalization]] — Evaluator防Generator合理化跳过关键步骤
+- [[contradiction-dialectics]] — Generator和Evaluator是一对矛盾：互为存在前提（没有Generator就没有评估对象，没有Evaluator就没有质量反馈），又互相斗争（Generator追求产出速度，Evaluator追求质量标准）。两者的同一性是相对的（Sprint Contract协商出暂时的统一），斗争性是绝对的（评判标准随迭代不断收紧）。这正是"相反相成"在Agent架构中的体现
+- [[practice-epistemology]] — Evaluator的评判标准来自哪里？Anthropic的经验是"需要多轮迭代才能让Evaluator的评判标准与人类对齐"——这本身就是一次实践→认识→再实践的螺旋。出厂的Evaluator是"空洞的理论"，只有经过真实Build-QA循环的检验（实践），评判标准才能被修正为有效
+- [[bounded-rationality]] — 找到Sprint Contract中的"done"定义，等价于在有限理性下找到当前sprint的主要矛盾——不追求完美定义，追求"足够清楚能让双方达成一致"
+- [[harness-engineering-aliyun]] — 阿里云实战的"Agent-to-Agent Review"是Generator-Evaluator Loop在企业级Java应用中的落地：编码Agent提交代码→评审Agent审查→检测到Agent试图跳过评审阶段时拦截。评审设循环上限（编码/测试评审最多2轮），防无限自我修改循环
+- [[anthropic-coding-trends-2026]] — Anthropic 2026趋势报告指出"人类监督通过智能协作规模化"是Generator-Evaluator Loop的组织层面扩展：不是人审每一个Evaluator的判断，而是人只在关键节点介入——Generator和Evaluator之间的循环是自动化的，人类只在Evaluator和Generator都搞不定时才介入

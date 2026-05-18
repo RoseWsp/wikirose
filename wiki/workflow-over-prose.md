@@ -42,5 +42,7 @@ Addy Osmani在Agent Skills中最核心的设计区分：skill不是参考文档�
 - [[agentic-engineering]]——Agentic Engineering的核心就是用流程替代散文来约束agent
 - [[self-healing-pipeline]]——自愈流水线是"流程优先于散文"在运维层面的实践
 - [[clarity-before-automation]]——先清晰定义流程，再让agent执行
+- [[openai-harness-engineering]] — OpenAI的"约束编码化"是流程优先于散文的终极实现：Custom Linter + Structure Tests + Taste Invariants完全替代文档层面的"建议"。"If it can't be mechanically enforced, the agent will drift"——不能机械执行的规则就是散文，Agent读完会跳过
+- [[harness-engineering-aliyun]] — 阿里云实战的10阶段开发流程中每个阶段三要素（触发条件/Skill加载/质量门禁）是流程优先于散文的工程化：每个阶段不是"建议Agent考虑X"，而是"触发条件满足→加载Skill→执行→质量门禁通过→进入下一阶段"
 
 来源：[[addyosmani-agent-skills]]

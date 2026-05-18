@@ -32,3 +32,8 @@ raw: raw/recordings/矛盾论.md
 这条源与[[practice-theory|实践论]]是1937年同一场战斗的双生子。两者共同构成wiki的方法论基座：认识论（如何知道）+ 辩证法（如何分析）。
 
 - 基座框架：[[contradiction-dialectics]]
+- [[harness-engineering]] — 脚手架作为外因约束，作用于AI的内部矛盾（One-shot冲动、过早宣布胜利）
+- [[generator-evaluator-loop]] — Generator和Evaluator是一对矛盾：相反相成
+- [[ai-value-distribution]] — 裁员潮中"外因是变化的条件，内因是变化的根据"的当代案例
+- [[bounded-rationality]] — 找到主要矛盾是有限理性困境的操作级回应
+- [[scope-discipline]] — 范围纪律=只处理主要矛盾，不碰次要矛盾

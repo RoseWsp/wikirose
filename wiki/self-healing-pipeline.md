@@ -60,3 +60,7 @@ CREAO构建的自愈反馈循环是[[harness-engineering]]的标志性产出。�
 - [[loop-scheduling]]——Loop看护PR和CI是自愈流水线的实时版：Boris的Loop自动修复CI、rebase、修复flaky test，与自愈流水线逻辑完全一致。区别在于自愈流水线是事件驱动（错误触发修复），Loop是时间驱动（cron定期巡检）。两者叠加可以实现"7x24无人值守"——Loop每分钟巡检，发现异常立即触发自愈流水线 ([[boris-chenyi-sequoia-ai-ascent]])
 - [[agent-immune-system]]——自愈流水线是工程层面的检测-修复闭环，免疫系统是认知层面的检测-学习闭环——结构同构，层级不同
 - [[scope-discipline]]——自愈流水线的"每个工具只负责一个阶段"是范围纪律在系统层面的体现 ([[addyosmani-agent-skills]])
+- [[openai-harness-engineering]] — OpenAI的"熵的垃圾回收"是自愈流水线在代码质量维度的实例：后台Agent定期扫描偏差并发起修复PR，"技术债务就像高息贷款，持续还小额比积累后一次解决痛苦少得多"。与CREAO自愈流水线（事件驱动、从错误触发修复）互补，熵回收是时间驱动、从代码漂移触发修复
+- [[anthropic-effective-harnesses]] — Anthropic的Feature List标记"failing"让后续Agent有明确目标，是自愈流水线"检测→分诊→修复→验证"中"检测"环节的Agent化实现——Agent自动发现哪个feature未通过，而非等人类报告bug
+- [[entropy-garbage-collection]]——熵回收Agent是自愈流水线在代码质量维度的实例：自愈流水线修复运行时错误，熵回收修复代码腐化——同一闭环逻辑，不同目标层
+- [[practice-epistemology]]——自愈流水线的"每日健康检查→分析→修复→验证"是一次完整的"实践→认识→再实践"微型循环。监控数据是感性认识，分诊引擎的错误模式聚类是理性认识，修复部署回到运行环境中验证是第二次飞跃——闭环不转=认识链断了

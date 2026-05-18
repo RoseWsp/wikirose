@@ -37,4 +37,4 @@ Anthropic发布的年度AI编码趋势报告，预测了8个将定义2026年代�
 
 ### 关联页面
 
-[[harness-engineering]]、[[agent-matrix]]、[[org-process-gap]]、[[organizational-self-knowledge]]
+[[harness-engineering]]、[[agent-matrix]]、[[org-process-gap]]、[[organizational-self-knowledge]]、[[agentic-engineering]]、[[clarity-before-automation]]

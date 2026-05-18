@@ -38,5 +38,6 @@ AI可能成为卡尼曼系统1和系统2之外的"系统0"——在人类直觉�
 - [[understanding-as-cloud]] — 系统0给你的是云的一个点（定义/结论），但理解需要整朵云的形状。答案来得太快，来不及让周围的"像"被点亮、来不及在抽象梯上攀爬——系统0用点的速度碾压了云的形成
 - [[anti-rationalization]] — LLM的合理化是系统0的工程版：它不只替你做决策，还替跳过决策找理由，而且理由听起来完全正确。系统0替换决策本身，合理化替换决策的合理性感知——后者更危险，因为你甚至不觉得决策被替换了 ([[addyosmani-agent-skills]])
 - [[fortune-misfortune-dialectic]] — 选福就是系统0路径（跳过摩擦直接拿结果）。AI没有恐惧没有贪婪，它的"选"永远是纯计算结果——它只能选福，不可能选祸。这是系统0局限性的决策论表达：系统0不只跳过摩擦，还跳过了人唯一能变强的路径
+- [[harness-engineering]] — Harness的四种Agent失败模式是系统0的工程层症状：One-shot Syndrome是Agent以为一步到位（系统0给的过度自信），Premature Victory Declaration是Agent跳过验证就宣布完成（系统0跳过了"思考"直接输出答案）。Harness本质上是用外部约束对冲系统0在Agent端的表现([[anthropic-effective-harnesses]]、[[harness-engineering-aliyun]])
 
 来源：[[lijigang-experience-incompressible]]

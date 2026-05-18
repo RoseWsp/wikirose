@@ -54,3 +54,9 @@ Gupta 拒绝"AI 洗白"的简单解释，也拒绝"AI 直接替代"的粗暴说�
 - [[machine-economy]]
 - [[harness-engineering]]
 - [[ai-value-distribution]]
+- [[architect-operator-model]] — 操作员阶层承担AI成本转嫁的代价
+- [[role-convergence]] — 角色融合的收益归资本，代价归劳动者
+- [[ai-piloting]] — AI驾驶能力成为新的阶级分界线
+- [[ai-readiness-gap]] — 准备度鸿沟决定了"投入→成果"的转化率
+- [[product-overhang]] — 产品过剩加剧了投入产出断裂
+- [[practice-epistemology]] — "代码是投入，用户付费才是成果"是实践认识论在商业价值层的展开

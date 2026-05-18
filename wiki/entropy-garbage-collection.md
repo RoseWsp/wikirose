@@ -39,3 +39,5 @@ OpenAI早期尝试每周五手动清理"AI残渣"，占团队20%的时间。但�
 - [[agent-output-verification]] — 为回收Agent提供判断标准
 - [[agent-native-tooling]] — 两者都是"Agent时代的工程纪律"的一部分
 - [[self-healing-pipeline]] — 熵回收Agent是自愈流水线在代码质量维度的实例
+- [[practice-epistemology]] — "技术债务就像高息贷款"——持续还小额比积累后一次解决痛苦少得多。这和实践认识论的螺旋一致：每次小幅重构≈一次"实践→修正"的微型循环，比等代码腐化后再大修（一次巨型实践）更高效
+- [[contradiction-dialectics]] — 熵增是代码库的"内部矛盾运动"——不干预则必然走向腐化。回收Agent是外部约束（外因）作用于内部矛盾，但根本的解法是将Golden Principles编码化进CI，使其成为系统的"内因"——从外部约束变为内部自律

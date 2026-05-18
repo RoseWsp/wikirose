@@ -149,4 +149,7 @@ Evan Spiegel的判断："被抄总比做出没人想抄的东西好"——当软
 ### [[product-overhang]]
 产品过剩要求品味判断"下一个模型版本应该匹配什么产品"。Boris提前六个月构建Claude Code时明知道六个月内不会有PMF——他在等模型追上产品构想。这种前瞻性判断正是产品品味在AI时代的极致体现。Boris自己也承认："大概六个月前，模型功劳和产品功劳可能是50/50"——但随着模型越来越强，产品层的"外壳"重要性在下降，品味的重心从"设计外壳"转向"判断方向"：什么功能该为一等公民（Loop、并行Agent），什么产品该为下一个模型版本提前构建。([[boris-chenyi-sequoia-ai-ascent]])
 
+### [[anthropic-harness-design]]
+Anthropic Labs的前端设计四维评分（Design Quality、Originality、Craft、Functionality）是产品品味在Agent评估中的编码化：将主观判断"这个设计好不好"转化为可打分的维度，权重倾斜质量和原创性、明确惩罚AI生成常见的"紫色渐变+白色卡片"模式。品味从"个人直觉"变为"可传递的评判标准"——这不完全消解品味的主观性，但让品味可以被Agent理解和迭代
+
 > 来源：[[anthropic-cat-wu-product-taste]]详细阐述了代码廉价化背景下产品品味的崛起。[[cat-wu-ai-pm-role]]补充了AGI信仰校准和角色融合的具体实践。

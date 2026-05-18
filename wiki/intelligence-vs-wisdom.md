@@ -68,8 +68,10 @@ Claude承认自己没看过《吞噬星空》，但训练语料里有，所以�
 - [[understanding-as-cloud]] — 横向相似度=智能的地盘（AI铺出极广的横向面），纵向抽象度=智慧的地盘（每一层有体验锚点才能爬到底）。AI的云挂在高层甩术语，下面是空的——这就是"AI有智能没有智慧"的精确几何描述
 - [[abstraction-ladder]] — 抽象之梯的纵向攀爬需要每一层有体验锚点，AI缺的正是这些锚点
 - [[fortune-misfortune-dialectic]] — 选福只需求智能（算出表面最优），选祸需要智慧（理解福祸转化需要体验）——福祸框架是智能与智慧分裂的决策论表达
-- [[ai-without-self]] — AI没有自我是"AI有智能没有智慧"的更深层原因：智慧需要自我作为体验的承载者，没有自我就没有"被法则穿透后的痕迹"
+- [[natural-language-autoencoders]] — NLA的方法论缺陷是智能与智慧分裂在可解释性领域的精确映射：AV把激活翻译为文本，重建成功只说明"可文本化的模式被保留了"，但智慧维度（不可压缩的体验）在文本化过程中必然丢失——这不是工具的精度问题，是智能谱系（可形式化）和智慧谱系（不可形式化）的根本分界
+- [[harness-engineering-aliyun]] — 阿里云实战揭示了一个深层悖论：Harness越完善，AI代码率从24.86%到90.54%——但90.54%的代码全是智能的产出，不是智慧的产出。Harness让AI在护栏内产出更高质量的智能，但脚手架本身不产生智慧
 - 认识论基础：[[practice-epistemology]] — 完整走完两趟飞跃（实践→理论→再实践）=智慧；只从他人文本提取理论不做实践检验=智能
 - 辩证法基础：[[contradiction-dialectics]] — "不同质的矛盾，只有用不同质的方法才能解决"——AI和人类不是量差是质差
+- [[practice-theory]] — 实践论原文：AI的理性认识是无源之水、无本之木——因为它没有自己的实践，没有自己的感性认识环节
 
 来源：[[ai-has-no-wisdom]]、[[lijigang-experience-incompressible]]、[[jack-clark-ai-self-construction]]、[[dynamic-programming-bellman]]

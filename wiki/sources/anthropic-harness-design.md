@@ -30,4 +30,4 @@ Anthropic Labs团队将GAN（生成对抗网络）思想引入Agent架构的设�
 
 ### 关联页面
 
-[[harness-engineering]]、[[agent-failure-modes]]、[[context-architecture]]、[[generator-evaluator-loop]]
+[[harness-engineering]]、[[agent-failure-modes]]、[[context-architecture]]、[[generator-evaluator-loop]]、[[contradiction-dialectics]]、[[anti-rationalization]]、[[agent-output-verification]]

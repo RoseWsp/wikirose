@@ -158,6 +158,8 @@ Software 3.0让编程能力扩展到更广泛人群：
 - [[compulsive-capability-use]] - Software 3.0程序获得新感知维度后不会"负责任地"使用，而是过度使用
 - [[agent-native-tooling]] - Software 3.0以LLM为计算机，语言应服务于计算机（LLM）而非人类程序员——可读性时代的终结
 - [[agent-output-verification]] - Software 3.0程序的输出验证不能模仿代码审查，而应模仿编译器输出的验证方式
+- [[harness-engineering-aliyun]] - 阿里云实战把Software 3.0的编程范式具体化为四要素架构：Rules（告诉Agent标准是什么）+ Skills（告诉Agent应该怎么做）+ Wiki（告诉Agent系统是什么样的）+ Changes（记录Agent做了什么）。这是Karpathy"哪一段文字应该复制给你的Agent"的工程化实现
+- [[anthropic-effective-harnesses]] - Anthropic的双Agent架构揭示了Software 3.0编程的"上下文窗口是有限资源"约束：每次Agent会话必须从pwd开始重建认知，Feature List JSON是"跨窗口的程序状态持久化"。Software 3.0编程不只是写prompt，还包括设计跨会话的状态交接机制
 
 ## 参考资料
 

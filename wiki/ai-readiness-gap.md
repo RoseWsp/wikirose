@@ -42,3 +42,4 @@ Daniel Miessler指出一个极其讽刺的事实：**那些能被AI真正赋能�
 - [[org-process-gap]] — Boris给出了准备度鸿沟的精确维度：不是技术准备度，而是组织流程准备度。Anthropic和外部用的是同样的模型，但Anthropic内部AI已渗透到每个流程——Agent通过Slack协商、所有SQL由模型生成——而外部大多数公司连第一步都没迈出。准备度鸿沟的最宽处不在技术获取，在流程改造速度。([[boris-chenyi-sequoia-ai-ascent]])
 - [[steel-film-vs-whetstone]] — 准备度鸿沟在个人维度的对应：选择[[steel-film-vs-whetstone|钢化膜模式]]的人（让AI替代判断）实际上是"没准备好"的个体——AI替他们下水捞黄金，结果很好，但他们没下水。选择[[steel-film-vs-whetstone|磨刀石模式]]的人（用AI打磨自己）是"准备好"的个体——主体性在自己手中，AI放大的是他们已有的判断力。([[lijigang-experience-incompressible]])
 - [[system-zero]] — 准备度鸿沟的另一个维度：没准备好的人更容易被[[system-zero|系统0]]接管——当AI在判断质量上持续超越人类，让渡决策权几乎不可抗拒。清晰的公司和个人有足够的判断力抵抗系统0的接管，混乱的则无意识地滑入
+- [[ai-value-distribution]]——准备度鸿沟在价值分配中的表现：清晰的公司能将AI投入转化为商业成果（跨越"投入-产出-成果"链条），混乱的公司AI投入只增加成本不增加收入——Gupta的"代码是投入，功能是产出，用户付费才是成果"框架中，准备度鸿沟决定了产出到成果的转化率([[layoffs-ai-business-value]])

@@ -152,7 +152,13 @@ Anthropic的全栈三Agent架构效果 ([[anthropic-harness-design]])：4小时/
 - [[org-process-gap]] — 脚手架工程的组织层面对应
 - [[bounded-rationality]] — 脚手架工程本质上是给AI划定有限理性的边界
 - [[generator-evaluator-loop]] — GAN启发式多Agent架构的核心模式
+- [[contradiction-dialectics]] — 脚手架作为外因约束，作用于AI的内部矛盾（One-shot冲动、过早宣布胜利等），但脚手架不能替代AI自身的能力成长——"外因是变化的条件，内因是变化的根据"
+- [[ai-value-distribution]] — 脚手架提升AI代码率但token消耗暴增，当收入不变时AI支出成为裁员的隐性推力
+- [[practice-epistemology]] — 脚手架为AI替代了实践环节（验证、测试、约束），但AI没有自己的实践——脚手架是外部的"伪实践"，不是从内部矛盾运动中长出来的真实践
+- [[mao-dun-lun]] — 脚手架的四类失败模式（One-shot、过早胜利等）是AI的"内部矛盾"在外部约束下的表现——矛盾论提供分析这些失败模式的框架
 
 ## 组织层面的脚手架
 
 脚手架的发挥作用前提不只是技术基础设施，而是组织本身已经理清了"要做什么"和"怎么运转"。混乱公司的问题不是缺CI/CD——而是连自己的工作流都描述不出来。工程层面的"先搭脚手架再让AI跑"和组织层面的"先清晰目标再让AI执行"是同一枚硬币的两面 ([[companies-not-ready-for-ai]])。
+
+脚手架还有一层隐形成本：Gupta指出工程师每天在Claude上花100美元（年约3万美元），这笔AI支出在企业间流转（资本对资本的支付），但代价通过裁员和工资停滞转移到了劳动者身上 ([[layoffs-ai-business-value]])。脚手架工程让AI代码率从25%跃升到90%，但AI代码率的提升也意味着token消耗的指数增长——当收入不变时，这笔账最终由人力成本来平衡。

@@ -31,3 +31,12 @@ raw: raw/blog/Harness Engineering：耗时一周，我是如何将应用的AI Co
 ### 参考文献
 
 本文引用了四篇关键参考文献，均已分别ingest：[[anthropic-effective-harnesses]]、[[anthropic-harness-design]]、[[anthropic-coding-trends-2026]]、[[openai-harness-engineering]]
+
+### 出站链接
+- [[harness-engineering]] — 三次范式跃迁、四根支柱、10阶段流程的完整来源
+- [[vibe-coding]] — Vibe Coding到Harness Engineering的跃迁量化
+- [[agentic-engineering]] — Agentic Engineering的具体实践形态
+- [[generator-evaluator-loop]] — "Agent-to-Agent Review"是Generator-Evaluator Loop的企业级落地
+- [[anti-rationalization]] — 评审循环上限是反合理化的制度化
+- [[architect-operator-model]] — 10阶段流程中5个确认点是架构师保留的关键决策权
+- [[clarity-before-automation]] — 需求评审是先清晰在脚手架中的制度化

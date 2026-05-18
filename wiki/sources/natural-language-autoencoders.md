@@ -45,5 +45,9 @@ blackmail测试中Claude内部"想"的"This feels like a constructed scenario"�
 ## 链接
 
 - [[mechanistic-interpretability]]：NLA是Anthropic可解释性研究路径的最新环节
-- [[ai-without-self]]：NLA的过度声明是"把训练数据记忆当作情感体验"的典型案例
 - [[understanding-as-cloud]]：激活是云，NLA输出的文本是点——用点代表云本身就是理解层面的压缩损失
+- [[sensory-gap]]：NLA能翻译激活但无法感知激活——"读到"不等于"体验到"，感知缺失的另一个实例
+- [[intelligence-vs-wisdom]]：NLA映射的是智能维度（可文本化的模式），智慧维度（不可压缩的体验）在文本化中必然丢失
+- [[experience-incompressible]]：文本化激活≠体验激活，NLA的压缩损失是体验不可压缩的精确案例
+- [[agent-immune-system]]：NLA式实时激活监控可作为免疫系统的"感官延伸"——从文本级免疫升级到激活级免疫
+- [[compulsive-capability-use]]：NLA有潜力定位"新能力强迫性使用"的内部电路，为可解释性开辟新方向

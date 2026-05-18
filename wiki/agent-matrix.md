@@ -55,3 +55,7 @@ Boris Cherny提供了Agent矩阵的最新实践数据：手机上同时运行5-1
 ## 终极形态：Agent矩阵不再需要人类
 
 Jack Clark指出AI管理AI已在产品层面实现（Claude Code、子智能体架构），[[automated-ai-rd|自动化AI研发]]意味着矩阵中不再需要人类操作员——[[architect-operator-model]]中的"操作员"被AI自己取代，"架构师"也岌岌可危。递归自改进是Agent矩阵的极限形态：模型训练下一代模型，Agent构建下一批Agent。([[jack-clark-ai-self-construction]])
+
+## 人类监督规模化
+
+Anthropic 2026趋势报告量化了Agent矩阵中人类监督的瓶颈：60%工作用AI但仅0-20%可完全委托。Agent矩阵的扩张不只是技术问题——人如何在关键节点介入、如何在不降低信任的情况下缩小监督面，是矩阵规模化的真正约束。Anthropic给出的方向是"Agent学会请求帮助"——不是让人无处不在，而是让Agent知道何时该找人来判断。([[anthropic-coding-trends-2026]])

@@ -59,3 +59,6 @@ CTO从60%时间管理人员变成不到10%，从"管理者"变回"建造者"。�
 - [[opc-one-person-company]]——一人公司是架构师-操作员模型的极端版：一个人就是架构师，所有操作员都是AI
 - [[automated-ai-rd]]——自动化AI研发意味着操作员角色被AI自己取代，架构师也岌岌可危——当AI能自主训练下一代，谁来设计脚手架？
 - [[recursive-self-improvement]]——递归自改进是架构师-操作员模型的终局：AI既是操作员也是架构师，人类从链路中退出
+- [[harness-engineering-aliyun]] — 阿里云实战中架构师角色的具体化：10阶段开发流程的每个阶段三要素（触发条件/Skill加载/质量门禁）由架构师设计，5个Human-in-the-Loop确认点是架构师保留的关键决策权。架构师不是"设计一次后离场"，而是通过质量门禁持续把关
+- [[openai-harness-engineering]] — OpenAI百万行代码实践是架构师-操作员模型的极端验证：架构师写~100行AGENTS.md（地图而非百科全书），编码化约束（Custom Linter + Taste Invariants），操作员（Codex Agent）在约束内自主运行。从25%到90%的自主度提升，是架构师逐步放权、操作员逐步自立的过程
+- [[ai-value-distribution]]——操作员阶层是AI价值分配中成本承担的微观形态：token账单由资本支付，但操作员岗位被AI替代的代价由劳动者承担。架构师阶层受益于AI放大判断力，操作员阶层则面临被Agent替代的风险——同一枚硬币的两面，收益归架构师（资本），成本归操作员（劳动）([[layoffs-ai-business-value]])

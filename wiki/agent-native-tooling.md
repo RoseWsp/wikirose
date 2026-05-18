@@ -50,5 +50,7 @@ SkipLabs的SKJS是信号：TypeScript兼容但sound，对人类更难，对Agent
 - [[sensory-gap]]：感知缺失意味着Agent-native工具不能假设Agent拥有人类直觉（如"这个错误不重要"），必须显式编码所有判断
 - [[action-based-ai]]：MCP是Agent获取工具权限的首选路径——Boris明确说"对知识工作来说，答案永远是最简单的那个：MCP"。MCP连接器让Agent直接接入Salesforce、Google Docs等云端工具，computer use是兜底方案。对模型来说，MCP、CLI还是API本质上都只是token。([[boris-chenyi-sequoia-ai-ascent]])
 - [[harness-engineering]]：云端vs本地AI的部署位置之争，Boris的判断是"这件事不重要"——一两年后模型会自己决定路由，把"部署位置"变成由Agent决定的路由问题。这对靠"本地优先"做差异化的初创公司不是好消息，也意味着Agent-native工具设计不应假设固定的部署环境。([[boris-chenyi-sequoia-ai-ascent]])
+- [[openai-harness-engineering]] — OpenAI百万行代码实践是Agent-native工具的终极验证：AGENTS.md作为~100行索引指向深层docs/，代码仓库成为Agent唯一的记录系统——Slack讨论和Google Docs对Agent不存在。约束编码化（Custom Linter + Structure Tests + Taste Invariants）完全替代文档层面的"建议"，是[[workflow-over-prose|流程优先于散文]]在工具层面的实现
+- [[anthropic-effective-harnesses]] — Feature List用JSON而非Markdown管理功能清单，因为模型更不易误改JSON——这是Agent-native工具设计原则（"严格胜过宽容"）在数据格式选择上的具体体现
 
 > 核心来源：[[venturini-code-never-for-machines]] | 姊妹概念：[[agent-output-verification]]

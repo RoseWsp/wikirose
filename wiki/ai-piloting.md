@@ -51,3 +51,4 @@ AI驾驶能力是[[agentic-engineering]]的个人技能维度。Agentic Engineer
 - [[compulsive-capability-use]]——AI对新能力的强迫性使用是驾驶中需要预判和约束的风险
 - [[ai-native-hiring-guide]]——源文件
 - [[steel-film-vs-whetstone]]——AI驾驶 = 磨刀石模式，驾驶而非乘坐，用AI打磨自己而非替代自己
+- [[ai-value-distribution]]——AI驾驶能力是价值分配中"谁受益"的关键变量：会驾驶AI的人（磨刀石模式）在AI时代获得溢价，不会驾驶的人（钢化膜模式）被替代。这不是AI取代了人，而是AI驾驶能力成为新的阶级分界线——Gupta指出"你的工作没有被Claude实例取代，但你产出的成果现在别人可以直接让LLM生成"([[layoffs-ai-business-value]])

@@ -27,4 +27,4 @@ Anthropic关于长时间运行Agent的Harness设计的开山之作。核心解�
 
 ### 关联页面
 
-[[harness-engineering]]、[[agent-failure-modes]]、[[context-architecture]]
+[[harness-engineering]]、[[agent-failure-modes]]、[[context-architecture]]、[[anti-rationalization]]、[[self-healing-pipeline]]、[[scope-discipline]]

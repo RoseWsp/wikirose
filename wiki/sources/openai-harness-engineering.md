@@ -33,4 +33,4 @@ OpenAI团队用Codex构建百万行代码产品的完整经验分享。3→7人�
 
 ### 关联页面
 
-[[harness-engineering]]、[[agent-native-tooling]]、[[agent-output-verification]]、[[agent-matrix]]、[[entropy-garbage-collection]]
+[[harness-engineering]]、[[agent-native-tooling]]、[[agent-output-verification]]、[[agent-matrix]]、[[entropy-garbage-collection]]、[[architect-operator-model]]、[[self-healing-pipeline]]、[[scope-discipline]]

@@ -65,4 +65,4 @@ AI 这个外因通过"成本转嫁机制"和"对齐税暴露"两个路径作用�
 - [[contradiction-dialectics|矛盾辩证法]] — 内因外因框架的当代案例
 - [[practice-epistemology|实践认识论]] — "学会使用 AI"本身就是一场实践
 - [[clarity-before-automation|先清晰再自动化]] — 大部分企业还没想清楚要做什么，AI 的投入只是放大了混乱
-- [[ai-without-self|AI无我]] — 谁在 AI 时代"无我"——是被优化的人，还是在分配结构中让渡收益的资本
+- [[mao-dun-lun]] — 矛盾论原文提供了"外因通过内因而起作用"的分析框架：AI是外因，裁员的内因是分配矛盾

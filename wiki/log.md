@@ -1,3 +1,15 @@
+## [2026-05-21 21:30] ingest | 深度拆解：AI Agent Harness 的构造
+- 源文件：raw/blog/深度拆解：AI Agent Harness 的构造.md
+- 新建源摘要页：[[agent-harness-anatomy]]（Akshay全景拆解：冯·诺依曼类比、12组件分解、协同进化原则、7决策框架）
+- 更新 [[harness-engineering]]：新增"Harness=操作系统"元模型段落（冯·诺依曼架构类比）、12个核心组件完整分解（补上错误处理分类和护栏层级）、协同进化原则（模型越强Harness越薄但永不消失）、7个关键决策框架（架构师层面）
+- 交叉链接（已有页面→新页面）：
+  - [[agent-output-verification]] → [[agent-harness-anatomy]]（验证循环是12组件之一，Boris Cherny 2-3倍提升数据）
+  - [[generator-evaluator-loop]] → [[agent-harness-anatomy]]（验证循环+子Agent编排的组件层体现）
+  - [[agent-immune-system]] → [[agent-harness-anatomy]]（免疫系统是认知层护栏，与三层外部护栏互补）
+- 更新 [[index.md]]：新增1源摘要条目
+- 更新 [[home.md]]：Harness Engineering深度演进板块新增agent-harness-anatomy补充说明，状态更新39源/133页
+- 关键洞察：这篇文章是wiki已有5篇实战手册的"全景图"——冯·诺依曼类比让人一眼理解Harness的本质位置，12组件补上了错误处理和护栏两个盲区，协同进化原则把"Opus 4.6需要更少脚手架"从观察上升为原则，7决策框架从架构师层面提问
+
 ## [2026-05-17 22:00] digest | 9源深度传播（第二轮）：矛盾论+实践论基座传播 + 前7源深度交叉
 - 源文件：[[mao-dun-lun]]、[[practice-theory]]、[[layoffs-ai-business-value]]、[[natural-language-autoencoders]]、[[harness-engineering-aliyun]]、[[anthropic-effective-harnesses]]、[[anthropic-harness-design]]、[[anthropic-coding-trends-2026]]、[[openai-harness-engineering]]
 - 深度传播：25+个现有页面更新（无新页面创建）

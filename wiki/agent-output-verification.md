@@ -52,5 +52,6 @@
 - [[anthropic-harness-design]] — Anthropic三Agent架构中Evaluator用Playwright MCP点进页面做QA，是Agent输出验证从"审查代码"到"验证可观测行为"的精确实现——不看代码，看运行结果。Sprint Contract在写代码前协商"done"的定义，是验证体系的上游约束
 - [[openai-harness-engineering]] — OpenAI百万行代码实践中"Agent审核Agent"：几乎所有审核工作从人工转向Agent-to-Agent，是验证体系从人类审查到Agent互审的规模化路径——验证的执行者从人变为Agent，验证的流程不变
 - [[generator-evaluator-loop]] — Evaluator Agent是验证体系自动化的实现：独立Agent替代人工审查，把"人读人审"推进到"Agent审Agent"。Sprint Contract的"done"定义等价于验证退出标准的Agent间协商
+- [[agent-harness-anatomy]] — 验证循环是Akshay划分的12组件之一，Boris Cherny指出让模型验证自己工作可提升2-3倍产出质量——这是区分"玩具演示"和"生产级Agent"的关键
 
 > 核心来源：[[venturini-agent-output-compiler]]

@@ -41,6 +41,7 @@
 - [[anthropic-harness-design]] - Anthropic Labs：GAN启发式三Agent架构（Planner+Generator+Evaluator），Sprint Contract，四维设计评分
 - [[anthropic-coding-trends-2026]] - Anthropic 2026 Agentic Coding Trends Report：8大趋势——SDLC巨变、多Agent协调、长时间运行Agent、人类监督规模化、安全双刃剑
 - [[openai-harness-engineering]] - OpenAI：Harness engineering with Codex——百万行代码零人工编写，AGENTS.md是地图不是百科全书，熵的垃圾回收
+- [[agent-harness-anatomy]] - Akshay：Agent Harness结构化全景拆解——冯·诺依曼类比、12组件分解、协同进化原则、7决策框架
 
 ## Concepts (概念)
 - [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的

@@ -4,6 +4,8 @@
 
 - https://mp.weixin.qq.com/s/r__2l_u6oXwzWHyD3wu_ZQ 十年老技术开发的 AI Agent 探索之路
 
-
 - 为什么资深开发者讲不清自己的专业能力
+
+- Andrej Karpathy 说过一句话：Claude 犯的错，90% 是因为上下文没给够，跟模型本身的能力没关系
+
 

@@ -1,0 +1,6 @@
+# Git internals
+.git/
+
+# Python cache
+__pycache__/
+*.pyc

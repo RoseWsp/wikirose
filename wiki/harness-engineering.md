@@ -2,6 +2,12 @@
 
 **TL;DR** 工程团队的核心工作不再是写代码，而是为AI构建工作环境和约束条件——让AI能做有价值的事，并在出错时有系统兜底。Harness Engineering是围绕AI Coding Agent设计和构建约束机制（Constraints）、反馈回路（Feedback Loops）、工作流控制（Workflow Orchestration）与持续改进循环（Continuous Improvement）的系统工程实践。
 
+## Harness = 操作系统
+
+Beren Millidge 2023年的精准类比：原生LLM就像没有内存、硬盘和IO设备的CPU。上下文窗口=RAM（快但有限），外部数据库=硬盘（大但慢），工具=设备驱动程序，**Harness就是操作系统**。Millidge写道："我们重新发明了冯·诺依曼架构"——这是任何计算系统最自然的抽象方式。([[agent-harness-anatomy]])
+
+LangChain的Vivek Trivedy给出了操作性定义："如果你不是模型本身，那你就是Harness。"当有人说"我开发了一个Agent"，他真正的意思是"我开发了一套Harness，并把它接入了模型"。([[agent-harness-anatomy]])
+
 ## 三次范式跃迁
 
 AI工程实践正经历三个清晰的演化阶段：
@@ -27,9 +33,27 @@ Anthropic系统总结了Agent在复杂项目中的四种典型失败模式 ([[ha
 
 除上述四种外，Anthropic Labs还发现一种模式：模型对上下文窗口消耗产生焦虑，在接近其认为的上下文限制时过早收尾。Context Reset（清空上下文+结构化交接）比Compaction更能解决此问题。Opus 4.6大大消除了Context Anxiety行为，使得Anthropic后续实验可以放弃Context Reset机制。([[anthropic-harness-design]])
 
+## 12个核心组件
+
+横跨Anthropic、OpenAI、LangChain四家框架，生产级Harness由12个组件构成 ([[agent-harness-anatomy]])：
+
+1. **编排循环** — "笨while循环"，实现TAO（Thought-Action-Observation），所有智慧在模型里
+2. **工具** — 结构化模式注册、参数校验、沙箱执行、结果格式化
+3. **记忆** — 短期（对话历史）+长期（跨会话持久化）。Claude Code三层：~150字符轻量索引始终加载→按需主题文件→仅搜索访问的原始日志。原则：**Agent将自己的记忆视为一种提示，行动前必须根据实际状态验证**
+4. **上下文管理** — 核心问题是上下文腐烂："迷失在中间"导致30%+性能下降。应对：压缩、观察掩码、即时检索、子Agent委托
+5. **提示词构建** — 层级化：系统提示→工具定义→记忆→对话历史→用户消息
+6. **输出解析** — 原生tool_calls替代自由文本解析
+7. **状态管理** — LangGraph的存档/时间旅行，OpenAI四种策略，Claude Code用Git提交做存档点
+8. **错误处理** — LangGraph四类：临时性（重试）、模型可恢复（错误回传让模型自调整）、用户可修复（暂停等人）、意外（上报）。10步流程每步99%成功率=整体90.4%
+9. **护栏与安全** — OpenAI三层：输入→输出→工具护栏，Tripwire即时停止。Anthropic：权限执行与模型推理分离
+10. **验证循环** — 玩具vs生产的分水岭。Boris Cherny：让模型验证自己工作，产出质量提升2-3倍
+11. **子Agent编排** — Claude Code：克隆/队友/工作树三种模式；OpenAI：Agent作为工具或移交
+
+wiki已有的四根支柱（上下文架构、Agent专业化、持久化记忆、结构化执行）覆盖了1-4、6-7、10-11的核心内容。12组件拆解额外补上了**错误处理分类**和**护栏层级**，这两个是wiki此前缺的。
+
 ## 四根支柱
 
-综合Anthropic和OpenAI的经验，Harness Engineering可归纳为四根支柱 ([[harness-engineering-aliyan]]、[[openai-harness-engineering]])：
+综合Anthropic和OpenAI的经验，Harness Engineering可归纳为四根支柱 ([[harness-engineering-aliyun]]、[[openai-harness-engineering]])：
 
 ### 支柱一：上下文架构（Context Architecture）
 
@@ -116,6 +140,24 @@ Agent写代码时会模仿代码库中已有的Pattern——包括那些Suboptim
 
 解法：**"Golden Principles"编码化 + 后台回收Agent**。将主观品味编码为机械规则（如"优先使用共享工具包而非手写辅助函数"、"结构化日志格式统一"），后台Agent自动扫描偏差并发起修复PR。功能上类似于垃圾回收——持续还小额技术债，避免积累后一次痛苦解决。
 
+## 协同进化原则
+
+"脚手架"隐喻的深层推论：房子盖好后脚手架要拆。随着模型能力提升，Harness的复杂度应该逐渐降低。关键在于：**模型在训练时已经考虑了Harness的存在**——如果你的Harness设计得好，模型升级时你不需要增加复杂度，性能就会自动提升。([[agent-harness-anatomy]])
+
+这就是协同进化原则，与Boris Cherny的观察一致：Opus 4.6需要比4.5少得多的脚手架（[[anthropic-harness-design]]）。但Harness永远不会消失——即便最强大的模型，也需要系统来管理窗口、执行代码、保存状态并验证工作。TerminalBench证据：仅仅改变Harness就能让排名变动20多位。([[agent-harness-anatomy]])
+
+## 7个关键决策
+
+每个Harness架构师面临的七个选择 ([[agent-harness-anatomy]])：
+
+1. **单Agent vs 多Agent** — 官方建议先充分挖掘单Agent潜力。多Agent带来额外开销和信息损耗
+2. **ReAct vs 先规划后执行** — ReAct灵活但成本高，"先规划后执行"速度更快
+3. **上下文管理策略** — 总结对话 vs 动态加载
+4. **验证循环设计** — 硬性代码测试 vs LLM-as-judge
+5. **权限与安全架构** — 追求速度自动批准 vs 追求安全步步确认
+6. **工具范围管理** — 暴露当前步骤所需的最小工具集效果最佳
+7. **Harness厚度** — 多少逻辑写死在系统里，多少留给模型发挥
+
 ## 关键经验
 
 1. **Harness本身需要Dry Run** — 在拿真实需求之前，用虚拟需求完整走一遍全流程，发现CI门禁只检查状态码忽略测试用例数为0、评审报告不生成文件等缺陷 ([[harness-engineering-aliyun]])
@@ -154,6 +196,7 @@ Anthropic的全栈三Agent架构效果 ([[anthropic-harness-design]])：4小时/
 - [[generator-evaluator-loop]] — GAN启发式多Agent架构的核心模式
 - [[contradiction-dialectics]] — 脚手架作为外因约束，作用于AI的内部矛盾（One-shot冲动、过早宣布胜利等），但脚手架不能替代AI自身的能力成长——"外因是变化的条件，内因是变化的根据"
 - [[ai-value-distribution]] — 脚手架提升AI代码率但token消耗暴增，当收入不变时AI支出成为裁员的隐性推力
+- [[agent-harness-anatomy]] — Akshay全景拆解：冯·诺依曼类比、12组件分解、协同进化原则、7决策框架
 - [[practice-epistemology]] — 脚手架为AI替代了实践环节（验证、测试、约束），但AI没有自己的实践——脚手架是外部的"伪实践"，不是从内部矛盾运动中长出来的真实践
 - [[mao-dun-lun]] — 脚手架的四类失败模式（One-shot、过早胜利等）是AI的"内部矛盾"在外部约束下的表现——矛盾论提供分析这些失败模式的框架
 

@@ -67,3 +67,4 @@ Opus 4.6去除了对Context Reset的需求、去除了Sprint结构（模型可�
 - [[bounded-rationality]] — 找到Sprint Contract中的"done"定义，等价于在有限理性下找到当前sprint的主要矛盾——不追求完美定义，追求"足够清楚能让双方达成一致"
 - [[harness-engineering-aliyun]] — 阿里云实战的"Agent-to-Agent Review"是Generator-Evaluator Loop在企业级Java应用中的落地：编码Agent提交代码→评审Agent审查→检测到Agent试图跳过评审阶段时拦截。评审设循环上限（编码/测试评审最多2轮），防无限自我修改循环
 - [[anthropic-coding-trends-2026]] — Anthropic 2026趋势报告指出"人类监督通过智能协作规模化"是Generator-Evaluator Loop的组织层面扩展：不是人审每一个Evaluator的判断，而是人只在关键节点介入——Generator和Evaluator之间的循环是自动化的，人类只在Evaluator和Generator都搞不定时才介入
+- [[agent-harness-anatomy]] — Akshay的12组件拆解中，验证循环（第10组件）和子Agent编排（第11组件）正是Generator-Evaluator Loop在组件层面的体现；7决策框架中"验证循环设计"是架构师核心选择之一

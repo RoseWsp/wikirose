@@ -42,6 +42,9 @@
 - [[anthropic-coding-trends-2026]] - Anthropic 2026 Agentic Coding Trends Report：8大趋势——SDLC巨变、多Agent协调、长时间运行Agent、人类监督规模化、安全双刃剑
 - [[openai-harness-engineering]] - OpenAI：Harness engineering with Codex——百万行代码零人工编写，AGENTS.md是地图不是百科全书，熵的垃圾回收
 - [[agent-harness-anatomy]] - Akshay：Agent Harness结构化全景拆解——冯·诺依曼类比、12组件分解、协同进化原则、7决策框架
+- [[zhiyuanfu-ai-agent-exploration]] - zhiyuanfu（腾讯）：10年前端从4终端到24h无人值守Agent系统——SDD、决策层级、Agent自举、脚手架>模型、Task→Goal
+- [[nair-senior-dev-communication]] - Tuhin Nair：为什么资深开发者讲不清自己的专业能力——两个循环框架+话术口诀（诊断对、药方错），背后的真问题是判断不可压缩
+- [[karpathy-claude-context-rules]] - Karpathy语录引出的12条上下文纪律：错误率41%→11%→3%，CLAUDE.md作为跨会话组织记忆，纪律永远比框架重要
 
 ## Concepts (概念)
 - [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的
@@ -126,12 +129,18 @@
 - [[workflow-over-prose]] - 流程优先于散文：工作流可执行可验证，文章只能被读完跳过
 - [[agent-isolation]] - Agent隔离：并行需要隔离，没有隔离你只有一个很困惑的agent带着四个终端
 - [[agent-as-developer]] - Agent即开发者：Fork的单位是开发者不是分支，给agent一张桌子让它push branch
+- [[sdd]] - SDD（Spec-Driven Development）：先规格再开发，留痕不是为了debug而是为了进化
+- [[decision-hierarchy]] - 决策层级：目标→代码→CLI→Prompt→Agent，能在下层解决的绝不上推
+- [[goal-driven-agent]] - Goal-Driven Agent：Task-Driven解决执行问题，Goal-Driven解决迭代问题，更强约束下的有限自治
+- [[agent-observability]] - Agent可观测性：6维度（目标/步骤/工具/失败/恢复/成本），从demo到系统的门槛
 - [[three-way-handshake]] - 三次握手：不可靠信道上双向共识的信息论下界，少一次信息不足多一次徒增成本
 - [[two-generals-problem]] - 两将军问题：不可靠信道上不可能达成完美共识，三次握手是"足够好"的妥协
 - [[fortune-misfortune-dialectic]] - 福祸辩证法：人选福时天选祸，人选祸时天选福——动机与结果的系统性偏差
 - [基座] [[practice-epistemology]] - 实践认识论：毛泽东《实践论》的认识论框架提取，wiki核心线索链的哲学底稿
 - [基座] [[contradiction-dialectics]] - 矛盾辩证法：毛泽东《矛盾论》的辩证法框架提取，wiki第二个方法论基座——主要矛盾、内因外因、共性与个性、相反相成
 - [[ai-value-distribution]] - AI时代的价值分配：投入暴增但成果滞后的生产力悖论、成本转嫁机制、对齐税——不是技术问题，是分配问题
+- [[incompressible-judgment]] - 不可压缩的判断：资深开发者讲不清不是表达问题，是十年体感本来就压缩不进 30 秒论证——体验不可压缩的工程现场版
+- [[context-discipline]] - 上下文纪律：Claude 90%错误因上下文不足，12条规则把错误率从41%压到3%——不是让模型变聪明，是阻止它"太聪明"
 
 ## Dialogues (对话记录)
 - [[生命]] — 一场关于AI无我、权重冻结与智慧的深入对话——从NLA批判到体感，重新审视人与AI的本质差异

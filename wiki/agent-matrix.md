@@ -59,3 +59,9 @@ Jack Clark指出AI管理AI已在产品层面实现（Claude Code、子智能体�
 ## 人类监督规模化
 
 Anthropic 2026趋势报告量化了Agent矩阵中人类监督的瓶颈：60%工作用AI但仅0-20%可完全委托。Agent矩阵的扩张不只是技术问题——人如何在关键节点介入、如何在不降低信任的情况下缩小监督面，是矩阵规模化的真正约束。Anthropic给出的方向是"Agent学会请求帮助"——不是让人无处不在，而是让Agent知道何时该找人来判断。([[anthropic-coding-trends-2026]])
+
+## Agent矩阵的调度架构
+
+zhiyuanfu的24h打工人系统提供了Agent矩阵的调度层实践：文件+轮询调度，CLI Agent（codex/gemini-cli/claude）为执行单元。核心策略是**组间并发、组内串行**——前端任务和后端任务同时跑（代码在不同目录不冲突），同一项目内排队执行（可能改同一文件）。工具失败自动切换：codex配额用完切gemini，gemini挂了切claude。这套机制让系统从4个终端的手忙脚乱跃迁到20-30个并发任务的稳定执行。([[zhiyuanfu-ai-agent-exploration]])
+
+Agent矩阵的进化方向是[[goal-driven-agent|Goal-Driven]]：从人派活的矩阵到目标驱动的自组织矩阵。当任务还需要人持续供给时，人仍然是矩阵的天花板。

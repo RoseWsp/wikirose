@@ -1,3 +1,51 @@
+## [2026-05-24 14:30] ingest | Karpathy语录引出的12条上下文纪律规则
+- 源文件：raw/blog/Andrej Karpathy 说过一句话：Claude 犯的错，90% 是因为上下文没给够，跟模型本身的能力没关系.md
+- 新建源摘要页：[[karpathy-claude-context-rules]]（12条规则把错误率从41%压到3%，CLAUDE.md作为跨会话组织记忆）
+- 新建概念页：[[context-discipline]]（上下文纪律：不是让模型变聪明，是阻止它"太聪明"）
+- 交叉链接（已有页面→新页面）：
+  - [[harness-engineering]] → [[context-discipline]]（操作手册版，最轻量harness实现，41%→3%量化数据）
+  - [[anti-rationalization]] → [[context-discipline]]（规则7/9/11/12是反合理化的具体实现）
+  - [[scope-discipline]] → [[context-discipline]]（规则2/3/8是范围纪律的操作版）
+  - [[clarity-before-automation]] → [[context-discipline]]（"90%是上下文没给够"是先清晰的量化验证）
+  - [[decision-hierarchy]] → [[context-discipline]]（规则5：模型只做判断型任务）
+  - [[agent-observability]] → [[context-discipline]]（规则10/12是可观测性最低实现）
+  - [[bounded-rationality]] → [[context-discipline]]（Token预算是有限理性在上下文窗口的精确投影，也暴露了"90%是上下文"论点的边界）
+- 更新 [[index.md]]：新增1源摘要+1概念页条目
+- 更新 [[home.md]]：新增"上下文纪律"主题板块，状态更新41源/92概念/140页
+- 关键洞察：12条规则是脚手架工程的操作手册版——最轻量的实现（一个规则文件），但也是最脆弱的（纯靠文本约束，无代码级强制执行）。规则6自己暴露了"90%是上下文"的边界：第40条消息时遗忘第5条否掉的方案，是窗口物理限制而非上下文工程不足
+
+## [2026-05-21 22:49] ingest | Nair：为什么资深开发者讲不清自己的专业能力
+- 源文件：raw/clips/为什么资深开发者讲不清自己的专业能力.md
+- 新建源摘要页：[[nair-senior-dev-communication]]（Tuhin Nair：两个循环框架+"试个更快的办法"口诀；诊断对、药方错——真问题是判断不可压缩）
+- 新建概念页：[[incompressible-judgment]]（不可压缩的判断：资深开发者讲不清不是表达问题，是十年体感压不进 30 秒论证；与 [[anti-rationalization]] 互为镜像——一个是没判断却能编论证，另一个是有判断却编不出论证）
+- 交叉链接（已有页面→新页面）：
+  - [[experience-incompressible]] → [[incompressible-judgment]]（工程协作的日常版）
+  - [[anti-rationalization]] → [[incompressible-judgment]]（镜像问题：同一道沟的两边）
+  - [[scope-discipline]] → [[incompressible-judgment]]（"我们真的需要吗"是其现场版，但说不清为什么）
+  - [[clarity-before-automation]] → [[incompressible-judgment]]（反向应用：你无法沟通你只用体感判断的东西）
+- 更新 [[index.md]]：新增 1 源摘要 + 1 概念页条目
+- 关键判断：作者通篇 70% 是抱怨而非分析，这本身就是论点的证据——当判断不可压缩时，能交付的只剩抱怨；结尾甩给"背锅"也是同理：判断讲不清，剩下能传递的只有责任
+
+## [2026-05-21 22:30] ingest | 十年老技术开发的 AI Agent 探索之路
+- 源文件：raw/blog/十年老技术开发的 AI Agent 探索之路.md
+- 新建源摘要页：[[zhiyuanfu-ai-agent-exploration]]（腾讯zhiyuanfu：4终端→24h无人值守，SDD、决策层级、Agent自举、脚手架>模型、Task→Goal）
+- 新建概念页：
+  - [[sdd]]（SDD/Spec-Driven Development：先规格再开发，留痕不是为了debug而是为了进化）
+  - [[decision-hierarchy]]（决策层级：目标→代码→CLI→Prompt→Agent，能在下层解决的绝不上推）
+  - [[goal-driven-agent]]（Goal-Driven Agent：Task→Goal的认知跃迁，更强约束下的有限自治）
+  - [[agent-observability]]（Agent可观测性：6维度必看，从demo到系统的门槛）
+- 交叉链接（已有页面→新页面）：
+  - [[harness-engineering]] → [[sdd]]、[[decision-hierarchy]]、[[agent-observability]]、[[goal-driven-agent]]（SDD是核心方法论，决策层级是分层策略，可观测性是控制面板，Goal-Driven是最高形态）
+  - [[vibe-coding]] → [[sdd]]（Vibe Coding翻车时间线是SDD必要性的最佳实证）
+  - [[agentic-engineering]] → [[sdd]]、[[decision-hierarchy]]、[[goal-driven-agent]]（SDD是方法论内核，决策层级是分层策略，Goal-Driven是下一站）
+  - [[agent-matrix]] → [[goal-driven-agent]]（Agent矩阵的进化方向+调度架构实践）
+  - [[anti-rationalization]] → [[sdd]]（SDD是对抗合理化的结构性武器）
+  - [[scope-discipline]] → [[sdd]]、[[decision-hierarchy]]（范围纪律的文档化和分层版）
+  - [[clarity-before-automation]] → [[sdd]]、[[decision-hierarchy]]、[[goal-driven-agent]]（先清晰的方法论实现、分层版、极致推演）
+- 更新 [[index.md]]：新增1源摘要+4概念页条目
+- 更新 [[home.md]]：新增"从实战中逼出来的Agent工程方法"主题板块，状态更新40源/91概念/138页
+- 关键洞察：这篇文章与wiki已有概念形成三层递进验证——vibe-coding翻车验证了SDD的必要性，SDD成功验证了Agent自举的可能性，Agent自举指向了Goal-Driven的下一站。每一步的认知转折都不是提前设计好的，是被实践逼出来的
+
 ## [2026-05-21 21:30] ingest | 深度拆解：AI Agent Harness 的构造
 - 源文件：raw/blog/深度拆解：AI Agent Harness 的构造.md
 - 新建源摘要页：[[agent-harness-anatomy]]（Akshay全景拆解：冯·诺依曼类比、12组件分解、协同进化原则、7决策框架）

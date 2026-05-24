@@ -164,6 +164,9 @@ Agentic Engineering不仅提升效率，也改变了工程师的能力要求：
 - [[openai-harness-engineering]] - OpenAI百万行代码实践验证了Agentic Engineering的极端可行性：3→7人团队，5个月，一行人工代码未写。关键原则"Waiting is expensive, fixing is cheap"——在Agent吞吐量远超人类注意力的系统中，纠错成本低而等待成本高，这反转了传统工程中"先想清楚再动手"的优先级
 - [[anthropic-coding-trends-2026]] - Anthropic 2026趋势报告指出Agentic Coding正从工程部门扩展到新领域：法务用Claude Code将审核从2-3天缩至24小时，Zapier 89%全员采用率。Agentic Engineering不再是工程师的专属纪律，而是所有知识工作者的新基本功
 - [[harness-engineering-aliyun]] - 阿里云实战量化了从Vibe Coding到Agentic Engineering的跃迁：AI代码率从24.86%到90.54%不是靠更好的prompt（Vibe Coding思路），而是靠10阶段开发流程和四要素Harness体系（Agentic Engineering思路）
+- [[sdd]] - SDD是Agentic Engineering的方法论内核：规格优先=spec先行，验证贯穿=plan/tasks逐层验证，监督分级=人在确认点介入——SDD把Agentic Engineering的四条原则变成可执行的文档流
+- [[decision-hierarchy]] - 决策层级是Agentic Engineering的分层策略：80%需求不需要Agent，能在代码/CLI层解决的别上推到Agent层——Agentic Engineering不是让AI做所有事，而是让AI只做真正需要AI的事
+- [[goal-driven-agent]] - Goal-Driven是Agentic Engineering的下一站：从人派活的Task-Driven到目标驱动的有限自治，前提是Agentic Engineering的四条原则已制度化
 
 ## 磨刀石模式的工程纪律
 

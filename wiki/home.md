@@ -557,12 +557,34 @@ graph TD
 
 深层线索：6篇独立来源在Harness Engineering的核心定义上惊人一致——缺乏外部化质量保障体系的Agent不可信赖。这是行业正在收敛的工程共识。
 
+### 新兴主题：从实战中逼出来的Agent工程方法
+
+最新摄取的源文件[[zhiyuanfu-ai-agent-exploration]]（腾讯zhiyuanfu）提供了wiki已有的Agent工程理论在"10年前端开发者"身上的完整验证和补充：
+
+- **[[sdd|SDD（Spec-Driven Development）]]**：spec→plan→tasks逐层细化，constitution.md编码架构约束。Vibe Coding翻车的真实时间线（Day 1-3很爽→Day 7打地鼠→Day 15一整天对齐比前两周加起来都累）是wiki已有的[[vibe-coding]]理论的最佳实证。SDD使Agent自举成为可能——Agent能自己修自己的bug，前提是SDD+constitution.md+设计文档
+- **[[decision-hierarchy|决策层级]]**：目标→代码→CLI→Prompt→Agent，每往上一层不确定性增加一个量级。80%的"AI需求"根本不需要AI——`cron + curl`能搞定的事别套LangChain
+- **[[agent-observability|Agent可观测性]]**：6维度（目标/步骤/工具/失败/恢复/成本）是demo到系统的门槛。没有observability比换更强模型优先级高10倍
+- **[[goal-driven-agent|Goal-Driven Agent]]**：Task-Driven解决执行问题，Goal-Driven解决迭代问题。"24h在线不等于24h迭代"——只要任务还需要人持续供给，人仍然是瓶颈。Goal-Driven不是更放权，是更强约束下的有限自治
+- **脚手架>模型**：模型升级成本+300%效果+20%，脚手架升级成本+50%效果+200%。"垃圾的思考乘以强大的模型，等于精美的垃圾"
+
+深层线索：这篇文章与wiki已有概念形成三层递进验证——[[vibe-coding]]翻车验证了SDD的必要性，SDD成功验证了Agent自举的可能性，Agent自举指向了[[goal-driven-agent|Goal-Driven]]的下一站。每一步的认知转折都不是提前设计好的，是被实践逼出来的。
+
+### 新兴主题：上下文纪律——脚手架工程的操作手册
+
+最新摄取的源文件[[karpathy-claude-context-rules]]提供了Karpathy核心论点的量化验证：Claude犯的错，90%是因为上下文没给够，跟模型本身的能力没关系。
+
+- **[[context-discipline|上下文纪律]]**：没有CLAUDE.md时错误率41%，4条基础规则降到11%，12条规则降到3%。12条规则本质上在做同一件事——减少Agent的自由度。不是让模型变聪明，是阻止它"太聪明"
+- **与现有概念的映射**：规则1→[[clarity-before-automation]]，规则2/3/8→[[scope-discipline]]，规则5→[[decision-hierarchy]]，规则6→[[bounded-rationality]]，规则7/9/11/12→[[anti-rationalization]]，规则10/12→[[agent-observability]]
+- **反论**：第6条自己暴露了"90%是上下文"的边界——调试到第40条消息时Claude忘掉第5条否掉的方案，这是窗口的物理限制，不是规则写得不够
+
+关键洞察：这12条是[[harness-engineering|脚手架工程]]的操作手册版——最轻量的harness实现。不需要三Agent架构和Feature List JSON，一个规则文件就能把错误率压到3%。但也是最脆弱的实现——纯靠规则文本约束，没有代码级别的强制执行。
+
 ## 实时状态
 
-- **源文件**：39篇（新增6篇）
-- **概念页**：87个
+- **源文件**：41篇（新增1篇）
+- **概念页**：92个
 - **对话记录**：1篇
-- **总页面**：133个（含home、index、log、39源摘要、87概念页、2基座页、1对话页）
-- **最后更新**：2026-05-21
+- **总页面**：140个（含home、index、log、41源摘要、92概念页、2基座页、1对话页）
+- **最后更新**：2026-05-24
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

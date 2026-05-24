@@ -62,6 +62,7 @@ Vibe Coding标志着编程范式的根本转变：
 - Vibe Coding是[[steel-film-vs-whetstone|钢化膜模式]]的典型表现：左手接需求ctrl+c，右手从AI拿答案ctrl+v，零摩擦但认知钝化。AI替你下水捞黄金，结果很好，但你没下水——失去了对代码的具身理解。[[steel-film-vs-whetstone|磨刀石模式]]的Vibe Coding应该反过来：用AI的输出挑战自己的判断，保留"经过身体"的认知摩擦。([[lijigang-experience-incompressible]])
 - CREAO的实践明确证明：Vibe Coding只能做原型验证，生产级系统需要[[harness-engineering]]——不是凭感觉调prompt，而是构建让AI稳定产出的系统。没有自动化测试、CI/CD、监控等[[ai-first-prerequisites]]的"AI First"本质上就是Vibe Coding ([[ai-first-strategy-wrong]])
 - 阿里云实战量化了Vibe Coding到Harness Engineering的跃迁：从24.86%到90.54%的AI代码率不是靠更好的prompt（那是Vibe Coding的思路），而是靠构建10阶段开发流程、规则/技能/知识/变更四要素体系——从"凭感觉调prompt"到"系统化约束Agent"([[harness-engineering-aliyun]])
+- [[sdd]]（Spec-Driven Development）是Vibe Coding翻车后的解药：zhiyuanfu的Day 1-3很爽→Day 7打地鼠→Day 14逐文件排查的真实时间线证明，Vibe Coding是先易后难，SDD是先难后易——"大道如夷，而民好径"([[zhiyuanfu-ai-agent-exploration]])
 
 ### 验证的困难
 - 如何确保AI生成的复杂系统符合所有业务规则和安全要求

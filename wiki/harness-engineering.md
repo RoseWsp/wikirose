@@ -176,6 +176,8 @@ Agent写代码时会模仿代码库中已有的Pattern——包括那些Suboptim
 | 过程可追溯性 | 无记录 | 完整变更文档链，任何人随时回溯 |
 | 流程一致性 | 因人而异 | 10阶段流程一致执行 |
 
+更轻量的实现也有硬数据：没有CLAUDE.md时错误率41%，4条基础规则降到11%，12条规则降到3%。不需要三Agent架构和Feature List JSON，一个规则文件就能把错误率压到3%——前提是规则来自实战踩坑而非纸上谈兵。([[context-discipline]])
+
 Anthropic的全栈三Agent架构效果 ([[anthropic-harness-design]])：4小时/每轮约$124.70（3轮Build-QA循环），输出质量远超无Harness的Solo Agent（20分钟/$9）。
 
 ## 与相关概念的关系
@@ -199,6 +201,11 @@ Anthropic的全栈三Agent架构效果 ([[anthropic-harness-design]])：4小时/
 - [[agent-harness-anatomy]] — Akshay全景拆解：冯·诺依曼类比、12组件分解、协同进化原则、7决策框架
 - [[practice-epistemology]] — 脚手架为AI替代了实践环节（验证、测试、约束），但AI没有自己的实践——脚手架是外部的"伪实践"，不是从内部矛盾运动中长出来的真实践
 - [[mao-dun-lun]] — 脚手架的四类失败模式（One-shot、过早胜利等）是AI的"内部矛盾"在外部约束下的表现——矛盾论提供分析这些失败模式的框架
+- [[sdd]] — SDD是脚手架工程的核心方法论：spec→plan→tasks是标准路径，constitution.md是架构约束，脚手架搭外部护栏，SDD规定护栏内的标准路径
+- [[decision-hierarchy]] — 决策层级是脚手架工程的分层策略：把Agent限制在真正需要它的层级（目标→代码→CLI→Prompt→Agent），其余用确定性方案
+- [[agent-observability]] — 可观测性是脚手架的控制面板：没有它，脚手架是黑箱。6维度（目标/步骤/工具/失败/恢复/成本）是生产级Agent系统的最低可观测门槛
+- [[goal-driven-agent]] — Goal-Driven是脚手架工程的最高形态：脚手架从外部护栏进化为内部治理结构，人退出微观调度但保留目标设定和约束设计
+- [[context-discipline]] — 上下文纪律是脚手架工程的操作手册版：12条规则把错误率从41%压到3%，是最轻量的harness实现
 
 ## 组织层面的脚手架
 

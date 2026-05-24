@@ -50,5 +50,8 @@ LLM的训练目标是生成合理的下一个token，所以它天然倾向于产
 - [[anthropic-effective-harnesses]] — Anthropic发现的"Premature Victory Declaration"和"Premature Feature Completion"是Agent合理化的两种典型模式：Agent完成部分工作就宣布任务结束（Victory Declaration），或标记功能完成但未做端到端测试（Feature Completion）。这两种模式都是Agent"说服自己已经够了"——和人类工程师说"测试通过了，发布吧"完全同构
 - [[anthropic-harness-design]] — "Out of the box, Claude is a poor QA agent"——它会识别出真正的问题，然后说服自己"这没什么大不了的"并批准工作。这和反合理化表格描述的Agent行为完全一致：问题不是Agent看不到问题，而是它总能合理化为什么问题不重要
 - [[harness-engineering-aliyun]] — 阿里云实战中"评审设循环上限（需求评审最多3轮，编码/测试评审最多2轮）"是反合理化的制度化：Agent会无限自我修改循环（"我再改一版就好了"），循环上限是预先写好的"够了"反驳
+- [[sdd]] — SDD是对抗合理化的结构性武器：spec写好了，agent就没有"这次可以跳过规格"的借口——spec的存在本身就是对合理化的预先反驳
+- [[incompressible-judgment]] — 镜像问题：合理化是"没有判断却能编出论证"，不可压缩的判断是"有判断却编不出论证"——同一道沟的两边，PM 听起来都是一段话
+- [[context-discipline]] — 12条上下文纪律中的4条（别折中、测试验证意图、匹配约定、失败大声喊）全是反合理化的具体实现：歧义是Agent的毒药，Agent会在两种模式间随机游走并吞两次错误
 
 来源：[[addyosmani-agent-skills]]

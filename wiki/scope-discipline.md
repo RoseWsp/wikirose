@@ -45,5 +45,9 @@ agent看到一段"无用"代码时，默认行为是删除它。但那段代码�
 - [[anthropic-effective-harnesses]] — Anthropic的Feature List机制是范围纪律的结构化实现：JSON格式的功能清单标记"passes: false/true"，Agent只允许修改passes状态，禁止删除或修改测试项——"只碰你被要求碰的"从文本指令变为代码约束
 - [[openai-harness-engineering]] — "The agent's knowledge boundary equals the repository's file boundary"——OpenAI的这条经验是范围纪律的边界定义：Agent只能看到仓库中的文件，Slack讨论和Google Docs对它不存在。范围纪律不仅约束Agent的行为，还约束Agent的感知边界
 - [[contradiction-dialectics]]——范围纪律是"抓住主要矛盾"在行动层面的体现：只碰你被要求碰的=只处理当前的主要矛盾，不碰次要矛盾。当Agent同时面对"修bug"和"重构相邻模块"两个矛盾时，修bug是主要矛盾，重构是次要矛盾——范围纪律就是"捉住了主要矛盾，一切问题就迎刃而解"的Agent版
+- [[sdd]] — SDD的spec中"不做什么"和验收标准"怎么算完成"是范围纪律的文档化：没有spec，范围纪律就只剩意志力对抗
+- [[decision-hierarchy]] — 决策层级是范围纪律的分层版：不该用Agent的地方用了Agent，就是跨层级的范围蔓延
+- [[incompressible-judgment]] — "我们真的需要这个功能吗"是范围纪律最常见的现场版，但资深开发者说不清为什么不该做——判断不可压缩
+- [[context-discipline]] — 12条上下文纪律中3条（简单优先、外科手术修改、先读再写）是范围纪律的具体操作版，把错误率从41%压到3%——范围纪律不只是原则，还是可量化的杠杆
 
 来源：[[addyosmani-agent-skills]]

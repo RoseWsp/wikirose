@@ -590,6 +590,8 @@ graph TD
 
 关键洞察：这篇文章把wiki已有的多条线索（[[experience-incompressible]]、[[steel-film-vs-whetstone]]、[[anti-rationalization]]、[[scope-discipline]]、[[product-taste]]）串成了一条线——执行廉价化不仅让判断更稀缺，还让判断更容易退化，因为缺少摩擦就缺少长出判断力的过程。
 
+补充：[[indie-dev-distribution-nightmare]]（Reddit r/SaaS社区）提供了上述主题的个体视角——独立开发者版本的[[distribution-bottleneck|分销瓶颈]]：同一堵墙，大公司用钱和流量翻，独立开发者只能用脏活翻（人工搜痛点关键词、一条条真诚回复、Build in Public）。"等产品完美再推广"是用写代码逃避分销，和[[clarity-before-automation|先清晰再自动化]]同构。
+
 ## 实时状态
 
 - **源文件**：42篇（新增1篇）

@@ -46,6 +46,7 @@
 - [[nair-senior-dev-communication]] - Tuhin Nair：为什么资深开发者讲不清自己的专业能力——两个循环框架+话术口诀（诊断对、药方错），背后的真问题是判断不可压缩
 - [[karpathy-claude-context-rules]] - Karpathy语录引出的12条上下文纪律：错误率41%→11%→3%，CLAUDE.md作为跨会话组织记忆，纪律永远比框架重要
 - [[mike-krieger-ai-product-taste]] - Mike Krieger×Dan Shipper：AI让执行廉价但判断力更易退化，室内树效应，Agent Native产品，重写不再可怕但价值在于认知螺旋
+- [[indie-dev-distribution-nightmare]] - Reddit r/SaaS：独立开发者的噩梦是产品做好了没人用——分销瓶颈的个体视角，80/20法则，不可规模化的脏活，Build in Public
 
 ## Concepts (概念)
 - [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的

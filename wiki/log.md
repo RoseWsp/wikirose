@@ -1,3 +1,14 @@
+## [2026-05-24 17:00] ingest | 独立开发者的终极噩梦：产品做好了，没人用
+- 源文件：raw/clips/独立开发者的终极噩梦是什么.md
+- 新建源摘要页：[[indie-dev-distribution-nightmare]]（Reddit r/SaaS：独立开发者的噩梦是产品做好了没人用——分销瓶颈的个体视角，80/20法则，不可规模化的脏活，Build in Public）
+- 交叉链接（已有页面→新页面）：
+  - [[distribution-bottleneck]] → [[indie-dev-distribution-nightmare]]（分销瓶颈从大企业视角延伸到独立开发者视角——同一堵墙，不同翻法）
+  - [[clarity-before-automation]] → [[indie-dev-distribution-nightmare]]（"等产品完美再推广"= 用写代码逃避分销，和"等流程清晰再用AI"同构）
+  - [[indoor-tree]] → [[indie-dev-distribution-nightmare]]（室内树效应的独立开发者版：AI让加功能更容易，"够了该去推广了"的判断力没长出来）
+- 更新 [[index.md]]：新增1源摘要条目
+- 更新 [[home.md]]：在室内树效应主题板块补充个体视角
+- 关键洞察：这篇文章的价值不在信息密度，在视角转换——把分销瓶颈、先清晰再自动化、室内树效应从大企业/组织层面延伸到个体层面，同构但路径不同（资本密集型→体力密集型）
+
 ## [2026-05-24 16:30] ingest | Mike Krieger×Dan Shipper：为什么AI越强，产品经理越容易做出垃圾
 - 源文件：raw/blog/为什么 AI 越强，产品经理越容易做出垃圾？Instagram 创始人给出了答案.md
 - 新建源摘要页：[[mike-krieger-ai-product-taste]]（Mike Krieger：AI让执行廉价但判断力更易退化，室内树效应，Agent Native产品，重写不再可怕但价值在于认知螺旋）

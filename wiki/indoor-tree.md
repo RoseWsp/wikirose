@@ -64,5 +64,6 @@ Instagram之所以是Instagram，不是因为功能齐全（Claude 2小时就能
 - [[practice-epistemology]] — 室内树效应是实践论在产品开发中的表现：没有失败就没有感性认识，没有感性认识就没有理性认识
 - [[bounded-rationality]] — 室内树效应让"满意比最优更现实"更难执行：选择太多的时候，"满意"本身就变成了一个需要判断力才能做出的决策
 - [[vibe-coding]] — Vibe Coding是室内树效应的典型：AI替你写代码（没有摩擦），代码长出来了但判断力没长
+- [[indie-dev-distribution-nightmare]] — 室内树效应在独立开发者身上的表现：AI让加功能更容易，"等产品完美再推广"是逃避分销的借口，结果是功能矩阵长出来了但"够了该去推广了"的判断力没长出来
 
 来源：[[mike-krieger-ai-product-taste]]

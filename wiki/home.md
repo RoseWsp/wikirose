@@ -579,12 +579,23 @@ graph TD
 
 关键洞察：这12条是[[harness-engineering|脚手架工程]]的操作手册版——最轻量的harness实现。不需要三Agent架构和Feature List JSON，一个规则文件就能把错误率压到3%。但也是最脆弱的实现——纯靠规则文本约束，没有代码级别的强制执行。
 
+### 新兴主题：室内树效应——执行廉价化的产品后果
+
+最新摄取的源文件[[mike-krieger-ai-product-taste]]（Instagram联合创始人Mike Krieger × Every的Dan Shipper）揭示了AI让执行变廉价后的产品层悖论：
+
+- **[[indoor-tree|室内树效应]]**：室内种树没有风吹，长得快但树干不结实——AI让搭建变容易，但缺少摩擦导致产品过度生长、判断力退化。Mike的亲身经历：V1阶段严重过度开发，因为"每个功能只是一个小PR"
+- **AI省掉失败就省掉直觉**：Claude 2小时重建Bourbon功能齐全，但Instagram之所以是Instagram，是因为花了一年做Bourbon失败后才长了"该砍什么"的直觉。这是[[experience-incompressible|体验不可压缩]]在产品开发中的精确现场
+- **范围纪律从物理约束退化为意志力约束**：以前加功能有天然成本，成本本身就是[[scope-discipline|范围纪律]]的物理约束；现在加功能几乎没有成本，纪律全靠意志力——[[anti-rationalization|反合理化]]的产品版
+- **Agent Native的产品维度**：产品里用户能做的，AI代理也应该能做。这不是[[agent-native-tooling|工具为Agent优化]]的问题，是产品对Agent开放的问题——两个维度需要同时满足
+
+关键洞察：这篇文章把wiki已有的多条线索（[[experience-incompressible]]、[[steel-film-vs-whetstone]]、[[anti-rationalization]]、[[scope-discipline]]、[[product-taste]]）串成了一条线——执行廉价化不仅让判断更稀缺，还让判断更容易退化，因为缺少摩擦就缺少长出判断力的过程。
+
 ## 实时状态
 
-- **源文件**：41篇（新增1篇）
-- **概念页**：92个
+- **源文件**：42篇（新增1篇）
+- **概念页**：93个
 - **对话记录**：1篇
-- **总页面**：140个（含home、index、log、41源摘要、92概念页、2基座页、1对话页）
+- **总页面**：143个（含home、index、log、42源摘要、93概念页、2基座页、1对话页）
 - **最后更新**：2026-05-24
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

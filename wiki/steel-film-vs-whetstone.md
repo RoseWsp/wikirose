@@ -30,4 +30,6 @@
 
 - [[fortune-misfortune-dialectic]] — 选福=钢化膜模式（隔绝困难零摩擦但认知钝化），选祸=磨刀石模式（主动迎接摩擦打磨自己）。两者的四格矩阵结构完全同构——贪婪/恐惧 × 拿起/放下 = 钢化膜/磨刀石
 
-来源：[[lijigang-experience-incompressible]]、[[renxuan-tianxuan-lun]]
+- [[indoor-tree]] — 室内树效应是钢化膜模式的产品版：室内种树没有风吹（=钢化膜隔绝摩擦），长得快但树干不结实。Mike Krieger在Anthropic Labs的V1过度开发就是钢化膜模式在产品层面的体现——每个功能只是小PR，加功能太容易，砍功能的判断力没长出来 ([[mike-krieger-ai-product-taste]])
+
+来源：[[lijigang-experience-incompressible]]、[[renxuan-tianxuan-lun]]、[[mike-krieger-ai-product-taste]]

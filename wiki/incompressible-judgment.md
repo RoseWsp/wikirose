@@ -78,5 +78,6 @@ Tuhin Nair 的文章结尾说 AI 让"精简、复用、避免开发"贬值了。
 - [[workflow-over-prose]] — 把不可压缩的判断翻译成可执行的流程
 - [[product-taste]] — 品味是另一种不可压缩的判断，分布在产品端
 - [[understanding-as-cloud]] — 判断是云的形状，无法 dump 成 JSON
+- [[indoor-tree]] — 室内树效应让不可压缩的判断更稀缺也更难传递：AI让加功能太容易，"该不该做"比"怎么做"更稀缺，而"该不该做"恰恰是不可压缩的那一部分 ([[mike-krieger-ai-product-taste]])
 
 来源：[[nair-senior-dev-communication]]

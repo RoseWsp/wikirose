@@ -1,3 +1,19 @@
+## [2026-05-24 16:30] ingest | Mike Krieger×Dan Shipper：为什么AI越强，产品经理越容易做出垃圾
+- 源文件：raw/blog/为什么 AI 越强，产品经理越容易做出垃圾？Instagram 创始人给出了答案.md
+- 新建源摘要页：[[mike-krieger-ai-product-taste]]（Mike Krieger：AI让执行廉价但判断力更易退化，室内树效应，Agent Native产品，重写不再可怕但价值在于认知螺旋）
+- 新建概念页：[[indoor-tree]]（室内树效应：AI让搭建变容易但缺少摩擦导致产品过度生长、判断力退化——钢化膜模式的产品版）
+- 交叉链接（已有页面→新页面）：
+  - [[experience-incompressible]] → [[indoor-tree]]（室内树效应是体验不可压缩在产品开发中的精确现场）
+  - [[steel-film-vs-whetstone]] → [[indoor-tree]]（室内树=钢化膜模式的产品版，两者同构但作用层面不同）
+  - [[product-taste]] → [[indoor-tree]]（品味是室内树效应的解药：知道该砍什么才能抵御加功能太容易的引力）
+  - [[scope-discipline]] → [[indoor-tree]]（室内树效应让范围纪律从物理约束退化为意志力约束）
+  - [[anti-rationalization]] → [[indoor-tree]]（"每个功能只是小PR"是反合理化的产品版）
+  - [[incompressible-judgment]] → [[indoor-tree]]（室内树效应让不可压缩的判断更稀缺更难传递）
+  - [[agent-native-tooling]] → [[mike-krieger-ai-product-taste]]（Agent Native的产品维度+工具维度需要同时满足）
+- 更新 [[index.md]]：新增1源摘要+1概念页条目
+- 更新 [[home.md]]：新增"室内树效应——执行廉价化的产品后果"主题板块，状态更新42源/93概念/143页
+- 关键洞察：这篇文章把wiki已有的多条线索（体验不可压缩、钢化膜vs磨刀石、反合理化、范围纪律、产品品味）串成了一条线——执行廉价化不仅让判断更稀缺，还让判断更容易退化，因为缺少摩擦就缺少长出判断力的过程
+
 ## [2026-05-24 14:30] ingest | Karpathy语录引出的12条上下文纪律规则
 - 源文件：raw/blog/Andrej Karpathy 说过一句话：Claude 犯的错，90% 是因为上下文没给够，跟模型本身的能力没关系.md
 - 新建源摘要页：[[karpathy-claude-context-rules]]（12条规则把错误率从41%压到3%，CLAUDE.md作为跨会话组织记忆）

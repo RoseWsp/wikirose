@@ -149,6 +149,9 @@ Evan Spiegel的判断："被抄总比做出没人想抄的东西好"——当软
 ### [[product-overhang]]
 产品过剩要求品味判断"下一个模型版本应该匹配什么产品"。Boris提前六个月构建Claude Code时明知道六个月内不会有PMF——他在等模型追上产品构想。这种前瞻性判断正是产品品味在AI时代的极致体现。Boris自己也承认："大概六个月前，模型功劳和产品功劳可能是50/50"——但随着模型越来越强，产品层的"外壳"重要性在下降，品味的重心从"设计外壳"转向"判断方向"：什么功能该为一等公民（Loop、并行Agent），什么产品该为下一个模型版本提前构建。([[boris-chenyi-sequoia-ai-ascent]])
 
+### [[indoor-tree]]
+室内树效应是品味在AI时代更稀缺也更脆弱的根本原因：AI让加功能太容易（每个功能只是小PR），但"该砍什么"的判断力不能从AI那里获得——它只能从跟真实用户打交道的失败中长出来。Mike Krieger让Claude 2小时重建Bourbon（Instagram前身），功能齐全甚至自动加了滤镜，但Instagram之所以是Instagram，不是因为功能齐全，是因为花了一年做Bourbon失败后才长了那棵"该砍什么"的直觉。品味是室内树效应的唯一解药。([[mike-krieger-ai-product-taste]])
+
 ### [[anthropic-harness-design]]
 Anthropic Labs的前端设计四维评分（Design Quality、Originality、Craft、Functionality）是产品品味在Agent评估中的编码化：将主观判断"这个设计好不好"转化为可打分的维度，权重倾斜质量和原创性、明确惩罚AI生成常见的"紫色渐变+白色卡片"模式。品味从"个人直觉"变为"可传递的评判标准"——这不完全消解品味的主观性，但让品味可以被Agent理解和迭代
 

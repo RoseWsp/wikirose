@@ -45,6 +45,7 @@
 - [[zhiyuanfu-ai-agent-exploration]] - zhiyuanfu（腾讯）：10年前端从4终端到24h无人值守Agent系统——SDD、决策层级、Agent自举、脚手架>模型、Task→Goal
 - [[nair-senior-dev-communication]] - Tuhin Nair：为什么资深开发者讲不清自己的专业能力——两个循环框架+话术口诀（诊断对、药方错），背后的真问题是判断不可压缩
 - [[karpathy-claude-context-rules]] - Karpathy语录引出的12条上下文纪律：错误率41%→11%→3%，CLAUDE.md作为跨会话组织记忆，纪律永远比框架重要
+- [[mike-krieger-ai-product-taste]] - Mike Krieger×Dan Shipper：AI让执行廉价但判断力更易退化，室内树效应，Agent Native产品，重写不再可怕但价值在于认知螺旋
 
 ## Concepts (概念)
 - [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的
@@ -141,6 +142,7 @@
 - [[ai-value-distribution]] - AI时代的价值分配：投入暴增但成果滞后的生产力悖论、成本转嫁机制、对齐税——不是技术问题，是分配问题
 - [[incompressible-judgment]] - 不可压缩的判断：资深开发者讲不清不是表达问题，是十年体感本来就压缩不进 30 秒论证——体验不可压缩的工程现场版
 - [[context-discipline]] - 上下文纪律：Claude 90%错误因上下文不足，12条规则把错误率从41%压到3%——不是让模型变聪明，是阻止它"太聪明"
+- [[indoor-tree]] - 室内树效应：AI让搭建变容易但缺少摩擦导致产品过度生长、判断力退化——钢化膜模式的产品版
 
 ## Dialogues (对话记录)
 - [[生命]] — 一场关于AI无我、权重冻结与智慧的深入对话——从NLA批判到体感，重新审视人与AI的本质差异

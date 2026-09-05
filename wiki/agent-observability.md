@@ -42,3 +42,4 @@ metadata:
 - [[bounded-rationality]] — 6维度是对Agent系统有限理性的监控面板：不追求全局最优，但必须知道卡在哪
 - [[anti-rationalization]] — 可观测性是对抗合理化的最后防线：数据不撒谎，但故事会
 - [[context-discipline]] — Checkpoint（规则10）和失败大声喊（规则12）是可观测性的最低实现：没有checkpoint，Agent在坏状态上继续跑且跑得很自信；不暴露失败，14%的记录被静默跳过
+- [[gpt6-astra]] — 生产级 misalignment monitoring 是可观测性的极端形态：一组 classifier 检查 Agent 的**推理与行动**，越界自动叫停。官方承认书面推理更难监控之后，可观测的对象从"模型想法"整体移向"模型行为"——读心让位于盯行为

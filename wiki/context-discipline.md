@@ -55,5 +55,6 @@ Karpathy这句话的分量不在"模型够好"，而在"你的上下文工程够
 - [[sdd]] — 先规格再开发（规则4）是SDD的简化版
 - [[agent-output-verification]] — 测试验证意图（规则9）是输出验证的具体操作
 - [[incompressible-judgment]] — 12条规则是资深工程师的判断编码，但编码后还是不如体感灵活——判断不可压缩的工程验证
+- [[ai-native-thinking]] — 宝玉Q6的老项目解法与上下文纪律同源：AGENTS.md/CLAUDE.md是地图（项目结构、高层设计、测试脚本、兼容性注意事项），每次变更同步更新文档（过时的文档比没有更有害），让Agent能自己验证([[baoyu-ai-native-thinking]])
 
 来源：[[karpathy-claude-context-rules]]

@@ -29,3 +29,4 @@ Boris提前六个月构建产品，明知道六个月内不会有PMF——因为
 - [[recursive-self-improvement]] — 递归自改进是产品过剩的极端形态：gap不再以月衡量，而是以代（generation）衡量
 - [[ai-value-distribution]]——产品过剩加剧了价值分配的矛盾：模型能力暴增但产品没跟上，意味着AI投入（token消耗）在暴增而商业成果（收入）不变。产品过剩不是技术问题，是"投入-产出-成果"链条中产出到成果的转化率太低——Gupta的框架正好解释了为什么模型越强，裁员压力反而越大([[layoffs-ai-business-value]])
 - [[dogfooding-as-method]] — Claude Design是产品过剩的最新案例：Boris被问"现在又在做什么六个月到一年后会很不一样的东西"，他的答案是Claude Design——"现在已经挺好用了，未来会好得多"。这和Claude Code的诞生逻辑完全一致：看到模型能力在某个领域的过剩，提前为那个点构建产品。([[boris-chenyi-sequoia-ai-ascent]])
+- [[capability-boundary]] — 宝玉的"产品三问"是个体版的产品过剩：现在能做的马上做，半年后能做的搭架子等模型（模型进化是你的顺风），很久做不了的用工程补或别做。产品过剩从"组织提前六个月布局"变成"个体按模型节奏分期投入"([[baoyu-ai-native-thinking]])

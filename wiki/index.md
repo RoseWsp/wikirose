@@ -47,6 +47,8 @@
 - [[karpathy-claude-context-rules]] - Karpathy语录引出的12条上下文纪律：错误率41%→11%→3%，CLAUDE.md作为跨会话组织记忆，纪律永远比框架重要
 - [[mike-krieger-ai-product-taste]] - Mike Krieger×Dan Shipper：AI让执行廉价但判断力更易退化，室内树效应，Agent Native产品，重写不再可怕但价值在于认知螺旋
 - [[indie-dev-distribution-nightmare]] - Reddit r/SaaS：独立开发者的噩梦是产品做好了没人用——分销瓶颈的个体视角，80/20法则，不可规模化的脏活，Build in Public
+- [[baoyu-ai-native-thinking]] - 宝玉《AI 原生思维》：像训练大模型一样训练自己——需求三问、三条边界、最小验证、以终为始重设计、落地五关、个体进化
+- [[gpt6-astra]] - GPT-6 Astra官方发布（harness视角）：跨上下文笔记把记忆原生化、官方承认书面推理更难监控、生产级misalignment monitoring——智能瓶颈转移到状态管理，脚手架不是变薄是在搬家
 
 ## Concepts (概念)
 - [[understanding-as-cloud]] - 理解作为云的形状：两条轴撑起理解——横向相似度（广度）+纵向抽象度（深度），AI横向碾压但纵向经常是空的
@@ -144,6 +146,10 @@
 - [[incompressible-judgment]] - 不可压缩的判断：资深开发者讲不清不是表达问题，是十年体感本来就压缩不进 30 秒论证——体验不可压缩的工程现场版
 - [[context-discipline]] - 上下文纪律：Claude 90%错误因上下文不足，12条规则把错误率从41%压到3%——不是让模型变聪明，是阻止它"太聪明"
 - [[indoor-tree]] - 室内树效应：AI让搭建变容易但缺少摩擦导致产品过度生长、判断力退化——钢化膜模式的产品版
+- [[ai-native-thinking]] - AI原生思维：找需求盯能力边界→判边界闯三关→最小验证→以终为始重设计→落地五关，暗线是像训练大模型一样训练自己（基座：实践论）
+- [[capability-boundary]] - 模型能力边界：能力线/成本线会动，价值线锚在人性上不动；在边界线上找需求，想法太早烧的只是Token；产品三问=个体版产品过剩
+- [[entry-point-migration]] - 入口迁移：用户先打开Agent再打开App，把App做成Agent的插件，详情页变成Agent的数据源，作者本人绕过自己的GUI
+- [[specs-not-templates]] - 给规范不给模板：模板是专家捷径，规范+模型能力是通用方法，"苦涩的教训"，模型每升级一次产品不改代码自动变强
 
 ## Dialogues (对话记录)
 - [[生命]] — 一场关于AI无我、权重冻结与智慧的深入对话——从NLA批判到体感，重新审视人与AI的本质差异

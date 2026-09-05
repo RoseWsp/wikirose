@@ -53,5 +53,7 @@ SkipLabs的SKJS是信号：TypeScript兼容但sound，对人类更难，对Agent
 - [[openai-harness-engineering]] — OpenAI百万行代码实践是Agent-native工具的终极验证：AGENTS.md作为~100行索引指向深层docs/，代码仓库成为Agent唯一的记录系统——Slack讨论和Google Docs对Agent不存在。约束编码化（Custom Linter + Structure Tests + Taste Invariants）完全替代文档层面的"建议"，是[[workflow-over-prose|流程优先于散文]]在工具层面的实现
 - [[anthropic-effective-harnesses]] — Feature List用JSON而非Markdown管理功能清单，因为模型更不易误改JSON——这是Agent-native工具设计原则（"严格胜过宽容"）在数据格式选择上的具体体现
 - [[mike-krieger-ai-product-taste]] — Mike Krieger的Agent Native定义是产品维度的："用户能做的，AI代理也应该能做"。当Claude说"让我告诉你怎么手动添加"时，产品假设里根本没有Agent的位置——这不是工具为Agent优化的问题，是产品对Agent开放的问题。两个维度（工具Agent-native + 产品Agent-native）需要同时满足
+- [[entry-point-migration]] — 入口迁移是产品维度更进一步：承认Agent可能是第一用户，GUI从操作界面退化成确认界面（宝玉的BaoCut作者本人都绕过自己的界面）([[baoyu-ai-native-thinking]])
+- [[specs-not-templates]] — 给设计规范不给模板：把约束交给模型能力而非固定输出，是Agent-native在生成场景的设计准则([[baoyu-ai-native-thinking]])
 
 > 核心来源：[[venturini-code-never-for-machines]] | 姊妹概念：[[agent-output-verification]]

@@ -140,11 +140,18 @@ Agent写代码时会模仿代码库中已有的Pattern——包括那些Suboptim
 
 解法：**"Golden Principles"编码化 + 后台回收Agent**。将主观品味编码为机械规则（如"优先使用共享工具包而非手写辅助函数"、"结构化日志格式统一"），后台Agent自动扫描偏差并发起修复PR。功能上类似于垃圾回收——持续还小额技术债，避免积累后一次痛苦解决。
 
-## 协同进化原则
+## 协同进化原则（修正：脚手架不是变薄，是在搬家）
 
 "脚手架"隐喻的深层推论：房子盖好后脚手架要拆。随着模型能力提升，Harness的复杂度应该逐渐降低。关键在于：**模型在训练时已经考虑了Harness的存在**——如果你的Harness设计得好，模型升级时你不需要增加复杂度，性能就会自动提升。([[agent-harness-anatomy]])
 
-这就是协同进化原则，与Boris Cherny的观察一致：Opus 4.6需要比4.5少得多的脚手架（[[anthropic-harness-design]]）。但Harness永远不会消失——即便最强大的模型，也需要系统来管理窗口、执行代码、保存状态并验证工作。TerminalBench证据：仅仅改变Harness就能让排名变动20多位。([[agent-harness-anatomy]])
+但"harness 变薄"只对了一半——它必须区分两层，而这两层的进化方向相反：
+
+- **提示层脚手架**：补偿模型的"笨"。CLAUDE.md、上下文纪律、prompt 规则、反合理化表格——阻止一个不够聪明的模型犯错。**这一层确实随模型变强而变薄**，与Boris Cherny的观察一致（Opus 4.6比4.5少得多的脚手架，[[anthropic-harness-design]]）。
+- **系统层脚手架**：处理模型变强之后带来的"后果"。记忆与状态管理、observability、权限边界、越权监视。模型越强，它能造成的后果越大、跑得越快、越不可读——**这层不但没变薄，还在长高**。即便最强大的模型，也需要系统来管理窗口、执行代码、保存状态并验证工作。([[agent-harness-anatomy]])
+
+GPT-6 Astra（2026-09）是系统层长高的工业级样本 ([[gpt6-astra]])：OpenAI 的全部增量投入都在系统层——Codex 跨上下文窗口保留笔记（记忆原生化，config.toml 实验开关、几周后成默认）、生产环境部署 misalignment monitoring（classifier 检查推理+行动）、Codex Auto-Review，外加 1.9 倍 harness 提速。官方还在系统卡里首次承认书面推理更难监控——读推理可靠性下降，于是用行为监视器兜底。智能的瓶颈正从"模型推理"转移到"agent 的状态管理"。
+
+所以结论要修正：**harness 不是消失或单纯变薄，是在搬家**——从"给弱模型打补丁"，搬到"给强模型兜后果"。TerminalBench证据：仅仅改变Harness就能让排名变动20多位。([[agent-harness-anatomy]])
 
 ## 7个关键决策
 
@@ -206,6 +213,8 @@ Anthropic的全栈三Agent架构效果 ([[anthropic-harness-design]])：4小时/
 - [[agent-observability]] — 可观测性是脚手架的控制面板：没有它，脚手架是黑箱。6维度（目标/步骤/工具/失败/恢复/成本）是生产级Agent系统的最低可观测门槛
 - [[goal-driven-agent]] — Goal-Driven是脚手架工程的最高形态：脚手架从外部护栏进化为内部治理结构，人退出微观调度但保留目标设定和约束设计
 - [[context-discipline]] — 上下文纪律是脚手架工程的操作手册版：12条规则把错误率从41%压到3%，是最轻量的harness实现
+- [[ai-native-thinking]] — 宝玉的落地五关是单人版脚手架：可行性→设计文档→高保真原型→实现→测试，人只留在确认点上，"确认可以合并，不能省略"([[baoyu-ai-native-thinking]])
+- [[specs-not-templates]] — 给设计规范不给模板：脚手架搭的是约束环境，不是固定输出([[baoyu-ai-native-thinking]])
 
 ## 组织层面的脚手架
 

@@ -592,12 +592,35 @@ graph TD
 
 补充：[[indie-dev-distribution-nightmare]]（Reddit r/SaaS社区）提供了上述主题的个体视角——独立开发者版本的[[distribution-bottleneck|分销瓶颈]]：同一堵墙，大公司用钱和流量翻，独立开发者只能用脏活翻（人工搜痛点关键词、一条条真诚回复、Build in Public）。"等产品完美再推广"是用写代码逃避分销，和[[clarity-before-automation|先清晰再自动化]]同构。
 
+### 新兴主题：AI原生思维——像训练大模型一样训练自己
+
+最新摄取的源文件[[baoyu-ai-native-thinking]]（宝玉·腾讯学堂内部分享）把wiki里分散的线串成一套个体可执行的完整框架，暗线一句：**像训练大模型一样训练自己**（费曼学习法=反馈循环，敢于推翻旧权重）：
+
+- **[[ai-native-thinking|AI原生思维]]**：找需求盯模型能力边界线→判边界闯三关→最小验证让坏想法死得早→以终为始重设计→落地五关。基座是[[practice-epistemology|实践论]]——"先用起来，只有实践才有真实感悟"
+- **[[capability-boundary|三条边界]]**：能力线会动、成本线会动，价值线锚在人性上不动。AutoGPT vs Manus是同一个想法、边界两侧两种命运——想法太早烧的只是Token。"产品三问"（现在做/搭架子等模型/工程补）是[[product-overhang]]的个体版操作化
+- **[[specs-not-templates|给规范不给模板]]**："苦涩的教训"——模板是专家捷径，规范+模型能力是通用方法，模型每升级一次产品不改代码自动变强
+- **[[entry-point-migration|入口迁移]]**：用户先打开Agent再打开App，把App做成Agent的插件，详情页变成Agent的数据源——作者本人绕过了自己的图形界面
+- **落地五关**：流程没变、人的角色变了——从程序员变成产品经理+测试，"验证题给Agent，判断题留给人"，单人项目版的[[role-convergence]]
+
+关键洞察：这篇文章与[[openai-harness-engineering]]/[[anthropic-effective-harnesses]]（企业级组织harness）构成**组织 vs 个体的对照**——企业搭组织级脚手架，个体用"落地五关+反馈循环"搭单人脚手架。
+
+### 新兴主题：模型越强，脚手架不是变薄，是在搬家
+
+最新摄取的源文件[[gpt6-astra]]（OpenAI GPT-6 Astra官方发布，2026-09-03）用工业级样本修正了[[harness-engineering]]里一条"活着的"旧结论——"模型越强 Harness 越薄"只说对了一半，必须拆成两层看：
+
+- **提示层在变薄**：补偿模型"笨"的脚手架（CLAUDE.md、上下文纪律、prompt规则）确实随模型变强而减少——Boris Cherny观察到Opus 4.6比4.5需要少得多的脚手架
+- **系统层在长高**：处理模型变强之后"后果"的脚手架（记忆/状态管理、可观测性、越权监视）只增不减。OpenAI对Astra的全部增量投入都在这一层：Codex跨上下文窗口笔记把记忆原生化、生产级misalignment monitoring、Codex Auto-Review、1.9倍harness提速
+- **官方盖章"读心让位于盯行为"**：Astra系统卡把"书面推理更难监控"列为官方短板——能读到的思想变少，对策不是造更透明的模型，而是装行为监视器。这给[[agent-output-verification]]的"信任流程而非制品"补上了第一个发布方亲口承认的锚点
+- **系统层独立于模型能力**：即便模型级对齐做到"无护栏48%→0%越界"，官方仍给发布版装监视器。智能的瓶颈正从"模型推理"转移到"agent的状态管理"
+
+关联：[[gpt6-astra]] [[harness-engineering]] [[agent-output-verification]] [[agent-observability]]
+
 ## 实时状态
 
-- **源文件**：42篇（新增1篇）
-- **概念页**：93个
+- **源文件**：46篇（新增1篇）
+- **概念页**：100个（含2个基座页）
 - **对话记录**：1篇
-- **总页面**：143个（含home、index、log、42源摘要、93概念页、2基座页、1对话页）
-- **最后更新**：2026-05-24
+- **总页面**：150个（含home、index、log、46源摘要、100概念页、1对话页）
+- **最后更新**：2026-09-05
 
 > 提示：在右侧终端输入`claude`开始与wiki交互，或使用`/ingest`添加更多源文件。

@@ -1,3 +1,29 @@
+## [2026-09-05 23:04] ingest | GPT-6 Astra官方发布（窄 ingest：harness 系统层脚手架）
+- 源文件：raw/reports/公众号01-GPT6-Astra官方发布-中文搬运稿.md（OpenAI官方发布页中文全译）
+- 新建源摘要页：[[gpt6-astra]]（harness视角读官方发布：①记忆原生化——Codex跨上下文窗口笔记 ②官方承认书面推理更难监控（短板）③对策是系统层misalignment monitoring+Auto-Review而非更透明的模型；Critical网络安全级、发现2个零日）
+- 更新概念页（本次不新建概念页，价值集中在升级旧页）：
+  - [[harness-engineering]]：把"协同进化原则"从单层（模型越强harness越薄但永在）升级为**两层框架**——提示层脚手架（补偿"笨"）随模型变强变薄；系统层脚手架（兜"后果"：记忆/状态/可观测/越权监视）只增不减。Astra作系统层长高的工业样本，结论修正为"harness不是变薄，是在搬家"
+  - [[agent-output-verification]]：新增"官方盖章：读心让位于盯行为"节——Astra系统卡是"验证看行为不看思想"第一个发布方亲口承认的锚点；并保留nuance（失准监控不能替代对齐，行为监视是兜底不是替代）
+  - [[agent-observability]]：新增交叉链接——生产级misalignment monitoring（classifier盯推理+行动）是可观测性的极端形态
+- 更新 [[index.md]]：新增1源摘要条目
+- 更新 [[home.md]]：新增"模型越强，脚手架不是变薄，是在搬家"主题板块，状态更新46源/100概念/150页
+- 关键洞察：OpenAI对最强模型的全部增量投入都在harness系统层（记忆原生化+行为监视），且官方承认读推理可靠性在下降——印证wiki既有判断"对agent的信任只能从看它做了什么买，不能从理解它想了什么买"，并把智能瓶颈的判断从"模型推理"移到"agent状态管理"
+
+## [2026-09-01 22:55] ingest | 宝玉：AI原生思维——像训练大模型一样训练自己
+- 源文件：raw/blog/AI原生思维——像训练大模型一样训练自己.md
+- 新建源摘要页：[[baoyu-ai-native-thinking]]（腾讯学堂分享整理：找需求→判边界→最小验证→重设计→落地五关→个体进化，暗线=像训练大模型一样训练自己）
+- 新建概念页：[[ai-native-thinking]]（AI原生思维完整框架，基座：实践论）、[[capability-boundary]]（三条边界与产品三问）、[[entry-point-migration]]（入口迁移：把App做成Agent的插件）、[[specs-not-templates]]（给规范不给模板）
+- 交叉链接（已有页面→新页面）：
+  - [[product-overhang]] → [[capability-boundary]]（"产品三问"是个体版产品过剩：现在做/搭架子等模型/工程补）
+  - [[agent-native-tooling]] → [[entry-point-migration]]、[[specs-not-templates]]（产品维度+Agent原生生成设计准则）
+  - [[role-convergence]] → [[ai-native-thinking]]（落地五关=单人项目版的角色融合，验证题给Agent判断题留给人）
+  - [[indie-dev-distribution-nightmare]] → [[ai-native-thinking]]（需求三问从源头回答"为什么产品做好了没人用"）
+  - [[harness-engineering]] → [[ai-native-thinking]]、[[specs-not-templates]]（落地五关=单人版脚手架，搭约束环境非固定输出）
+  - [[context-discipline]] → [[ai-native-thinking]]（Q6老项目解法：AGENTS.md地图+Agent自验，与上下文纪律同源）
+- 更新 [[index.md]]：新增1源摘要+4概念页条目
+- 更新 [[home.md]]：新增"AI原生思维"主题板块，状态更新45源/100概念/149页
+- 关键洞察：把wiki分散的线（product-overhang、role-convergence、context-discipline、indoor-tree）串成可执行的个体框架，与企业级harness（[[openai-harness-engineering]]/[[anthropic-effective-harnesses]]）构成组织vs个体对照
+
 ## [2026-05-24 17:00] ingest | 独立开发者的终极噩梦：产品做好了，没人用
 - 源文件：raw/clips/独立开发者的终极噩梦是什么.md
 - 新建源摘要页：[[indie-dev-distribution-nightmare]]（Reddit r/SaaS：独立开发者的噩梦是产品做好了没人用——分销瓶颈的个体视角，80/20法则，不可规模化的脏活，Build in Public）

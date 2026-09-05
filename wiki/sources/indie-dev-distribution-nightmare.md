@@ -31,5 +31,6 @@ raw: raw/clips/独立开发者的终极噩梦是什么.md
 - [[experience-incompressible]] 的分销现场：几个月的开发体感压缩不进 5 秒着陆页，必须重新从用户视角建立体感
 - [[listen-dont-build]] 的个体实践：搜痛点关键词 = 倾听，不做硬广 = 不照做，真诚帮忙后提产品 = 提取底层需求
 - [[product-taste]] 的张力：分销是手段，品味是方向——方向错了跑得越快越远
+- [[ai-native-thinking]] 的源头：宝玉的"需求三问"（痛点够不够硬/我是不是用户/AI是不是刚好够到）从源头回答"为什么产品做好了没人用"——需求不是拍脑袋就值得做，先把自己当用户、自己天天用([[baoyu-ai-native-thinking]])
 
 > 来源：Reddit r/SaaS 社区热帖

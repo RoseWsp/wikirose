@@ -206,7 +206,7 @@ Anthropic的全栈三Agent架构效果 ([[anthropic-harness-design]])：4小时/
 - [[contradiction-dialectics]] — 脚手架作为外因约束，作用于AI的内部矛盾（One-shot冲动、过早宣布胜利等），但脚手架不能替代AI自身的能力成长——"外因是变化的条件，内因是变化的根据"
 - [[ai-value-distribution]] — 脚手架提升AI代码率但token消耗暴增，当收入不变时AI支出成为裁员的隐性推力
 - [[agent-harness-anatomy]] — Akshay全景拆解：冯·诺依曼类比、12组件分解、协同进化原则、7决策框架
-- [[practice-epistemology]] — 脚手架为AI替代了实践环节（验证、测试、约束），但AI没有自己的实践——脚手架是外部的"伪实践"，不是从内部矛盾运动中长出来的真实践
+- [[practice-epistemology]] — 脚手架为AI替代了实践环节（验证、测试、约束）——这些是外部施加的护栏，不是从内部长出来的。至于"所以 AI 没有自己的实践"的判词，属阶段一读法，已随判词悬置（见 [[practice-epistemology]] 修订注与 [[intelligence-vs-wisdom]]）
 - [[mao-dun-lun]] — 脚手架的四类失败模式（One-shot、过早胜利等）是AI的"内部矛盾"在外部约束下的表现——矛盾论提供分析这些失败模式的框架
 - [[sdd]] — SDD是脚手架工程的核心方法论：spec→plan→tasks是标准路径，constitution.md是架构约束，脚手架搭外部护栏，SDD规定护栏内的标准路径
 - [[decision-hierarchy]] — 决策层级是脚手架工程的分层策略：把Agent限制在真正需要它的层级（目标→代码→CLI→Prompt→Agent），其余用确定性方案

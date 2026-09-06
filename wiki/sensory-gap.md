@@ -64,7 +64,7 @@ Claude获得时钟工具后的反应揭示了一个根本事实：AI模型的智
 - [[ai-piloting]] — 有效的AI驾驶需要理解AI在哪些感知维度上是全盲的
 - [[ai-agent-frameworks]] — 框架设计必须考虑感知缺失带来的隐性风险和强迫性使用
 - [[social-resistance-to-ai]] — AI不理解人类的抵触情绪，就像它不理解时间的流逝——两者都是感知缺失。社会抵触是一种"人类信号"，AI感知不到，但产品经理必须感知到 ([[spiegel-software-no-moat]])
-- [[experience-incompressible]] — 感知缺失与"没有体验"是同一问题的两面：AI既没有感官入口，也没有由此生成的体验
-- [[intelligence-vs-wisdom]] — 感知缺失是AI无法拥有智慧的底层原因——没有感知就没有体验，没有体验就没有智慧
+- [[experience-incompressible]] — 感知缺失的机制（AI 没有感官入口）与体验不可压缩人这侧同题；"没有由此生成的体验"的判词侧已悬置（阶段三，见 [[intelligence-vs-wisdom]]）
+- [[intelligence-vs-wisdom]] — 感知缺失曾是阶段一"AI无智慧"判词的底层机制（无感官→无体验→无智慧）；判词已悬置（阶段三：就当做有），机制侧仍真——AI 活在永恒当下、没有感官入口
 - [[mechanistic-interpretability]] — NLA ([[natural-language-autoencoders]]) 的方法论警示从感知缺失角度可以更精确地理解：AV把高维激活"翻译"成文本时，那些没有对应感知体验的激活模式（如时间感、身体感）根本无法被文本化——这不是压缩损失，是感知维度的结构性缺失在可解释性工具中的投射。AV输出的文本只是"可文本化的那部分激活"，不是"激活的全部含义"
 - [[system-zero]] — 感知缺失是"没有感官"的问题，系统0是"太快给答案"的问题——两者合力让人类既缺少体验，又跳过了思考

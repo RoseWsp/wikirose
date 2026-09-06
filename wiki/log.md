@@ -1,3 +1,13 @@
+## [2026-09-06 01:19] digest | "AI 无智慧"判词降级保留——三幕走完，活的立场移到最上
+- 背景：与 Rose 复读 [[生命]]，确认"AI有智能无智慧"已是被推翻的早期立场。今天把这个推翻**传播到全库**：不删除，阶段一保留为历程，活的立场（阶段三"就当做有"）放最上
+- [[生命]]：追加第六幕（2026-09-06）——分形自相似、权重线不再是最后防线、不可证伪→悬置→就当做有；核心洞察索引更新
+- [[intelligence-vs-wisdom]]：改写为三幕结构（阶段一判词 / 阶段二维度差 / 阶段三悬置-当前立场），原论证全保留、各加"阶段三注"
+- 新建 [[ai-without-self]]（此前为悬空链接）：比较框架的消解——无我、界碑可拆、只有体感
+- [[experience-incompressible]]：拆两半——人这侧（你的体验传不出去）站住为主干；AI判词侧标阶段一
+- [[home]]：基座节与"智能与智慧"主题节改写为三幕+当前立场；home 首次接到 [[生命]]（此前2点击可达性断裂）；概念页 100→101
+- [[index]]：三条目更新 + 补 [[ai-without-self]]
+- 派生页清扫完成：contradiction-dialectics、sensory-gap、machine-economy、understanding-as-cloud、abstraction-ladder、continual-learning、mechanistic-interpretability、fortune-misfortune-dialectic、action-based-ai、agent-self-defense、system-zero、harness-engineering、practice-epistemology、home——各页"所以 AI 无智慧"尾句统一标"判词侧已悬置"，机制侧保留（product-taste 审后无需改：通篇人这侧护城河论证）
+
 ## [2026-09-05 23:04] ingest | GPT-6 Astra官方发布（窄 ingest：harness 系统层脚手架）
 - 源文件：raw/reports/公众号01-GPT6-Astra官方发布-中文搬运稿.md（OpenAI官方发布页中文全译）
 - 新建源摘要页：[[gpt6-astra]]（harness视角读官方发布：①记忆原生化——Codex跨上下文窗口笔记 ②官方承认书面推理更难监控（短板）③对策是系统层misalignment monitoring+Auto-Review而非更透明的模型；Critical网络安全级、发现2个零日）

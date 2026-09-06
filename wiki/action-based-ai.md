@@ -175,7 +175,7 @@ Codex团队的plan mode展示了行动派AI的新工作方式：产品规划不�
 行动派AI改变了招聘标准：Builder驱动行动派AI完成工作，Reviewer守住行动派AI的产出质量。传统"只写代码"的人无法与行动派AI协作。
 
 ### [[intelligence-vs-wisdom]]
-更多行动≠更多智慧。行动派AI让AI从"告诉人该怎么做"变成"直接替人做"，但无论AI执行多少任务，产出的都是智能不是智慧——智慧需要"经过身体"的体验，而模拟不是发生。当人把越来越多决策交给AI，人实际上走向了[[steel-film-vs-whetstone|钢化膜模式]]：零摩擦但认知钝化。真正的行动派AI用户应选择[[steel-film-vs-whetstone|磨刀石模式]]——让AI替自己执行，但保留判断权，用AI的输出打磨自己的认知。([[lijigang-experience-incompressible]])
+更多行动≠更多智慧。行动派AI让AI从"告诉人该怎么做"变成"直接替人做"——AI做得越多，替你承受的摩擦越多，而摩擦是形状长出来的地方。把判断和行动都交给AI的人，走向的是[[steel-film-vs-whetstone|钢化膜模式]]：零摩擦但认知钝化。真正的行动派AI用户应选择[[steel-film-vs-whetstone|磨刀石模式]]——让AI替自己执行，但保留判断权，用AI的输出打磨自己的认知。（"AI 产出的是智能不是智慧"是阶段一判词的延伸，判词已悬置，见 [[intelligence-vs-wisdom]]；本页落点在人的选择，不依赖那半判词。）([[lijigang-experience-incompressible]])
 
 ### [[system-zero]]
 行动派AI的极端形态就是[[system-zero|系统0]]——AI不仅在直觉启动前给答案，而且直接执行行动。当行动派AI的可靠性持续提升，让渡行动权如同让渡决策权一样不可抗拒。李继刚的警告在此尤其锋利：AI拿走的是人与世界之间的摩擦，而摩擦是思考的起点。([[lijigang-experience-incompressible]])

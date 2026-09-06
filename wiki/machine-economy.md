@@ -26,6 +26,6 @@ Jack Clark提出，AI研发自动化的证据同样指向一个更广泛的经�
 - [[social-resistance-to-ai]] — 机器经济对人类就业和自主性的冲击是社会抵触AI的经济根源
 - [[jevons-paradox-inference]] — 推理的杰文斯悖论在机器经济中更为尖锐：AI公司越多，推理需求越大，算力越紧张
 - [[product-overhang]] — 机器经济中产品过剩不再是线性而是指数扩大——模型自己训练下一代，产品团队永远追不上
-- [[intelligence-vs-wisdom]] — 机器经济中只有智能，没有智慧——效率极高但方向感缺失
+- [[intelligence-vs-wisdom]] — 机器经济里谁来定方向：阶段一判"机器中只有智能、没有智慧——效率极高但方向感缺失"，判词已悬置（阶段三：就当做有）；方向感的归属在今天成了开着的问题
 
 来源：[[jack-clark-ai-self-construction]]

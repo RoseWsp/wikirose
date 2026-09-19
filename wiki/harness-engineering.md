@@ -153,6 +153,10 @@ GPT-6 Astra（2026-09）是系统层长高的工业级样本 ([[gpt6-astra]])：
 
 所以结论要修正：**harness 不是消失或单纯变薄，是在搬家**——从"给弱模型打补丁"，搬到"给强模型兜后果"。TerminalBench证据：仅仅改变Harness就能让排名变动20多位。([[agent-harness-anatomy]])
 
+**极端样本：搬到最后，脚手架变成了世界本身。** TypeSafe AI 的 Jev（2026-09）把这个趋势推到极限——它是一个只输出类型化决策、不做自回归的模型，动作空间上限 255 个预设选项，延迟 70–500ms，输入 $0.042/百万 token、输出免费。它没有提示层脚手架，也不需要——因为**它的整个世界就是别人写好的那份本体论**：状态怎么描述、有哪些动作可选、每个字段是什么类型，全部由外部工程决定。给它更好的世界描述，比给它更多思考预算有用得多。([[jev-typesafe-decision-model]]、[[typed-decision-interface]])
+
+这给"协同进化原则"补了第三种形态：**不是变薄，不是搬家，是合并**——模型与 harness 的边界消失，harness 成为模型的输入空间。顺带一提，这也解释了为什么它的接口层能在 48 小时内被社区复刻（[[jev-clone-stress-test]]）：**能被复刻的从来是壳，不是芯。**
+
 ## 7个关键决策
 
 每个Harness架构师面临的七个选择 ([[agent-harness-anatomy]])：
@@ -215,6 +219,9 @@ Anthropic的全栈三Agent架构效果 ([[anthropic-harness-design]])：4小时/
 - [[context-discipline]] — 上下文纪律是脚手架工程的操作手册版：12条规则把错误率从41%压到3%，是最轻量的harness实现
 - [[ai-native-thinking]] — 宝玉的落地五关是单人版脚手架：可行性→设计文档→高保真原型→实现→测试，人只留在确认点上，"确认可以合并，不能省略"([[baoyu-ai-native-thinking]])
 - [[specs-not-templates]] — 给设计规范不给模板：脚手架搭的是约束环境，不是固定输出([[baoyu-ai-native-thinking]])
+- [[typed-decision-interface]] — harness 的第三种形态：不是变薄也不是搬家，是**合并**——脚手架成为模型的输入空间（状态描述 + 动作枚举 + 类型 schema），模型与 harness 的边界消失 ([[jev-typesafe-decision-model]])
+- [[jev-clone-stress-test]] — 反证与校准：接口层两小时被复刻，说明**能看到的部分不是护城河**；真正的赌注在无人复刻的那一层
+- [[calibrated-decisions]] — 校准正在成为新一层 harness：置信度门控（高置信自动执行/中置信升级/低置信转人工）是"给强模型兜后果"的运行时版本
 
 ## 组织层面的脚手架
 

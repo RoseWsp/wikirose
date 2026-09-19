@@ -1,0 +1,65 @@
+## What is Jev, and why does it matter?
+
+Jev is a new foundation model from Typesafe AI, built by Diego Almeida, a co-creator of ChatGPT and RLHF who worked at OpenAI before starting the company. Instead of generating text word by word like a typical large language model, Jev is what Typesafe calls a “System 1” model: it outputs decisions directly, as probabilities and confidence scores, rather than autoregressively predicting the next token. Typesafe claims this makes Jev up to 100 times faster and 100 times cheaper than conventional LLMs for certain tasks, while remaining competitive on intelligence. The pitch isn’t a smarter chatbot. It’s a new kind of model built to run inside real-time loops like games, robots, and simulations where speed and reliability matter more than conversational nuance.
+
+## TL;DR
+
+- **Jev skips autoregression** and produces decisions in a single pass instead of generating text token by token, which is the core architectural difference from standard LLMs.
+- **Typesafe AI**, founded by former OpenAI researcher Diego Almeida, says the model uses a new sampler and a training method it calls reinforcement learning for calibrated decisions.
+- **Speed and cost claims are dramatic**: Typesafe states Jev is around 100 times faster and 100 times cheaper than typical LLMs, with input tokens priced at $42 per billion and output tokens offered free.
+- **Early demos focus on real-time control**, including a Minecraft bot, a self-driving style simulation, a Subway Surfers style game, and a simulated drone navigating an obstacle course.
+- **The demos were built fast and cheap**, with reported costs as low as about 1 cent for a two-minute Minecraft session and roughly 10 cents for a 15-minute drone simulation.
+- **None of the demos involve real-world hardware**, they run inside simulators, so the model’s usefulness for actual robotics or vehicles is still unproven outside controlled environments.
+- **The bigger idea is a “decision layer”** for automated systems, a model that plugs into an existing simulation or game engine and returns fast, structured choices instead of full explanations.
+
+## How is Jev different from a standard LLM?
+
+Most modern language models, from GPT-4 to Llama to Claude, are autoregressive. They predict one token at a time, feeding each new token back into the model to generate the next, which is why long responses take visibly longer to produce. This sequential process is well suited to natural conversation and open-ended writing, but it’s inherently slow for tasks that need an answer in milliseconds.
+
+Jev is described as non-autoregressive. Rather than writing out a chain of reasoning or a sentence, it receives structured input (a description of a situation, along with a list of allowed actions) and returns a decision directly, attached to a probability and confidence score. Typesafe frames this as being closer to how software behaves: deterministic, fast, and less prone to the kind of open-ended improvisation that leads to hallucination in conversational LLMs.
+
+The company also says it changed how the model is trained, calling the approach “reinforcement learning for calibrated decisions.” The stated goal is a model that knows how confident it should be in a given answer, rather than one optimized primarily to sound plausible or satisfy human raters, which Almeida argues is a structural weakness inherited from RLHF-tuned chat models.
+
+## Why does non-autoregressive generation matter for real-time use cases?
+
+Speed compounds. An LLM that takes even a second or two to respond is unusable inside a game loop or robot control cycle that needs to update dozens of times per second. A model that returns a decision almost instantly can be called repeatedly in a tight loop: read the current state, get a decision, act, update the state, ask again.
+
+That’s exactly the pattern shown in Typesafe’s early demonstrations. In a Minecraft bot built by a user shortly after launch, the game continuously feeds Jev a simplified description of the world (time of day, nearby enemies, player health, available actions), and Jev picks the next move. When zombies appear at night, the bot reportedly chooses to flee without anyone hand-coding a “run from zombies” rule. The behavior emerges from repeatedly asking the model what to do given the current state, not from scripted logic. Typesafe says a two-minute session like this used about 150,000 tokens and cost around 1 cent.
+
+A separate demo built a self-driving style game inside an existing simulator (with the car, road, traffic, and controls already built), and had Jev choose between actions like accelerating, braking, or changing lanes based on the current situation. Because responses came back fast enough, the loop could run in something close to real time. A third demo had Jev playing a Subway Surfers style game, choosing to jump, duck, or dodge based on incoming obstacles, a task that requires split-second reactions. A fourth had Jev piloting a simulated drone through an obstacle course, receiving structured data like position, speed, and distance to obstacles, and returning navigation choices such as turning, climbing, or hovering.
+
+## Is Jev actually intelligent, or just fast?
+
+The demos are explicitly not proof that Jev has solved robotics or gaming AI. The self-driving demo is a simulator with a pre-built car and road, not a real vehicle with cameras and sensors. The drone demo runs inside a simulated obstacle course, not a physical aircraft with real flight controls and safety systems. None of these systems have been tested against real-world hardware, unpredictable sensor noise, or safety-critical failure modes.
+
+What the demos do suggest is that Jev can take structured, changing information and make locally sensible decisions quickly and cheaply, without being fine-tuned for each specific task. The developers behind the Minecraft, driving, and drone demos reportedly built them in under an hour, sometimes in as little as 15 minutes, using an off-the-shelf model and a list of permitted actions rather than a custom-trained agent. That combination, general-purpose decision making plus low latency plus low cost, is the actual claim worth evaluating, separate from whether any single demo is impressive on its own.
+
+## Is Jev worth paying attention to right now?
+
+For builders working on real-time systems, games, agent loops, or anything that currently avoids LLMs because of latency or cost, Jev is worth tracking. The pricing Typesafe has stated, $42 per billion input tokens with free output tokens, would make continuous, high-frequency model calls economically viable in ways that standard per-token LLM pricing doesn’t really support.
+
+The caveats are the ones any new model launch deserves. The benchmarks and cost figures come from the company itself, the demos are simulator-based rather than real-world deployments, and “System 1” is Typesafe’s own framing rather than an established category with independent verification yet. Whether Jev generalizes well beyond short-horizon, well-structured decision tasks, and whether it holds up against adversarial or messy real-world inputs, is still an open question. The architecture is genuinely different from mainstream LLMs, and that alone makes it worth watching closely as more independent testing appears.
+
+## Frequently Asked Questions
+
+### What does “System 1” mean in the context of Jev?
+
+Typesafe uses the term to describe a model built for fast, intuitive decision-making rather than step-by-step reasoning. It’s a reference to the psychological idea of System 1 (fast, automatic thinking) versus System 2 (slow, deliberate reasoning), applied to model architecture: Jev returns quick decisions instead of generating extended chains of text.
+
+### Who built Jev?
+
+Jev comes from Typesafe AI, founded by Diego Almeida, who previously worked at OpenAI and was involved in creating ChatGPT and RLHF, the reinforcement learning from human feedback technique used to train most modern chat-tuned LLMs.
+
+### How is Jev priced?
+
+Typesafe has stated input tokens are priced at $42 per billion tokens, with output tokens offered free. This differs sharply from standard LLM pricing, where both input and output tokens are typically metered.
+
+### Can Jev control real robots or vehicles today?
+
+Based on the demos shown, no. The self-driving and drone examples run inside simulators with pre-built environments and controls. They demonstrate decision-making speed and flexibility, not validated performance on physical hardware with real sensors and safety systems.
+
+### How is Jev different from a chatbot like ChatGPT?
+
+Chatbots generate responses token by token through autoregression, which is well suited for conversation but slow for repeated real-time decisions. Jev instead outputs a decision with a probability and confidence score in a single step, aimed at use cases like games, simulations, and automated systems that need fast, repeated calls rather than conversational text.
+
+[Editorial standards](https://www.mindstudio.ai/editorial-standards)

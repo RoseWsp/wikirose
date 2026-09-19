@@ -29,3 +29,5 @@ Hassabis把AlphaFold称为"根节点问题"（root node problems）——一旦�
 - [[general-specialized-architecture]] — AlphaFold就是专用工具的典范，在AGI时代仍会被通用模型调用
 - [[curse-of-dimensionality]] — 三条件是"暴力对抗维度灾难什么时候有希望赢"的边界条件：维度灾难让价值表不可填，但三条件齐备时搜索可以走通
 - [[bounded-rationality]] — 三条件不满足时，有限理性就是你的框架——不追求完美折叠，追求"足够好"的药物筛选
+- [[calibrated-decisions]] — RLCD 是条件 #2（清晰目标函数）在承重：**校准恰好是可测的**，而人类偏好不是。这条差异解释了为什么 RLHF 只能优化一个代理指标，而 RLCD 能优化一个可计算的频率 ([[jev-typesafe-decision-model]])
+- [[typed-decision-interface]] — Jev 的适用边界就是三条件本身：有限候选集 + 可仿真 = 有决策层；缺了仿真器就没有决策层的用武之地。演示全在仿真里不是偷懒，是条件的必然

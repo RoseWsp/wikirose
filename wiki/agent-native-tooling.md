@@ -55,5 +55,7 @@ SkipLabs的SKJS是信号：TypeScript兼容但sound，对人类更难，对Agent
 - [[mike-krieger-ai-product-taste]] — Mike Krieger的Agent Native定义是产品维度的："用户能做的，AI代理也应该能做"。当Claude说"让我告诉你怎么手动添加"时，产品假设里根本没有Agent的位置——这不是工具为Agent优化的问题，是产品对Agent开放的问题。两个维度（工具Agent-native + 产品Agent-native）需要同时满足
 - [[entry-point-migration]] — 入口迁移是产品维度更进一步：承认Agent可能是第一用户，GUI从操作界面退化成确认界面（宝玉的BaoCut作者本人都绕过自己的界面）([[baoyu-ai-native-thinking]])
 - [[specs-not-templates]] — 给设计规范不给模板：把约束交给模型能力而非固定输出，是Agent-native在生成场景的设计准则([[baoyu-ai-native-thinking]])
+- [[typed-decision-interface]] — Almeida 把这条原则说到最狠："我们一直在优化人类语言，**但计算机说另一种语言**。" Jev 是它的极端实现：模型直接输出带置信度的类型化决策，**人类可读性不是被降级，是被整个移除** ([[jev-typesafe-decision-model]])
+- [[jev-clone-stress-test]] — 反证：接口层两小时被复刻，说明 Agent-native 接口本身可能不是壁垒——"为 Agent 重设计"的门槛比预期低
 
 > 核心来源：[[venturini-code-never-for-machines]] | 姊妹概念：[[agent-output-verification]]

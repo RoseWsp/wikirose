@@ -61,5 +61,7 @@
 - [[openai-harness-engineering]] — OpenAI百万行代码实践中"Agent审核Agent"：几乎所有审核工作从人工转向Agent-to-Agent，是验证体系从人类审查到Agent互审的规模化路径——验证的执行者从人变为Agent，验证的流程不变
 - [[generator-evaluator-loop]] — Evaluator Agent是验证体系自动化的实现：独立Agent替代人工审查，把"人读人审"推进到"Agent审Agent"。Sprint Contract的"done"定义等价于验证退出标准的Agent间协商
 - [[agent-harness-anatomy]] — 验证循环是Akshay划分的12组件之一，Boris Cherny指出让模型验证自己工作可提升2-3倍产出质量——这是区分"玩具演示"和"生产级Agent"的关键
+- [[typed-decision-interface]] — 类型安全是**构造性验证**：不做事后检查，把验证编译进输出空间。这是本页"上游约束"那一层的极限形态——不是加强规约，是让违约在结构上无法表达。代价是动作空间必须穷举 ([[jev-typesafe-decision-model]])
+- [[calibrated-decisions]] — 校准给验证体系加了一条新路径：不只从"看它做了什么"买信任，还可以从"读它自报的不确定性"买信任。三层验证架构之外多了一个运行时门控
 
 > 核心来源：[[venturini-agent-output-compiler]]

@@ -39,3 +39,4 @@ metadata:
 - [[clarity-before-automation]] — 目标层在最底层：先想清楚要不要做，再想怎么做
 - [[ai-first-prerequisites]] — 五大前提中自动化测试/CI/CD属于代码层和CLI层，不需要AI
 - [[context-discipline]] — "模型只做判断型任务"是决策层级规则5的直接表达：分类、草稿、总结、抽取适合模型，路由、重试、状态码处理让代码来。代码能回答的问题，别问模型
+- [[typed-decision-interface]] — Jev 是把"判断"再往下压一层的极端实现：压到一个每秒被调用十几次、**不可能容纳 Agent 循环**的位置。"能在下层解决的绝不上推"被推到了模型架构层——判断本身被做成一个可调用的下层组件 ([[jev-typesafe-decision-model]])

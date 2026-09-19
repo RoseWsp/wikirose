@@ -36,3 +36,5 @@ Hassabis的建议：找到AI和另一个硬科学领域的交叉点。材料科�
 - [[clarity-before-automation]] — 专用系统的前提是清晰定义问题域
 - [[alphafold-breakthrough-conditions]] — AlphaFold本身就是专用工具的典范，满足三条件框架
 - [[jevons-paradox-inference]] — 推理配额限制强化了通用+专用分层的必要性——专用系统更高效地使用算力
+- [[typed-decision-interface]] — Jev 是"专用系统被通用模型调用"的当代样本：它不赌自己变成 AGI，它赌自己变成 AGI 的**手**。TypeSafe 管这叫"决策层"——插进游戏引擎或仿真器，返回结构化选择 ([[jev-typesafe-decision-model]])
+- [[calibrated-decisions]] — 专用决策模型要能被通用编排器安全调用，前提是它能自报不确定性——校准是通用+专用分工的接口协议

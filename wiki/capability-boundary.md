@@ -35,5 +35,7 @@ AutoGPT（2023）和 Manus 是同一个"通用 Agent"的想法：AutoGPT 火了�
 - [[product-taste]] — 价值边界的守门人：分得出"AI 垃圾"才建得起护城河
 - [[jevons-paradox-inference]] — 成本边界要动态看：单价在降，Agent 模式下消耗量上去了
 - [[agent-matrix]] — 每次边界外扩，Agent 能力从写代码泛化到办公
+- [[calibrated-decisions]] — 校准是**把能力边界做成 API**：模型精确报出自己哪里薄。宝玉"在边界线上找需求"的基础设施版——以前你靠体感判断边界在哪，现在模型自己告诉你
+- [[typed-decision-interface]] — Jev 的动作空间上限 255（一个字节），是能力边界被**硬编码进架构**的极端形态：不是模型知道自己的边界，是边界被设计成了它的输出维度
 
 来源：[[baoyu-ai-native-thinking]]

@@ -39,5 +39,7 @@ AI可能成为卡尼曼系统1和系统2之外的"系统0"——在人类直觉�
 - [[anti-rationalization]] — LLM的合理化是系统0的工程版：它不只替你做决策，还替跳过决策找理由，而且理由听起来完全正确。系统0替换决策本身，合理化替换决策的合理性感知——后者更危险，因为你甚至不觉得决策被替换了 ([[addyosmani-agent-skills]])
 - [[fortune-misfortune-dialectic]] — 选福就是系统0路径（跳过摩擦直接拿结果）：AI按目标函数算，不替人扛"选祸"的苦——它是不是"不可能选祸"，作为对 AI 内侧的判词已悬置（阶段三，见 [[intelligence-vs-wisdom]]）。但人这侧成立：把决策权全交出去 = 跳过摩擦，而摩擦是人唯一能变强的路径
 - [[harness-engineering]] — Harness的四种Agent失败模式是系统0的工程层症状：One-shot Syndrome是Agent以为一步到位（系统0给的过度自信），Premature Victory Declaration是Agent跳过验证就宣布完成（系统0跳过了"思考"直接输出答案）。Harness本质上是用外部约束对冲系统0在Agent端的表现([[anthropic-effective-harnesses]]、[[harness-engineering-aliyun]])
+- [[typed-decision-interface]] — Jev 是系统0最纯粹的形态：它在每秒十几次的决策循环里工作，**这个循环里根本没有人的位置**。李继刚说的"系统0抢在人的直觉之前"，在 Jev 这里是"人根本不在回路里"——不是抢快，是缺席。但它同时给出了系统0的安全版本：把置信度做成接口，才有刹车 ([[jev-typesafe-decision-model]])
+- [[calibrated-decisions]] — 校准是系统0能安全接管决策的前置条件：一个不知道自己有多确定的系统，让渡决策权就没有制动
 
 来源：[[lijigang-experience-incompressible]]
